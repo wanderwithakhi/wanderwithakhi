@@ -1,11 +1,56 @@
 ---
+import { getAllPosts, urlFor } from '../utils/sanity';
 import { getCollection } from 'astro:content';
 import ArticleCard from './ArticleCard.astro';
 
-// Fetch collections
-const travelPosts = await getCollection('travel');
-const mindfulnessPosts = await getCollection('mindfulness');
-const wellnessPosts = await getCollection('wellness');
+let travelPosts = [];
+let mindfulnessPosts = [];
+let wellnessPosts = [];
+
+try {
+  const sanityPosts = await getAllPosts();
+  
+  if (sanityPosts && sanityPosts.length > 0) {
+    // Map Sanity documents to the unified structure
+    const mappedPosts = sanityPosts.map((post: any) => {
+      const coverUrl = post.coverImage ? urlFor(post.coverImage).url() : undefined;
+      return {
+        id: post.slug,
+        section: post.section,
+        data: {
+          title: post.title,
+          description: post.description,
+          publishDate: new Date(post.publishDate),
+          category: post.category,
+          location: post.location,
+          duration: post.duration,
+          coverImage: coverUrl
+        }
+      };
+    });
+
+    travelPosts = mappedPosts.filter((p: any) => p.section === 'travel');
+    mindfulnessPosts = mappedPosts.filter((p: any) => p.section === 'mindfulness');
+    wellnessPosts = mappedPosts.filter((p: any) => p.section === 'wellness');
+  } else {
+    // Fallback to local collections
+    const localTravel = await getCollection('travel');
+    const localMindfulness = await getCollection('mindfulness');
+    const localWellness = await getCollection('wellness');
+    
+    travelPosts = localTravel.map(p => ({ id: p.id, section: 'travel', data: p.data }));
+    mindfulnessPosts = localMindfulness.map(p => ({ id: p.id, section: 'mindfulness', data: p.data }));
+    wellnessPosts = localWellness.map(p => ({ id: p.id, section: 'wellness', data: p.data }));
+  }
+} catch (e) {
+  const localTravel = await getCollection('travel');
+  const localMindfulness = await getCollection('mindfulness');
+  const localWellness = await getCollection('wellness');
+  
+  travelPosts = localTravel.map(p => ({ id: p.id, section: 'travel', data: p.data }));
+  mindfulnessPosts = localMindfulness.map(p => ({ id: p.id, section: 'mindfulness', data: p.data }));
+  wellnessPosts = localWellness.map(p => ({ id: p.id, section: 'wellness', data: p.data }));
+}
 
 // Sort posts by date (newest first)
 const sortedTravel = travelPosts.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());

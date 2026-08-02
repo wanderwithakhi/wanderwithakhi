@@ -1,37 +1,68 @@
 ---
 import { getCollection, render } from 'astro:content';
+import { getAllPosts, getPostBySlug, urlFor } from '../../../utils/sanity';
+import { toHTML } from '@portabletext/to-html';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Header from '../../../components/Header.astro';
 
 // Generate static paths for all articles in all collections
 export async function getStaticPaths() {
+  let sanityPaths = [];
+  try {
+    const sanityPosts = await getAllPosts();
+    if (sanityPosts && sanityPosts.length > 0) {
+      sanityPaths = sanityPosts.map(post => ({
+        params: { type: post.section, slug: post.slug },
+        props: { sanityPost: post, type: post.section, isSanity: true }
+      }));
+    }
+  } catch (e) {
+    console.error('[Sanity] static path fetching failed, continuing with fallback:', e);
+  }
+
+  // Fetch local collections
   const travelPosts = await getCollection('travel');
   const mindfulnessPosts = await getCollection('mindfulness');
   const wellnessPosts = await getCollection('wellness');
 
-  const paths = [
+  const localPaths = [
     ...travelPosts.map(post => ({
       params: { type: 'travel', slug: post.id },
-      props: { post, type: 'travel' },
+      props: { post, type: 'travel', isSanity: false },
     })),
     ...mindfulnessPosts.map(post => ({
       params: { type: 'mindfulness', slug: post.id },
-      props: { post, type: 'mindfulness' },
+      props: { post, type: 'mindfulness', isSanity: false },
     })),
     ...wellnessPosts.map(post => ({
       params: { type: 'wellness', slug: post.id },
-      props: { post, type: 'wellness' },
+      props: { post, type: 'wellness', isSanity: false },
     })),
   ];
 
-  return paths;
+  // Merge paths: Sanity documents override local files if slugs match
+  const pathMap = new Map();
+  localPaths.forEach(p => pathMap.set(`${p.params.type}/${p.params.slug}`, p));
+  sanityPaths.forEach(p => pathMap.set(`${p.params.type}/${p.params.slug}`, p));
+
+  return Array.from(pathMap.values());
 }
 
-const { post, type } = Astro.props;
-const { Content } = await render(post);
+const { post, type, isSanity, sanityPost } = Astro.props;
+
+// Resolve post metadata dynamically
+const title = isSanity ? sanityPost.title : post.data.title;
+const description = isSanity ? sanityPost.description : post.data.description;
+const category = isSanity ? sanityPost.category : post.data.category;
+const location = isSanity ? sanityPost.location : (post.data.location || undefined);
+const duration = isSanity ? sanityPost.duration : post.data.duration;
+const publishDate = isSanity ? new Date(sanityPost.publishDate) : post.data.publishDate;
+const coverImage = isSanity 
+  ? (sanityPost.coverImage ? urlFor(sanityPost.coverImage).url() : undefined) 
+  : post.data.coverImage;
 
 // Formatting Date
-const formattedDate = new Date(post.data.publishDate).toLocaleDateString('en-US', {
+const formattedDate = publishDate.toLocaleDateString('en-US', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -41,9 +72,9 @@ const formattedDate = new Date(post.data.publishDate).toLocaleDateString('en-US'
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": post.data.title,
-  "description": post.data.description,
-  "datePublished": post.data.publishDate.toISOString(),
+  "headline": title,
+  "description": description,
+  "datePublished": publishDate.toISOString(),
   "author": {
     "@type": "Person",
     "name": "Akhi",
@@ -59,18 +90,39 @@ const jsonLd = {
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": `https://wanderwithakhi.com/essays/${type}/${post.id}`
+    "@id": `https://wanderwithakhi.com/essays/${type}/${isSanity ? sanityPost.slug : post.id}`
   },
-  "image": post.data.coverImage 
-    ? `https://wanderwithakhi.com${post.data.coverImage}`
+  "image": coverImage 
+    ? (coverImage.startsWith('http') ? coverImage : `https://wanderwithakhi.com${coverImage}`)
     : "https://wanderwithakhi.com/images/slow-living.jpg"
 };
+
+// Process Content body
+let htmlContent = '';
+let Content = null;
+
+if (isSanity) {
+  htmlContent = toHTML(sanityPost.body, {
+    components: {
+      types: {
+        image: ({ value }) => {
+          const imgUrl = urlFor(value).url();
+          const alt = value.alt || 'Somatic travel illustration';
+          return `<img src="${imgUrl}" alt="${alt}" class="essay-inline-image" style="width:100%; border-radius:12px; margin:2.5rem 0;" />`;
+        }
+      }
+    }
+  });
+} else {
+  const rendered = await render(post);
+  Content = rendered.Content;
+}
 ---
 
 <BaseLayout 
-  title={`${post.data.title} | wanderwithakhi`} 
-  description={post.data.description}
-  image={post.data.coverImage}
+  title={`${title} | wanderwithakhi`} 
+  description={description}
+  image={coverImage}
 >
   <!-- Inject Structured Schema JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
@@ -91,30 +143,34 @@ const jsonLd = {
       <!-- Article Header -->
       <header class="essay-header">
         <div class="essay-meta-top">
-          <span class={`category-tag tag-${type}`}>{post.data.category}</span>
-          {post.data.location && (
+          {category && <span class={`category-tag tag-${type}`}>{category}</span>}
+          {location && (
             <span class="location-label">
               <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" class="map-pin-icon">
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke-linecap="round" stroke-linejoin="round"></path>
                 <circle cx="12" cy="10" r="3" stroke-linecap="round" stroke-linejoin="round"></circle>
               </svg>
-              {post.data.location}
+              {location}
             </span>
           )}
         </div>
 
-        <h1 class="essay-title">{post.data.title}</h1>
+        <h1 class="essay-title">{title}</h1>
         
         <div class="essay-meta-bottom">
-          <time datetime={post.data.publishDate.toISOString()}>{formattedDate}</time>
+          <time datetime={publishDate.toISOString()}>{formattedDate}</time>
           <span class="dot-separator">•</span>
-          <span>{post.data.duration}</span>
+          <span>{duration}</span>
         </div>
       </header>
 
       <!-- Content Container -->
       <article class="essay-content post-content">
-        <Content />
+        {isSanity ? (
+          <div class="sanity-prose-content" set:html={htmlContent} />
+        ) : (
+          <Content />
+        )}
       </article>
     </div>
   </main>
