@@ -90,6 +90,41 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
           <a href="#outside?region=americas" class="region-pill" data-region="americas">Americas</a>
           <a href="#outside?region=africa" class="region-pill" data-region="africa">Africa</a>
         </div>
+
+        <!-- Country Sub-Filters (Dynamically shown based on selected continent) -->
+        <div class="country-filter-bar" id="countryFilterBar" style="display: none;">
+          <span class="country-filter-label">Filter by Country:</span>
+          
+          <!-- Asia -->
+          <div class="country-group" data-continent="asia" style="display: none;">
+            <a href="#outside?region=asia" class="country-pill active" data-country="all">All Asia</a>
+            <a href="#outside?region=asia&country=india" class="country-pill" data-country="india">India</a>
+            <a href="#outside?region=asia&country=japan" class="country-pill" data-country="japan">Japan</a>
+            <a href="#outside?region=asia&country=vietnam" class="country-pill" data-country="vietnam">Vietnam</a>
+          </div>
+
+          <!-- Europe -->
+          <div class="country-group" data-continent="europe" style="display: none;">
+            <a href="#outside?region=europe" class="country-pill active" data-country="all">All Europe</a>
+            <a href="#outside?region=europe&country=germany" class="country-pill" data-country="germany">Germany</a>
+            <a href="#outside?region=europe&country=italy" class="country-pill" data-country="italy">Italy</a>
+            <a href="#outside?region=europe&country=scotland" class="country-pill" data-country="scotland">Scotland</a>
+            <a href="#outside?region=europe&country=iceland" class="country-pill" data-country="iceland">Iceland</a>
+          </div>
+
+          <!-- Americas -->
+          <div class="country-group" data-continent="americas" style="display: none;">
+            <a href="#outside?region=americas" class="country-pill active" data-country="all">All Americas</a>
+            <a href="#outside?region=americas&country=chile" class="country-pill" data-country="chile">Chile</a>
+            <a href="#outside?region=americas&country=costa-rica" class="country-pill" data-country="costa-rica">Costa Rica</a>
+          </div>
+
+          <!-- Africa -->
+          <div class="country-group" data-continent="africa" style="display: none;">
+            <a href="#outside?region=africa" class="country-pill active" data-country="all">All Africa</a>
+            <a href="#outside?region=africa&country=morocco" class="country-pill" data-country="morocco">Morocco</a>
+          </div>
+        </div>
       </div>
 
       <div class="grid-editorial">
@@ -468,10 +503,75 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
     transform: translateY(-2px);
     box-shadow: 0 6px 15px rgba(200, 122, 83, 0.3);
   }
+
+  /* Country Sub-Filters Bar */
+  .country-filter-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(0,0,0,0.04);
+    width: 100%;
+    animation: filterFadeIn 0.3s ease;
+  }
+
+  @media (min-width: 600px) {
+    .country-filter-bar {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+
+  .country-filter-label {
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.5;
+    flex-shrink: 0;
+  }
+
+  .country-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .country-pill {
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 0.35rem 0.95rem;
+    border: var(--border-thin);
+    border-radius: 4px;
+    color: var(--color-text);
+    opacity: 0.6;
+    transition: var(--transition-smooth);
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .country-pill:hover, .country-pill.active {
+    opacity: 1;
+    border-color: var(--palette-rust);
+    color: var(--palette-rust);
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  }
+
+  @keyframes filterFadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 </style>
 
 <script>
-  // Client-side filtering script
+  // Upgraded Client-side nested filtering script
   const updateFilters = () => {
     const hash = window.location.hash;
     const statusBar = document.getElementById('filterStatusBar');
@@ -483,14 +583,30 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
     const cards = document.querySelectorAll('.article-card');
 
     const regionPills = document.querySelectorAll('.region-pill');
+    const countryFilterBar = document.getElementById('countryFilterBar');
+    const countryGroups = document.querySelectorAll('.country-group');
+    const countryPills = document.querySelectorAll('.country-pill');
+
     let activeRegion = 'all';
+    let activeCountry = 'all';
+    let activeCategory = '';
+
     if (hash && hash.includes('?')) {
-      const parts = hash.split('?');
-      const queryStr = parts[1];
-      if (queryStr.startsWith('region=')) {
-        activeRegion = decodeURIComponent(queryStr.split('=')[1]).toLowerCase();
+      const queryStr = hash.split('?')[1];
+      const searchParams = new URLSearchParams(queryStr);
+      
+      if (searchParams.has('region')) {
+        activeRegion = searchParams.get('region') || 'all';
+      }
+      if (searchParams.has('country')) {
+        activeCountry = searchParams.get('country') || 'all';
+      }
+      if (searchParams.has('category')) {
+        activeCategory = searchParams.get('category') || '';
       }
     }
+
+    // Update Region Pills Active Class
     regionPills.forEach(pill => {
       const pillRegion = pill.getAttribute('data-region');
       if (pillRegion === activeRegion) {
@@ -499,6 +615,34 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
         pill.classList.remove('active');
       }
     });
+
+    // Update Country Sub-Filter Bar visibility and country groups
+    if (countryFilterBar) {
+      if (activeRegion !== 'all') {
+        countryFilterBar.style.display = 'flex';
+        // Show matching continent country group, hide others
+        countryGroups.forEach(group => {
+          const continent = group.getAttribute('data-continent');
+          if (continent === activeRegion) {
+            (group as HTMLElement).style.display = 'flex';
+          } else {
+            (group as HTMLElement).style.display = 'none';
+          }
+        });
+
+        // Update Active Country Pills
+        countryPills.forEach(pill => {
+          const pillCountry = pill.getAttribute('data-country');
+          if (pillCountry === activeCountry) {
+            pill.classList.add('active');
+          } else {
+            pill.classList.remove('active');
+          }
+        });
+      } else {
+        countryFilterBar.style.display = 'none';
+      }
+    }
 
     if (!hash || !hash.includes('?')) {
       // No filter active, show everything
@@ -516,16 +660,15 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
     // Parse section and query
     const parts = hash.split('?');
     const sectionId = parts[0].substring(1); // e.g. 'outside'
-    const queryStr = parts[1]; // e.g. 'region=asia' or 'category=yoga'
-
-    const queryParts = queryStr.split('=');
-    const filterKey = queryParts[0]; // 'region' or 'category'
-    const filterVal = decodeURIComponent(queryParts[1]); // 'asia', 'yoga'
 
     // Show status bar
     if (statusBar && statusMessage) {
       statusBar.style.display = 'block';
-      statusMessage.textContent = `Active Filter: ${sectionId} posts > ${filterKey}: ${filterVal}`;
+      if (activeRegion !== 'all') {
+        statusMessage.textContent = `Active Filter: ${sectionId} posts > Region: ${activeRegion}${activeCountry !== 'all' ? ` > Country: ${activeCountry}` : ''}`;
+      } else if (activeCategory) {
+        statusMessage.textContent = `Active Filter: ${sectionId} posts > Category: ${activeCategory}`;
+      }
     }
 
     // Hide irrelevant sections
@@ -538,13 +681,23 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
       const cardEl = card as HTMLElement;
       const category = cardEl.getAttribute('data-category') || '';
       const region = cardEl.getAttribute('data-region') || '';
+      const country = cardEl.getAttribute('data-country') || '';
 
       let isMatch = false;
 
-      if (filterKey === 'region') {
-        isMatch = region === filterVal.toLowerCase();
-      } else if (filterKey === 'category') {
-        isMatch = category === filterVal.toLowerCase().replace(' ', '-');
+      if (activeRegion !== 'all') {
+        const matchesRegion = region === activeRegion;
+        if (matchesRegion) {
+          if (activeCountry !== 'all') {
+            isMatch = country === activeCountry;
+          } else {
+            isMatch = true; // matches region, all countries visible
+          }
+        } else {
+          isMatch = false;
+        }
+      } else if (activeCategory) {
+        isMatch = category === activeCategory.toLowerCase().replace(' ', '-');
       }
 
       cardEl.style.display = isMatch ? 'flex' : 'none';
