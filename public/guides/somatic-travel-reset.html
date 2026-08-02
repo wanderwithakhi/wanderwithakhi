@@ -38,7 +38,7 @@
       margin: 0 auto;
       background: #fff;
       border: 1px solid var(--color-border);
-      padding: 4rem;
+      padding: 4.5rem;
       box-shadow: 0 4px 20px rgba(0,0,0,0.02);
       border-radius: 8px;
     }
@@ -69,7 +69,7 @@
       border: 1px solid var(--color-accent);
       padding: 1rem 1.5rem;
       border-radius: 6px;
-      margin-bottom: 3rem;
+      margin-bottom: 3.5rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -103,13 +103,19 @@
 
     /* Cover Page Styling */
     .cover-page {
-      height: 90vh;
+      height: 92vh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       border-bottom: 2px solid var(--color-text);
-      padding-bottom: 4rem;
+      padding-bottom: 3.5rem;
       margin-bottom: 5rem;
+    }
+
+    .cover-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
     .cover-header {
@@ -121,21 +127,40 @@
       color: var(--color-accent);
     }
 
+    .cover-logo-svg {
+      color: var(--color-accent);
+    }
+
+    .cover-banner-container {
+      margin: 2rem 0;
+      width: 100%;
+      height: 280px;
+      overflow: hidden;
+      border-radius: 6px;
+      border: var(--border-thin);
+    }
+
+    .cover-banner-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
     .cover-title-group {
-      margin-top: auto;
-      margin-bottom: auto;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
     }
 
     .cover-title {
-      font-size: 4rem;
+      font-size: 3.5rem;
       line-height: 1.1;
       font-weight: 600;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
 
     .cover-subtitle {
       font-style: italic;
-      font-size: 1.5rem;
+      font-size: 1.45rem;
       opacity: 0.8;
       max-width: 600px;
     }
@@ -156,7 +181,7 @@
 
     h2 {
       font-family: var(--font-sans);
-      font-size: 1.75rem;
+      font-size: 1.6rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       margin-top: 4rem;
@@ -173,6 +198,32 @@
 
     p {
       margin-bottom: 1.5rem;
+    }
+
+    /* Inline Images */
+    .inline-illustration {
+      margin: 2.5rem 0;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+    }
+
+    .inline-illustration img {
+      width: 100%;
+      max-height: 380px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .illustration-caption {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 0.92rem;
+      padding: 0.85rem 1.25rem;
+      background-color: #faf9f6;
+      border-top: 1px solid var(--color-border);
+      color: #666;
+      text-align: center;
     }
 
     /* Day Box Callouts */
@@ -199,6 +250,91 @@
       font-size: 1.5rem;
       font-weight: 600;
       margin-bottom: 1rem;
+    }
+
+    /* Vector SVGs Styling */
+    .svg-graphic-container {
+      background-color: #faf9f6;
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      padding: 2rem;
+      margin: 2.5rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .svg-title {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--color-accent);
+      margin-bottom: 1.5rem;
+    }
+
+    .lotus-divider {
+      display: flex;
+      justify-content: center;
+      margin: 4rem 0;
+      color: var(--color-accent);
+      opacity: 0.6;
+    }
+
+    /* Interactive Body Map styles */
+    .body-map-interactive {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      width: 100%;
+      align-items: center;
+    }
+
+    @media (min-width: 600px) {
+      .body-map-interactive {
+        grid-template-columns: 1fr 1.2fr;
+      }
+    }
+
+    .map-svg-col {
+      display: flex;
+      justify-content: center;
+    }
+
+    .map-labels-col {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .map-node-label {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.75rem 1rem;
+      border: 1px dashed var(--color-border);
+      border-radius: 4px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .map-node-label span.node-title {
+      color: var(--color-accent);
+    }
+
+    .map-node-label span.node-desc {
+      font-family: var(--font-serif);
+      text-transform: none;
+      letter-spacing: 0;
+      font-weight: 400;
+      font-size: 0.9rem;
+      opacity: 0.8;
     }
 
     /* Lists */
@@ -264,11 +400,26 @@
 
     <!-- COVER PAGE -->
     <header class="cover-page">
-      <span class="cover-header">Wander With Akhi / Digital Guides</span>
+      <div class="cover-top">
+        <span class="cover-header">Wander With Akhi / Digital Guides</span>
+        <!-- Compass Emblem SVG -->
+        <svg class="cover-logo-svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polygon points="12,3 15,12 12,15 9,12" stroke-linejoin="round"></polygon>
+          <polygon points="12,21 15,12 12,9 9,12" stroke-linejoin="round" fill="rgba(200, 122, 83, 0.1)"></polygon>
+        </svg>
+      </div>
+      
+      <!-- Custom Cover Photograph Banner -->
+      <div class="cover-banner-container">
+        <img src="/images/somatic-travel.jpg" alt="Somatic Travel Cover Illustration" class="cover-banner-img" />
+      </div>
+
       <div class="cover-title-group">
         <h1 class="cover-title">Nervous System Reset</h1>
         <p class="cover-subtitle">A 7-Day Somatic Guide & Workbook for Solo Travelers</p>
       </div>
+      
       <div class="cover-footer">
         <span>Author: Akhi</span>
         <span>Version 1.0 (2026)</span>
@@ -283,8 +434,26 @@
       <h2>The Anatomy of Travel Stress</h2>
       <p>When we move through space at high speeds, cross time zones, and navigate unfamiliar environments, our bodies register this as a potential survival threat. Our primitive brain activates the Sympathetic Nervous System (SNS), releasing a slow, continuous trickle of cortisol and adrenaline. This response manifests as digestive lockups, shallow thoracic breathing, mental fatigue, and travel anxiety.</p>
       
+      <!-- Section Break Image -->
+      <div class="inline-illustration">
+        <img src="/images/somatic-resourcing.jpg" alt="Grounding in travel nature getaways" />
+        <div class="illustration-caption">Establishing internal coordinates of safety in quiet, decelerated environments.</div>
+      </div>
+
       <p>Somatic travel is the practice of consciously returning to the body to establish safety from within. Instead of trying to control your outer environment, you learn to track, yield to, and balance your internal state. This 7-day protocol is designed to reset your nervous system, allowing you to settle deeply into your journey.</p>
     </section>
+
+    <!-- Lotus Divider -->
+    <div class="lotus-divider">
+      <svg viewBox="0 0 100 30" width="80" height="24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M50,5 Q40,25 50,25 Q60,25 50,5 Z"></path>
+        <path d="M50,12 Q30,22 45,24"></path>
+        <path d="M50,12 Q70,22 55,24"></path>
+        <circle cx="50" cy="25" r="2" fill="currentColor"></circle>
+        <line x1="20" y1="25" x2="40" y2="25"></line>
+        <line x1="60" y1="25" x2="80" y2="25"></line>
+      </svg>
+    </div>
 
     <!-- THE 7-DAY PROTOCOL -->
     <section>
@@ -331,6 +500,28 @@
         <p>In traditional Indian wellness, travel increases Vata (air/ether). Today, we use breathing to anchor this wind element.</p>
         <p><strong>The Practice (Nadi Shodhana)</strong>:</p>
         <p>Sit comfortably. Place your right index and middle finger on your forehead. Use your thumb to close your right nostril, and inhale slowly through the left. Close the left nostril with your ring finger, open the right, and exhale. Inhale through the right nostril, close, and exhale left. Repeat for 5 minutes, focusing on a slow, rhythmic pace.</p>
+
+        <!-- Breathing Rhythm wave vector SVG -->
+        <div class="svg-graphic-container">
+          <span class="svg-title">Somatic Respiration Wave (4-4-8 rhythm)</span>
+          <svg viewBox="0 0 400 120" width="100%" height="100" fill="none" stroke="currentColor" stroke-width="2">
+            <!-- Grid Lines -->
+            <line x1="10" y1="10" x2="390" y2="10" stroke="#f0ece4" stroke-dasharray="4"></line>
+            <line x1="10" y1="60" x2="390" y2="60" stroke="#f0ece4" stroke-dasharray="4"></line>
+            <line x1="10" y1="110" x2="390" y2="110" stroke="#f0ece4" stroke-dasharray="4"></line>
+            
+            <!-- Breath Curve Path -->
+            <path d="M 10 110 C 60 10, 80 10, 110 10 L 170 10 C 220 110, 260 110, 390 110" stroke="var(--color-accent)" stroke-width="3" stroke-linecap="round"></path>
+            
+            <!-- Markers & Labels -->
+            <circle cx="110" cy="10" r="4" fill="var(--color-accent)"></circle>
+            <circle cx="170" cy="10" r="4" fill="var(--color-accent)"></circle>
+            
+            <text x="50" y="45" font-family="var(--font-sans)" font-size="9" fill="#999" font-weight="700" text-anchor="middle">INHALE (4s)</text>
+            <text x="140" y="25" font-family="var(--font-sans)" font-size="9" fill="#999" font-weight="700" text-anchor="middle">SUSPEND (4s)</text>
+            <text x="280" y="80" font-family="var(--font-sans)" font-size="9" fill="#999" font-weight="700" text-anchor="middle">SLOW EXHALE (8s)</text>
+          </svg>
+        </div>
       </div>
 
       <!-- Day 5 -->
@@ -370,12 +561,69 @@
 
       <div class="journal-box">
         <span class="journal-title">Exercise: Locating Your Stress Anchors</span>
-        <p>Sit quietly and check in with your physical body. Put a mark where you locate tension:</p>
+        <p>Sit quietly and check in with your physical body. Locate where you feel tension. Reference the anatomical body map below to map your target zones:</p>
+        
+        <!-- Somatic Body Map outline vector SVG -->
+        <div class="svg-graphic-container">
+          <span class="svg-title">Anatomical Somatic Stress Nodes</span>
+          
+          <div class="body-map-interactive">
+            <div class="map-svg-col">
+              <svg viewBox="0 0 160 260" width="140" height="230" stroke="currentColor" fill="none" stroke-width="1.5">
+                <!-- Head outline -->
+                <circle cx="80" cy="35" r="18"></circle>
+                <!-- Neck -->
+                <line x1="76" y1="53" x2="76" y2="65"></line>
+                <line x1="84" y1="53" x2="84" y2="65"></line>
+                <!-- Shoulders & Torso -->
+                <path d="M 40 85 C 50 70, 70 65, 80 65 C 90 65, 110 70, 120 85 C 120 110, 110 180, 110 240 M 40 85 C 40 110, 50 180, 50 240"></path>
+                <!-- Arms outline partial -->
+                <path d="M 40 85 C 30 100, 25 130, 25 150 M 120 85 C 130 100, 135 130, 135 150" stroke-dasharray="3"></path>
+                
+                <!-- Glowing Node 1: Jaw -->
+                <circle cx="80" cy="46" r="4" fill="var(--color-accent)" stroke="var(--color-accent)" stroke-width="2"></circle>
+                <line x1="80" y1="46" x2="130" y2="46" stroke="var(--color-accent)" stroke-dasharray="2"></line>
+                
+                <!-- Glowing Node 2: Throat -->
+                <circle cx="80" cy="59" r="4" fill="var(--color-accent)" stroke="var(--color-accent)" stroke-width="2"></circle>
+                <line x1="80" y1="59" x2="130" y2="70" stroke="var(--color-accent)" stroke-dasharray="2"></line>
+                
+                <!-- Glowing Node 3: Chest -->
+                <circle cx="80" cy="95" r="5" fill="var(--color-accent)" stroke="var(--color-accent)" stroke-width="2"></circle>
+                <line x1="80" y1="95" x2="130" y2="105" stroke="var(--color-accent)" stroke-dasharray="2"></line>
+                
+                <!-- Glowing Node 4: Abdomen -->
+                <circle cx="80" cy="140" r="5" fill="var(--color-accent)" stroke="var(--color-accent)" stroke-width="2"></circle>
+                <line x1="80" y1="140" x2="130" y2="155" stroke="var(--color-accent)" stroke-dasharray="2"></line>
+              </svg>
+            </div>
+            
+            <div class="map-labels-col">
+              <div class="map-node-label">
+                <span class="node-title">Node A: Jaw (Masseter)</span>
+                <span class="node-desc">Host to teeth grinding and mental planning. Release with silent mouth-yawns.</span>
+              </div>
+              <div class="map-node-label">
+                <span class="node-title">Node B: Throat (Vocal Chord)</span>
+                <span class="node-desc">Host to social masking or dry swallowing. Release with deep, low hums.</span>
+              </div>
+              <div class="map-node-label">
+                <span class="node-title">Node C: Chest (Thoracic Cavity)</span>
+                <span class="node-desc">Host to fast breathing and flight panic. Release with 8s slow sigh exhales.</span>
+              </div>
+              <div class="map-node-label">
+                <span class="node-title">Node D: Abdomen (Enteric Brain)</span>
+                <span class="node-desc">Host to digestive lockup and cold dread. Release with clockwise palm massage.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <ul>
+          <li>[ ] Jaw & Neck (Teeth grinding, morning stiffness)</li>
           <li>[ ] Throat (Tightness, swallowing difficulties)</li>
           <li>[ ] Chest (Shallow breathing, fast heartbeat)</li>
           <li>[ ] Abdomen (Tight knots, bloating, coldness)</li>
-          <li>[ ] Jaw & Neck (Teeth grinding, stiffness)</li>
         </ul>
         <p><em>Journal Prompt: What is the emotional quality of this tension? Does it feel like speed, fear of missing a connection, or visual over-stimulation? Write down your reflections.</em></p>
       </div>
