@@ -57,6 +57,188 @@ const TOPICS = [
     section: "wellness",
     duration: "10 min read",
     prompt: "Write a culinary guide exploring organic, plant-based, and vegan eating in Goa. Focus on local, sustainable ingredients, slow juice bars, and mindful eating practices."
+  },
+  {
+    title: "A 14-Day Goa Wellness Itinerary: Somatic Resourcing on the Coast",
+    category: "Guides",
+    location: "Goa, India",
+    section: "travel",
+    duration: "14 min read",
+    prompt: "Write an in-depth 14-day wellness itinerary for slow travel in Goa. Combine Ayurvedic massage sessions, quiet beach mornings, somatic integration walks, and ocean swimming."
+  },
+  {
+    title: "Mandrem Slow Beach Stays: Finding Peace in North Goa",
+    category: "Guides",
+    location: "Mandrem, North Goa, India",
+    section: "travel",
+    duration: "11 min read",
+    prompt: "Write a slow-travel guide about Mandrem Beach, North Goa. Detail organic farms, beach sunset meditations, and finding quiet spaces in the north."
+  },
+  {
+    title: "The Quiet Side of Anjuna: Heritage Stays, Back lanes, and Slow Cafes",
+    category: "Diaries",
+    location: "Anjuna, North Goa, India",
+    section: "travel",
+    duration: "10 min read",
+    prompt: "Write a diary about discovering the quiet, hidden back lanes of Anjuna. Cover heritage Indo-Portuguese homes, local bakers, garden yoga shalas, and escaping the party strip."
+  },
+  {
+    title: "Palolem at Sunrise: Sunrise Kayaking, Quiet Strolls, and Morning Meditation",
+    category: "Diaries",
+    location: "Palolem, South Goa, India",
+    section: "travel",
+    duration: "10 min read",
+    prompt: "Write a slow travel diary about experiencing Palolem Beach at sunrise. Cover early morning bay paddling, soft sands, birdwatching, and morning breathing shalas."
+  },
+  {
+    title: "Galgibaga Beach: Turtles, Solitude, and Pine-Fringed Wilderness",
+    category: "Guides",
+    location: "Galgibaga, South Goa, India",
+    section: "travel",
+    duration: "12 min read",
+    prompt: "Write a nature guide about Galgibaga Beach. Cover the Olive Ridley turtle nesting season, walk in pine forests, silence, and simple local fish curries."
+  },
+  {
+    title: "Drifting in Divar Island: Old Portuguese Homes, River Silence, and Slow Trails",
+    category: "Diaries",
+    location: "Divar Island, Goa, India",
+    section: "travel",
+    duration: "10 min read",
+    prompt: "Write a slow diary about exploring Divar Island. Detail crossing the Mandovi river on ferries, silent countryside roads, heritage chapels, and slow cycling paths."
+  },
+  {
+    title: "Chasing Moss: A Slow Travel Guide to Kyoto's Ancient Temple Gardens",
+    category: "Guides",
+    location: "Kyoto, Japan",
+    section: "travel",
+    duration: "10 min read",
+    prompt: "Write a guide to finding slow-living spaces in Kyoto's ancient temple gardens, visiting Saiho-ji (Moss Temple), tea ceremony sessions, and walking meditation."
+  },
+  {
+    title: "Body Scan Meditation on the Sand: Grounding Your Nervous System by the Ocean",
+    category: "Somatic",
+    section: "mindfulness",
+    duration: "10 min read",
+    prompt: "Offer a step-by-step body scan meditation protocol specifically for slow beach settings. Detail how the feel of warm sand and sound of ocean tides can anchor our somatic nervous system."
+  },
+  {
+    title: "Walking Meditation: Decelerating Your Pace in Forest Trails and Shorelines",
+    category: "Somatic",
+    section: "mindfulness",
+    duration: "9 min read",
+    prompt: "Write a guide to walking meditation. Explain the slow, heel-to-toe stride cadence and how to remain mindfully anchored in forest walks and beach strolls."
+  },
+  {
+    title: "Digital Nomad Burnout: Somatic Practices to Unplug and Reclaim Presence",
+    category: "Somatic",
+    section: "mindfulness",
+    duration: "12 min read",
+    prompt: "Detail how remote work travel fatigue accumulates in our nervous system. Provide somatic practices (eye release, spine decompressions, device boundaries) to recover."
+  },
+  {
+    title: "Vagus Nerve Stimulation for Stress Relief: Simple Exercises for the Road",
+    category: "Somatic",
+    section: "mindfulness",
+    duration: "10 min read",
+    prompt: "Offer simple vagus nerve stimulation exercises suitable for travelers. Detail ear massages, low humming (Bhramari Pranayama), and cold water face splashing to soothe travel nerves."
+  },
+  {
+    title: "Journaling on the Road: Reflective Prompts for Navigating Travel Transitions",
+    category: "Somatic",
+    section: "mindfulness",
+    duration: "8 min read",
+    prompt: "Provide a list of reflective journal prompts for travelers navigating geographic shifts, transition fatigue, and setting daily intentions."
+  },
+  {
+    title: "Loving-Kindness (Metta) Meditation: Cultivating Connection with New Cultures",
+    category: "Somatic",
+    section: "mindfulness",
+    duration: "10 min read",
+    prompt: "Write an instructional guide on Loving-Kindness meditation. Detail how to cultivate connection with new local communities, guides, and hosts while traveling."
+  },
+  {
+    title: "Sensory Grounding (5-4-3-2-1 Technique) in Busy Airport Terminals",
+    category: "Somatic",
+    section: "mindfulness",
+    duration: "9 min read",
+    prompt: "Explain how to practice the 5-4-3-2-1 sensory grounding technique in highly saturated airport terminals to manage transit panic and remain alert."
+  },
+  {
+    title: "Yin Yoga for Hips: Releasing Emotional Cargo After Long Stays in Seats",
+    category: "Yoga",
+    section: "mindfulness",
+    duration: "11 min read",
+    prompt: "Explain how long flights lock up hips and store somatic stress. Detail pigeon poses, butterfly poses, and long-hold yin yoga stretches to release tension."
+  },
+  {
+    title: "Morning Dinacharya: Establishing Ayurvedic Daily Routines on the Road",
+    category: "Slow Living",
+    section: "wellness",
+    duration: "11 min read",
+    prompt: "Provide an Ayurvedic guide to morning Dinacharya routines while traveling. Cover tongue scraping, warm oil rubs, and drinking warm solar water to balance travel Vata."
+  },
+  {
+    title: "Mindful Eating: How to Practice Presence with Local Coastal Cuisines",
+    category: "Slow Living",
+    section: "wellness",
+    duration: "10 min read",
+    prompt: "Explain how to practice mindful eating when exploring local cuisines. Detail flavor tracking, chewing slow, gut-brain connection, and appreciating coastal spices."
+  },
+  {
+    title: "Ayurvedic Travel Toolkit: Herbal Teas, Essential Oils, and Somatic Support",
+    category: "Slow Living",
+    section: "wellness",
+    duration: "10 min read",
+    prompt: "Provide a guide to creating a portable Ayurvedic travel toolkit. Cover ginger capsules, lavender essential oil, tulsi tea bags, and somatic grounding anchors."
+  },
+  {
+    title: "Plant-Based Nutrition on the Road: Navigating Menus and Local Markets",
+    category: "Plant-Based",
+    section: "wellness",
+    duration: "12 min read",
+    prompt: "Offer a guide to plant-based nutrition while traveling. Explain how to find whole foods, source local fresh fruits, and eat clean, fiber-rich meals on the move."
+  },
+  {
+    title: "Digital Detox Guide: Establishing Tech-Free Zones During Your Stays",
+    category: "Slow Living",
+    section: "wellness",
+    duration: "10 min read",
+    prompt: "Offer step-by-step guide to staging digital detox blocks while traveling. Detail sunset screen locks, paper notebook journals, and airplane mode habits."
+  },
+  {
+    title: "Herbal Tea Rituals: Connecting with Herbs for Grounding and Sleep",
+    category: "Slow Living",
+    section: "wellness",
+    duration: "10 min read",
+    prompt: "Write a guide to slow tea rituals. Focus on chamomile, peppermint, and tulsi tea prep to wind down, ground nerves, and improve sleep on the road."
+  },
+  {
+    title: "Minimalism on the Road: Packing Outwardly to Declutter Inwardly",
+    category: "Slow Living",
+    section: "wellness",
+    duration: "10 min read",
+    prompt: "Write a guide to minimalist packing. Explain how clearing physical baggage acts as a somatic release, decluttering the mind and easing transition stress."
+  },
+  {
+    title: "Forest Bathing (Shinrin-Yoku): The Science of Grounding in Indian Forests",
+    category: "Slow Living",
+    section: "wellness",
+    duration: "10 min read",
+    prompt: "Explain the science of Shinrin-Yoku (Forest Bathing). Focus on phytoncides, reducing stress hormones, and grounding walks in spice gardens and silent trails."
+  },
+  {
+    title: "Vegan Travel Hacks: Finding Local, Whole-Food Stays in India",
+    category: "Plant-Based",
+    section: "wellness",
+    duration: "10 min read",
+    prompt: "Offer vegan travel hacks for India. Cover translating dairy-free requests (sans ghee/dahi), identifying rich legume options, and finding vegan eco-hotels."
+  },
+  {
+    title: "Somatic Boundaries: Saying No to Over-Scheduled Travel Plans",
+    category: "Slow Living",
+    section: "wellness",
+    duration: "10 min read",
+    prompt: "Explain the importance of somatic boundaries. Focus on listening to physical fatigue signals, pacing your itinerary, and saying no to over-packed sightseeing schedules."
   }
 ];
 
