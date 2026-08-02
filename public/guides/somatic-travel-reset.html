@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nervous System Reset: A 7-Day Somatic Travel Guide</title>
+  <style>
+    /* Premium Fonts (Google Fonts) */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+    :root {
+      --color-text: #2c2a29;
+      --color-bg: #fcfbfa;
+      --color-accent: #c87a53; /* Rust */
+      --color-border: #eae7df;
+      --font-sans: 'Montserrat', sans-serif;
+      --font-serif: 'Newsreader', serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      font-family: var(--font-serif);
+      font-size: 1.125rem;
+      line-height: 1.7;
+      padding: 3rem 2rem;
+    }
+
+    /* Booklet Container */
+    .booklet {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      border: 1px solid var(--color-border);
+      padding: 4rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+      border-radius: 8px;
+    }
+
+    /* Print Formatting & Page Breaks */
+    @media print {
+      body {
+        background-color: #fff;
+        padding: 0;
+      }
+      .booklet {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        max-width: 100%;
+      }
+      .page-break {
+        page-break-before: always;
+      }
+      .no-print {
+        display: none;
+      }
+    }
+
+    /* Print Warning Banner */
+    .print-banner {
+      background-color: rgba(200, 122, 83, 0.05);
+      border: 1px solid var(--color-accent);
+      padding: 1rem 1.5rem;
+      border-radius: 6px;
+      margin-bottom: 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .print-banner span {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--color-accent);
+    }
+
+    .print-btn {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background-color: var(--color-accent);
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1.25rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+
+    .print-btn:hover {
+      opacity: 0.9;
+    }
+
+    /* Cover Page Styling */
+    .cover-page {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--color-text);
+      padding-bottom: 4rem;
+      margin-bottom: 5rem;
+    }
+
+    .cover-header {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--color-accent);
+    }
+
+    .cover-title-group {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .cover-title {
+      font-size: 4rem;
+      line-height: 1.1;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    .cover-subtitle {
+      font-style: italic;
+      font-size: 1.5rem;
+      opacity: 0.8;
+      max-width: 600px;
+    }
+
+    .cover-footer {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid var(--color-border);
+      padding-top: 1.5rem;
+    }
+
+    /* Chapter Headings */
+    h1, h2, h3 {
+      color: var(--color-text);
+    }
+
+    h2 {
+      font-family: var(--font-sans);
+      font-size: 1.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-top: 4rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--color-text);
+      padding-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.35rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+    }
+
+    /* Day Box Callouts */
+    .day-block {
+      background-color: #faf9f6;
+      border-left: 3px solid var(--color-accent);
+      padding: 2rem;
+      margin: 2.5rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .day-num {
+      font-family: var(--font-sans);
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-accent);
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .day-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    /* Lists */
+    ul, ol {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Table Grid */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 3rem 0;
+    }
+
+    th, td {
+      border: 1px solid var(--color-border);
+      padding: 0.75rem 1rem;
+      font-size: 0.95rem;
+    }
+
+    th {
+      font-family: var(--font-sans);
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      background-color: #faf9f6;
+      text-align: left;
+    }
+
+    /* Checklist / Journal Prompt Box */
+    .journal-box {
+      border: 1px dashed var(--color-accent);
+      padding: 2rem;
+      margin: 2.5rem 0;
+      border-radius: 6px;
+    }
+
+    .journal-title {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-accent);
+      margin-bottom: 1rem;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="booklet">
+    <!-- Interactive Header (Hidden in PDF print) -->
+    <div class="print-banner no-print">
+      <span>✨ Print or save this booklet as a PDF to sell it or read offline.</span>
+      <button class="print-btn" onclick="window.print()">Save as PDF</button>
+    </div>
+
+    <!-- COVER PAGE -->
+    <header class="cover-page">
+      <span class="cover-header">Wander With Akhi / Digital Guides</span>
+      <div class="cover-title-group">
+        <h1 class="cover-title">Nervous System Reset</h1>
+        <p class="cover-subtitle">A 7-Day Somatic Guide & Workbook for Solo Travelers</p>
+      </div>
+      <div class="cover-footer">
+        <span>Author: Akhi</span>
+        <span>Version 1.0 (2026)</span>
+      </div>
+    </header>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- INTRODUCTION -->
+    <section>
+      <h2>The Anatomy of Travel Stress</h2>
+      <p>When we move through space at high speeds, cross time zones, and navigate unfamiliar environments, our bodies register this as a potential survival threat. Our primitive brain activates the Sympathetic Nervous System (SNS), releasing a slow, continuous trickle of cortisol and adrenaline. This response manifests as digestive lockups, shallow thoracic breathing, mental fatigue, and travel anxiety.</p>
+      
+      <p>Somatic travel is the practice of consciously returning to the body to establish safety from within. Instead of trying to control your outer environment, you learn to track, yield to, and balance your internal state. This 7-day protocol is designed to reset your nervous system, allowing you to settle deeply into your journey.</p>
+    </section>
+
+    <!-- THE 7-DAY PROTOCOL -->
+    <section>
+      <h2>The 7-Day Somatic Protocol</h2>
+
+      <!-- Day 1 -->
+      <div class="day-block">
+        <span class="day-num">Day 1</span>
+        <h3 class="day-title">Decompression & Yielding</h3>
+        <p>Your primary goal on Day 1 is to release the physical residual tension of travel transit (flights, trains, packing).</p>
+        <p><strong>The Practice (First Light Grounding)</strong>:</p>
+        <ol>
+          <li>As soon as you enter your room, lie flat on the floor with your knees bent (constructive rest pose).</li>
+          <li>Place one hand on your chest and the other on your lower belly.</li>
+          <li>For 10 minutes, yield your weight entirely to the floor. Imagine the earth rising up to support you. Breathe naturally, directing the breath into the contact points of the floor.</li>
+        </ol>
+      </div>
+
+      <!-- Day 2 -->
+      <div class="day-block">
+        <span class="day-num">Day 2</span>
+        <h3 class="day-title">Visual Mapping & Orienting</h3>
+        <p>When entering a new city, our nervous system remains alert until it maps the environment. Today, we declare safety through our eyes.</p>
+        <p><strong>The Practice (Slow Orientation)</strong>:</p>
+        <p>Stand on your porch or outside your cottage. Let your head swivel slowly from side to side. Allow your eyes to naturally rest on objects of neutral interest—a leaf, a red tiled roof, a shadow. When your eyes land, pause for three breaths, let your chest expand, and feel your feet flat on the ground.</p>
+      </div>
+
+      <!-- Day 3 -->
+      <div class="day-block">
+        <span class="day-num">Day 3</span>
+        <h3 class="day-title">Barefoot Stride & Cadence</h3>
+        <p>Slowing your physical movement sends a direct calming message to your amygdala.</p>
+        <p><strong>The Practice (Decelerated Walking)</strong>:</p>
+        <p>Find a soft patch of grass, soil, or sand. Remove your shoes. Take 20 slow steps. As you lift your foot, feel the muscles shift. As you place it down, roll from heel, outer edge, to ball, and finally toe. Direct your entire awareness into the soles of your feet.</p>
+      </div>
+
+      <!-- PAGE BREAK -->
+      <div class="page-break"></div>
+
+      <!-- Day 4 -->
+      <div class="day-block">
+        <span class="day-num">Day 4</span>
+        <h3 class="day-title">Vata-Pacifying Respiration</h3>
+        <p>In traditional Indian wellness, travel increases Vata (air/ether). Today, we use breathing to anchor this wind element.</p>
+        <p><strong>The Practice (Nadi Shodhana)</strong>:</p>
+        <p>Sit comfortably. Place your right index and middle finger on your forehead. Use your thumb to close your right nostril, and inhale slowly through the left. Close the left nostril with your ring finger, open the right, and exhale. Inhale through the right nostril, close, and exhale left. Repeat for 5 minutes, focusing on a slow, rhythmic pace.</p>
+      </div>
+
+      <!-- Day 5 -->
+      <div class="day-block">
+        <span class="day-num">Day 5</span>
+        <h3 class="day-title">Gut-Brain Somatic Release</h3>
+        <p>Travel stress triggers digestive lockups. We address this using direct abdominal touch.</p>
+        <p><strong>The Practice (Somatic Belly massage)</strong>:</p>
+        <p>Lie on your back before bed. Rub your palms together to generate warmth. Place both hands flat on your lower abdomen. In a clockwise direction, make slow, gentle circular strokes, matching the path of your large intestine. Let your abdomen relax under the warmth of your hands.</p>
+      </div>
+
+      <!-- Day 6 -->
+      <div class="day-block">
+        <span class="day-num">Day 6</span>
+        <h3 class="day-title">Sightless Sensory Walks</h3>
+        <p>We reduce visual saturation by shifting focus to our secondary senses.</p>
+        <p><strong>The Practice (Auditory Mapping)</strong>:</p>
+        <p>Sit in a garden or quiet lane. Close your eyes. Direct your attention to sounds. First, identify the furthest sound (wind in the trees). Next, identify closer sounds (a bird, footsteps). Finally, listen to your own breathing. Let these sounds wash over you without trying to label them.</p>
+      </div>
+
+      <!-- Day 7 -->
+      <div class="day-block">
+        <span class="day-num">Day 7</span>
+        <h3 class="day-title">Integrated Somatic Check-In</h3>
+        <p>Reflecting on your physical progress anchors the changes in your neural pathways.</p>
+        <p><strong>The Practice (Body Mapping)</strong>:</p>
+        <p>Use the workbook journal below to outline where your body holds stress, tracking the physical easing you have cultivated over the last 7 days.</p>
+      </div>
+    </section>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- WORKBOOK & JOURNAL SECTION -->
+    <section>
+      <h2>Somatic Travel Journal & Worksheets</h2>
+
+      <div class="journal-box">
+        <span class="journal-title">Exercise: Locating Your Stress Anchors</span>
+        <p>Sit quietly and check in with your physical body. Put a mark where you locate tension:</p>
+        <ul>
+          <li>[ ] Throat (Tightness, swallowing difficulties)</li>
+          <li>[ ] Chest (Shallow breathing, fast heartbeat)</li>
+          <li>[ ] Abdomen (Tight knots, bloating, coldness)</li>
+          <li>[ ] Jaw & Neck (Teeth grinding, stiffness)</li>
+        </ul>
+        <p><em>Journal Prompt: What is the emotional quality of this tension? Does it feel like speed, fear of missing a connection, or visual over-stimulation? Write down your reflections.</em></p>
+      </div>
+
+      <div class="journal-box">
+        <span class="journal-title">My Grounding anchors (Locate 3)</span>
+        <p>Identify 3 items or practices that instantly make you feel safe on the road (e.g., a warm cup of herbal tea, putting your feet flat on the floor, calling a close friend):</p>
+        <p>1. __________________________________________________________________</p>
+        <p>2. __________________________________________________________________</p>
+        <p>3. __________________________________________________________________</p>
+      </div>
+
+      <h2>Daily Practice Tracker</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Somatic Practice</th>
+            <th>Completed</th>
+            <th>Physical Feeling After (Calm / Ease / Rested)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Day 1</td>
+            <td>Constructive Rest Pose (10 mins)</td>
+            <td>[ ]</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Day 2</td>
+            <td>Visual Orienting (5 mins)</td>
+            <td>[ ]</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Day 3</td>
+            <td>Barefoot Decelerated Walk</td>
+            <td>[ ]</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Day 4</td>
+            <td>Nadi Shodhana Breathwork</td>
+            <td>[ ]</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Day 5</td>
+            <td>Warm Belly Massage</td>
+            <td>[ ]</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Day 6</td>
+            <td>Sightless Auditory Mapping</td>
+            <td>[ ]</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Day 7</td>
+            <td>Integrated Mapping Check-in</td>
+            <td>[ ]</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- BACK COVER / OUTRO -->
+    <section class="page-break" style="margin-top: 6rem; text-align: center; border-top: 1px solid var(--color-border); padding-top: 4rem;">
+      <h3 style="font-family: var(--font-sans); font-size: 1.5rem; text-transform: uppercase; color: var(--color-accent); margin-bottom: 1.5rem;">Wander Safely, Wander Slowly</h3>
+      <p style="font-style: italic; max-width: 500px; margin: 0 auto 2rem auto; opacity: 0.8;">"Your nervous system is your only true home on the road. Take care of it, move at the pace of presence, and the whole world will welcome you."</p>
+      <p style="font-family: var(--font-sans); font-size: 0.8rem; font-weight: 700; opacity: 0.5;">© 2026 wanderwithakhi.com. All Rights Reserved.</p>
+    </section>
+  </div>
+
+</body>
+</html>
