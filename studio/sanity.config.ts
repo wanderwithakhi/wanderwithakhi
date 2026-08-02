@@ -6,8 +6,8 @@ export default defineConfig({
   name: 'default',
   title: 'wanderwithakhi-studio',
 
-  // TODO: Replace with your actual project ID from manage.sanity.io
-  projectId: 'your_project_id',
+  // Sanity project ID from manage.sanity.io
+  projectId: 'y729p0ml',
   dataset: 'production',
 
   plugins: [structureTool()],
