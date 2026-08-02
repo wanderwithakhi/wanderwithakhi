@@ -1,0 +1,296 @@
+---
+import { getCollection } from 'astro:content';
+import ArticleCard from './ArticleCard.astro';
+
+// Fetch collections
+const travelPosts = await getCollection('travel');
+const mindfulnessPosts = await getCollection('mindfulness');
+const wellnessPosts = await getCollection('wellness');
+
+// Sort posts by date (newest first)
+const sortedTravel = travelPosts.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+const sortedMindfulness = mindfulnessPosts.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+---
+
+<div class="articles-feed-wrapper" id="articlesFeedWrapper">
+  <!-- Active Filter Notification Bar -->
+  <div class="filter-status-bar" id="filterStatusBar" style="display: none;">
+    <div class="container status-bar-container">
+      <span class="filter-message" id="filterStatusMessage">
+        Filtering posts
+      </span>
+      <button class="clear-filter-btn" id="clearFilterBtn">
+        Clear Filter
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Outside Section -->
+  <section class="feed-section section-outside" id="outside">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-title">The Outside</h3>
+        <p class="section-subtitle">Coordinates, Slow Guides, and Earthly Discoveries</p>
+      </div>
+
+      <div class="grid-editorial">
+        {sortedTravel.map(post => (
+          <ArticleCard
+            title={post.data.title}
+            description={post.data.description}
+            publishDate={post.data.publishDate}
+            category={post.data.category}
+            location={post.data.location}
+            duration={post.data.duration}
+            slug={post.id}
+            type="travel"
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Inside Section -->
+  <section class="feed-section section-inside" id="inside">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-title">The Inside</h3>
+        <p class="section-subtitle">Mindful Reflections, Breathwork, and Somatic Grounding</p>
+      </div>
+
+      <div class="grid-editorial">
+        {sortedMindfulness.map(post => (
+          <ArticleCard
+            title={post.data.title}
+            description={post.data.description}
+            publishDate={post.data.publishDate}
+            category={post.data.category}
+            duration={post.data.duration}
+            slug={post.id}
+            type="mindfulness"
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Wellness Section -->
+  <section class="feed-section section-wellness" id="wellness">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-title">Wellness</h3>
+        <p class="section-subtitle">Slow Living, Conscious Habits, and Plant-Based Nutrition</p>
+      </div>
+
+      <div class="grid-editorial">
+        {sortedWellness.map(post => (
+          <ArticleCard
+            title={post.data.title}
+            description={post.data.description}
+            publishDate={post.data.publishDate}
+            category={post.data.category}
+            duration={post.data.duration}
+            slug={post.id}
+            type="mindfulness" 
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+</div>
+
+<style>
+  .articles-feed-wrapper {
+    background-color: var(--color-bg);
+    transition: background-color 0.8s ease;
+    position: relative;
+  }
+
+  /* Active Filter Notification Bar styling */
+  .filter-status-bar {
+    background-color: var(--color-accent);
+    color: var(--palette-chalk);
+    padding: 0.75rem 0;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    position: sticky;
+    top: 72px; /* right below navigation header */
+    z-index: 50;
+    animation: slideDown 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  @keyframes slideDown {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+  }
+
+  .status-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .clear-filter-btn {
+    background: transparent;
+    border: 1px solid var(--palette-chalk);
+    color: var(--palette-chalk);
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: var(--transition-smooth);
+  }
+
+  .clear-filter-btn:hover {
+    background-color: var(--palette-chalk);
+    color: var(--color-accent);
+  }
+
+  .feed-section {
+    padding: 6rem 0;
+    transition: opacity 0.4s ease, display 0.4s ease;
+  }
+
+  .section-outside {
+    border-bottom: var(--border-thin);
+  }
+
+  .section-inside {
+    border-bottom: var(--border-thin);
+    background-color: rgba(85, 107, 47, 0.03); /* Soft sage tint */
+  }
+
+  .section-wellness {
+    border-bottom: var(--border-thin);
+    background-color: transparent;
+  }
+
+  .section-header {
+    margin-bottom: 3.5rem;
+    text-align: left;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+  }
+
+  .section-outside .section-title {
+    color: var(--palette-rust);
+  }
+
+  .section-inside .section-title {
+    color: var(--palette-sage);
+  }
+
+  .section-wellness .section-title {
+    color: var(--palette-ochre);
+  }
+
+  .section-subtitle {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 1.25rem;
+    opacity: 0.7;
+    margin: 0;
+  }
+</style>
+
+<script>
+  // Client-side filtering script
+  const updateFilters = () => {
+    const hash = window.location.hash;
+    const statusBar = document.getElementById('filterStatusBar');
+    const statusMessage = document.getElementById('filterStatusMessage');
+    
+    const outsideSec = document.getElementById('outside');
+    const insideSec = document.getElementById('inside');
+    const wellnessSec = document.getElementById('wellness');
+    const cards = document.querySelectorAll('.article-card');
+
+    if (!hash || !hash.includes('?')) {
+      // No filter active, show everything
+      if (statusBar) statusBar.style.display = 'none';
+      if (outsideSec) outsideSec.style.display = 'block';
+      if (insideSec) insideSec.style.display = 'block';
+      if (wellnessSec) wellnessSec.style.display = 'block';
+      
+      cards.forEach(card => {
+        (card as HTMLElement).style.display = 'flex';
+      });
+      return;
+    }
+
+    // Parse section and query
+    const parts = hash.split('?');
+    const sectionId = parts[0].substring(1); // e.g. 'outside'
+    const queryStr = parts[1]; // e.g. 'region=asia' or 'category=yoga'
+
+    const queryParts = queryStr.split('=');
+    const filterKey = queryParts[0]; // 'region' or 'category'
+    const filterVal = decodeURIComponent(queryParts[1]); // 'asia', 'yoga'
+
+    // Show status bar
+    if (statusBar && statusMessage) {
+      statusBar.style.display = 'block';
+      statusMessage.textContent = `Active Filter: ${sectionId} posts > ${filterKey}: ${filterVal}`;
+    }
+
+    // Hide irrelevant sections
+    if (outsideSec) outsideSec.style.display = (sectionId === 'outside') ? 'block' : 'none';
+    if (insideSec) insideSec.style.display = (sectionId === 'inside') ? 'block' : 'none';
+    if (wellnessSec) wellnessSec.style.display = (sectionId === 'wellness') ? 'block' : 'none';
+
+    // Show/Hide cards inside the targeted section
+    cards.forEach(card => {
+      const cardEl = card as HTMLElement;
+      const category = cardEl.getAttribute('data-category') || '';
+      const location = cardEl.getAttribute('data-location') || '';
+
+      let isMatch = false;
+
+      if (filterKey === 'region') {
+        isMatch = location.includes(filterVal.toLowerCase());
+      } else if (filterKey === 'category') {
+        isMatch = category === filterVal.toLowerCase().replace(' ', '-');
+      }
+
+      cardEl.style.display = isMatch ? 'flex' : 'none';
+    });
+
+    // Smooth-scroll directly to the active section
+    const targetSection = document.getElementById(sectionId);
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  // Run on hash changes
+  window.addEventListener('hashchange', updateFilters);
+  
+  // Run on initial load
+  window.addEventListener('DOMContentLoaded', updateFilters);
+
+  // Clear filters button
+  const clearBtn = document.getElementById('clearFilterBtn');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      window.location.hash = '';
+    });
+  }
+</script>

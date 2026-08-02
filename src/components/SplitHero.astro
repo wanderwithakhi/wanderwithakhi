@@ -1,0 +1,257 @@
+---
+---
+
+<section class="split-hero-section">
+  <!-- Left Side: Outside -->
+  <div class="hero-panel panel-outside" id="panelOutside">
+    <!-- SVG Mountain Silhouette Overlay -->
+    <div class="panel-visual">
+      <svg class="panel-graphic" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" fill="none" stroke="currentColor">
+        <path d="M-50 250 L100 120 L250 220 L350 140 L480 250" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.15"></path>
+        <path d="M50 250 L180 150 L280 220 L420 110 L500 250" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"></path>
+      </svg>
+      <div class="panel-gradient-overlay"></div>
+    </div>
+    
+    <div class="panel-content">
+      <span class="panel-tag">Explore the World</span>
+      <h2 class="panel-title">The Outside</h2>
+      <p class="panel-desc">Dirt roads, mountain ridges, and geographic boundaries. Travel far, walk slow.</p>
+      <a href="#outside" class="panel-cta">Enter the Outside</a>
+    </div>
+  </div>
+
+  <!-- Right Side: Inside -->
+  <div class="hero-panel panel-inside" id="panelInside">
+    <!-- SVG Concentric Ripples Overlay -->
+    <div class="panel-visual">
+      <svg class="panel-graphic" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" fill="none" stroke="currentColor">
+        <circle cx="200" cy="150" r="120" stroke-width="1" stroke-dasharray="4 4" opacity="0.1"></circle>
+        <circle cx="200" cy="150" r="90" stroke-width="1.5" opacity="0.15"></circle>
+        <circle cx="200" cy="150" r="60" stroke-width="1" stroke-dasharray="2 2" opacity="0.2"></circle>
+        <circle cx="200" cy="150" r="30" stroke-width="2" opacity="0.3"></circle>
+      </svg>
+      <div class="panel-gradient-overlay"></div>
+    </div>
+
+    <div class="panel-content">
+      <span class="panel-tag">Explore the Self</span>
+      <h2 class="panel-title">The Inside</h2>
+      <p class="panel-desc">Quiet chambers, breath cycles, and internal geography. Look deep, sit still.</p>
+      <a href="#inside" class="panel-cta">Enter the Inside</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .split-hero-section {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 72px);
+    width: 100%;
+    overflow: hidden;
+    border-bottom: var(--border-thin);
+  }
+
+  @media (min-width: 768px) {
+    .split-hero-section {
+      flex-direction: row;
+    }
+  }
+
+  .hero-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 3rem 2rem;
+    position: relative;
+    overflow: hidden;
+    transition: flex 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  /* Split proportions on hover for desktop */
+  @media (min-width: 768px) {
+    .hero-panel.expanded {
+      flex: 1.35;
+    }
+    .hero-panel.shrunk {
+      flex: 0.65;
+    }
+  }
+
+  .panel-visual {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .panel-graphic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .panel-outside {
+    background-color: #faf4ee;
+    color: var(--palette-obsidian);
+  }
+
+  .panel-outside .panel-graphic {
+    color: var(--palette-rust);
+  }
+
+  .panel-outside .panel-gradient-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(250, 244, 238, 1) 10%, rgba(250, 244, 238, 0.4) 60%, rgba(250, 244, 238, 0) 100%);
+  }
+
+  .panel-inside {
+    background-color: #f1f4f0;
+    color: var(--palette-obsidian);
+    border-top: var(--border-thin);
+  }
+
+  @media (min-width: 768px) {
+    .panel-inside {
+      border-top: none;
+      border-left: var(--border-thin);
+    }
+  }
+
+  .panel-inside .panel-graphic {
+    color: var(--palette-sage);
+  }
+
+  .panel-inside .panel-gradient-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(241, 244, 240, 1) 10%, rgba(241, 244, 240, 0.4) 60%, rgba(241, 244, 240, 0) 100%);
+  }
+
+  /* Content Overlay styling */
+  .panel-content {
+    position: relative;
+    z-index: 2;
+    max-width: 420px;
+    transform: translateY(0);
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .panel-tag {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    opacity: 0.6;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+  }
+
+  .panel-title {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.03em;
+  }
+
+  .panel-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.75rem;
+    opacity: 0.8;
+  }
+
+  .panel-cta {
+    display: inline-block;
+    padding: 0.75rem 1.75rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 4px;
+    transition: var(--transition-smooth);
+    border: 1px solid var(--palette-obsidian);
+  }
+
+  .panel-outside .panel-cta {
+    background-color: var(--palette-obsidian);
+    color: var(--palette-chalk);
+  }
+
+  .panel-outside .panel-cta:hover {
+    background-color: var(--palette-rust);
+    border-color: var(--palette-rust);
+  }
+
+  .panel-inside .panel-cta {
+    background-color: var(--palette-obsidian);
+    color: var(--palette-chalk);
+  }
+
+  .panel-inside .panel-cta:hover {
+    background-color: var(--palette-sage);
+    border-color: var(--palette-sage);
+  }
+
+  /* Interactive effects on hover */
+  .hero-panel:hover .panel-graphic {
+    transform: scale(1.06);
+  }
+
+  @media (min-width: 768px) {
+    .hero-panel:hover .panel-content {
+      transform: translateY(-5px);
+    }
+  }
+</style>
+
+<script>
+  const panelOutside = document.getElementById('panelOutside');
+  const panelInside = document.getElementById('panelInside');
+
+  if (panelOutside && panelInside) {
+    // Left hover handler
+    panelOutside.addEventListener('mouseenter', () => {
+      panelOutside.classList.add('expanded');
+      panelOutside.classList.remove('shrunk');
+      
+      panelInside.classList.add('shrunk');
+      panelInside.classList.remove('expanded');
+
+      // Dispatch theme shift event
+      window.dispatchEvent(new CustomEvent('theme-changed', {
+        detail: { theme: 'outside' }
+      }));
+    });
+
+    // Right hover handler
+    panelInside.addEventListener('mouseenter', () => {
+      panelInside.classList.add('expanded');
+      panelInside.classList.remove('shrunk');
+      
+      panelOutside.classList.add('shrunk');
+      panelOutside.classList.remove('expanded');
+
+      // Dispatch theme shift event
+      window.dispatchEvent(new CustomEvent('theme-changed', {
+        detail: { theme: 'inside' }
+      }));
+    });
+
+    // Reset default sizes on panel leave
+    const section = document.querySelector('.split-hero-section');
+    if (section) {
+      section.addEventListener('mouseleave', () => {
+        panelOutside.classList.remove('expanded', 'shrunk');
+        panelInside.classList.remove('expanded', 'shrunk');
+      });
+    }
+  }
+</script>

@@ -1,0 +1,69 @@
+---
+---
+
+<section class="philosophy-section" id="philosophy">
+  <div class="container philosophy-container">
+    <span class="section-badge">A Dual Journey</span>
+    <h3 class="philosophy-quote">
+      "Exploring the world without checking in with yourself is just moving. Sitting still without understanding the world around you is just isolation. I write at the intersection of both—navigating mountain trails and mental landscapes to find grounding in a chaotic world."
+    </h3>
+    <span class="philosophy-author">Akhi</span>
+  </div>
+</section>
+
+<style>
+  .philosophy-section {
+    padding: 6rem 1.5rem;
+    background-color: var(--color-bg);
+    border-bottom: var(--border-thin);
+    text-align: center;
+    position: relative;
+    transition: background-color 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .philosophy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .section-badge {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 1.5rem;
+    color: var(--color-accent);
+    letter-spacing: -0.01em;
+    transition: color 0.6s ease;
+  }
+
+  .philosophy-quote {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 1.85rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--color-text);
+    margin: 0;
+    letter-spacing: -0.01em;
+    transition: color 0.6s ease;
+  }
+
+  @media (min-width: 768px) {
+    .philosophy-quote {
+      font-size: 2.25rem;
+    }
+  }
+
+  .philosophy-author {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.6;
+    margin-top: 1rem;
+  }
+</style>

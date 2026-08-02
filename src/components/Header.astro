@@ -1,0 +1,604 @@
+---
+---
+
+<header class="global-header">
+  <div class="header-container">
+    <!-- Logo with Inline SVG Option 2 Emblem -->
+    <a href="/" class="logo-area">
+      <svg class="logo-svg" viewBox="0 0 100 100" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2.5">
+        <circle cx="50" cy="50" r="44"></circle>
+        <path d="M25 65 L46 42 L64 58 L82 36" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M50 94 Q48 80 55 72 T48 58" stroke-linecap="round"></path>
+        <circle cx="50" cy="23" r="6"></circle>
+      </svg>
+      <span class="logo-text">wanderwithakhi</span>
+    </a>
+
+    <!-- Navigation Menu (Desktop) -->
+    <nav class="desktop-nav" aria-label="Desktop Navigation">
+      <ul class="nav-menu">
+        <!-- Dropdown: The Outside -->
+        <li class="menu-item has-dropdown">
+          <a href="#outside" class="nav-link">
+            The Outside
+            <svg class="chevron-icon" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3">
+              <polyline points="6 9 12 15 18 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            </svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#outside?region=asia">Asia</a></li>
+            <li><a href="#outside?region=europe">Europe</a></li>
+            <li><a href="#outside?region=americas">Americas</a></li>
+            <li><a href="#outside?region=africa">Africa</a></li>
+            <li class="divider"></li>
+            <li><a href="#outside?category=gear">Travel Gear Guides</a></li>
+          </ul>
+        </li>
+
+        <!-- Dropdown: The Inside -->
+        <li class="menu-item has-dropdown">
+          <a href="#inside" class="nav-link">
+            The Inside
+            <svg class="chevron-icon" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3">
+              <polyline points="6 9 12 15 18 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            </svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#inside?category=yoga">Yoga Practice</a></li>
+            <li><a href="#inside?category=meditation">Mindfulness & Meditation</a></li>
+            <li><a href="#inside?category=somatic">Somatic Grounding</a></li>
+            <li class="divider"></li>
+            <li><a href="#inside?category=essays">Reflective Essays</a></li>
+          </ul>
+        </li>
+
+        <!-- Dropdown: Wellness -->
+        <li class="menu-item has-dropdown">
+          <a href="#wellness" class="nav-link">
+            Wellness
+            <svg class="chevron-icon" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3">
+              <polyline points="6 9 12 15 18 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            </svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#wellness?category=slow">Slow Living</a></li>
+            <li><a href="#wellness?category=vegan">Plant-Based Living</a></li>
+          </ul>
+        </li>
+
+        <!-- Simple Link: Story -->
+        <li class="menu-item">
+          <a href="#philosophy" class="nav-link">Story</a>
+        </li>
+
+        <!-- Dropdown: Connect -->
+        <li class="menu-item has-dropdown">
+          <a href="#connect" class="nav-link">
+            Connect
+            <svg class="chevron-icon" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3">
+              <polyline points="6 9 12 15 18 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            </svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#newsletter">Subscribe</a></li>
+            <li><a href="#connect?action=work">Work with Me</a></li>
+            <li><a href="#connect?action=contact">Contact Akhi</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Right Side Actions: Theme switcher & Hamburger -->
+    <div class="header-actions">
+      <!-- Theme Switcher Pill -->
+      <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle between Outside and Inside theme">
+        <span class="indicator-dot"></span>
+        <span class="btn-label outside-label">Outside</span>
+        <span class="btn-label inside-label">Inside</span>
+      </button>
+
+      <!-- Hamburger toggle button (Mobile) -->
+      <button class="hamburger-btn" id="hamburgerToggle" aria-label="Open navigation drawer" aria-expanded="false">
+        <span class="bar bar-top"></span>
+        <span class="bar bar-mid"></span>
+        <span class="bar bar-bot"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer Overlay -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <nav class="mobile-nav" aria-label="Mobile Navigation">
+      <ul class="mobile-menu">
+        <!-- Accordion Item: The Outside -->
+        <li class="mobile-menu-item">
+          <button class="accordion-trigger">
+            The Outside
+            <svg class="chevron-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            </svg>
+          </button>
+          <ul class="accordion-panel">
+            <li><a href="#outside?region=asia" class="drawer-sublink">Asia</a></li>
+            <li><a href="#outside?region=europe" class="drawer-sublink">Europe</a></li>
+            <li><a href="#outside?region=americas" class="drawer-sublink">Americas</a></li>
+            <li><a href="#outside?region=africa" class="drawer-sublink">Africa</a></li>
+            <li><a href="#outside?category=gear" class="drawer-sublink">Travel Gear Guides</a></li>
+          </ul>
+        </li>
+
+        <!-- Accordion Item: The Inside -->
+        <li class="mobile-menu-item">
+          <button class="accordion-trigger">
+            The Inside
+            <svg class="chevron-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            </svg>
+          </button>
+          <ul class="accordion-panel">
+            <li><a href="#inside?category=yoga" class="drawer-sublink">Yoga Practice</a></li>
+            <li><a href="#inside?category=meditation" class="drawer-sublink">Mindfulness & Meditation</a></li>
+            <li><a href="#inside?category=somatic" class="drawer-sublink">Somatic Grounding</a></li>
+            <li><a href="#inside?category=essays" class="drawer-sublink">Reflective Essays</a></li>
+          </ul>
+        </li>
+
+        <!-- Accordion Item: Wellness -->
+        <li class="mobile-menu-item">
+          <button class="accordion-trigger">
+            Wellness
+            <svg class="chevron-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            </svg>
+          </button>
+          <ul class="accordion-panel">
+            <li><a href="#wellness?category=slow" class="drawer-sublink">Slow Living</a></li>
+            <li><a href="#wellness?category=vegan" class="drawer-sublink">Plant-Based Living</a></li>
+          </ul>
+        </li>
+
+        <!-- Simple Link: Story -->
+        <li class="mobile-menu-item">
+          <a href="#philosophy" class="drawer-link">Story</a>
+        </li>
+
+        <!-- Accordion Item: Connect -->
+        <li class="mobile-menu-item">
+          <button class="accordion-trigger">
+            Connect
+            <svg class="chevron-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            </svg>
+          </button>
+          <ul class="accordion-panel">
+            <li><a href="#newsletter" class="drawer-sublink">Subscribe</a></li>
+            <li><a href="#connect?action=work" class="drawer-sublink">Work with Me</a></li>
+            <li><a href="#connect?action=contact" class="drawer-sublink">Contact Akhi</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .global-header {
+    width: 100%;
+    background-color: var(--color-bg);
+    border-bottom: var(--border-thin);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: background-color 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .header-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1.15rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--color-text);
+  }
+
+  .logo-svg {
+    color: var(--color-accent);
+    transition: var(--transition-smooth);
+  }
+
+  .logo-text {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: -0.04em;
+    text-transform: lowercase;
+  }
+
+  /* Desktop Menu Styling inspired by Mostly Amélie */
+  .desktop-nav {
+    display: none;
+  }
+
+  @media (min-width: 1024px) {
+    .desktop-nav {
+      display: block;
+    }
+  }
+
+  .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.75rem;
+  }
+
+  .menu-item {
+    position: relative;
+  }
+
+  .nav-link {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+    padding: 0.5rem 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: var(--color-text);
+    opacity: 0.85;
+    transition: var(--transition-smooth);
+  }
+
+  .chevron-icon {
+    opacity: 0.5;
+    transition: transform 0.3s ease;
+  }
+
+  .menu-item:hover .nav-link {
+    color: var(--color-accent);
+    opacity: 1;
+  }
+
+  .menu-item:hover .chevron-icon {
+    transform: translateY(2px);
+    color: var(--color-accent);
+  }
+
+  /* Dropdown lists */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background-color: var(--color-bg);
+    border: var(--border-thin);
+    box-shadow: 0 10px 30px -10px rgba(18, 20, 17, 0.12);
+    min-width: 200px;
+    padding: 0.75rem 0;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    z-index: 10;
+  }
+
+  .dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--color-accent);
+    transition: background-color 0.6s ease;
+  }
+
+  .menu-item:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(5px);
+  }
+
+  .dropdown-menu a {
+    display: block;
+    padding: 0.5rem 1.5rem;
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--color-text);
+    opacity: 0.85;
+    transition: var(--transition-smooth);
+  }
+
+  .dropdown-menu a:hover {
+    background-color: rgba(18, 20, 17, 0.03);
+    color: var(--color-accent);
+    opacity: 1;
+    padding-left: 1.75rem;
+  }
+
+  .dropdown-menu .divider {
+    height: 1px;
+    background-color: var(--color-border);
+    margin: 0.5rem 0;
+  }
+
+  /* Right Side Header actions */
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  /* Theme Switcher Pill */
+  .theme-toggle-btn {
+    border: var(--border-thin);
+    background-color: transparent;
+    padding: 0.4rem 0.6rem;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 1rem;
+    overflow: hidden;
+    transition: border-color 0.6s ease;
+  }
+
+  .btn-label {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    z-index: 2;
+    transition: var(--transition-smooth);
+    color: var(--color-text);
+    opacity: 0.45;
+  }
+
+  .indicator-dot {
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    width: 50%;
+    background-color: var(--color-accent);
+    border-radius: 18px;
+    z-index: 1;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), background-color 0.6s ease;
+  }
+
+  :global([data-theme="outside"]) .indicator-dot {
+    transform: translateX(-3px);
+  }
+
+  :global([data-theme="outside"]) .outside-label {
+    opacity: 1;
+    color: var(--palette-chalk);
+  }
+
+  :global([data-theme="inside"]) .indicator-dot {
+    transform: translateX(calc(100% - 7px));
+  }
+
+  :global([data-theme="inside"]) .inside-label {
+    opacity: 1;
+    color: var(--palette-chalk);
+  }
+
+  /* Hamburger Toggle Mobile */
+  .hamburger-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    z-index: 110;
+  }
+
+  @media (min-width: 1024px) {
+    .hamburger-btn {
+      display: none;
+    }
+  }
+
+  .bar {
+    width: 24px;
+    height: 2px;
+    background-color: var(--color-text);
+    transition: var(--transition-smooth);
+    transform-origin: center;
+  }
+
+  /* hamburger morph to cross */
+  .hamburger-btn[aria-expanded="true"] .bar-top {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .hamburger-btn[aria-expanded="true"] .bar-mid {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  .hamburger-btn[aria-expanded="true"] .bar-bot {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* Mobile Drawer Overlay */
+  .mobile-drawer {
+    position: fixed;
+    top: 68px; /* height of header */
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 68px);
+    background-color: var(--color-bg);
+    border-top: var(--border-thin);
+    z-index: 90;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+    overflow-y: auto;
+    padding: 2rem 1.5rem;
+  }
+
+  .mobile-drawer[aria-hidden="false"] {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .mobile-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .mobile-menu-item {
+    border-bottom: 1px solid rgba(18, 20, 17, 0.06);
+    padding-bottom: 1rem;
+  }
+
+  .accordion-trigger {
+    background: transparent;
+    border: none;
+    width: 100%;
+    padding: 0;
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-align: left;
+  }
+
+  .accordion-trigger .chevron-icon {
+    transition: transform 0.3s ease;
+  }
+
+  .accordion-trigger.active .chevron-icon {
+    transform: rotate(180deg);
+    color: var(--color-accent);
+  }
+
+  .accordion-panel {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .drawer-sublink {
+    display: block;
+    padding: 0.65rem 0.5rem;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 500;
+    opacity: 0.75;
+    color: var(--color-text);
+  }
+
+  .drawer-sublink:hover {
+    color: var(--color-accent);
+    opacity: 1;
+  }
+
+  .drawer-link {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text);
+    display: block;
+  }
+
+  .drawer-link:hover {
+    color: var(--color-accent);
+  }
+</style>
+
+<script>
+  // Desktop theme trigger
+  const toggleBtn = document.getElementById('themeToggle');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme') || 'outside';
+      const nextTheme = currentTheme === 'outside' ? 'inside' : 'outside';
+      
+      window.dispatchEvent(new CustomEvent('theme-changed', {
+        detail: { theme: nextTheme }
+      }));
+    });
+  }
+
+  // Hamburger menu toggle script
+  const hamburger = document.getElementById('hamburgerToggle');
+  const drawer = document.getElementById('mobileDrawer');
+
+  if (hamburger && drawer) {
+    hamburger.addEventListener('click', () => {
+      const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.setAttribute('aria-expanded', String(!isExpanded));
+      drawer.setAttribute('aria-hidden', String(isExpanded));
+      
+      // Prevent scrolling body when drawer is open
+      if (!isExpanded) {
+        document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Close mobile drawer when click a link
+    drawer.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      if (target.tagName === 'A') {
+        hamburger.setAttribute('aria-expanded', 'false');
+        drawer.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      }
+    });
+  }
+
+  // Mobile Accordion toggles
+  const triggers = document.querySelectorAll('.accordion-trigger');
+  triggers.forEach(trigger => {
+    trigger.addEventListener('click', () => {
+      trigger.classList.toggle('active');
+      const panel = trigger.nextElementSibling as HTMLElement;
+      if (panel) {
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = '';
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      }
+    });
+  });
+</script>

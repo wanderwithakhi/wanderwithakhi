@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SplitHero from '../components/SplitHero.astro';
+import Philosophy from '../components/Philosophy.astro';
+import ArticleGrid from '../components/ArticleGrid.astro';
+import Newsletter from '../components/Newsletter.astro';
+---
+
+<BaseLayout>
+  <!-- Global Header Navigation -->
+  <Header />
+
+  <main>
+    <!-- Dynamic Split-Screen Landing Page Hero -->
+    <SplitHero />
+
+    <!-- Centered Editorial Brand Philosophy Block -->
+    <Philosophy />
+
+    <!-- Asymmetric masonry feeds for Travel & Mindfulness -->
+    <ArticleGrid />
+
+    <!-- Sage Green email newsletter subscription block -->
+    <Newsletter />
+  </main>
+</BaseLayout>

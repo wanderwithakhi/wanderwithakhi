@@ -1,0 +1,105 @@
+@import "./variables.css";
+
+/* Base Resets & Grounding styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.8s cubic-bezier(0.25, 1, 0.5, 1),
+              color 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+  overflow-x: hidden;
+}
+
+/* Headings & Editorial Structure */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  margin-top: 0;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+p {
+  line-height: 1.75;
+  font-size: 1.08rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+/* Post Content & Inline link underlines inspired by Mostly Amélie */
+.essay-content a, .post-content a, .card-desc a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.essay-content a:hover, .post-content a:hover, .card-desc a:hover {
+  text-decoration-thickness: 2px;
+  color: var(--color-text);
+}
+
+/* Custom interactive selections */
+::selection {
+  background-color: var(--color-accent);
+  color: var(--palette-chalk);
+}
+
+/* Film Grain Texture overlay */
+.grain-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+/* Base layout containers */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Modern grid helper */
+.grid-editorial {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  border-top: var(--border-thin);
+}
+
+@media (min-width: 768px) {
+  .grid-editorial {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-editorial {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

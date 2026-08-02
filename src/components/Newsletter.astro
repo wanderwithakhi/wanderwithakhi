@@ -1,0 +1,147 @@
+---
+---
+
+<section class="newsletter-section" id="newsletter">
+  <div class="container newsletter-container">
+    <div class="newsletter-box">
+      <div class="newsletter-text">
+        <span class="newsletter-badge">Stay Connected</span>
+        <h3 class="newsletter-title">Get the Weekly Wander</h3>
+        <p class="newsletter-desc">
+          Every Sunday, I send a short dispatch containing one travel coordinate, one mindfulness practice, and a list of things keeping me grounded. Join our circle of seekers.
+        </p>
+      </div>
+
+      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing to the Weekly Wander!');">
+        <div class="input-wrapper">
+          <input 
+            type="email" 
+            placeholder="Your email address" 
+            required 
+            class="newsletter-input" 
+            aria-label="Email Address"
+          />
+          <button type="submit" class="newsletter-submit-btn" aria-label="Subscribe">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12" stroke-linecap="round"></line>
+              <polyline points="12 5 19 12 12 19" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<style>
+  .newsletter-section {
+    padding: 6rem 1.5rem;
+    background-color: var(--color-bg);
+    transition: background-color 0.8s ease;
+  }
+
+  .newsletter-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .newsletter-box {
+    border: var(--border-thin);
+    background-color: var(--palette-sage);
+    color: var(--palette-chalk);
+    padding: 3.5rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  @media (min-width: 768px) {
+    .newsletter-box {
+      grid-template-columns: 1.2fr 1fr;
+      padding: 4.5rem 3.5rem;
+    }
+  }
+
+  /* SVG texture background detail */
+  .newsletter-box::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54 48c-2 0-3 1-4 2v4c0 1-1 2-2 2H4c-1 0-2-1-2-2v-4c0-1-1-2-2-2m54-36c-2 0-3 1-4 2v4c0 1-1 2-2 2H4c-1 0-2-1-2-2V8c0-1-1-2-2-2' fill='none' stroke='%23fff' stroke-width='1.5'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .newsletter-badge {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+  }
+
+  .newsletter-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    color: var(--palette-chalk);
+  }
+
+  .newsletter-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    opacity: 0.85;
+    margin: 0;
+  }
+
+  /* Form & Input elements */
+  .newsletter-form {
+    width: 100%;
+  }
+
+  .input-wrapper {
+    display: flex;
+    border-bottom: 2px solid var(--palette-chalk);
+    padding-bottom: 0.5rem;
+    position: relative;
+  }
+
+  .newsletter-input {
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--palette-chalk);
+    font-family: var(--font-sans);
+    font-size: 1.05rem;
+    padding: 0.5rem 0;
+  }
+
+  .newsletter-input::placeholder {
+    color: var(--palette-chalk);
+    opacity: 0.5;
+  }
+
+  .newsletter-submit-btn {
+    background: transparent;
+    border: none;
+    color: var(--palette-chalk);
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition-smooth);
+  }
+
+  .newsletter-submit-btn:hover {
+    transform: translateX(4px);
+    color: var(--palette-ochre);
+  }
+</style>

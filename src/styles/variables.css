@@ -1,0 +1,50 @@
+/* CSS Design Tokens for wanderwithakhi */
+
+:root {
+  /* Palette definitions */
+  --palette-chalk: #FDFBF7;
+  --palette-obsidian: #121411;
+  --palette-rust: #C87A53;
+  --palette-sage: #556B2F;
+  --palette-ochre: #D4A373;
+
+  /* Typography families */
+  --font-display: 'Montserrat', sans-serif;
+  --font-hero: 'Syne', sans-serif;
+  --font-editorial: 'Newsreader', serif;
+  --font-sans: 'Montserrat', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+
+  /* Spacing system (Tactile 1px structures) */
+  --border-thin: 1px solid rgba(18, 20, 17, 0.15);
+  --border-thin-light: 1px solid rgba(253, 251, 247, 0.15);
+  --transition-smooth: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Default Theme (Warm Chalk Light Mode) */
+:root {
+  --color-bg: var(--palette-chalk);
+  --color-text: var(--palette-obsidian);
+  --color-accent: var(--palette-rust); /* Default focus is Outside */
+  --color-accent-secondary: var(--palette-sage);
+  --color-border: rgba(18, 20, 17, 0.15);
+}
+
+/* Theme states */
+[data-theme="outside"] {
+  --color-accent: var(--palette-rust);
+  --color-accent-secondary: var(--palette-sage);
+}
+
+[data-theme="inside"] {
+  --color-accent: var(--palette-sage);
+  --color-accent-secondary: var(--palette-rust);
+}
+
+/* Dark Mode Theme */
+[data-theme="dark"] {
+  --color-bg: var(--palette-obsidian);
+  --color-text: var(--palette-chalk);
+  --color-accent: var(--palette-rust);
+  --color-border: rgba(253, 251, 247, 0.15);
+}

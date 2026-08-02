@@ -1,0 +1,68 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  theme?: 'outside' | 'inside' | 'default';
+}
+
+const { 
+  title = "wanderwithakhi | Wander Outside & Inside", 
+  description = "A personal space detailing slow travel coordinates and mindfulness reflections by Akhi.",
+  theme = "outside" 
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme={theme}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    
+    <!-- SEO tags -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    
+    <!-- Google Fonts Preconnect and Load -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600&family=Syne:wght@700;800&display=swap" 
+      rel="stylesheet" 
+    />
+    
+    <!-- Theme Initializer (Avoids FOUC - Flash of Unstyled Content) -->
+    <script is:inline>
+      const getTheme = () => {
+        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+          return localStorage.getItem('theme');
+        }
+        return 'outside';
+      };
+      document.documentElement.setAttribute('data-theme', getTheme());
+    </script>
+  </head>
+  <body>
+    <!-- Tactile Film Grain Overlay -->
+    <div class="grain-overlay" aria-hidden="true"></div>
+    
+    <!-- Main content slot -->
+    <slot />
+
+    <!-- Core Theme Toggle & Navigation Scripts -->
+    <script>
+      // Listen for local changes to the theme state
+      window.addEventListener('theme-changed', (e: any) => {
+        const newTheme = e.detail.theme;
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+      });
+    </script>
+  </body>
+</html>
