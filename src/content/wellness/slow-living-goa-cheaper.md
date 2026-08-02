@@ -4,9 +4,12 @@ description: "Exploring the financial and ecological benefits of slow living and
 publishDate: 2026-08-01
 category: "Slow Living"
 duration: "12 min read"
+coverImage: "/images/goa.jpg"
 ---
 
 Goa is India's premier holiday destination. For decades, the standard way to visit Goa has been the "weekend getaway"—a high-velocity 3-day trip packed with flight bookings, taxi hires, expensive beachfront meals, and nightlife events. While this fast-paced holiday provides a quick distraction, it often leaves travelers feeling financially drained and physically tired. 
+
+![Aesthetic travel photography of a silent empty golden beach in South Goa with coco palms](/images/goa.jpg)
 
 Furthermore, this high-turnover tourism places a significant ecological strain on Goa's water resources, local infrastructure, and waste management systems.
 

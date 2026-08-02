@@ -4,9 +4,12 @@ description: "How to stay aligned on the road using ancient wellness habits for 
 publishDate: 2026-05-24
 category: "Slow Living"
 duration: "11 min read"
+coverImage: "/images/ayurveda.jpg"
 ---
 
 Ayur-veda, which translates from Sanskrit as "the science of life," is India's ancient holistic healing system. It teaches us that health is a state of dynamic balance between three biological energies, or *doshas*: *Vata* (air and ether), *Pitta* (fire and water), and *Kapha* (earth and water).
+
+![Organic flatlay of traditional Ayurvedic massage oils in a ceramic bowl surrounded by dry herbs and wood textures](/images/ayurveda.jpg)
 
 When we travel, we are subjected to high speeds (in planes, trains, and cars), variable schedules, changing climates, and irregular meals. In Ayurveda, these factors—characterized by movement, dryness, coldness, and instability—increase the wind element inside us, triggering a *Vata* imbalance. This imbalance manifests physically as dry skin, dehydration, bloating, constipation, and insomnia, and mentally as anxiety, spacing out, and restiveness.
 

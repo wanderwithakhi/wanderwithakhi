@@ -4,9 +4,12 @@ description: "How to break free from hustle culture, cultivate mindfulness, and 
 publishDate: 2026-08-01
 category: "Slow Living"
 duration: "11 min read"
+coverImage: "/images/slow-living.jpg"
 ---
 
 In our modern, hyper-connected world, speed is often equated with success. We are encouraged to work faster, communicate instantly, and fill every spare minute of our day with productivity or digital consumption. This constant acceleration has a cost: it leaves our minds fractured, our bodies exhausted, and our spirits disconnected from the actual present moment.
+
+![Cozy aesthetic travel photography of a warm cup of herbal tea resting on a wooden sill in front of a green forest view](/images/slow-living.jpg)
 
 Slow living is not about doing everything at a snail's pace; it is about doing everything at the right pace. It is a conscious choice to step off the fast track, prioritize quality over speed, and value presence over productivity. It is a lifestyle philosophy that calls for an intentional decelerating of our days so we can connect deeply with ourselves, our environments, and our communities.
 

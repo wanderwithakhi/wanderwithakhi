@@ -4,9 +4,12 @@ description: "An in-depth somatic guide to nervous system regulation, body aware
 publishDate: 2026-08-01
 category: "Somatic Practices"
 duration: "12 min read"
+coverImage: "/images/somatic-travel.jpg"
 ---
 
 When we travel, we usually focus on the logistics: booking flights, choosing hotels, and planning itineraries. But we rarely consider the impact of travel on our body's nervous system. The speed of airplanes, the noise of transit stations, and the change of time zones are interpreted by our primitive brain as environmental instability. This triggers a subtle, persistent release of cortisol and adrenaline, keeping us in a state of survival-oriented alertness.
+
+![Traveler sitting by a train window observing scenic green hills and misty mountains in calm presence](/images/somatic-travel.jpg)
 
 **Somatic travel** is a new approach to travel that shifts the focus from external collection to internal awareness. It is a mindful practice of using your physical body as your primary anchor, monitoring your physiological state, and utilizing travel environments to regulate your nervous system. Rather than returning home from a vacation feeling exhausted, a **nervous system reset trip** allows you to restore balance to your autonomic nervous system, returning home truly replenished.
 

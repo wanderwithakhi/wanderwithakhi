@@ -4,9 +4,12 @@ description: "How to use your body as a safe anchor when navigating unfamiliar l
 publishDate: 2026-07-28
 category: "Yoga"
 duration: "11 min read"
+coverImage: "/images/somatic-resourcing.jpg"
 ---
 
 Travel is one of the most effective ways to break free from routine, discover new cultures, and invite personal growth. However, constant transitions, transit delays, crowded spaces, and language barriers can also place a significant burden on our nervous systems. When we find ourselves in unfamiliar lands, our brains automatically enter a state of heightened alertness. This fight-or-flight response can manifest as travel anxiety, digestion issues, and mental fatigue.
+
+![A close-up aesthetic travel photo of a person meditating with warm light, their hands resting on their chest for somatic resourcing](/images/somatic-resourcing.jpg)
 
 Somatic resourcing is a body-centered therapeutic practice designed to help you find safety, grounding, and ease within your physical self, no matter how chaotic your outer environment is. It is the art of turning your attention inward to locate states of calm that already exist inside your tissues.
 
