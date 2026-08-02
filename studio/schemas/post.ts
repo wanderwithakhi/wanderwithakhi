@@ -57,6 +57,14 @@ export default defineType({
       hidden: ({ document }) => document?.section !== 'travel',
     }),
     defineField({
+      name: 'country',
+      title: 'Country (Only for Travel)',
+      type: 'reference',
+      to: [{ type: 'country' }],
+      description: 'Link this article to a specific country landing page.',
+      hidden: ({ document }) => document?.section !== 'travel',
+    }),
+    defineField({
       name: 'publishDate',
       title: 'Publish Date',
       type: 'date',

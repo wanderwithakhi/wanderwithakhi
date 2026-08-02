@@ -1,0 +1,337 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+import { sanityClient, urlFor } from '../../utils/sanity';
+
+// Generate static paths for countries
+export async function getStaticPaths() {
+  let paths = [];
+  try {
+    const query = `*[_type == "country"] {
+      "slug": slug.current,
+      _id
+    }`;
+    const sanityCountries = await sanityClient.fetch(query);
+    if (sanityCountries && sanityCountries.length > 0) {
+      paths = sanityCountries.map(c => ({
+        params: { country: c.slug },
+        props: { countryId: c._id, isSanity: true }
+      }));
+    }
+  } catch (e) {
+    console.error('[Sanity] failed to generate country paths, using fallbacks:', e);
+  }
+
+  // Fallback static paths for main default countries
+  const defaultPaths = [
+    { params: { country: 'india' }, props: { countryId: 'fallback-india', isSanity: false } },
+    { params: { country: 'japan' }, props: { countryId: 'fallback-japan', isSanity: false } },
+    { params: { country: 'germany' }, props: { countryId: 'fallback-germany', isSanity: false } },
+    { params: { country: 'italy' }, props: { countryId: 'fallback-italy', isSanity: false } }
+  ];
+
+  // Merge static paths to avoid duplicates
+  const pathMap = new Map();
+  defaultPaths.forEach(p => pathMap.set(p.params.country, p));
+  paths.forEach(p => pathMap.set(p.params.country, p));
+
+  return Array.from(pathMap.values());
+}
+
+const { country } = Astro.params;
+const { countryId, isSanity } = Astro.props;
+
+// 1. Fetch Country details (Intro & cover image) from Sanity or fallbacks
+let countryName = country.charAt(0).toUpperCase() + country.slice(1);
+let countryDesc = "";
+let countryCover = "/images/slow-living.jpg";
+
+if (isSanity) {
+  try {
+    const countryData = await sanityClient.fetch(
+      `*[_type == "country" && _id == $countryId][0]`,
+      { countryId }
+    );
+    if (countryData) {
+      countryName = countryData.name;
+      countryDesc = countryData.description;
+      if (countryData.coverImage) {
+        countryCover = urlFor(countryData.coverImage).url();
+      }
+    }
+  } catch (e) {
+    console.error('[Sanity] error loading country info:', e);
+  }
+}
+
+// Fallback descriptions if Sanity data is empty
+if (!countryDesc) {
+  const fallbacks = {
+    india: {
+      name: "India",
+      desc: "A land of ancient wisdom, sacred rivers, coconut groves, and somatic shalas.",
+      cover: "/images/mysore.jpg"
+    },
+    japan: {
+      name: "Japan",
+      desc: "Decelerated temple gardens, seasonal moss valleys, and quiet mountain railways.",
+      cover: "/images/slow-living.jpg"
+    },
+    germany: {
+      name: "Germany",
+      desc: "Forest paths, creative expat life, and minimalist urban communities.",
+      cover: "/images/slow-living.jpg"
+    },
+    italy: {
+      name: "Italy",
+      desc: "High mountain peaks, dramatic alpine hiking loops, and cozy stone huts.",
+      cover: "/images/slow-living.jpg"
+    }
+  };
+  const match = fallbacks[country.toLowerCase()];
+  if (match) {
+    countryName = match.name;
+    countryDesc = match.desc;
+    countryCover = match.cover;
+  }
+}
+
+// 2. Fetch all posts related to this country
+let posts = [];
+
+// Try fetching from Sanity first
+try {
+  const query = `*[_type == "post" && (country._ref == $countryId || location match $countryName)] | order(publishDate desc) {
+    title,
+    "slug": slug.current,
+    description,
+    category,
+    location,
+    duration,
+    publishDate,
+    coverImage
+  }`;
+  const sanityPosts = await sanityClient.fetch(query, { 
+    countryId, 
+    countryName: `*${countryName}*` 
+  });
+  if (sanityPosts && sanityPosts.length > 0) {
+    posts = sanityPosts.map(p => {
+      const coverUrl = p.coverImage ? urlFor(p.coverImage).url() : undefined;
+      return {
+        id: p.slug,
+        type: 'travel',
+        data: {
+          title: p.title,
+          description: p.description,
+          category: p.category,
+          location: p.location,
+          duration: p.duration,
+          publishDate: new Date(p.publishDate),
+          coverImage: coverUrl
+        }
+      };
+    });
+  }
+} catch (e) {
+  console.error('[Sanity] error loading posts for country:', e);
+}
+
+// Combine / Fallback with local Markdown files
+const travelPosts = await getCollection('travel');
+const localMatches = travelPosts.filter(p => 
+  p.data.location.toLowerCase().includes(countryName.toLowerCase()) || 
+  p.data.location.toLowerCase().includes(country.toLowerCase())
+);
+
+const mappedLocal = localMatches.map(p => ({
+  id: p.id,
+  type: 'travel',
+  data: p.data
+}));
+
+// Merge posts avoiding duplicates by slug
+const postMap = new Map();
+mappedLocal.forEach(p => postMap.set(p.id, p));
+posts.forEach(p => postMap.set(p.id, p));
+
+const finalPosts = Array.from(postMap.values()).sort(
+  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
+);
+---
+
+<BaseLayout title={`${countryName} Travel Guides | wanderwithakhi`} description={countryDesc}>
+  <Header />
+
+  <main class="country-portal">
+    {/* Country Hero Header Banner */}
+    <header class="country-hero" style={`background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(${countryCover});`}>
+      <div class="container hero-container">
+        <span class="directory-breadcrumb"><a href="/destinations">Destinations</a> / {countryName}</span>
+        <h1 class="country-title">{countryName}</h1>
+        <p class="country-intro">{countryDesc}</p>
+      </div>
+    </header>
+
+    {/* Country Blog Grid */}
+    <section class="country-articles">
+      <div class="container articles-container">
+        <h2 class="articles-grid-title">All Guides & Diaries</h2>
+        
+        {finalPosts.length > 0 ? (
+          <div class="grid-editorial">
+            {finalPosts.map(post => (
+              <ArticleCard
+                title={post.data.title}
+                description={post.data.description}
+                publishDate={post.data.publishDate}
+                category={post.data.category}
+                location={post.data.location}
+                duration={post.data.duration}
+                slug={post.id}
+                type="travel"
+              />
+            ))}
+          </div>
+        ) : (
+          <div class="no-posts-found">
+            <p>We are currently mapping coordinates for {countryName}. Check back soon for slow guides and diaries.</p>
+            <a href="/destinations" class="back-destinations-btn">Back to Destinations</a>
+          </div>
+        )}
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  /* Hero Banner */
+  .country-hero {
+    height: 460px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0 1.5rem;
+  }
+
+  .hero-container {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+  }
+
+  .directory-breadcrumb {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    opacity: 0.8;
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+
+  .directory-breadcrumb a {
+    color: #fff;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+  }
+
+  .directory-breadcrumb a:hover {
+    color: var(--palette-rust);
+  }
+
+  .country-title {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  @media (min-width: 768px) {
+    .country-title {
+      font-size: 5rem;
+    }
+  }
+
+  .country-intro {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 1.35rem;
+    line-height: 1.6;
+    opacity: 0.95;
+    max-width: 720px;
+    margin: 0;
+  }
+
+  /* Articles Section */
+  .country-articles {
+    background-color: var(--color-bg);
+    padding: 6rem 1.5rem;
+  }
+
+  .articles-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .articles-grid-title {
+    font-size: 1.75rem;
+    font-family: var(--font-sans);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 3.5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    padding-bottom: 0.75rem;
+  }
+
+  /* Fallback Box */
+  .no-posts-found {
+    text-align: center;
+    padding: 6rem 2rem;
+    border: var(--border-thin);
+    background-color: var(--palette-chalk);
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .no-posts-found p {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+  }
+
+  .back-destinations-btn {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 0.75rem 2rem;
+    border: var(--border-thin);
+    border-radius: 4px;
+    color: var(--color-text);
+    text-decoration: none;
+    transition: var(--transition-smooth);
+    background-color: transparent;
+    display: inline-block;
+  }
+
+  .back-destinations-btn:hover {
+    border-color: var(--palette-rust);
+    color: var(--palette-rust);
+    background-color: rgba(200, 122, 83, 0.03);
+  }
+</style>

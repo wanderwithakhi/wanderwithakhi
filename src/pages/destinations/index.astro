@@ -1,0 +1,352 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import { sanityClient, urlFor } from '../../utils/sanity';
+
+// Dynamic fetch of countries from Sanity
+let countries = [];
+try {
+  const query = `*[_type == "country"] {
+    name,
+    "slug": slug.current,
+    continent,
+    coverImage,
+    description
+  }`;
+  const sanityCountries = await sanityClient.fetch(query);
+  if (sanityCountries && sanityCountries.length > 0) {
+    countries = sanityCountries.map(c => ({
+      name: c.name,
+      slug: c.slug,
+      continent: c.continent,
+      coverImage: c.coverImage ? urlFor(c.coverImage).url() : undefined,
+      description: c.description
+    }));
+  }
+} catch (e) {
+  console.error('[Sanity] failed to fetch countries:', e);
+}
+
+// Fallback list of default countries based on existing essays
+if (countries.length === 0) {
+  countries = [
+    {
+      name: "India",
+      slug: "india",
+      continent: "asia",
+      coverImage: "/images/mysore.jpg",
+      description: "A land of ancient wisdom, sacred rivers, coconut groves, and somatic shalas."
+    },
+    {
+      name: "Japan",
+      slug: "japan",
+      continent: "asia",
+      coverImage: "/images/slow-living.jpg",
+      description: "Decelerated temple gardens, seasonal moss valleys, and quiet mountain railways."
+    },
+    {
+      name: "Germany",
+      slug: "germany",
+      continent: "europe",
+      coverImage: "/images/slow-living.jpg",
+      description: "Forest paths, creative expat life, and minimalist urban communities."
+    },
+    {
+      name: "Italy",
+      slug: "italy",
+      continent: "europe",
+      coverImage: "/images/slow-living.jpg",
+      description: "High mountain peaks, dramatic alpine hiking loops, and cozy stone huts."
+    }
+  ];
+}
+
+// Group countries by continent
+const continents = {
+  asia: countries.filter(c => c.continent === 'asia'),
+  europe: countries.filter(c => c.continent === 'europe'),
+  americas: countries.filter(c => c.continent === 'americas'),
+  africa: countries.filter(c => c.continent === 'africa')
+};
+---
+
+<BaseLayout title="Destinations Directory | wanderwithakhi" description="Explore slow travel guides, coordinates, and cultural diaries organized by continent and country.">
+  <Header />
+
+  <main class="destinations-portal">
+    <div class="container portal-container">
+      <header class="portal-header">
+        <h1 class="portal-title">Travel Destinations</h1>
+        <p class="portal-subtitle">Explore slow travel guides, cultural diaries, and nature getaways organized by continent.</p>
+      </header>
+
+      {/* Asia Section */}
+      {continents.asia.length > 0 && (
+        <section class="continent-group">
+          <h2 class="continent-title">Asia</h2>
+          <div class="countries-grid">
+            {continents.asia.map(country => (
+              <a href={`/destinations/${country.slug}`} class="country-card">
+                <div class="card-image-wrapper">
+                  {country.coverImage ? (
+                    <img src={country.coverImage} alt={`${country.name} travel guides`} class="card-image" />
+                  ) : (
+                    <div class="card-image-fallback">No Cover Image</div>
+                  )}
+                  <div class="card-overlay">
+                    <span class="country-pill">{country.name}</span>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h3 class="country-name">{country.name}</h3>
+                  <p class="country-desc">{country.description}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Europe Section */}
+      {continents.europe.length > 0 && (
+        <section class="continent-group">
+          <h2 class="continent-title">Europe</h2>
+          <div class="countries-grid">
+            {continents.europe.map(country => (
+              <a href={`/destinations/${country.slug}`} class="country-card">
+                <div class="card-image-wrapper">
+                  {country.coverImage ? (
+                    <img src={country.coverImage} alt={`${country.name} travel guides`} class="card-image" />
+                  ) : (
+                    <div class="card-image-fallback">No Cover Image</div>
+                  )}
+                  <div class="card-overlay">
+                    <span class="country-pill">{country.name}</span>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h3 class="country-name">{country.name}</h3>
+                  <p class="country-desc">{country.description}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Americas Section */}
+      {continents.americas.length > 0 && (
+        <section class="continent-group">
+          <h2 class="continent-title">Americas</h2>
+          <div class="countries-grid">
+            {continents.americas.map(country => (
+              <a href={`/destinations/${country.slug}`} class="country-card">
+                <div class="card-image-wrapper">
+                  {country.coverImage ? (
+                    <img src={country.coverImage} alt={`${country.name} travel guides`} class="card-image" />
+                  ) : (
+                    <div class="card-image-fallback">No Cover Image</div>
+                  )}
+                  <div class="card-overlay">
+                    <span class="country-pill">{country.name}</span>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h3 class="country-name">{country.name}</h3>
+                  <p class="country-desc">{country.description}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Africa Section */}
+      {continents.africa.length > 0 && (
+        <section class="continent-group">
+          <h2 class="continent-title">Africa</h2>
+          <div class="countries-grid">
+            {continents.africa.map(country => (
+              <a href={`/destinations/${country.slug}`} class="country-card">
+                <div class="card-image-wrapper">
+                  {country.coverImage ? (
+                    <img src={country.coverImage} alt={`${country.name} travel guides`} class="card-image" />
+                  ) : (
+                    <div class="card-image-fallback">No Cover Image</div>
+                  )}
+                  <div class="card-overlay">
+                    <span class="country-pill">{country.name}</span>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h3 class="country-name">{country.name}</h3>
+                  <p class="country-desc">{country.description}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .destinations-portal {
+    background-color: var(--color-bg);
+    min-height: 100vh;
+    padding: 6rem 1.5rem;
+  }
+
+  .portal-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .portal-header {
+    margin-bottom: 5rem;
+    text-align: left;
+    border-bottom: var(--border-thin);
+    padding-bottom: 2.5rem;
+  }
+
+  .portal-title {
+    font-size: 3rem;
+    color: var(--palette-rust);
+    margin-bottom: 0.75rem;
+  }
+
+  .portal-subtitle {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 1.35rem;
+    opacity: 0.7;
+    max-width: 600px;
+    margin: 0;
+  }
+
+  /* Continent Sections */
+  .continent-group {
+    margin-bottom: 6rem;
+  }
+
+  .continent-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: var(--font-sans);
+    color: var(--color-text);
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    padding-bottom: 0.75rem;
+  }
+
+  /* Country Cards Grid */
+  .countries-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .countries-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .countries-grid {
+      grid-template-columns: repeat(2, 1fr); /* Maintaining large beautiful 2-column block grid style */
+    }
+  }
+
+  /* Country Card Layout */
+  .country-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--color-text);
+    group-hover: scale(1.02);
+    background-color: var(--palette-chalk);
+    border: var(--border-thin);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: var(--transition-smooth);
+  }
+
+  .country-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.04);
+    border-color: var(--palette-rust);
+  }
+
+  .card-image-wrapper {
+    position: relative;
+    height: 320px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .country-card:hover .card-image {
+    transform: scale(1.05);
+  }
+
+  .card-image-fallback {
+    width: 100%;
+    height: 100%;
+    background-color: #eae7df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    opacity: 0.5;
+  }
+
+  /* Card Image Hover Overlay */
+  .card-overlay {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .country-pill {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #fff;
+    background-color: var(--palette-rust);
+    padding: 0.45rem 1rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  /* Card Info */
+  .card-info {
+    padding: 2.25rem;
+  }
+
+  .country-name {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-text);
+  }
+
+  .country-desc {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    opacity: 0.7;
+    margin: 0;
+  }
+</style>
