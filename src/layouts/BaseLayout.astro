@@ -5,13 +5,17 @@ interface Props {
   title?: string;
   description?: string;
   theme?: 'outside' | 'inside' | 'default';
+  image?: string;
 }
 
 const { 
   title = "wanderwithakhi | Wander Outside & Inside", 
   description = "A personal space detailing slow travel coordinates and mindfulness reflections by Akhi.",
-  theme = "outside" 
+  theme = "outside",
+  image = "/images/slow-living.jpg"
 } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://wanderwithakhi.com");
 ---
 
 <!DOCTYPE html>
@@ -22,12 +26,27 @@ const {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     
+    <!-- Google Discover Requirements -->
+    <meta name="robots" content="max-image-preview:large, index, follow" />
+    
     <!-- SEO tags -->
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
+    <meta property="og:image" content={new URL(image, canonicalURL.origin)} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={new URL(image, canonicalURL.origin)} />
     
     <!-- Google Fonts Preconnect and Load -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
