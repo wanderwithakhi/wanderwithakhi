@@ -11,6 +11,8 @@ Nestled in the foothills of the Himalayas where the emerald-green Ganges River l
 
 This guide details the quiet spaces of Rishikesh, outlining how to navigate its ashrams, mountain trails, and riverbank meditation spots while cultivating presence.
 
+![Cinematic travel photography of the clean green Ganges River flowing through rocks in Rishikesh India with Himalayan mountains in the fog](/images/rishikesh.jpg)
+
 ---
 
 ## At A Glance: Seeker's Guide to Rishikesh

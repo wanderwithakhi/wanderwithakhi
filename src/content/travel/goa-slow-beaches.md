@@ -11,6 +11,8 @@ Goa is often associated with neon parties, crowded tourist strips, and loud musi
 
 This guide details the quiet geographies of South Goa, showcasing how to find solitude, experience traditional Goan culture, and integrate grounding habits during your stay.
 
+![Mindful travel photo of an empty golden sand beach in South Goa lined with tall coconut palm trees at sunset](/images/goa.jpg)
+
 ---
 
 ## At A Glance: Slow Travel Guide to South Goa

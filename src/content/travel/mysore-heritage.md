@@ -11,6 +11,8 @@ Mysore (officially Mysuru) is the cultural capital of Karnataka. It is a city th
 
 This guide explores the physical and spiritual layout of Mysore, detailing how to navigate its heritage sites, markets, and spiritual centers while practicing deep somatic grounding along the way.
 
+![Aesthetic photography of Mysore Palace glowing with thousands of light bulbs at dusk under a purple sky](/images/mysore.jpg)
+
 ---
 
 ## Key Cultural Guide & Frequently Asked Questions

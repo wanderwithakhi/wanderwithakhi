@@ -11,6 +11,8 @@ Kerala, located on India's tropical Malabar Coast, is known as \"God's Own Count
 
 This guide explores the quiet backwaters of Kerala, highlighting how to slow down your pace, experience traditional village life, and integrate Ayurvedic grounding habits during your stay.
 
+![Poetic travel shot of a traditional poled wooden canoe floating on a quiet palm-fringed backwater canal in Kerala India](/images/kerala.jpg)
+
 ---
 
 ## At A Glance: Slow Travel Guide to Kerala Backwaters
