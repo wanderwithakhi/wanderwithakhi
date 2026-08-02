@@ -18,12 +18,26 @@ const formattedDate = new Date(publishDate).toLocaleDateString('en-US', {
   month: 'short',
   day: 'numeric',
 });
+
+// Helper to map location to region/continent
+function getRegion(locStr?: string): string {
+  if (!locStr) return '';
+  const loc = locStr.toLowerCase();
+  if (loc.includes('india') || loc.includes('japan') || loc.includes('vietnam')) return 'asia';
+  if (loc.includes('germany') || loc.includes('italy') || loc.includes('scotland') || loc.includes('iceland')) return 'europe';
+  if (loc.includes('chile') || loc.includes('costa rica') || loc.includes('patagonia')) return 'americas';
+  if (loc.includes('sahara') || loc.includes('desert') || loc.includes('africa')) return 'africa';
+  return 'other';
+}
+
+const region = getRegion(location);
 ---
 
 <article 
   class={`article-card card-${type}`}
   data-category={category.toLowerCase().replace(' ', '-').replace('&', 'and')}
   data-location={location ? location.toLowerCase() : ''}
+  data-region={region}
 >
   <div class="card-header">
     <span class="card-tag">{category}</span>

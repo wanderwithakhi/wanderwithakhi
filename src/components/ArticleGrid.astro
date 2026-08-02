@@ -81,6 +81,15 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
       <div class="section-header">
         <h3 class="section-title">The Outside</h3>
         <p class="section-subtitle">Coordinates, Slow Guides, and Earthly Discoveries</p>
+        
+        <!-- Continent Filters -->
+        <div class="region-filter-bar">
+          <a href="#outside" class="region-pill active" data-region="all">All</a>
+          <a href="#outside?region=asia" class="region-pill" data-region="asia">Asia</a>
+          <a href="#outside?region=europe" class="region-pill" data-region="europe">Europe</a>
+          <a href="#outside?region=americas" class="region-pill" data-region="americas">Americas</a>
+          <a href="#outside?region=africa" class="region-pill" data-region="africa">Africa</a>
+        </div>
       </div>
 
       <div class="grid-editorial">
@@ -254,6 +263,38 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
     opacity: 0.7;
     margin: 0;
   }
+
+  /* Region Filters Bar */
+  .region-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.75rem;
+  }
+
+  .region-pill {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 0.45rem 1.15rem;
+    border: var(--border-thin);
+    border-radius: 50px;
+    color: var(--color-text);
+    opacity: 0.6;
+    transition: var(--transition-smooth);
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .region-pill:hover, .region-pill.active {
+    opacity: 1;
+    border-color: var(--palette-rust);
+    color: var(--palette-rust);
+    background-color: rgba(200, 122, 83, 0.03);
+  }
 </style>
 
 <script>
@@ -267,6 +308,24 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
     const insideSec = document.getElementById('inside');
     const wellnessSec = document.getElementById('wellness');
     const cards = document.querySelectorAll('.article-card');
+
+    const regionPills = document.querySelectorAll('.region-pill');
+    let activeRegion = 'all';
+    if (hash && hash.includes('?')) {
+      const parts = hash.split('?');
+      const queryStr = parts[1];
+      if (queryStr.startsWith('region=')) {
+        activeRegion = decodeURIComponent(queryStr.split('=')[1]).toLowerCase();
+      }
+    }
+    regionPills.forEach(pill => {
+      const pillRegion = pill.getAttribute('data-region');
+      if (pillRegion === activeRegion) {
+        pill.classList.add('active');
+      } else {
+        pill.classList.remove('active');
+      }
+    });
 
     if (!hash || !hash.includes('?')) {
       // No filter active, show everything
@@ -305,12 +364,12 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
     cards.forEach(card => {
       const cardEl = card as HTMLElement;
       const category = cardEl.getAttribute('data-category') || '';
-      const location = cardEl.getAttribute('data-location') || '';
+      const region = cardEl.getAttribute('data-region') || '';
 
       let isMatch = false;
 
       if (filterKey === 'region') {
-        isMatch = location.includes(filterVal.toLowerCase());
+        isMatch = region === filterVal.toLowerCase();
       } else if (filterKey === 'category') {
         isMatch = category === filterVal.toLowerCase().replace(' ', '-');
       }
