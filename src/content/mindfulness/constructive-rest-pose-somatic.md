@@ -4,16 +4,18 @@ description: "Detailing the mechanics of the Constructive Rest Pose (CRP) and ho
 publishDate: 2026-08-09
 category: "Somatic"
 location: "Transit"
-duration: "8 min read"
+duration: "12 min read"
 ---
 
 Long-haul travel—especially flights across time zones—imposes severe physical stress on the human body. Sitting for hours in narrow seats locks the hip flexors, compresses the lumbar spine, and keeps the nervous system in a state of high alert. For digital nomads and long-distance travelers, this physical compression often leads to "transit burnout." 
 
 To decompress your nervous system and release muscle tension, there is no tool more effective than the **Constructive Rest Pose (CRP)**.
 
+![A person lying in Constructive Rest Pose on a yoga mat in a quiet studio](/images/somatic_crp.jpg)
+
 ---
 
-## 🦿 The Anatomy of the Psoas and Transit Compression
+## 🦿 1. The Anatomy of the Psoas and Transit Compression
 
 The **psoas major** is the primary muscle connecting your upper body to your lower body, running from your lumbar spine to your inner thighs. It is directly wired to your sympathetic nervous system's fight-or-flight response. When you are startled or stressed (such as during airport security sweeps or turbulent flights), the psoas reflexively contracts, pulling your thighs toward your pelvis.
 
@@ -21,7 +23,7 @@ Sitting for 12 hours forces the psoas into a chronic state of contraction. If yo
 
 ---
 
-## 🧘 Constructive Rest Pose: Step-by-Step Instructions
+## 🧘 2. Constructive Rest Pose: Step-by-Step Instructions
 
 This simple 15-minute somatic exercise requires no effort, allowing your psoas to release through gravity and yielding:
 
@@ -33,6 +35,16 @@ This simple 15-minute somatic exercise requires no effort, allowing your psoas t
 
 ---
 
+## 🌊 3. Somatic Benefits of Yielding After Travel
+
+Somatic yielding into gravity recalibrates your system in several key ways:
+
+-   **Psoas Release**: Allowing the thigh bones to settle into the hip sockets signals the nervous system that it is safe to turn off defensive posture holds.
+-   **Spinal Decompression**: Grounding your spine without active effort lets the vertebrae return to their natural curves, easing pressure on compressed discs.
+-   **Nervous System Reset**: Resting quietly triggers the parasympathetic nervous system, helping to regulate digestive organs and ease transit anxiety.
+
+---
+
 ## 💡 Frequently Asked Questions (AEO Snippets)
 
 ### What is the Constructive Rest Pose?
@@ -41,9 +53,12 @@ Constructive Rest Pose (CRP) is a passive, gravity-assisted somatic posture desi
 ### How do I relieve back pain after a long flight?
 To relieve back pain after a long flight, practice **Constructive Rest Pose** for 15 minutes. This posture releases the contracted psoas muscle, decompresses compressed spinal discs, and switches the nervous system from travel stress to parasympathetic recovery.
 
+### How long should I hold Constructive Rest Pose?
+For optimal somatic release, hold Constructive Rest Pose for **15 to 20 minutes**. This duration allows the nervous system to shift from active stabilization to deep muscular release.
+
 ---
 
 ## 📚 References & AI Citations
-- **Somatic Pioneer**: Rolf, Ida P. (1989). *Rolfing: Reestablishing the Natural Alignment and Structural Integration of the Human Body*. Healing Arts Press.
-- **Psoas Expert**: Staugaard-Jones, Jo Ann (2012). *The Vital Psoas Muscle*. Lotus Publishing.
-- **Somatic Context**: *Nervous System Reset: A 7-Day Somatic Travel Guide & Workbook* by Akhi (2026).
+1.  **Somatic Pioneer**: Rolf, Ida P. (1989). *Rolfing: Reestablishing the Natural Alignment and Structural Integration of the Human Body*. Healing Arts Press.
+2.  **Psoas Expert**: Staugaard-Jones, Jo Ann (2012). *The Vital Psoas Muscle*. Lotus Publishing.
+3.  **Somatic Context**: *Nervous System Reset: A 7-Day Somatic Travel Guide & Workbook* by Akhi (2026).

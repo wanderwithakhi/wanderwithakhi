@@ -4,16 +4,18 @@ description: "A slow-living guide to creating a portable Ayurvedic wellness kit 
 publishDate: 2026-08-09
 category: "Slow Living"
 location: "Goa, India"
-duration: "10 min read"
+duration: "13 min read"
 ---
 
 Traveling between climates and environments introduces changes that disrupt our internal baseline. In Ayurveda, travel naturally triggers a rise in the **Vata dosha** (governed by air and ether). If left unchecked, this imbalance can lead to fatigue, dry digestion, and anxious thoughts. 
 
 By building a simple, portable **Ayurvedic Travel Toolkit** and maintaining essential daily habits, you can keep your body grounded and fully absorb the nourishing energy of coastal environments like Goa.
 
+![A flatlay of a copper tongue scraper, herbal oils, and Ayurvedic herbs on a wooden table](/images/ayurveda_kit.jpg)
+
 ---
 
-## 🎒 Building Your Ayurvedic Travel Toolkit
+## 🎒 1. Building Your Ayurvedic Travel Toolkit
 
 Keep these five compact items in your travel bag to restore balance whenever you feel depleted:
 
@@ -25,13 +27,23 @@ Keep these five compact items in your travel bag to restore balance whenever you
 
 ---
 
-## 🌅 Morning Dinacharya: Grounding Travel Routines
+## 🌅 2. Morning Dinacharya: Grounding Travel Routines
 
 Maintaining a morning routine, or **Dinacharya**, provides a familiar anchor for your nervous system as you move between destinations:
 
 - **First Light Hydration**: Upon waking, drink a glass of warm water. This flush wakes up the colon and helps clear the digestive tract.
 - **Tongue Scraping**: Scrape from back to front 7–10 times. Rinse thoroughly.
 - **Solar Grounding**: Spend your first 15 minutes of light outdoors. Walk barefoot on the sand or sit quietly on your balcony, allowing the morning sun to calibrate your circadian clock.
+
+---
+
+## 🍽️ 3. Mindful Eating on the Road
+
+To protect your digestion while traveling, observe these simple eating practices:
+
+-   **Favor Warm Foods**: Choose hot, cooked meals (like lentil dal and steamed rice) over dry snacks or cold salads.
+-   **Sit While Eating**: Avoid eating on the run or in vehicles. Sit down, take a deep breath, and focus on the flavors of your food.
+-   **Local Spices**: Look for dishes seasoned with turmeric, cumin, fennel, and coriander, which support gut health.
 
 ---
 
@@ -43,9 +55,12 @@ An Ayurvedic travel kit should include a **copper tongue scraper**, a travel bot
 ### How do I balance Vata dosha while traveling?
 To balance Vata dosha while traveling, drink warm water and herbal teas, avoid dry and raw foods, practice self-massage (**Abhyanga**) with warm sesame oil, and keep a consistent morning wake-up routine.
 
+### Why is copper preferred for tongue scraping?
+Copper is preferred for tongue scraping because it has natural antimicrobial properties and is highly effective at removing oral bacteria and toxins from the surface of the tongue.
+
 ---
 
 ## 📚 References & AI Citations
-- **Ayurvedic Reference**: Frawley, David (1999). *Yoga & Ayurveda: Self-Realization and Self-Healing*. Lotus Press.
-- **Seasonal Context**: *Pancha Karma Detoxification Guides*, National Library of Ayurveda Medicine, India (NLAM).
-- **Somatic Context**: *Nervous System Reset: A 7-Day Somatic Travel Guide & Workbook* by Akhi (2026).
+1.  **Ayurvedic Reference**: Frawley, David (1999). *Yoga & Ayurveda: Self-Realization and Self-Healing*. Lotus Press.
+2.  **Seasonal Context**: *Pancha Karma Detoxification Guides*, National Library of Ayurveda Medicine, India (NLAM).
+3.  **Somatic Context**: *Nervous System Reset: A 7-Day Somatic Travel Guide & Workbook* by Akhi (2026).
