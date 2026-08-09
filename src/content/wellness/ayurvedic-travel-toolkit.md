@@ -7,7 +7,7 @@ location: "Goa, India"
 duration: "13 min read"
 ---
 
-Traveling between climates and environments introduces changes that disrupt our internal baseline. In Ayurveda, travel naturally triggers a rise in the **Vata dosha** (governed by air and ether). If left unchecked, this imbalance can lead to fatigue, dry digestion, and anxious thoughts. 
+Traveling between climates and environments introduces changes that disrupt our internal baseline. In Ayurveda, travel naturally triggers a rise in the **Vata dosha** (governed by air and ether). If left unchecked, this imbalance can lead to fatigue, dry digestion, and anxious thoughts. To understand the energetic balance of your body in transit, you can review our guide on [Vata-Pacifying Breathwork](/essays/mindfulness/vata-pacifying-breathwork). You can also research herbal properties on the [Banyan Botanicals Education Library](https://www.banyanbotanicals.com/pages/ayurveda).
 
 By building a simple, portable **Ayurvedic Travel Toolkit** and maintaining essential daily habits, you can keep your body grounded and fully absorb the nourishing energy of coastal environments like Goa.
 
@@ -43,7 +43,7 @@ To protect your digestion while traveling, observe these simple eating practices
 
 -   **Favor Warm Foods**: Choose hot, cooked meals (like lentil dal and steamed rice) over dry snacks or cold salads.
 -   **Sit While Eating**: Avoid eating on the run or in vehicles. Sit down, take a deep breath, and focus on the flavors of your food.
--   **Local Spices**: Look for dishes seasoned with turmeric, cumin, fennel, and coriander, which support gut health.
+-   **Local Spices**: Look for dishes seasoned with turmeric, cumin, fennel, and coriander, which support gut health. If you are staying in South Goa, you can find many organic cafes offering Ayurvedic menus in our [Agonda Beach Yoga and Stays Guide](/essays/travel/agonda-beach-yoga). For further reading, check out the [Chopra Center Ayurveda Guides](https://chopra.com/).
 
 ---
 

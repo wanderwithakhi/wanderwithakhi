@@ -7,7 +7,7 @@ location: "South Goa, India"
 duration: "15 min read"
 ---
 
-Goa remains one of the most welcoming and safe destinations in India for solo female travelers. However, the experience of navigating Goa varies dramatically between the high-density party zones of the North and the quiet coastal sanctuaries of the South. For women seeking a peaceful, restorative journey, South Goa villages like **Agonda and Patnem** offer a safe, respectful environment where you can establish a grounding routine without tourist hassle.
+Goa remains one of the most welcoming and safe destinations in India for solo female travelers. However, the experience of navigating Goa varies dramatically between the high-density party zones of the North and the quiet coastal sanctuaries of the South. For women seeking a peaceful, restorative journey, South Goa villages like **Agonda and Patnem** offer a safe, respectful environment where you can establish a grounding routine without tourist hassle. You can read more about selecting shalas and stays in our [Agonda Beach Yoga and Stays Guide](/essays/travel/agonda-beach-yoga).
 
 Using somatic boundary awareness is a powerful way to navigate any travel destination, allowing you to move through new surroundings with presence, grounding, and confidence.
 
@@ -31,17 +31,17 @@ Somatic boundary-setting is the practice of listening to your visceral nervous s
 
 1. **The Anchored Walk**: When walking through crowded markets (like the Margao Market), keep your weight dropping down into your heels. Maintain a steady, relaxed stride. A grounded physical presence signals confidence.
 2. **Soft but Clear Eye Contact**: If you encounter unsolicited conversation, offer a brief, polite nod with soft, neutral eye contact, then continue moving.
-3. **Psoas Alignment**: Keep your chest open and your core lightly engaged. This upright posture prevents defensive slumping, keeping your nervous system out of passive freeze responses.
+3. **Psoas Alignment**: Keep your chest open and your core lightly engaged. This upright posture prevents defensive slumping, keeping your nervous system out of passive freeze responses. To release chronic contraction in these muscles after a day of travel, practice our [Constructive Rest Pose somatic release protocol](/essays/mindfulness/constructive-rest-pose-somatic).
 
 ---
 
 ## 🚗 3. Navigating Local Transit Safely
 
-Transport in Goa requires planning. Public buses exist but are crowded. Here is how to navigate local transit with peace of mind:
+Transport in Goa requires planning. Public buses exist but are crowded. Make sure you apply for your travel documents in advance through the [Indian e-Visa Official Portal](https://indianvisaonline.gov.in/evisa/) before arriving at the airport. Here is how to navigate local transit with peace of mind:
 
 -   **Pre-Paid Taxis**: Use the official Goa Tourism pre-paid taxi booths at Mopa Airport (GOX) or Dabolim Airport (GOI) rather than negotiating with unauthorized drivers outside.
 -   **Rent a Scooter**: If you are comfortable riding a two-wheeler, renting a scooter gives you independence. Always wear a helmet and avoid driving on unlit coastal roads after dark.
--   **Local Auto-Rickshaws**: Rickshaws in South Goa have standard rates for short trips between Agonda, Patnem, and Palolem. Always ask for the rate before boarding.
+-   **Local Auto-Rickshaws**: Rickshaws in South Goa have standard rates for short trips between Agonda, Patnem, and Palolem. Always ask for the rate before boarding. For security concerns or checking local regulations, refer to the [Goa Police Portal](https://www.goapolice.gov.in/).
 
 ---
 

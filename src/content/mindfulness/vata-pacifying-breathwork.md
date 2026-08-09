@@ -9,7 +9,7 @@ duration: "13 min read"
 
 Air travel presents a major challenge to our internal rhythms. In Ayurvedic medicine, travel corresponds to a severe disturbance of the **Vata dosha**—the biological energy governed by the elements of air and ether. The movement, cold drafts, high altitudes, and rapid geographic shifts of long-haul flights amplify the qualities of dryness, coldness, and mobility. This Vata imbalance often manifests somatic symptoms: flight lag, digestive lockups, cognitive fatigue, and dry skin.
 
-By integrating specific pranayama (breathwork) routines, travelers can decelerate their nervous systems and restore grounding.
+By integrating specific pranayama (breathwork) routines, travelers can decelerate their nervous systems and restore grounding. To physically decompress your hips and lumbar spine along with breathwork, you can also practice the [Constructive Rest Pose (CRP)](/essays/mindfulness/constructive-rest-pose-somatic).
 
 ![A traveler practicing Nadi Shodhana breathwork in a quiet airport terminal](/images/vata_breath.jpg)
 
@@ -19,7 +19,7 @@ By integrating specific pranayama (breathwork) routines, travelers can decelerat
 
 In transit, the sympathetic nervous system (fight-or-flight) is highly stimulated by loud noises, crowds, and cabin pressure fluctuations. This stimulation halts blood flow to the digestive tract (the enteric nervous system), leading to bloating and constipation on the road.
 
-To reverse this, we must activate the parasympathetic nervous system (rest-and-digest). Alternate-nostril breathing, or **Nadi Shodhana**, has been clinically proven to stimulate the vagus nerve, balance hemispheric brain activity, and slow the heart rate within minutes of practice.
+To reverse this, we must activate the parasympathetic nervous system (rest-and-digest). Alternate-nostril breathing, or **Nadi Shodhana**, has been clinically proven to stimulate the vagus nerve, balance hemispheric brain activity, and slow the heart rate within minutes of practice, as detailed in research indexed on the [National Center for Biotechnology Information (NCBI)](https://www.ncbi.nlm.nih.gov/pmc/).
 
 ---
 
@@ -46,7 +46,7 @@ Beyond breathwork, you can pacify Vata dosha during travel with these simple phy
 
 -   **Hydration with Warm Water**: Avoid iced water, which aggregates cold Vata. Sip warm water or ginger tea throughout your travel day to keep your digestive tract hydrated.
 -   **Anoint the Senses (Nasya)**: Apply a drop of sesame oil or ghee to the inside of your nostrils before boarding to protect your sinuses from dry cabin air.
--   **Warm Self-Massage (Abhyanga)**: After arrival, rub warm sesame oil onto your scalp and the soles of your feet. This simple touch practice grounds excess Vata movement.
+-   **Warm Self-Massage (Abhyanga)**: After arrival, rub warm sesame oil onto your scalp and the soles of your feet. This simple touch practice grounds excess Vata movement. These tools are the foundation of your [Ayurvedic Travel Toolkit](/essays/wellness/ayurvedic-travel-toolkit). To study these healing methods further, refer to resources provided by [The Ayurvedic Institute](https://www.ayurveda.com/).
 
 ---
 
