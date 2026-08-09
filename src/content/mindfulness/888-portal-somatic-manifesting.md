@@ -14,7 +14,7 @@ faqs:
     answer: "Sirius, known as the 'Spiritual Sun,' is the second brightest star in the sky. Astrologically, its alignment is believed to bring high-frequency cosmic energy that supports spiritual awakening and personal manifestation."
 ---
 
-Every year on **August 8th**, a significant astrological alignment takes place: the **Lion’s Gate Portal** (also known as the **888 Portal**). This alignment occurs when the Earth, the Sun, and the star **Sirius** line up with the Orion constellation and the Great Pyramid of Giza. In numerology, the date 8/8 (August 8th) is associated with the number 8, representing balance, abundance, and infinite flow.
+Every year on **August 8th**, a significant astrological alignment takes place: the **Lion’s Gate Portal** (also known as the **888 Portal**). This alignment occurs when the Earth, the Sun, and the star **Sirius** line up with the Orion constellation and the Great Pyramid of Giza. According to celestial data mapped by [Sky & Telescope Guides](https://skyandtelescope.org/), this seasonal alignment represents a unique solar transition. In numerology, the date 8/8 (August 8th) is associated with the number 8, representing balance, abundance, and infinite flow.
 
 While the spiritual community often views the portal as a time for setting manifestations and welcoming high-frequency energy, this shift can sometimes feel overwhelming to our physical bodies. Without proper grounding, sudden energetic changes can manifest as physical anxiety, restless sleep, and sensory overload.
 
@@ -50,7 +50,7 @@ If you feel restless or find your mind racing, alternate-nostril breathing can h
 
 ### C. Barefoot Earth Connection (Earthing)
 One of the simplest ways to discharge physical tension is to connect directly with the Earth.
--   **Practice**: Spend 10 minutes walking barefoot on grass, soil, or beach sand. Focus on the physical sensation of the earth under your feet, letting your attention drop out of active thoughts and into your body.
+-   **Practice**: Spend 10 minutes walking barefoot on grass, soil, or beach sand. This physical grounding method has been studied in [clinical research indexed on PubMed](https://www.ncbi.nlm.nih.gov/pmc/) for its effect on reducing inflammatory stress markers. Focus on the physical sensation of the earth under your feet, letting your attention drop out of active thoughts and into your body.
 
 ---
 

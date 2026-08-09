@@ -16,7 +16,7 @@ faqs:
 
 Long-haul travel—especially flights across time zones—imposes severe physical stress on the human body. Sitting for hours in narrow seats locks the hip flexors, compresses the lumbar spine, and keeps the nervous system in a state of high alert. For digital nomads and long-distance travelers, this physical compression often leads to "transit burnout." 
 
-To decompress your nervous system and release muscle tension, there is no tool more effective than the **Constructive Rest Pose (CRP)**. You can combine this passive posture with [Vata-Pacifying Breathwork](/essays/mindfulness/vata-pacifying-breathwork) to accelerate your nervous system decompression. For deeper physical alignment studies, refer to the somatic integration resources at the [Dr. Ida Rolf Institute](https://www.rolf.org/).
+To decompress your nervous system and release muscle tension, there is no tool more effective than the **Constructive Rest Pose (CRP)**. You can combine this passive posture with [Vata-Pacifying Breathwork](/essays/mindfulness/vata-pacifying-breathwork) to accelerate your nervous system decompression, which is especially useful during high-frequency transits or cosmic shifts like the [888 Lion's Gate Portal](/essays/mindfulness/888-portal-somatic-manifesting). For deeper physical alignment studies, refer to the somatic integration resources at the [Dr. Ida Rolf Institute](https://www.rolf.org/).
 
 ![A person lying in Constructive Rest Pose on a yoga mat in a quiet studio](/images/somatic_crp.jpg)
 
