@@ -7,6 +7,19 @@ let travelPosts = [];
 let mindfulnessPosts = [];
 let wellnessPosts = [];
 
+// Fetch local collections
+const localTravel = await getCollection('travel');
+const localMindfulness = await getCollection('mindfulness');
+const localWellness = await getCollection('wellness');
+
+const localTravelMapped = localTravel.map(p => ({ id: p.id, section: 'travel', data: p.data }));
+const localMindfulnessMapped = localMindfulness.map(p => ({ id: p.id, section: 'mindfulness', data: p.data }));
+const localWellnessMapped = localWellness.map(p => ({ id: p.id, section: 'wellness', data: p.data }));
+
+let sanityTravel = [];
+let sanityMindfulness = [];
+let sanityWellness = [];
+
 try {
   const sanityPosts = await getAllPosts();
   
@@ -29,28 +42,25 @@ try {
       };
     });
 
-    travelPosts = mappedPosts.filter((p: any) => p.section === 'travel');
-    mindfulnessPosts = mappedPosts.filter((p: any) => p.section === 'mindfulness');
-    wellnessPosts = mappedPosts.filter((p: any) => p.section === 'wellness');
-  } else {
-    // Fallback to local collections
-    const localTravel = await getCollection('travel');
-    const localMindfulness = await getCollection('mindfulness');
-    const localWellness = await getCollection('wellness');
-    
-    travelPosts = localTravel.map(p => ({ id: p.id, section: 'travel', data: p.data }));
-    mindfulnessPosts = localMindfulness.map(p => ({ id: p.id, section: 'mindfulness', data: p.data }));
-    wellnessPosts = localWellness.map(p => ({ id: p.id, section: 'wellness', data: p.data }));
+    sanityTravel = mappedPosts.filter((p: any) => p.section === 'travel');
+    sanityMindfulness = mappedPosts.filter((p: any) => p.section === 'mindfulness');
+    sanityWellness = mappedPosts.filter((p: any) => p.section === 'wellness');
   }
 } catch (e) {
-  const localTravel = await getCollection('travel');
-  const localMindfulness = await getCollection('mindfulness');
-  const localWellness = await getCollection('wellness');
-  
-  travelPosts = localTravel.map(p => ({ id: p.id, section: 'travel', data: p.data }));
-  mindfulnessPosts = localMindfulness.map(p => ({ id: p.id, section: 'mindfulness', data: p.data }));
-  wellnessPosts = localWellness.map(p => ({ id: p.id, section: 'wellness', data: p.data }));
+  console.error('[Sanity] failed to fetch posts for homepage:', e);
 }
+
+// Merge helper: prevents duplicates by using slug as map key, overriding local with Sanity
+const mergePosts = (localList, sanityList) => {
+  const mergedMap = new Map();
+  localList.forEach(p => mergedMap.set(p.id, p));
+  sanityList.forEach(p => mergedMap.set(p.id, p));
+  return Array.from(mergedMap.values());
+};
+
+travelPosts = mergePosts(localTravelMapped, sanityTravel);
+mindfulnessPosts = mergePosts(localMindfulnessMapped, sanityMindfulness);
+wellnessPosts = mergePosts(localWellnessMapped, sanityWellness);
 
 // Sort posts by date (newest first)
 const sortedTravel = travelPosts.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
