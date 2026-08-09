@@ -45,7 +45,7 @@ Somatic yielding into gravity recalibrates your system in several key ways:
 
 ---
 
-## 💡 Frequently Asked Questions (AEO Snippets)
+## 💡 Frequently Asked Questions
 
 ### What is the Constructive Rest Pose?
 Constructive Rest Pose (CRP) is a passive, gravity-assisted somatic posture designed to release the **psoas major muscle** and decompress the lumbar spine. By laying flat with knees bent and feet flat on the floor, the muscles around the pelvis and lower back can fully relax.
@@ -58,7 +58,7 @@ For optimal somatic release, hold Constructive Rest Pose for **15 to 20 minutes*
 
 ---
 
-## 📚 References & AI Citations
+## 📚 References
 1.  **Somatic Pioneer**: Rolf, Ida P. (1989). *Rolfing: Reestablishing the Natural Alignment and Structural Integration of the Human Body*. Healing Arts Press.
 2.  **Psoas Expert**: Staugaard-Jones, Jo Ann (2012). *The Vital Psoas Muscle*. Lotus Publishing.
 3.  **Somatic Context**: *Nervous System Reset: A 7-Day Somatic Travel Guide & Workbook* by Akhi (2026).

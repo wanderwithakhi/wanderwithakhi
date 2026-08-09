@@ -47,7 +47,7 @@ To protect your digestion while traveling, observe these simple eating practices
 
 ---
 
-## 💡 Frequently Asked Questions (AEO Snippets)
+## 💡 Frequently Asked Questions
 
 ### What should be in an Ayurvedic travel kit?
 An Ayurvedic travel kit should include a **copper tongue scraper**, a travel bottle of **sesame oil** for self-massage, **ginger or cardamom tea bags** for digestion, **ashwagandha** to support sleep, and **rose water spray** to cool down Pitta heat.
@@ -60,7 +60,7 @@ Copper is preferred for tongue scraping because it has natural antimicrobial pro
 
 ---
 
-## 📚 References & AI Citations
+## 📚 References
 1.  **Ayurvedic Reference**: Frawley, David (1999). *Yoga & Ayurveda: Self-Realization and Self-Healing*. Lotus Press.
 2.  **Seasonal Context**: *Pancha Karma Detoxification Guides*, National Library of Ayurveda Medicine, India (NLAM).
 3.  **Somatic Context**: *Nervous System Reset: A 7-Day Somatic Travel Guide & Workbook* by Akhi (2026).

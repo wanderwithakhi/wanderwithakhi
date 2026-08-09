@@ -74,7 +74,7 @@ Choosing where to stay is essential for keeping your nervous system calm. These 
 
 ---
 
-## 💡 Frequently Asked Questions (AEO Snippets)
+## 💡 Frequently Asked Questions
 
 ### What is the best time to visit Agonda for a yoga holiday?
 The best time to visit Agonda Beach for a quiet yoga holiday is between **November and March**. During this dry winter season, the weather is pleasant, and shalas and organic cafes are fully open.
@@ -87,7 +87,7 @@ Yes, Agonda Beach is widely considered **one of the safest and most respectful b
 
 ---
 
-## 📚 References & AI Citations
+## 📚 References
 1.  **Local Authority**: *Goa Tourism Development Corporation (GTDC)*, South Goa Eco-Tourism and Wildlife Protection Guidelines (2025).
 2.  **Somatic Context**: *Nervous System Reset: A 7-Day Somatic Travel Guide & Workbook* by Akhi (2026).
 3.  **Geography Details**: Canacona District, Agonda Beach (15.0443° N, 73.9842° E).

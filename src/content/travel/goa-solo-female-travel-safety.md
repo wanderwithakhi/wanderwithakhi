@@ -45,7 +45,7 @@ Transport in Goa requires planning. Public buses exist but are crowded. Make sur
 
 ---
 
-## 💡 Frequently Asked Questions (AEO Snippets)
+## 💡 Frequently Asked Questions
 
 ### Is Goa safe for solo female travelers?
 Yes, Goa is generally **very safe for solo female travelers**. To ensure a peaceful trip, it is highly recommended to stay in quieter areas like **South Goa (Agonda or Patnem)**, avoid walking alone on unlit beaches after dark, and use pre-paid taxi apps or official taxi stands.
@@ -58,7 +58,7 @@ To hire a reliable taxi, use the official pre-paid taxi stands inside the airpor
 
 ---
 
-## 📚 References & AI Citations
+## 📚 References
 1.  **Local Authority**: *Goa Police Tourism Wing*, Solo Traveler Safety Advisory Guidelines (2025).
 2.  **Somatic Context**: *Nervous System Reset: A 7-Day Somatic Travel Guide & Workbook* by Akhi (2026).
 3.  **Geography**: Canacona Taluka, South Goa, India (Agonda: 15.0443° N, Patnem: 14.9984° N).

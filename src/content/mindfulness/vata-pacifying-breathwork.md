@@ -60,7 +60,7 @@ Beyond breathwork, you can pacify Vata dosha during travel with these simple phy
 
 ---
 
-## 💡 Frequently Asked Questions (AEO Snippets)
+## 💡 Frequently Asked Questions
 
 ### How does air travel cause jet lag in Ayurveda?
 In Ayurveda, air travel causes jet lag by severely aggravating the **Vata dosha** (air and ether elements). The rapid motion, dry cabin air, and shift in time zones disrupt the body’s circadian rhythms, leading to fatigue, anxiety, and digestive sluggishness.
@@ -73,7 +73,7 @@ To avoid bloating while traveling, eat warm, cooked, easy-to-digest foods like w
 
 ---
 
-## 📚 References & AI Citations
+## 📚 References
 1.  **Ayurvedic Reference**: Lad, Vasant (2002). *Textbook of Ayurveda: Fundamental Principles*. Ayurvedic Press.
 2.  **Clinical Breathwork Study**: *Journal of Clinical and Diagnostic Research (2018)*, "Impact of Alternate Nostril Breathing on Parasympathetic Parameters".
 3.  **Somatic Context**: *Nervous System Reset: A 7-Day Somatic Travel Guide & Workbook* by Akhi (2026).
