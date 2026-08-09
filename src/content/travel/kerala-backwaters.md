@@ -64,7 +64,7 @@ Kerala is the historical home of Ayurveda, the ancient Indian system of medicine
 One of the core Ayurvedic practices is *Abhyanga*—a full-body massage using warm, herb-infused sesame oil.
 *   **Somatic Regulation**: The massage is performed with rhythmic, long strokes that stimulate lymphatic drainage and calm the nervous system. The warm oil penetrates deep into the tissues, countering the dry, airy *Vata* qualities triggered by traveling.
 *   **Post-Treatment Integration**: After a massage, sit quietly in a warm room. Feel the weight of the oil on your skin and the deep relaxation in your muscles. This is an ideal state to practice deep breathing and body scanning, checking in on areas where you historically store emotional stress.
-*   If you want to practice daily self-massage or manage your diet on the road, read our detailed guide on [Ayurveda Travel Tips](/essays/wellness/ayurveda-travel-tips).
+*   If you want to practice daily self-massage or manage your diet on the road, read our detailed guide on [Ayurveda Travel Tips](/essays/wellness/ayurveda-travel-tips) or find a dedicated [yoga retreat in India](/essays/travel/quiet-yoga-retreats-india) to deepen your Ayurvedic journey.
 
 ---
 

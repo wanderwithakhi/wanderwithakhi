@@ -58,6 +58,7 @@ When you stand on Galgibaga, you are standing in a raw natural environment. The 
 Agonda is a wide, 3-kilometer crescent of sand that is popular with slow travelers and surfers. It is an ideal space for long walking meditations.
 *   **The Stride**: Walk at low tide when the sand is firm. Step with intention: feel the heel, the arch, and the toes contact the earth. Coordinate your steps with the incoming waves.
 *   **Ocean presence**: Sit on the rocky outcrops at the northern end of the beach. Watch the local fishermen push their wooden boats into the surf, noting the balance and strength required to work with the sea.
+*   **Planning & Safety**: If you want to experience the local shalas and slow beachfront stays, check out our [Agonda Beach Yoga and Stays Guide](/essays/travel/agonda-beach-yoga). For female travelers planning a solo trip to these quiet coastlines, review our safety transit guide: [Is Goa Safe for Solo Female Travelers?](/essays/travel/goa-solo-female-travel-safety).
 
 ---
 

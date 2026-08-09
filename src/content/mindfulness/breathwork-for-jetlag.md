@@ -29,3 +29,5 @@ Your nostrils are connected to different channels of the nervous system. The lef
 2. Use your right thumb to close your right nostril. Inhale slowly through the left.
 3. Close the left nostril with your ring finger. Release the right and exhale.
 4. Inhale through the right, then close and exhale through the left. Repeat for 5 minutes.
+
+For a deeper, flight-specific Ayurvedic grounding breathwork protocol, read our comprehensive [Vata-Pacifying Breathwork Guide](/essays/mindfulness/vata-pacifying-breathwork).
