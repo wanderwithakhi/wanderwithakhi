@@ -1,0 +1,31 @@
+name: Daily Automated Blog Generation
+
+on:
+  schedule:
+    # Runs daily at 9:00 AM UTC (2:30 PM IST)
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    # Allows manual trigger from the GitHub Actions dashboard tab
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install Project Dependencies
+        run: npm ci
+
+      - name: Run Daily Article Generator
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SANITY_API_WRITE_TOKEN: ${{ secrets.SANITY_API_WRITE_TOKEN }}
+        run: node scripts/auto_generator.cjs
