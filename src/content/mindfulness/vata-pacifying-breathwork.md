@@ -5,6 +5,13 @@ publishDate: 2026-08-09
 category: "Yoga"
 location: "Transit"
 duration: "13 min read"
+faqs:
+  - question: "How does air travel cause jet lag in Ayurveda?"
+    answer: "In Ayurveda, air travel causes jet lag by severely aggravating the Vata dosha (air and ether elements). The rapid motion, dry cabin air, and shift in time zones disrupt the body’s circadian rhythms, leading to fatigue, anxiety, and digestive sluggishness."
+  - question: "Can alternate nostril breathing help with flight anxiety?"
+    answer: "Yes, alternate nostril breathing (Nadi Shodhana) is highly effective for reducing flight anxiety. It stimulates the vagus nerve and activates the parasympathetic nervous system, helping to lower blood pressure and calm hyperactive flight responses."
+  - question: "What should I eat while traveling to avoid bloating?"
+    answer: "To avoid bloating while traveling, eat warm, cooked, easy-to-digest foods like warm lentil soups, cooked grains, and steamed vegetables. Avoid raw salads, dry crackers, and iced beverages, which aggravate Vata digestion."
 ---
 
 Air travel presents a major challenge to our internal rhythms. In Ayurvedic medicine, travel corresponds to a severe disturbance of the **Vata dosha**—the biological energy governed by the elements of air and ether. The movement, cold drafts, high altitudes, and rapid geographic shifts of long-haul flights amplify the qualities of dryness, coldness, and mobility. This Vata imbalance often manifests somatic symptoms: flight lag, digestive lockups, cognitive fatigue, and dry skin.
@@ -57,19 +64,6 @@ Beyond breathwork, you can pacify Vata dosha during travel with these simple phy
 | **Vata** | Air & Ether | Jetlag, Bloating, Dry Skin | Nadi Shodhana, Warm Sesame Oil massage |
 | **Pitta** | Fire & Water | Irritability, Heartburn | Rose Water spray, Coconut Water |
 | **Kapha** | Water & Earth | Lethargy, Congestion | Walking meditation, Ginger Tea |
-
----
-
-## 💡 Frequently Asked Questions
-
-### How does air travel cause jet lag in Ayurveda?
-In Ayurveda, air travel causes jet lag by severely aggravating the **Vata dosha** (air and ether elements). The rapid motion, dry cabin air, and shift in time zones disrupt the body’s circadian rhythms, leading to fatigue, anxiety, and digestive sluggishness.
-
-### Can alternate nostril breathing help with flight anxiety?
-Yes, alternate nostril breathing (**Nadi Shodhana**) is highly effective for reducing flight anxiety. It stimulates the vagus nerve and activates the parasympathetic nervous system, helping to lower blood pressure and calm hyperactive flight responses.
-
-### What should I eat while traveling to avoid bloating?
-To avoid bloating while traveling, eat warm, cooked, easy-to-digest foods like warm lentil soups, cooked grains, and steamed vegetables. Avoid raw salads, dry crackers, and iced beverages, which aggravate Vata digestion.
 
 ---
 

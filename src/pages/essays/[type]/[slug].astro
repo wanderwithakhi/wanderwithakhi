@@ -60,6 +60,7 @@ const publishDate = isSanity ? new Date(sanityPost.publishDate) : post.data.publ
 const coverImage = isSanity 
   ? (sanityPost.coverImage ? urlFor(sanityPost.coverImage).url() : undefined) 
   : post.data.coverImage;
+const faqs = isSanity ? (sanityPost.faqs || []) : (post.data.faqs || []);
 
 // Formatting Date
 const formattedDate = publishDate.toLocaleDateString('en-US', {
@@ -97,6 +98,20 @@ const jsonLd = {
     : "https://wanderwithakhi.com/images/slow-living.jpg"
 };
 
+// FAQ Schema block
+const faqJsonLd = faqs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+} : null;
+
 // Process Content body
 let htmlContent = '';
 let Content = null;
@@ -126,6 +141,9 @@ if (isSanity) {
 >
   <!-- Inject Structured Schema JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  {faqJsonLd && (
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  )}
 
   <Header />
 
@@ -172,6 +190,22 @@ if (isSanity) {
           <Content />
         )}
       </article>
+
+      <!-- Dynamic FAQ Section -->
+      {faqs && faqs.length > 0 && (
+        <section class="essay-faqs-section">
+          <hr class="faq-divider" />
+          <h2 class="faq-section-title">Frequently Asked Questions</h2>
+          <div class="faq-list">
+            {faqs.map(faq => (
+              <div class="faq-item">
+                <h3 class="faq-question">{faq.question}</h3>
+                <p class="faq-answer">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   </main>
 </BaseLayout>
@@ -361,5 +395,62 @@ if (isSanity) {
   .essay-content :global(td) {
     border-bottom: var(--border-thin);
     padding: 0.75rem 1rem;
+  }
+
+  /* FAQ Section Styling */
+  .essay-faqs-section {
+    margin-top: 4rem;
+    padding-top: 2rem;
+  }
+
+  .faq-divider {
+    border: 0;
+    height: 1px;
+    background-color: var(--color-border);
+    margin-bottom: 3rem;
+    opacity: 0.3;
+  }
+
+  .faq-section-title {
+    font-family: var(--font-editorial);
+    font-size: 2rem;
+    color: var(--color-text);
+    margin-bottom: 2.5rem;
+  }
+
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 2rem;
+  }
+  
+  :global(.dark) .faq-item {
+    border-bottom-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .faq-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .faq-question {
+    font-family: var(--font-sans);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 0.75rem;
+  }
+
+  .faq-answer {
+    font-family: var(--font-sans);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--color-text);
+    opacity: 0.85;
   }
 </style>

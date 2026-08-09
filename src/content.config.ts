@@ -12,6 +12,10 @@ const travelCollection = defineCollection({
     category: z.string(),     // e.g. "Guides", "Diaries", "Adventure"
     location: z.string(),     // e.g. "Kyoto, Japan"
     duration: z.string(),     // e.g. "5 min read"
+    faqs: z.array(z.object({
+      question: z.string(),
+      answer: z.string()
+    })).optional()
   })
 });
 
@@ -25,6 +29,10 @@ const mindfulnessCollection = defineCollection({
     coverImage: z.string().optional(),
     category: z.string(),     // e.g. "Meditation", "Yoga", "Reflections"
     duration: z.string(),     // e.g. "7 min read"
+    faqs: z.array(z.object({
+      question: z.string(),
+      answer: z.string()
+    })).optional()
   })
 });
 
@@ -38,6 +46,10 @@ const wellnessCollection = defineCollection({
     coverImage: z.string().optional(),
     category: z.string(),     // e.g. "Slow Living", "Plant-Based"
     duration: z.string(),     // e.g. "6 min read"
+    faqs: z.array(z.object({
+      question: z.string(),
+      answer: z.string()
+    })).optional()
   })
 });
 

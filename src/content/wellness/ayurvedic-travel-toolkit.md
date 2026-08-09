@@ -5,6 +5,13 @@ publishDate: 2026-08-09
 category: "Slow Living"
 location: "Goa, India"
 duration: "13 min read"
+faqs:
+  - question: "What should be in an Ayurvedic travel kit?"
+    answer: "An Ayurvedic travel kit should include a copper tongue scraper, a travel bottle of sesame oil for self-massage, ginger or cardamom tea bags for digestion, ashwagandha to support sleep, and rose water spray to cool down Pitta heat."
+  - question: "How do I balance Vata dosha while traveling?"
+    answer: "To balance Vata dosha while traveling, drink warm water and herbal teas, avoid dry and raw foods, practice self-massage (Abhyanga) with warm sesame oil, and keep a consistent morning wake-up routine."
+  - question: "Why is copper preferred for tongue scraping?"
+    answer: "Copper is preferred for tongue scraping because it has natural antimicrobial properties and is highly effective at removing oral bacteria and toxins from the surface of the tongue."
 ---
 
 Traveling between climates and environments introduces changes that disrupt our internal baseline. In Ayurveda, travel naturally triggers a rise in the **Vata dosha** (governed by air and ether). If left unchecked, this imbalance can lead to fatigue, dry digestion, and anxious thoughts. To understand the energetic balance of your body in transit, you can review our guide on [Vata-Pacifying Breathwork](/essays/mindfulness/vata-pacifying-breathwork). You can also research herbal properties on the [Banyan Botanicals Education Library](https://www.banyanbotanicals.com/pages/ayurveda).
@@ -44,19 +51,6 @@ To protect your digestion while traveling, observe these simple eating practices
 -   **Favor Warm Foods**: Choose hot, cooked meals (like lentil dal and steamed rice) over dry snacks or cold salads.
 -   **Sit While Eating**: Avoid eating on the run or in vehicles. Sit down, take a deep breath, and focus on the flavors of your food.
 -   **Local Spices**: Look for dishes seasoned with turmeric, cumin, fennel, and coriander, which support gut health. If you are staying in South Goa, you can find many organic cafes offering Ayurvedic menus in our [Agonda Beach Yoga and Stays Guide](/essays/travel/agonda-beach-yoga). For further reading, check out the [Chopra Center Ayurveda Guides](https://chopra.com/).
-
----
-
-## 💡 Frequently Asked Questions
-
-### What should be in an Ayurvedic travel kit?
-An Ayurvedic travel kit should include a **copper tongue scraper**, a travel bottle of **sesame oil** for self-massage, **ginger or cardamom tea bags** for digestion, **ashwagandha** to support sleep, and **rose water spray** to cool down Pitta heat.
-
-### How do I balance Vata dosha while traveling?
-To balance Vata dosha while traveling, drink warm water and herbal teas, avoid dry and raw foods, practice self-massage (**Abhyanga**) with warm sesame oil, and keep a consistent morning wake-up routine.
-
-### Why is copper preferred for tongue scraping?
-Copper is preferred for tongue scraping because it has natural antimicrobial properties and is highly effective at removing oral bacteria and toxins from the surface of the tongue.
 
 ---
 

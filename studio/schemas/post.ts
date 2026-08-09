@@ -106,6 +106,21 @@ export default defineType({
       ],
       validation: Rule => Rule.required(),
     }),
+    defineField({
+      name: 'faqs',
+      title: 'FAQs (For Search Engine Rich Snippets)',
+      type: 'array',
+      of: [
+        {
+          type: 'object',
+          title: 'FAQ Question & Answer',
+          fields: [
+            { name: 'question', type: 'string', title: 'Question' },
+            { name: 'answer', type: 'text', title: 'Answer' }
+          ]
+        }
+      ]
+    }),
   ],
   preview: {
     select: {

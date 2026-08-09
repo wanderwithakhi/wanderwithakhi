@@ -5,6 +5,13 @@ publishDate: 2026-08-09
 category: "Somatic"
 location: "Transit"
 duration: "12 min read"
+faqs:
+  - question: "What is the Constructive Rest Pose?"
+    answer: "Constructive Rest Pose (CRP) is a passive, gravity-assisted somatic posture designed to release the psoas major muscle and decompress the lumbar spine. By laying flat with knees bent and feet flat on the floor, the muscles around the pelvis and lower back can fully relax."
+  - question: "How do I relieve back pain after a long flight?"
+    answer: "To relieve back pain after a long flight, practice Constructive Rest Pose for 15 minutes. This posture releases the contracted psoas muscle, decompresses compressed spinal discs, and switches the nervous system from travel stress to parasympathetic recovery."
+  - question: "How long should I hold Constructive Rest Pose?"
+    answer: "For optimal somatic release, hold Constructive Rest Pose for 15 to 20 minutes. This duration allows the nervous system to shift from active stabilization to deep muscular release."
 ---
 
 Long-haul travel—especially flights across time zones—imposes severe physical stress on the human body. Sitting for hours in narrow seats locks the hip flexors, compresses the lumbar spine, and keeps the nervous system in a state of high alert. For digital nomads and long-distance travelers, this physical compression often leads to "transit burnout." 
@@ -42,19 +49,6 @@ Somatic yielding into gravity recalibrates your system in several key ways:
 -   **Psoas Release**: Allowing the thigh bones to settle into the hip sockets signals the nervous system that it is safe to turn off defensive posture holds.
 -   **Spinal Decompression**: Grounding your spine without active effort lets the vertebrae return to their natural curves, easing pressure on compressed discs.
 -   **Nervous System Reset**: Resting quietly triggers the parasympathetic nervous system, helping to regulate digestive organs and ease transit anxiety.
-
----
-
-## 💡 Frequently Asked Questions
-
-### What is the Constructive Rest Pose?
-Constructive Rest Pose (CRP) is a passive, gravity-assisted somatic posture designed to release the **psoas major muscle** and decompress the lumbar spine. By laying flat with knees bent and feet flat on the floor, the muscles around the pelvis and lower back can fully relax.
-
-### How do I relieve back pain after a long flight?
-To relieve back pain after a long flight, practice **Constructive Rest Pose** for 15 minutes. This posture releases the contracted psoas muscle, decompresses compressed spinal discs, and switches the nervous system from travel stress to parasympathetic recovery.
-
-### How long should I hold Constructive Rest Pose?
-For optimal somatic release, hold Constructive Rest Pose for **15 to 20 minutes**. This duration allows the nervous system to shift from active stabilization to deep muscular release.
 
 ---
 
