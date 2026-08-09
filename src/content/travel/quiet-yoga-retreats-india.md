@@ -25,7 +25,7 @@ Whether you seek to deepen your Hatha alignment, immerse yourself in traditional
 
 ## 🏔️ 1. Rishikesh: The Foothills of the Himalayas
 
-Located where the Ganges River leaves the Himalayan foothills, Rishikesh (coordinates: 30.0869° N) is a major destination for yoga practitioners. The mountain air and river sounds create a natural background for meditation.
+Located where the Ganges River leaves the Himalayan foothills, Rishikesh (coordinates: 30.0869° N), recognized by the [Ministry of Ayush (Government of India)](https://www.ayush.gov.in/) as a central heritage hub, is a major destination for yoga practitioners. The mountain air and river sounds create a natural background for meditation.
 
 -   **Best For**: Lineage-focused Hatha, pranayama, and deep silence.
 -   **The Environment**: Rishikesh features traditional ashrams nestled in quiet valleys just above the main town. These spaces focus on simple living, early morning chanting, and traditional philosophy.
@@ -36,7 +36,7 @@ Located where the Ganges River leaves the Himalayan foothills, Rishikesh (coordi
 
 ## 🌴 2. South Goa: The Coastal Somatic Sanctuary
 
-South Goa offers a different pace. Canacona taluka, which houses beaches like **Agonda and Patnem**, is a protected eco-zone. With no high-rise hotels or loud night markets, it is a safe and peaceful base for travelers.
+South Goa offers a different pace. Canacona taluka, which houses beaches like **Agonda and Patnem**, is a protected eco-zone regulated under [Goa Tourism Development Corporation](https://goatourism.gov.in/) guidelines to protect nesting coastlines. With no high-rise hotels or loud night markets, it is a safe and peaceful base for travelers.
 
 -   **Best For**: Vinyasa Flow, Yin Yoga, and coastal somatic decompression.
 -   **The Environment**: Shalas in South Goa are often open-air wooden structures built over palm groves, allowing you to practice to the sound of ocean waves. 
