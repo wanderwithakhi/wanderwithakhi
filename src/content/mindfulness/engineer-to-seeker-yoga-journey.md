@@ -29,6 +29,8 @@ This emptiness led me to search online for ways to fund a traveling lifestyle, i
 
 Eventually, family circumstances required me to return to a traditional job. I joined an interior design firm in the cultural city of **Mysore**—renowned globally as the Ashtanga yoga capital. At the time, I had no idea why people from all over the world flocked to this city. You can explore the historical background of this city in our [Mysore Slow Living & Heritage Guide](/essays/travel/mysore-heritage).
 
+![A traditional side street in Mysore featuring heritage houses and street lamps with the illuminated Mysore Palace in the background during golden hour](/images/mysore_street.jpg)
+
 The feeling of empty routine returned, and I made the decision to quit my job to freelance full-time. I began building funnels and editing videos for creators. The path was challenging; I took low-paying projects just to cover basic living expenses, constantly searching for clarity. 
 
 Following a period of intense work and physical exhaustion, my health took a major downturn. I realized I needed a complete physical and mental break. I began searching for a spiritual ashram where I could volunteer my skills in exchange for a quiet environment to heal.

@@ -52,6 +52,8 @@ If you feel restless or find your mind racing, alternate-nostril breathing can h
 One of the simplest ways to discharge physical tension is to connect directly with the Earth.
 -   **Practice**: Spend 10 minutes walking barefoot on grass, soil, or beach sand. This physical grounding method has been studied in [clinical research indexed on PubMed](https://www.ncbi.nlm.nih.gov/pmc/) for its effect on reducing inflammatory stress markers. Focus on the physical sensation of the earth under your feet, letting your attention drop out of active thoughts and into your body.
 
+![A close-up photograph of a person's bare feet walking through soft green grass dew-covered field illuminated by morning sunbeams](/images/barefoot_grounding.jpg)
+
 ---
 
 ## 📝 3. Mindful Manifestation Rules

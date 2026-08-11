@@ -32,6 +32,8 @@ Located where the Ganges River leaves the Himalayan foothills, Rishikesh (coordi
 -   **Grounding Tip**: Walk along the quieter white-sand banks of the Ganga in the morning. Let your bare feet touch the cool sand to settle your nervous system before practice.
 -   To check availability and read verified student reviews, you can search these northern sanctuaries via the [BookRetreats platform](https://bookretreats.com/?a=pzzaopvkjtbefecrvhaz).
 
+![The historic Lakshman Jhula bridge crossing the holy Ganges River in Rishikesh nestled within green Himalayan mountains during sunrise](/images/rishikesh_sunrise.jpg)
+
 ---
 
 ## 🌴 2. South Goa: The Coastal Somatic Sanctuary
@@ -53,6 +55,8 @@ Further south, Kerala’s backwaters and forests host centers dedicated to tradi
 -   **The Environment**: Retreats are located in coconut plantations or along quiet rivers. Meals are cooked to order using organic, locally grown spices and vegetables.
 -   **Grounding Tip**: Kerala retreats emphasize warm self-massage (Abhyanga). The warm sesame oil helps calm travel fatigue and soothe a dry nervous system.
 -   Look up traditional Ayurvedic panchakarma programs and find a [grounded wellness retreat](https://bookretreats.com/?a=pzzaopvkjtbefecrvhaz) that suits your health needs.
+
+![A traditional Ayurvedic treatment table in Kerala crafted from rich dark wood and surrounded by bronze oil vessels looking out over palm trees](/images/kerala_ayurveda.jpg)
 
 ---
 
