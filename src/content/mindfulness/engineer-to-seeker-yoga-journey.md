@@ -21,7 +21,7 @@ For a time, I believed I was set for life. I imagined a future climbing the corp
 
 This emptiness led me to search online for ways to fund a traveling lifestyle, introducing me to graphic design, video editing, and digital marketing. For the first time, my laptop was a tool for creation rather than distraction.
 
-![A serene portrait of Akhi sitting on the stone steps of a traditional South Indian heritage house](/images/about_akhi.jpg)
+![Akhilesh Gowda meditating in front of the massive black stone Adiyogi Shiva statue at the Isha Foundation in Coimbatore](/images/about_akhi.jpg)
 
 ---
 
