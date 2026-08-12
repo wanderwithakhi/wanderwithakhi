@@ -54,3 +54,20 @@ Your meals should be prepared fresh daily using organic, easily digestible ingre
 Ayurveda teaches us that health is a state of harmony with our environment. By waking with the sun, eating clean, seasonal food, and receiving traditional treatments, you align your body's rhythms with nature's flow.
 
 To learn more about slow living and somatic practices, read our guide on [what is somatic travel](/essays/mindfulness/what-is-somatic-travel). You can also research clinical data on the efficacy of Ayurvedic therapies on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
+
+---
+
+## 🪷 Verified Ayurveda & Yoga Retreat Listings in Goa
+
+True Ayurveda + Yoga retreats require a BAMS-qualified doctor, freshly prepared herbal oils, and a custom diet. The listings below have been vetted by hundreds of verified participants for exactly this standard.
+
+| Retreat Name | Duration | Location | Focus |
+|---|---|---|---|
+| **Panchakarma & Yoga Immersion** | 14 Days | South Goa | Full Panchakarma + Daily Yoga |
+| **Ayurvedic Detox & Beach Yoga** | 7 Days | Sernabatim, Goa | Detox + Hatha + Shirodhara |
+| **Yoga & Ayurveda Wellness Retreat** | 10 Days | Mandrem, Goa | Dosha Balancing + Asana |
+| **Kerala-Style Ayurveda in Goa** | 7 Days | South Goa | Abhyanga + Pranayama |
+
+> 🌿 **Book Verified Ayurveda Retreats**: Browse Panchakarma and Yoga retreat packages — [View Ayurveda & Yoga Retreats](https://www.wanderwithakhi.com/?aid=11765)
+
+*Using the link above supports wanderwithakhi.com at no extra cost to you.*
