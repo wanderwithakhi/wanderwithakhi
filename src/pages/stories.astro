@@ -1,0 +1,558 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+
+const stories = [
+  {
+    id: 1,
+    title: "Engineer to Seeker",
+    subtitle: "My Yoga Journey",
+    category: "Inner Journey",
+    categoryColor: "#C87A53",
+    cover: "/images/stories/cover-engineer-seeker.jpg",
+    url: "/stories/engineer-to-seeker.html",
+    readTime: "5 min story",
+    isNew: true,
+  },
+  {
+    id: 2,
+    title: "Agonda Beach",
+    subtitle: "India's Hidden Shore",
+    category: "Travel",
+    categoryColor: "#5C6B4A",
+    cover: "/images/stories/cover-agonda-beach.jpg",
+    url: "/stories/agonda-beach.html",
+    readTime: "4 min story",
+    isNew: true,
+  },
+  {
+    id: 3,
+    title: "Breathwork for Flyers",
+    subtitle: "Vata Reset After Flight",
+    category: "Practice",
+    categoryColor: "#7B9E87",
+    cover: "/images/stories/cover-breathwork.jpg",
+    url: "/stories/breathwork-for-flyers.html",
+    readTime: "4 min story",
+    isNew: false,
+  },
+  {
+    id: 4,
+    title: "Ayurvedic Rules",
+    subtitle: "Travel the Ancient Way",
+    category: "Wellness",
+    categoryColor: "#B8860B",
+    cover: "/images/stories/cover-ayurveda.jpg",
+    url: "/stories/ayurvedic-travel-rules.html",
+    readTime: "5 min story",
+    isNew: false,
+  },
+  {
+    id: 5,
+    title: "Slow Living",
+    subtitle: "What It Really Means",
+    category: "Philosophy",
+    categoryColor: "#8B7355",
+    cover: "/images/stories/cover-slow-living.jpg",
+    url: "/stories/what-is-slow-living.html",
+    readTime: "4 min story",
+    isNew: false,
+  },
+];
+---
+
+<BaseLayout
+  title="Web Stories | wanderwithakhi — Visual Stories on Slow Travel & Spirituality"
+  description="Tap-through visual stories on slow travel, traditional Indian spirituality, yoga, Ayurveda and somatic wellness by Akhilesh Gowda."
+  theme="inside"
+>
+  <Header />
+
+  <main class="stories-page">
+
+    <!-- Page Header -->
+    <section class="stories-header">
+      <div class="container">
+        <span class="page-tag">Visual Stories</span>
+        <h1 class="page-title">Stories</h1>
+        <p class="page-desc">
+          Tap-through journeys on slow travel, sacred India, yoga philosophy,<br />
+          and the wisdom of ancient practices. Each story in under 5 minutes.
+        </p>
+        <div class="pillar-pills">
+          <span class="pill">🪔 Philosophy</span>
+          <span class="pill">🧠 Psychology</span>
+          <span class="pill">🧘 Practice</span>
+          <span class="pill">🌍 Travel</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram-style story bubbles row -->
+    <section class="stories-bubbles-section">
+      <div class="container">
+        <h2 class="section-label">Latest Stories</h2>
+        <div class="bubbles-row">
+          {stories.map((story) => (
+            <a href={story.url} class="story-bubble-link" aria-label={`Read story: ${story.title}`}>
+              <div class="bubble-wrapper">
+                {story.isNew && <span class="new-badge">New</span>}
+                <div class="bubble-ring" style={`--ring-color: ${story.categoryColor}`}>
+                  <div class="bubble-img-wrap">
+                    <img
+                      src={story.cover}
+                      alt={`${story.title} — ${story.subtitle} web story by Akhilesh Gowda, wanderwithakhi`}
+                      class="bubble-img"
+                      loading="lazy"
+                      width="120"
+                      height="120"
+                    />
+                  </div>
+                </div>
+                <span class="bubble-title">{story.title}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Full story cards grid -->
+    <section class="stories-grid-section">
+      <div class="container">
+        <h2 class="section-label">All Stories</h2>
+        <div class="stories-grid">
+          {stories.map((story) => (
+            <a href={story.url} class="story-card" aria-label={`Open story: ${story.title}`}>
+              <div class="story-card-img-wrap">
+                <img
+                  src={story.cover}
+                  alt={`${story.title} — ${story.subtitle} visual web story by Akhilesh Gowda`}
+                  class="story-card-img"
+                  loading="lazy"
+                  width="400"
+                  height="600"
+                />
+                <div class="story-card-overlay">
+                  <span class="story-card-category" style={`background:${story.categoryColor}`}>
+                    {story.category}
+                  </span>
+                  <div class="story-card-body">
+                    <h3 class="story-card-title">{story.title}</h3>
+                    <p class="story-card-subtitle">{story.subtitle}</p>
+                    <span class="story-card-readtime">▶ {story.readTime}</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          ))}
+
+          <!-- Coming soon placeholder cards -->
+          {[1, 2, 3].map((n) => (
+            <div class="story-card story-card--coming">
+              <div class="story-card-img-wrap coming-wrap">
+                <div class="coming-inner">
+                  <span class="coming-icon">🪷</span>
+                  <p class="coming-text">Coming Soon</p>
+                  <span class="coming-sub">New story every week</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- How to use web stories note -->
+    <section class="stories-note-section">
+      <div class="container">
+        <div class="stories-note">
+          <span class="note-icon">📱</span>
+          <div>
+            <p class="note-text">
+              <strong>How to read:</strong> Click any story above. Tap or click the right side of the screen to advance slides.
+              Each story links back to the full blog post on wanderwithakhi.com.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</BaseLayout>
+
+<style>
+  .stories-page {
+    min-height: 100vh;
+  }
+
+  /* ── Page Header ─────────────────────────── */
+  .stories-header {
+    padding: 5rem 0 3rem;
+    text-align: center;
+    border-bottom: var(--border-thin);
+    background: linear-gradient(180deg, rgba(92,107,74,0.04) 0%, transparent 100%);
+  }
+
+  .page-tag {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--color-accent);
+    display: block;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: var(--color-text);
+    margin-bottom: 1.25rem;
+  }
+
+  .page-desc {
+    font-size: 1.05rem;
+    color: var(--color-text);
+    opacity: 0.65;
+    max-width: 540px;
+    margin: 0 auto 2rem;
+    line-height: 1.7;
+  }
+
+  .pillar-pills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .pill {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0.35rem 0.9rem;
+    border: var(--border-thin);
+    border-radius: 20px;
+    color: var(--color-text);
+    opacity: 0.7;
+  }
+
+  /* ── Bubble Row ──────────────────────────── */
+  .stories-bubbles-section {
+    padding: 3rem 0;
+    border-bottom: var(--border-thin);
+  }
+
+  .section-label {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-text);
+    opacity: 0.4;
+    margin-bottom: 2rem;
+  }
+
+  .bubbles-row {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .bubbles-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .story-bubble-link {
+    flex-shrink: 0;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .bubble-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .new-badge {
+    position: absolute;
+    top: -4px;
+    right: 2px;
+    background: var(--color-accent);
+    color: white;
+    font-family: var(--font-sans);
+    font-size: 0.58rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.15rem 0.4rem;
+    border-radius: 10px;
+    z-index: 2;
+  }
+
+  .bubble-ring {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    padding: 3px;
+    background: conic-gradient(
+      var(--ring-color) 0%,
+      color-mix(in srgb, var(--ring-color) 60%, transparent) 50%,
+      var(--ring-color) 100%
+    );
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .story-bubble-link:hover .bubble-ring {
+    transform: scale(1.06);
+    box-shadow: 0 8px 24px -6px color-mix(in srgb, var(--ring-color) 50%, transparent);
+  }
+
+  .bubble-img-wrap {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2.5px solid var(--color-bg);
+  }
+
+  .bubble-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+
+  .story-bubble-link:hover .bubble-img {
+    transform: scale(1.08);
+  }
+
+  .bubble-title {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-text);
+    max-width: 90px;
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* ── Stories Grid ────────────────────────── */
+  .stories-grid-section {
+    padding: 4rem 0;
+    border-bottom: var(--border-thin);
+  }
+
+  .stories-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  @media (min-width: 640px) {
+    .stories-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .stories-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .story-card {
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    aspect-ratio: 9 / 16;
+    cursor: pointer;
+  }
+
+  .story-card-img-wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .story-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+
+  .story-card:hover .story-card-img {
+    transform: scale(1.05);
+  }
+
+  .story-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      rgba(10, 10, 10, 0.88) 0%,
+      rgba(10, 10, 10, 0.2) 50%,
+      transparent 100%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.85rem;
+    border-radius: 12px;
+  }
+
+  .story-card-category {
+    align-self: flex-start;
+    font-family: var(--font-sans);
+    font-size: 0.62rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: white;
+    padding: 0.2rem 0.55rem;
+    border-radius: 8px;
+    opacity: 0.92;
+  }
+
+  .story-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .story-card-title {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+
+  .story-card-subtitle {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.7);
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .story-card-readtime {
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: rgba(255,255,255,0.55);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 0.3rem;
+  }
+
+  /* Coming soon cards */
+  .story-card--coming {
+    cursor: default;
+  }
+
+  .coming-wrap {
+    background: linear-gradient(135deg,
+      rgba(92,107,74,0.06) 0%,
+      rgba(200,122,83,0.05) 100%
+    );
+    border: 1px dashed var(--color-border);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .coming-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .coming-icon {
+    font-size: 1.5rem;
+    opacity: 0.5;
+  }
+
+  .coming-text {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--color-text);
+    opacity: 0.45;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .coming-sub {
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    color: var(--color-text);
+    opacity: 0.3;
+  }
+
+  /* ── Usage Note ──────────────────────────── */
+  .stories-note-section {
+    padding: 2.5rem 0 4rem;
+  }
+
+  .stories-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 620px;
+    margin: 0 auto;
+    background: rgba(92,107,74,0.05);
+    border: var(--border-thin);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .note-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+  }
+
+  .note-text {
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    color: var(--color-text);
+    opacity: 0.7;
+    margin: 0;
+    line-height: 1.6;
+  }
+</style>
