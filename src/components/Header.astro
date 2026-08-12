@@ -44,12 +44,21 @@
               <polyline points="6 9 12 15 18 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
             </svg>
           </a>
-          <ul class="dropdown-menu">
-            <li><a href="#inside?category=yoga">Yoga Practice</a></li>
-            <li><a href="#inside?category=meditation">Mindfulness & Meditation</a></li>
-            <li><a href="#inside?category=somatic">Somatic Grounding</a></li>
+          <ul class="dropdown-menu inner-journey-dropdown">
+            <li class="dropdown-group-label">🪔 Philosophy</li>
+            <li><a href="#inside?category=vedanta">Vedanta &amp; Indian Wisdom</a></li>
+            <li><a href="#inside?category=yoga-philosophy">Yoga Philosophy</a></li>
+            <li><a href="#inside?category=essays">Seeker's Essays</a></li>
             <li class="divider"></li>
-            <li><a href="#inside?category=essays">Reflective Essays</a></li>
+            <li class="dropdown-group-label">🧠 Psychology</li>
+            <li><a href="#inside?category=somatic">Somatic Healing</a></li>
+            <li><a href="#inside?category=burnout">Nervous System &amp; Burnout</a></li>
+            <li><a href="#inside?category=mindfulness">Mindfulness &amp; Meditation</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-group-label">🧘 Practice</li>
+            <li><a href="#inside?category=yoga">Yoga Practice</a></li>
+            <li><a href="#inside?category=breathwork">Breathwork &amp; Pranayama</a></li>
+            <li><a href="#inside?category=journaling">Journaling &amp; Reflection</a></li>
           </ul>
         </li>
 
@@ -143,10 +152,18 @@
             </svg>
           </button>
           <ul class="accordion-panel">
+            <li class="drawer-group-label">🪔 Philosophy</li>
+            <li><a href="#inside?category=vedanta" class="drawer-sublink">Vedanta &amp; Indian Wisdom</a></li>
+            <li><a href="#inside?category=yoga-philosophy" class="drawer-sublink">Yoga Philosophy</a></li>
+            <li><a href="#inside?category=essays" class="drawer-sublink">Seeker's Essays</a></li>
+            <li class="drawer-group-label">🧠 Psychology</li>
+            <li><a href="#inside?category=somatic" class="drawer-sublink">Somatic Healing</a></li>
+            <li><a href="#inside?category=burnout" class="drawer-sublink">Nervous System &amp; Burnout</a></li>
+            <li><a href="#inside?category=mindfulness" class="drawer-sublink">Mindfulness &amp; Meditation</a></li>
+            <li class="drawer-group-label">🧘 Practice</li>
             <li><a href="#inside?category=yoga" class="drawer-sublink">Yoga Practice</a></li>
-            <li><a href="#inside?category=meditation" class="drawer-sublink">Mindfulness & Meditation</a></li>
-            <li><a href="#inside?category=somatic" class="drawer-sublink">Somatic Grounding</a></li>
-            <li><a href="#inside?category=essays" class="drawer-sublink">Reflective Essays</a></li>
+            <li><a href="#inside?category=breathwork" class="drawer-sublink">Breathwork &amp; Pranayama</a></li>
+            <li><a href="#inside?category=journaling" class="drawer-sublink">Journaling &amp; Reflection</a></li>
           </ul>
         </li>
 
@@ -359,6 +376,39 @@
     height: 1px;
     background-color: var(--color-border);
     margin: 0.5rem 0;
+  }
+
+  /* Inner Journey grouped dropdown */
+  .inner-journey-dropdown {
+    min-width: 240px;
+  }
+
+  .dropdown-group-label {
+    padding: 0.55rem 1.5rem 0.25rem;
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    opacity: 0.7;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  /* Mobile drawer group labels */
+  .drawer-group-label {
+    display: block;
+    padding: 0.65rem 0.5rem 0.2rem;
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    opacity: 0.7;
+    cursor: default;
+    pointer-events: none;
   }
 
   /* Right Side Header actions */
