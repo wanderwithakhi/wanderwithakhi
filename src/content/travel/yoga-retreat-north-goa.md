@@ -70,6 +70,6 @@ Mandrem, Arambol, and Ashwem have some of the most consistently reviewed retreat
 | **Holistic Wellness in North Goa** | 5 Days | Ashwem, North Goa | Yin + Meditation + Nidra |
 | **Re-Discover Yourself — 30 Days** | 30 Days | North Goa | Multi-style Immersion |
 
-> 🌿 **Browse North Goa Retreats**: See verified retreat listings by real travelers — [View North Goa Yoga Retreats](https://www.wanderwithakhi.com/?aid=11765)
+> 🌿 **Browse North Goa Retreats**: See verified retreat listings by real travelers — [View North Goa Yoga Retreats](https://www.tripaneer.com/all/c/yoga/d/india?aid=11765)
 
 *Using the link above supports wanderwithakhi.com at no extra cost to you.*

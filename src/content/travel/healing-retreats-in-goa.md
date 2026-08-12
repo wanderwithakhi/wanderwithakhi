@@ -68,6 +68,6 @@ When I look for healing retreats, I cross-reference participant reviews, therapi
 | **Yoga & Detox on Sernabatim Beach** | 15 Days | Colva, South Goa | Detox + Hatha Yoga |
 | **Sound Healing & Somatic Reset** | 5 Days | Mandrem, Goa | Sound Bath + Breathwork |
 
-> 🌿 **Find Your Healing Retreat**: Browse verified healing and wellness retreat packages in India — [Explore Healing Retreats](https://www.wanderwithakhi.com/?aid=11765)
+> 🌿 **Find Your Healing Retreat**: Browse verified healing and wellness retreat packages in India — [Explore Healing Retreats](https://www.tripaneer.com/all/c/yoga/d/india?aid=11765)
 
 *Using the link above supports wanderwithakhi.com at no extra cost to you.*

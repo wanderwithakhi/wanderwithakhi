@@ -67,6 +67,6 @@ A spiritual retreat needs to provide more than beautiful surroundings. It must o
 | **Traditional Hatha & Self-Inquiry** | 10 Days | Arambol, Goa | Classical Hatha + Svadhyaya |
 | **Yoga Nidra & Inner Silence Retreat** | 5 Days | Mandrem, Goa | Nidra + Mauna + Pranayama |
 
-> 🌿 **Explore Spiritual Retreats**: Find verified meditation and Vedanta retreat packages — [View Spiritual Retreats in India](https://www.wanderwithakhi.com/?aid=11765)
+> 🌿 **Explore Spiritual Retreats**: Find verified meditation and Vedanta retreat packages — [View Spiritual Retreats in India](https://www.tripaneer.com/all/c/yoga/d/india?aid=11765)
 
 *Using the link above supports wanderwithakhi.com at no extra cost to you.*

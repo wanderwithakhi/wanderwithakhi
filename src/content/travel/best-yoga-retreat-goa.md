@@ -64,6 +64,6 @@ Once you've used the checklist above, here are specific verified retreats that s
 | **Authentic Ashtanga Immersion** | 7 Days | Mandrem | ⭐ 4.8 | Ashtanga + Pranayama |
 | **Yoga & Sound Healing Weekend** | 3 Days | Arambol | ⭐ 4.7 | Hatha + Sound Bath |
 
-> 🌿 **Book a Verified Retreat**: Browse the full list of reviewed yoga retreats in Goa — [Find Your Retreat in Goa](https://www.wanderwithakhi.com/?aid=11765)
+> 🌿 **Book a Verified Retreat**: Browse the full list of reviewed yoga retreats in Goa — [Find Your Retreat in Goa](https://www.tripaneer.com/all/c/yoga/d/india?aid=11765)
 
 *Using the link above supports wanderwithakhi.com at no extra cost to you.*

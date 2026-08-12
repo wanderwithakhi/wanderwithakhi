@@ -67,6 +67,6 @@ Eco-retreats with open-air bamboo shalas are the most aligned with the slow trav
 | **Sustainable Beachfront Yoga** | 7 Days | Mandrem, Goa | Solar power, recycled water |
 | **Open-Air Yoga & Nature Retreat** | 5 Days | Assagao, North Goa | Teak & bamboo cottages |
 
-> 🌿 **Book an Eco Retreat**: Browse verified sustainable yoga retreat listings — [Explore Eco Yoga Retreats in Goa](https://www.wanderwithakhi.com/?aid=11765)
+> 🌿 **Book an Eco Retreat**: Browse verified sustainable yoga retreat listings — [Explore Eco Yoga Retreats in Goa](https://www.tripaneer.com/all/c/yoga/d/india?aid=11765)
 
 *Using the link above supports wanderwithakhi.com at no extra cost to you.*

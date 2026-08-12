@@ -68,6 +68,6 @@ True Ayurveda + Yoga retreats require a BAMS-qualified doctor, freshly prepared 
 | **Yoga & Ayurveda Wellness Retreat** | 10 Days | Mandrem, Goa | Dosha Balancing + Asana |
 | **Kerala-Style Ayurveda in Goa** | 7 Days | South Goa | Abhyanga + Pranayama |
 
-> 🌿 **Book Verified Ayurveda Retreats**: Browse Panchakarma and Yoga retreat packages — [View Ayurveda & Yoga Retreats](https://www.wanderwithakhi.com/?aid=11765)
+> 🌿 **Book Verified Ayurveda Retreats**: Browse Panchakarma and Yoga retreat packages — [View Ayurveda & Yoga Retreats](https://www.tripaneer.com/all/c/yoga/d/india?aid=11765)
 
 *Using the link above supports wanderwithakhi.com at no extra cost to you.*

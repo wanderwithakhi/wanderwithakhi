@@ -72,6 +72,6 @@ If you are planning a longer stay and want to anchor your trip around a structur
 | **Holistic Wellness Immersion** | 10 Days | Mandrem, North Goa | Multi-style + Ayurveda |
 | **Beginner Yoga & Mindfulness** | 5 Days | Assagao, Goa | Gentle Hatha + Nidra |
 
-> 🌿 **Browse All Yoga Retreats in Goa**: Over 200 verified listings with real reviews — [Explore All Goa Yoga Retreats](https://www.wanderwithakhi.com/?aid=11765)
+> 🌿 **Browse All Yoga Retreats in Goa**: Over 200 verified listings with real reviews — [Explore All Goa Yoga Retreats](https://www.tripaneer.com/all/c/yoga/d/india?aid=11765)
 
 *Using the link above supports wanderwithakhi.com at no extra cost to you.*

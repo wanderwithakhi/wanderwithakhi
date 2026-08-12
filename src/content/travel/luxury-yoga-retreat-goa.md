@@ -69,6 +69,6 @@ Finding a boutique space that balances premium comfort with authentic practice i
 | **Boutique Beachfront Yoga Escape** | 5 Days | Ashwem, North Goa | Yin + Restorative + Nidra |
 | **Holistic Wellness & Yoga Immersion** | 7 Days | Assagao, North Goa | Multi-style + Sound Healing |
 
-> 🌿 **Explore Premium Retreats**: Browse verified boutique yoga retreat listings in India — [View Luxury Yoga Retreats](https://www.wanderwithakhi.com/?aid=11765)
+> 🌿 **Explore Premium Retreats**: Browse verified boutique yoga retreat listings in India — [View Luxury Yoga Retreats](https://www.tripaneer.com/all/c/yoga/d/india?aid=11765)
 
 *Using the link above supports wanderwithakhi.com at no extra cost to you.*

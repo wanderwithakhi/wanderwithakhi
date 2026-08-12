@@ -81,6 +81,6 @@ After years of exploring Goa's shalas, I recommend browsing verified retreat lis
 | **Agastya Mini Escape Retreat** | 3 Days | South Goa | Gentle Hatha + Meditation |
 | **Beach Yoga & Breathwork Weekend** | 3 Days | Mandrem, North Goa | Vinyasa + Pranayama |
 
-> 🌿 **Book Verified Retreats**: Browse all reviewed yoga retreat packages in Goa — [Explore Yoga Retreats in Goa](https://www.wanderwithakhi.com/?aid=11765)
+> 🌿 **Book Verified Retreats**: Browse all reviewed yoga retreat packages in Goa — [Explore Yoga Retreats in Goa](https://www.tripaneer.com/all/c/yoga/d/india?aid=11765)
 
 *Using the link above supports wanderwithakhi.com at no extra cost to you.*

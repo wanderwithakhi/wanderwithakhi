@@ -68,6 +68,6 @@ Silence retreats require the highest standard of teacher guidance and environmen
 | **Meditation & Inner Enquiry** | 10 Days | Arambol, Goa | Self-inquiry + Pranayama |
 | **Silent Forest Yoga Retreat** | 5 Days | Assagao, North Goa | Silence + Classical Hatha |
 
-> 🌿 **Book a Silent Retreat**: Browse verified meditation and silence retreat packages in India — [View Silent Yoga Retreats](https://www.wanderwithakhi.com/?aid=11765)
+> 🌿 **Book a Silent Retreat**: Browse verified meditation and silence retreat packages in India — [View Silent Yoga Retreats](https://www.tripaneer.com/all/c/yoga/d/india?aid=11765)
 
 *Using the link above supports wanderwithakhi.com at no extra cost to you.*
