@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sadhana Journal - Cover Page</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+    
+    @page {
+      size: 8.5in 11in;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 8.5in;
+      height: 11in;
+      background-color: #FBF9F5;
+      color: #2D3748;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.8in;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Outer Decorative Border */
+    .page-border {
+      position: absolute;
+      top: 0.4in;
+      left: 0.4in;
+      right: 0.4in;
+      bottom: 0.4in;
+      border: 1px solid rgba(118, 136, 117, 0.4);
+      pointer-events: none;
+    }
+
+    .inner-border {
+      position: absolute;
+      top: 0.46in;
+      left: 0.46in;
+      right: 0.46in;
+      bottom: 0.46in;
+      border: 1px solid rgba(200, 125, 85, 0.25);
+      pointer-events: none;
+    }
+
+    /* Header Brand Badge */
+    .brand-badge {
+      font-size: 0.75rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: #768875;
+      font-weight: 600;
+      margin-top: 0.4in;
+    }
+
+    /* Main Title Section */
+    .title-box {
+      text-align: center;
+      max-width: 6.5in;
+      margin-top: 0.2in;
+    }
+
+    .main-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3.2rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: #2D3748;
+      line-height: 1.1;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1.35rem;
+      color: #C87D55;
+      margin-top: 0.8rem;
+      line-height: 1.4;
+      font-weight: 400;
+    }
+
+    /* Central Lotus & Yogi Illustration */
+    .illustration-box {
+      margin: 0.4in 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .illustration-box svg {
+      width: 220px;
+      height: 220px;
+    }
+
+    /* Footer Metadata */
+    .cover-footer {
+      text-align: center;
+      margin-bottom: 0.4in;
+    }
+
+    .author-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      letter-spacing: 0.08em;
+      color: #2D3748;
+      font-weight: 600;
+    }
+
+    .website-link {
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      color: #768875;
+      text-transform: uppercase;
+      margin-top: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-border"></div>
+  <div class="inner-border"></div>
+
+  <div class="brand-badge">Wander with Akhi</div>
+
+  <div class="title-box">
+    <h1 class="main-title">The Daily Sadhana & Asana Journal</h1>
+    <p class="subtitle">A Mindful Practice Companion for Physical Alignment, Breathwork & Inner Stillness</p>
+  </div>
+
+  <div class="illustration-box">
+    <!-- Serene Lotus & Sacred Geometry Vector Illustration -->
+    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="95" stroke="#768875" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="75" stroke="#C87D55" stroke-opacity="0.4" stroke-width="1"/>
+      <circle cx="100" cy="100" r="55" stroke="#768875" stroke-opacity="0.5" stroke-width="1"/>
+      
+      <!-- Central Seated Yogi Outline -->
+      <path d="M100 60 C105 60 108 64 108 70 C108 76 104 80 100 80 C96 80 92 76 92 70 C92 64 95 60 100 60 Z" fill="#768875" fill-opacity="0.8"/>
+      <path d="M100 83 C88 88 78 100 70 115 C66 122 64 128 72 130 C80 132 90 128 100 128 C110 128 120 132 128 130 C136 128 134 122 130 115 C122 100 112 88 100 83 Z" fill="#768875" fill-opacity="0.7"/>
+      
+      <!-- Petals -->
+      <path d="M100 135 C85 142 65 140 55 125 C65 115 85 125 100 135 Z" fill="#C87D55" fill-opacity="0.4"/>
+      <path d="M100 135 C115 142 135 140 145 125 C135 115 115 125 100 135 Z" fill="#C87D55" fill-opacity="0.4"/>
+      <path d="M100 135 C90 150 100 162 100 162 C100 162 110 150 100 135 Z" fill="#768875" fill-opacity="0.5"/>
+    </svg>
+  </div>
+
+  <div class="cover-footer">
+    <div class="author-name">Akhilesh Gowda</div>
+    <div class="website-link">wanderwithakhi.com</div>
+  </div>
+
+</body>
+</html>
