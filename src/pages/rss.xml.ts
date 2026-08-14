@@ -10,19 +10,19 @@ export async function GET(context: any) {
       title: post.data.title,
       description: post.data.description,
       pubDate: post.data.publishDate,
-      link: `/essays/travel/${post.id}`,
+      link: `/blog/travel/${post.id}`,
     })),
     ...mindfulnessPosts.map(post => ({
       title: post.data.title,
       description: post.data.description,
       pubDate: post.data.publishDate,
-      link: `/essays/mindfulness/${post.id}`,
+      link: `/blog/mindfulness/${post.id}`,
     })),
     ...wellnessPosts.map(post => ({
       title: post.data.title,
       description: post.data.description,
       pubDate: post.data.publishDate,
-      link: `/essays/wellness/${post.id}`,
+      link: `/blog/wellness/${post.id}`,
     })),
   ];
 

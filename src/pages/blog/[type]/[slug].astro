@@ -1,0 +1,456 @@
+---
+import { getCollection, render } from 'astro:content';
+import { getAllPosts, getPostBySlug, urlFor } from '../../../utils/sanity';
+import { toHTML } from '@portabletext/to-html';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Header from '../../../components/Header.astro';
+
+// Generate static paths for all articles in all collections
+export async function getStaticPaths() {
+  let sanityPaths = [];
+  try {
+    const sanityPosts = await getAllPosts();
+    if (sanityPosts && sanityPosts.length > 0) {
+      sanityPaths = sanityPosts.map(post => ({
+        params: { type: post.section, slug: post.slug },
+        props: { sanityPost: post, type: post.section, isSanity: true }
+      }));
+    }
+  } catch (e) {
+    console.error('[Sanity] static path fetching failed, continuing with fallback:', e);
+  }
+
+  // Fetch local collections
+  const travelPosts = await getCollection('travel');
+  const mindfulnessPosts = await getCollection('mindfulness');
+  const wellnessPosts = await getCollection('wellness');
+
+  const localPaths = [
+    ...travelPosts.map(post => ({
+      params: { type: 'travel', slug: post.id },
+      props: { post, type: 'travel', isSanity: false },
+    })),
+    ...mindfulnessPosts.map(post => ({
+      params: { type: 'mindfulness', slug: post.id },
+      props: { post, type: 'mindfulness', isSanity: false },
+    })),
+    ...wellnessPosts.map(post => ({
+      params: { type: 'wellness', slug: post.id },
+      props: { post, type: 'wellness', isSanity: false },
+    })),
+  ];
+
+  // Merge paths: Sanity documents override local files if slugs match
+  const pathMap = new Map();
+  localPaths.forEach(p => pathMap.set(`${p.params.type}/${p.params.slug}`, p));
+  sanityPaths.forEach(p => pathMap.set(`${p.params.type}/${p.params.slug}`, p));
+
+  return Array.from(pathMap.values());
+}
+
+const { post, type, isSanity, sanityPost } = Astro.props;
+
+// Resolve post metadata dynamically
+const title = isSanity ? sanityPost.title : post.data.title;
+const description = isSanity ? sanityPost.description : post.data.description;
+const category = isSanity ? sanityPost.category : post.data.category;
+const location = isSanity ? sanityPost.location : (post.data.location || undefined);
+const duration = isSanity ? sanityPost.duration : post.data.duration;
+const publishDate = isSanity ? new Date(sanityPost.publishDate) : post.data.publishDate;
+const coverImage = isSanity 
+  ? (sanityPost.coverImage ? urlFor(sanityPost.coverImage).url() : undefined) 
+  : post.data.coverImage;
+const faqs = isSanity ? (sanityPost.faqs || []) : (post.data.faqs || []);
+
+// Formatting Date
+const formattedDate = publishDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+// JSON-LD Structured Data Schema for AEO/GEO/SEO validation
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": title,
+  "description": description,
+  "datePublished": publishDate.toISOString(),
+  "author": {
+    "@type": "Person",
+    "name": "Akhilesh Gowda",
+    "url": "https://wanderwithakhi.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "wanderwithakhi",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://wanderwithakhi.com/images/slow-living.jpg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `https://wanderwithakhi.com/blog/${type}/${isSanity ? sanityPost.slug : post.id}`
+  },
+  "image": coverImage 
+    ? (coverImage.startsWith('http') ? coverImage : `https://wanderwithakhi.com${coverImage}`)
+    : "https://wanderwithakhi.com/images/slow-living.jpg"
+};
+
+// FAQ Schema block
+const faqJsonLd = faqs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+} : null;
+
+// Process Content body
+let htmlContent = '';
+let Content = null;
+
+if (isSanity) {
+  htmlContent = toHTML(sanityPost.body, {
+    components: {
+      types: {
+        image: ({ value }) => {
+          const imgUrl = urlFor(value).url();
+          const alt = value.alt || 'Somatic travel illustration';
+          return `<img src="${imgUrl}" alt="${alt}" class="essay-inline-image" style="width:100%; border-radius:12px; margin:2.5rem 0;" />`;
+        }
+      }
+    }
+  });
+} else {
+  const rendered = await render(post);
+  Content = rendered.Content;
+}
+---
+
+<BaseLayout 
+  title={`${title} | wanderwithakhi`} 
+  description={description}
+  image={coverImage}
+>
+  <!-- Inject Structured Schema JSON-LD -->
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  {faqJsonLd && (
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  )}
+
+  <Header />
+
+  <main class="essay-reader-main">
+    <div class="container reader-container">
+      <!-- Back Link -->
+      <a href="/" class="back-link">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="19" y1="12" x2="5" y2="12" stroke-linecap="round"></line>
+          <polyline points="12 19 5 12 12 5" stroke-linecap="round" stroke-linejoin="round"></polyline>
+        </svg>
+        Back to Journal
+      </a>
+
+      <!-- Article Header -->
+      <header class="essay-header">
+        <div class="essay-meta-top">
+          {category && <span class={`category-tag tag-${type}`}>{category}</span>}
+          {location && (
+            <span class="location-label">
+              <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" class="map-pin-icon">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle cx="12" cy="10" r="3" stroke-linecap="round" stroke-linejoin="round"></circle>
+              </svg>
+              {location}
+            </span>
+          )}
+        </div>
+
+        <h1 class="essay-title">{title}</h1>
+        
+        <div class="essay-meta-bottom">
+          <time datetime={publishDate.toISOString()}>{formattedDate}</time>
+          <span class="dot-separator">•</span>
+          <span>{duration}</span>
+        </div>
+      </header>
+
+      <!-- Content Container -->
+      <article class="essay-content post-content">
+        {isSanity ? (
+          <div class="sanity-prose-content" set:html={htmlContent} />
+        ) : (
+          <Content />
+        )}
+      </article>
+
+      <!-- Dynamic FAQ Section -->
+      {faqs && faqs.length > 0 && (
+        <section class="essay-faqs-section">
+          <hr class="faq-divider" />
+          <h2 class="faq-section-title">Frequently Asked Questions</h2>
+          <div class="faq-list">
+            {faqs.map(faq => (
+              <div class="faq-item">
+                <h3 class="faq-question">{faq.question}</h3>
+                <p class="faq-answer">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .essay-reader-main {
+    background-color: var(--color-bg);
+    min-height: calc(100vh - 72px);
+    padding: 4rem 1.5rem;
+    transition: background-color 0.8s ease;
+  }
+
+  .reader-container {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  /* Back Button */
+  .back-link {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0.6;
+    margin-bottom: 3rem;
+    transition: var(--transition-smooth);
+  }
+
+  .back-link:hover {
+    opacity: 1;
+    color: var(--color-accent);
+    transform: translateX(-4px);
+  }
+
+  /* Essay Header metadata */
+  .essay-header {
+    border-bottom: var(--border-thin);
+    padding-bottom: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .essay-meta-top {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .category-tag {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    padding: 0.25rem 0.75rem;
+    border: var(--border-thin);
+    border-radius: 4px;
+  }
+
+  .tag-travel {
+    color: var(--palette-rust);
+    border-color: rgba(200, 122, 83, 0.3);
+    background-color: rgba(200, 122, 83, 0.03);
+  }
+
+  .tag-mindfulness {
+    color: var(--palette-sage);
+    border-color: rgba(85, 107, 47, 0.3);
+    background-color: rgba(85, 107, 47, 0.03);
+  }
+
+  .tag-wellness {
+    color: var(--palette-ochre);
+    border-color: rgba(212, 163, 115, 0.3);
+    background-color: rgba(212, 163, 115, 0.03);
+  }
+
+  .location-label {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 0.9rem;
+    opacity: 0.6;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .map-pin-icon {
+    opacity: 0.7;
+  }
+
+  .essay-title {
+    font-size: 2.5rem;
+    line-height: 1.15;
+    margin-bottom: 1.5rem;
+    color: var(--color-text);
+  }
+
+  @media (min-width: 768px) {
+    .essay-title {
+      font-size: 3.25rem;
+    }
+  }
+
+  .essay-meta-bottom {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.55;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .dot-separator {
+    font-size: 0.6rem;
+  }
+
+  /* Essay Content styles */
+  .essay-content {
+    color: var(--color-text);
+    font-size: 1.125rem;
+    line-height: 1.8;
+  }
+
+  /* Styling Markdown elements inside the article */
+  .essay-content :global(h2) {
+    font-size: 1.85rem;
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .essay-content :global(h3) {
+    font-size: 1.45rem;
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .essay-content :global(p) {
+    margin-bottom: 1.75rem;
+  }
+
+  .essay-content :global(ul), .essay-content :global(ol) {
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+  }
+
+  .essay-content :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .essay-content :global(blockquote) {
+    border-left: 3px solid var(--color-accent);
+    padding-left: 1.5rem;
+    margin: 2.5rem 0;
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 1.35rem;
+    line-height: 1.6;
+    opacity: 0.9;
+  }
+
+  .essay-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2.5rem 0;
+    font-size: 0.95rem;
+    font-family: var(--font-sans);
+  }
+
+  .essay-content :global(th) {
+    border-bottom: 2px solid var(--color-text);
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+  }
+
+  .essay-content :global(td) {
+    border-bottom: var(--border-thin);
+    padding: 0.75rem 1rem;
+  }
+
+  /* FAQ Section Styling */
+  .essay-faqs-section {
+    margin-top: 4rem;
+    padding-top: 2rem;
+  }
+
+  .faq-divider {
+    border: 0;
+    height: 1px;
+    background-color: var(--color-border);
+    margin-bottom: 3rem;
+    opacity: 0.3;
+  }
+
+  .faq-section-title {
+    font-family: var(--font-editorial);
+    font-size: 2rem;
+    color: var(--color-text);
+    margin-bottom: 2.5rem;
+  }
+
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 2rem;
+  }
+  
+  :global(.dark) .faq-item {
+    border-bottom-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .faq-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .faq-question {
+    font-family: var(--font-sans);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 0.75rem;
+  }
+
+  .faq-answer {
+    font-family: var(--font-sans);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--color-text);
+    opacity: 0.85;
+  }
+</style>
