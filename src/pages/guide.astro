@@ -1,582 +1,450 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
+
+const products = [
+  {
+    id: "product_1_sadhana_journal",
+    number: "01",
+    title: "The Daily Sadhana & Asana Journal",
+    subtitle: "A 30-Page Printable Practice Companion & Mindful Tracker",
+    description: "Designed for dedicated practitioners and YTT students to log daily asana practice, pranayama retention times, meditation duration, and scriptural self-study (Svadhyaya).",
+    badge: "Yoga & Meditation",
+    color: "var(--palette-rust)",
+    fullUrl: "/digital_products/product_1_sadhana_journal/full_30_pages.html",
+    galleryUrl: "/digital_products/product_1_sadhana_journal/index.html",
+    overview: [
+      { pages: "Pages 1–3", title: "Cover & Sacred Intention (Sankalpa)", desc: "Set your daily practice commitment, dedication, and baseline energetic goals." },
+      { pages: "Pages 4–8", title: "Philosophy & Asana Alignment Framework", desc: "Core Patanjali 8 Limbs breakdown, posture tracking, and injury prevention notes." },
+      { pages: "Pages 9–24", title: "Daily Practice Log & Breathwork Meter", desc: "Grids for recording morning pranayama, meditation duration, and physical reflections." },
+      { pages: "Pages 25–30", title: "Weekly Audit & Svadhyaya Notes", desc: "End-of-week reflection prompts, habit consistency charts, and integration space." }
+    ]
+  },
+  {
+    id: "product_2_somatic_planner",
+    number: "02",
+    title: "Somatic Stress Release & Recovery Planner",
+    subtitle: "A 30-Page Workbook for Nervous System Regulation & Vagal Tone",
+    description: "A somatic toolkit to down-regulate sympathetic fight-or-flight states, track Heart Rate Variability (HRV), release psoas tension, and build emotional resilience.",
+    badge: "Somatic Therapy",
+    color: "var(--palette-sage)",
+    fullUrl: "/digital_products/product_2_somatic_planner/full_30_pages.html",
+    galleryUrl: "/digital_products/product_2_somatic_planner/page1_cover.html",
+    overview: [
+      { pages: "Pages 1–3", title: "Autonomic Nervous System Diagnostic", desc: "Self-assessment checklist to identify Ventral Vagal, Sympathetic, or Dorsal Vagal freeze states." },
+      { pages: "Pages 4–8", title: "Somatic Body Mapping Worksheets", desc: "Visual body outline diagrams to map physical stress stores (throat, chest, gut, shoulders)." },
+      { pages: "Pages 9–24", title: "Daily Somatic Logging & Vagal Exercises", desc: "Daily trackers for constructive rest, eye-gazing releases, and diaphragmatic breathing." },
+      { pages: "Pages 25–30", title: "Weekly Recovery Audits & Habit Loops", desc: "Progress tracking for HRV improvements, sleep quality, and physical tension release." }
+    ]
+  },
+  {
+    id: "product_3_dinacharya_guide",
+    number: "03",
+    title: "Dinacharya Ayurvedic Daily Routine Guide",
+    subtitle: "A 30-Page Circadian Health & Self-Care Workbook",
+    description: "Align your daily habits with classical Ayurvedic circadian wisdom. Features self-oil massage (Abhyanga) schedules, dosha balancing meal planners, and seasonal routines.",
+    badge: "Ayurveda & Health",
+    color: "var(--palette-ochre)",
+    fullUrl: "/digital_products/product_3_dinacharya_guide/full_30_pages.html",
+    galleryUrl: "/digital_products/product_3_dinacharya_guide/full_30_pages.html",
+    overview: [
+      { pages: "Pages 1–3", title: "Prakriti & Vikriti Dosha Diagnostic", desc: "Discover your baseline constitution (Vata, Pitta, Kapha) and current imbalances." },
+      { pages: "Pages 4–8", title: "Circadian Clock & Dinacharya Schedule", desc: "Ideal morning, afternoon, and evening routine timings based on doshic peaks." },
+      { pages: "Pages 9–24", title: "Daily Self-Care & Meal Planning Grids", desc: "Track tongue scraping, oil pulling, Abhyanga massage, and warm digestive meals." },
+      { pages: "Pages 25–30", title: "Ritu Charya Seasonal Transition Guide", desc: "Protocols for adapting diet and yoga during spring, summer, monsoon, and autumn." }
+    ]
+  },
+  {
+    id: "product_4_slow_travel_journal",
+    number: "04",
+    title: "Slow Travel Journal & Intentional Planner",
+    subtitle: "A 30-Page Mindful Companion for Conscious Explorers",
+    description: "Transform your journeys into quiet, intentional immersions. Features minimalist packing capsules, travel anxiety grounding tools, and location reflection prompts.",
+    badge: "Slow Travel",
+    color: "var(--palette-rust)",
+    fullUrl: "/digital_products/product_4_slow_travel_journal/full_30_pages.html",
+    galleryUrl: "/digital_products/product_4_slow_travel_journal/full_30_pages.html",
+    overview: [
+      { pages: "Pages 1–3", title: "Travel Intention & Minimalist Manifesto", desc: "Define your trip's mental purpose and commitment to low-impact slow travel." },
+      { pages: "Pages 4–8", title: "Ultralight Capsule Packing Checklists", desc: "Itemized 40L backpack packing grids for apparel, wellness items, and electronics." },
+      { pages: "Pages 9–24", title: "Daily City Reflections & Quietcation Logs", desc: "Prompts for recording local sensory discoveries, cultural interactions, and quiet spots." },
+      { pages: "Pages 25–30", title: "Post-Trip Integration & Memory Archive", desc: "Reflect on personal growth, mindset shifts, and lessons carried back home." }
+    ]
+  },
+  {
+    id: "product_5_lunar_planner",
+    number: "05",
+    title: "Lunar Cycle & Rhythm Planner",
+    subtitle: "A 30-Page Guide to Syncing Sadhana with Moon Phases",
+    description: "Harmonize your energy, yoga practice, and mental goals with the 29.5-day synodic lunar cycle. Ideal for moon day rest tracking and intention setting.",
+    badge: "Lunar Wisdom",
+    color: "var(--palette-sage)",
+    fullUrl: "/digital_products/product_5_lunar_planner/full_30_pages.html",
+    galleryUrl: "/digital_products/product_5_lunar_planner/full_30_pages.html",
+    overview: [
+      { pages: "Pages 1–3", title: "New Moon Intention Setting (Amavasya)", desc: "Plant seeds of intention, plant-based cleanses, and quiet meditation goals." },
+      { pages: "Pages 4–8", title: "Waxing Phase Energy Building Grids", desc: "Track physical strength building, active asana practice, and focus momentum." },
+      { pages: "Pages 9–24", title: "Full Moon Release Worksheets (Purnima)", desc: "Prompts for releasing emotional tension, rest day observance, and moon gazing." },
+      { pages: "Pages 25–30", title: "28-Day Habit & Energy Correlation Chart", desc: "Correlate your sleep quality, mood, and stamina with exact lunar phases." }
+    ]
+  },
+  {
+    id: "product_6_chakra_journal",
+    number: "06",
+    title: "Chakra Energetic Alignment Journal",
+    subtitle: "A 30-Page Subtle Body Diagnostic & Practice Workbook",
+    description: "Explore the 7 primary energy centers (Muladhara through Sahasrara). Features self-diagnostic symptom logs, Bija mantra chanting guides, and mudra protocols.",
+    badge: "Subtle Energy",
+    color: "var(--palette-ochre)",
+    fullUrl: "/digital_products/product_6_chakra_journal/full_30_pages.html",
+    galleryUrl: "/digital_products/product_6_chakra_journal/full_30_pages.html",
+    overview: [
+      { pages: "Pages 1–3", title: "7 Chakra Diagnostic Self-Audit", desc: "Assess excess, deficiency, or balance across all seven subtle energy centers." },
+      { pages: "Pages 4–8", title: "Root to Heart Chakra Alignment Pages", desc: "Specific asanas, seed mantras (LAM, VAM, RAM, YAM), and grounding visualizations." },
+      { pages: "Pages 9–24", title: "Throat to Crown Elevation Worksheets", desc: "Chanting logs, visual focus exercises, and non-dual contemplation prompts." },
+      { pages: "Pages 25–30", title: "Subtle Energy Balance Summary & Tracker", desc: "Weekly tracking for emotional clarity, intuitive alignment, and pranic flow." }
+    ]
+  },
+  {
+    id: "product_7_yin_somatic_guide",
+    number: "07",
+    title: "Yin & Somatic Self-Care Guide",
+    subtitle: "A 30-Page Deep Fascia Release & Long-Hold Companion",
+    description: "A printable companion for deep connective tissue hydration, Yin pose timing (3–5 minute holds), meridian line stimulation, and myofascial release.",
+    badge: "Yin & Fascia",
+    color: "var(--palette-rust)",
+    fullUrl: "/digital_products/product_7_yin_somatic_guide/full_30_pages.html",
+    galleryUrl: "/digital_products/product_7_yin_somatic_guide/full_30_pages.html",
+    overview: [
+      { pages: "Pages 1–3", title: "Principles of Yin & Fascial Anatomy", desc: "Learn the 3 rules of Yin: Yielding to gravity, finding your edge, and remaining motionless." },
+      { pages: "Pages 4–8", title: "Meridian Line Diagnostic Charts", desc: "Target Kidney/Bladder, Liver/Gallbladder, and Stomach/Spleen energetic pathways." },
+      { pages: "Pages 9–24", title: "Pose Timing & Sensation Intensity Logs", desc: "Track 3-to-5 minute pose holds (*Dragon*, *Butterfly*, *Caterpillar*) and emotional releases." },
+      { pages: "Pages 25–30", title: "Rebound Observation & Restorative Integration", desc: "Record somatic sensations felt during neutral rebound poses." }
+    ]
+  }
+];
 ---
 
-<BaseLayout title="Nervous System Reset Guide | wanderwithakhi" description="Transform your travels with the 7-Day Somatic Guide and Workbook. Learn to ground travel anxiety, reset digestion, and settle your mind.">
+<BaseLayout title="Digital Product Guides & Printable Workbooks | wanderwithakhi" description="Explore 30-page printable workbooks for daily sadhana, somatic recovery, Ayurvedic routines, slow travel, and subtler yoga practices by Akhilesh Gowda.">
   <Header />
 
-  <main class="sales-portal">
+  <main class="products-hub">
     {/* Hero Section */}
-    <section class="hero-split">
-      <div class="container hero-container">
-        <div class="hero-content">
-          <span class="product-badge">New Digital Guide & Workbook</span>
-          <h1 class="product-title">Nervous System Reset</h1>
-          <p class="product-subtitle">A 7-Day Somatic Guide & Workbook for Solo Travelers</p>
-          <p class="product-lead">The print-ready step-by-step roadmap to ground travel anxiety, restore gut health, and establish a state of deep physical safety no matter where you are in the world.</p>
-          
-          <div class="price-row">
-            <span class="current-price">$19.00</span>
-            <span class="original-price">$39.00</span>
-            <span class="launch-label">Launch Special</span>
-          </div>
+    <section class="hub-hero">
+      <div class="container">
+        <span class="hub-badge">Print-Ready 30-Page Workbooks</span>
+        <h1 class="hub-title">Digital Practice Guides & Workbooks</h1>
+        <p class="hub-lead">Comprehensive, vector-rendered 8.5x11 inch workbooks designed to anchor your daily yoga practice, somatic stress recovery, Ayurvedic routines, and intentional travel.</p>
+      </div>
+    </section>
 
-          <div class="cta-actions">
-            <a href="/guides/somatic-travel-reset.html" class="buy-btn" target="_blank">
-              Get Free PDF Preview
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" class="btn-icon">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <polyline points="7 10 12 15 17 10" stroke-linecap="round" stroke-linejoin="round"></polyline>
-                <line x1="12" y1="15" x2="12" y2="3" stroke-linecap="round" stroke-linejoin="round"></line>
-              </svg>
-            </a>
-            <span class="cta-note">Instant Print-Ready HTML & PDF download</span>
-          </div>
-        </div>
-
-        <div class="hero-preview">
-          <div class="book-mockup">
-            <div class="book-spine"></div>
-            <div class="book-cover">
-              <span class="mockup-brand">Wander With Akhi</span>
-              <div class="mockup-title-group">
-                <h2 class="mockup-title">Nervous<br/>System<br/>Reset</h2>
-                <p class="mockup-subtitle">A 7-Day Somatic Guide</p>
+    {/* Products Showcase with Page Overviews */}
+    <section class="products-grid-section">
+      <div class="container">
+        <div class="products-stack">
+          {products.map(prod => (
+            <article class="product-item-card" id={prod.id}>
+              <div class="card-top-bar">
+                <div class="meta-left">
+                  <span class="product-num" style={`color: ${prod.color}`}>{prod.number}</span>
+                  <span class="product-category-tag">{prod.badge}</span>
+                </div>
+                <span class="specs-pill">30-Page US Letter & A4 Vector PDF / HTML</span>
               </div>
-              <span class="mockup-author">By Akhi</span>
-            </div>
-          </div>
+
+              <div class="card-main-split">
+                <div class="info-column">
+                  <h2 class="card-title">{prod.title}</h2>
+                  <p class="card-subtitle">{prod.subtitle}</p>
+                  <p class="card-desc">{prod.description}</p>
+
+                  <div class="cta-row">
+                    <a href={prod.fullUrl} class="primary-btn" target="_blank" style={`background-color: ${prod.color}`}>
+                      Open Full 30-Page Workbook
+                      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <polyline points="15 3 21 3 21 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                      </svg>
+                    </a>
+                    <a href={prod.galleryUrl} class="secondary-btn" target="_blank">
+                      View Page Gallery
+                    </a>
+                  </div>
+                </div>
+
+                {/* Page-by-Page Overview Box */}
+                <div class="overview-box">
+                  <h3 class="overview-heading">📄 Page-by-Page Content Overview</h3>
+                  <div class="overview-list">
+                    {prod.overview.map(item => (
+                      <div class="overview-item">
+                        <span class="page-range" style={`color: ${prod.color}`}>{item.pages}</span>
+                        <div class="page-details">
+                          <strong class="page-title">{item.title}</strong>
+                          <p class="page-desc">{item.desc}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </article>
+          ))}
         </div>
-      </div>
-    </section>
-
-    {/* Product Chapters Details */}
-    <section class="product-features">
-      <div class="container features-container">
-        <h2 class="section-title">What's Inside the Guide?</h2>
-        <p class="section-subtitle">Over 1,800 words of direct, actionable practices, somatic charts, and reflection tools.</p>
-
-        <div class="chapters-grid">
-          <div class="chapter-card">
-            <div class="chapter-num">01</div>
-            <h3 class="chapter-title">The Physiology of Transition</h3>
-            <p class="chapter-text">Learn how transit speeds, sensory overload, and geographic transitions stress your autonomic nervous system, triggering Vata wind imbalances.</p>
-          </div>
-
-          <div class="chapter-card">
-            <div class="chapter-num">02</div>
-            <h3 class="chapter-title">The 7-Day Somatic Protocol</h3>
-            <p class="chapter-text">A daily step-by-step roadmap: Lie in constructive rest, visually map new hotels, practice Vata-pacifying nostril breathwork, and massage digestive lockups.</p>
-          </div>
-
-          <div class="chapter-card">
-            <div class="chapter-num">03</div>
-            <h3 class="chapter-title">Somatic Body Map Worksheet</h3>
-            <p class="chapter-text">Use the built-in diagnostic body map to track where your body stores tension (throat, solar plexus, gut) and apply specific grounding release commands.</p>
-          </div>
-
-          <div class="chapter-card">
-            <div class="chapter-num">04</div>
-            <h3 class="chapter-title">Weekly Habit Tracker</h3>
-            <p class="chapter-text">Keep yourself accountable with our print-ready daily habit tracker. Write down physical shifts and trace your path to peace.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    {/* Who is this for? */}
-    <section class="target-audience">
-      <div class="container target-container">
-        <div class="target-header">
-          <h2 class="target-title">Is this workbook for you?</h2>
-        </div>
-        
-        <div class="target-split">
-          <div class="target-column">
-            <h3 class="column-title">This guide is for you if:</h3>
-            <ul class="target-list list-check">
-              <li>You suffer from travel anxiety, racing thoughts, or spacing out during long transits.</li>
-              <li>You experience digestive disruptions (bloating, lockups) whenever you change cities.</li>
-              <li>You are a digital nomad struggling with background burnout and sensory overload.</li>
-              <li>You want to learn simple, ancient somatic tools to anchor yourself in any country.</li>
-            </ul>
-          </div>
-
-          <div class="target-column">
-            <h3 class="column-title">This is NOT for you if:</h3>
-            <ul class="target-list list-cross">
-              <li>You prefer packed checklists and sight-seeing marathons over slow-living exploration.</li>
-              <li>You are seeking clinical medical advice for chronic nervous disorders.</li>
-              <li>You do not want to do physical body-awareness breathing or journaling exercises.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    {/* Author Section */}
-    <section class="author-block">
-      <div class="container author-container">
-        <div class="author-avatar" style="background-image: url(/images/slow-living.jpg);"></div>
-        <div class="author-info">
-          <span class="author-tag">Written by Akhilesh Gowda</span>
-          <h2 class="author-title">"Your body is your only true country."</h2>
-          <p class="author-prose">"After years of exploring ashrams in Mysore, wandering as a slow traveller, and seeking traditional Indian spiritual lineages, I realized that true rest is never about the destination. It is a state of inner silence. I wrote this guide to share the simple grounding practices that kept me centered through crowded trains and chaotic border crossings. I hope they serve as your anchor on the road."</p>
-        </div>
-      </div>
-    </section>
-
-    {/* CTA Block */}
-    <section class="final-cta">
-      <div class="container cta-container">
-        <h2 class="cta-title">Settle into your journey today.</h2>
-        <p class="cta-desc">Download your free copy of the print-ready Somatic Travel Guide and start resetting your body.</p>
-        <a href="/guides/somatic-travel-reset.html" class="buy-btn btn-large" target="_blank">Download Guide PDF / HTML</a>
       </div>
     </section>
   </main>
 </BaseLayout>
 
 <style>
-  .sales-portal {
+  .products-hub {
     background-color: var(--color-bg);
     min-height: 100vh;
     color: var(--color-text);
+    padding-bottom: 6rem;
   }
 
-  /* Hero Split Layout */
-  .hero-split {
-    padding: 6rem 1.5rem;
+  .hub-hero {
+    padding: 5rem 1.5rem 3rem;
+    text-align: center;
     border-bottom: var(--border-thin);
+    background-color: rgba(0,0,0,0.015);
   }
 
-  .hero-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 4rem;
-    align-items: center;
-  }
-
-  @media (min-width: 1024px) {
-    .hero-container {
-      grid-template-columns: 1.2fr 0.8fr;
-    }
-  }
-
-  .product-badge {
+  .hub-badge {
     font-family: var(--font-sans);
     font-size: 0.72rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     color: var(--palette-rust);
-    background-color: rgba(200, 122, 83, 0.05);
-    padding: 0.45rem 1rem;
+    background-color: rgba(200, 122, 83, 0.08);
+    padding: 0.45rem 1.15rem;
     border-radius: 4px;
     display: inline-block;
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.5rem;
   }
 
-  .product-title {
-    font-size: 3.5rem;
-    line-height: 1.05;
-    margin-bottom: 0.5rem;
-    color: var(--color-text);
+  .hub-title {
+    font-size: 3.25rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
   }
 
-  .product-subtitle {
+  .hub-lead {
     font-family: var(--font-editorial);
     font-style: italic;
-    font-size: 1.75rem;
+    font-size: 1.35rem;
+    max-width: 800px;
+    margin: 0 auto;
     opacity: 0.8;
+    line-height: 1.6;
+  }
+
+  .products-grid-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .products-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .product-item-card {
+    background-color: var(--color-bg);
+    border: var(--border-thin);
+    border-radius: 8px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    transition: var(--transition-smooth);
+  }
+
+  .product-item-card:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  }
+
+  .card-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    padding-bottom: 1.25rem;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 
-  .product-lead {
-    font-family: var(--font-serif);
-    font-size: 1.25rem;
-    line-height: 1.7;
-    opacity: 0.75;
-    margin-bottom: 2.5rem;
-  }
-
-  /* Price Row */
-  .price-row {
+  .meta-left {
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 3rem;
   }
 
-  .current-price {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--palette-rust);
-  }
-
-  .original-price {
-    font-size: 1.5rem;
-    text-decoration: line-through;
-    opacity: 0.4;
-  }
-
-  .launch-label {
+  .product-num {
     font-family: var(--font-sans);
-    font-size: 0.65rem;
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+
+  .product-category-tag {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    background-color: #faf9f6;
-    border: 1px solid var(--palette-rust);
-    color: var(--palette-rust);
-    padding: 0.25rem 0.75rem;
-    border-radius: 30px;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
   }
 
-  /* CTA actions */
-  .cta-actions {
+  .specs-pill {
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background-color: var(--palette-chalk);
+    padding: 0.35rem 0.85rem;
+    border-radius: 30px;
+    opacity: 0.8;
+  }
+
+  .card-main-split {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  @media (min-width: 900px) {
+    .card-main-split {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .card-title {
+    font-size: 2.15rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+
+  .card-subtitle {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 1.15rem;
+    opacity: 0.8;
+    margin-bottom: 1.25rem;
+  }
+
+  .card-desc {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    line-height: 1.65;
+    opacity: 0.75;
+    margin-bottom: 2.25rem;
+  }
+
+  .cta-row {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 1rem;
   }
 
-  .buy-btn {
+  .primary-btn {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.85rem 1.75rem;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    transition: var(--transition-smooth);
+  }
+
+  .primary-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+  }
+
+  .secondary-btn {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.85rem 1.5rem;
+    color: var(--color-text);
+    border: var(--border-thin);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+  }
+
+  .secondary-btn:hover {
+    background-color: var(--palette-chalk);
+  }
+
+  /* Overview Box */
+  .overview-box {
+    background-color: var(--palette-chalk);
+    border: var(--border-thin);
+    border-radius: 6px;
+    padding: 1.75rem;
+  }
+
+  .overview-heading {
     font-family: var(--font-sans);
     font-size: 0.85rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    padding: 1rem 2.5rem;
-    background-color: var(--palette-rust);
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.75rem;
-    transition: var(--transition-smooth);
-    box-shadow: 0 4px 14px rgba(200, 122, 83, 0.25);
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
   }
 
-  .buy-btn:hover {
-    opacity: 0.95;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(200, 122, 83, 0.35);
-  }
-
-  .btn-icon {
-    transition: transform 0.3s ease;
-  }
-
-  .buy-btn:hover .btn-icon {
-    transform: translateY(2px);
-  }
-
-  .cta-note {
-    font-family: var(--font-sans);
-    font-size: 0.7rem;
-    opacity: 0.5;
-    margin-left: 0.25rem;
-  }
-
-  /* Book Mockup Preview */
-  .hero-preview {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .book-mockup {
-    width: 280px;
-    height: 380px;
-    display: flex;
-    box-shadow: 15px 15px 30px rgba(0,0,0,0.06), -5px -5px 10px rgba(255,255,255,0.8);
-    border-radius: 0 6px 6px 0;
-    overflow: hidden;
-    background-color: var(--palette-rust);
-  }
-
-  .book-spine {
-    width: 20px;
-    background: linear-gradient(90deg, rgba(0,0,0,0.15) 0%, rgba(255,255,255,0.08) 50%, rgba(0,0,0,0.2) 100%);
-    border-right: 1px solid rgba(0,0,0,0.1);
-  }
-
-  .book-cover {
-    flex-grow: 1;
-    background: var(--palette-rust);
-    padding: 3rem 2rem;
+  .overview-list {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    color: #fff;
+    gap: 1rem;
   }
 
-  .mockup-brand {
+  .overview-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .page-range {
     font-family: var(--font-sans);
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    opacity: 0.8;
-  }
-
-  .mockup-title {
-    font-family: var(--font-sans);
-    font-size: 2.25rem;
-    line-height: 1.1;
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-  }
-
-  .mockup-subtitle {
-    font-family: var(--font-editorial);
-    font-style: italic;
-    font-size: 1.15rem;
-    opacity: 0.9;
-  }
-
-  .mockup-author {
-    font-family: var(--font-sans);
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    opacity: 0.8;
-  }
-
-  /* Chapter Details Section */
-  .product-features {
-    background-color: var(--palette-chalk);
-    border-bottom: var(--border-thin);
-    padding: 6rem 1.5rem;
-  }
-
-  .features-container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .section-title {
-    font-size: 2.25rem;
-    text-align: center;
-    margin-bottom: 0.5rem;
-  }
-
-  .section-subtitle {
-    font-family: var(--font-editorial);
-    font-style: italic;
-    font-size: 1.25rem;
-    text-align: center;
-    opacity: 0.7;
-    margin-bottom: 4.5rem;
-  }
-
-  .chapters-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-
-  @media (min-width: 768px) {
-    .chapters-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  .chapter-card {
-    background-color: var(--color-bg);
-    border: var(--border-thin);
-    padding: 2.5rem;
-    border-radius: 6px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .chapter-num {
-    font-size: 4rem;
-    font-family: var(--font-sans);
+    font-size: 0.7rem;
     font-weight: 800;
-    color: var(--palette-rust);
-    opacity: 0.05;
-    position: absolute;
-    top: 0.5rem;
-    right: 1.5rem;
-    line-height: 1;
-  }
-
-  .chapter-title {
-    font-size: 1.35rem;
-    margin-bottom: 0.75rem;
-    color: var(--color-text);
-  }
-
-  .chapter-text {
-    font-family: var(--font-serif);
-    font-size: 1.05rem;
-    line-height: 1.6;
-    opacity: 0.75;
-    margin: 0;
-  }
-
-  /* Target Audience lists */
-  .target-audience {
-    padding: 6rem 1.5rem;
-    border-bottom: var(--border-thin);
-  }
-
-  .target-container {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
-  .target-title {
-    font-size: 2.25rem;
-    text-align: center;
-    margin-bottom: 4rem;
-  }
-
-  .target-split {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3.5rem;
-  }
-
-  @media (min-width: 768px) {
-    .target-split {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  .column-title {
-    font-family: var(--font-sans);
-    font-size: 0.9rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-weight: 700;
-    margin-bottom: 1.75rem;
+    white-space: nowrap;
+    background-color: #fff;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.06);
+    flex-shrink: 0;
   }
 
-  .target-list {
-    list-style: none;
-    padding: 0;
-  }
-
-  .target-list li {
-    font-family: var(--font-serif);
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 1.25rem;
-    position: relative;
-    padding-left: 2rem;
-  }
-
-  /* List bullets (check vs cross) */
-  .list-check li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: var(--palette-sage);
-    font-weight: 700;
-  }
-
-  .list-cross li::before {
-    content: "✕";
-    position: absolute;
-    left: 0;
-    color: var(--palette-rust);
-    font-weight: 700;
-  }
-
-  /* Author block */
-  .author-block {
-    background-color: var(--palette-chalk);
-    border-bottom: var(--border-thin);
-    padding: 6rem 1.5rem;
-  }
-
-  .author-container {
-    max-width: 900px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3.5rem;
-    align-items: center;
-  }
-
-  @media (min-width: 768px) {
-    .author-container {
-      grid-template-columns: 0.8fr 1.2fr;
-    }
-  }
-
-  .author-avatar {
-    width: 100%;
-    height: 380px;
-    background-size: cover;
-    background-position: center;
-    border: var(--border-thin);
-    border-radius: 6px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.03);
-  }
-
-  .author-tag {
-    font-family: var(--font-sans);
-    font-size: 0.72rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--palette-rust);
-    margin-bottom: 1rem;
+  .page-title {
+    font-size: 0.95rem;
     display: block;
+    margin-bottom: 0.2rem;
   }
 
-  .author-title {
-    font-family: var(--font-editorial);
-    font-style: italic;
-    font-size: 2rem;
-    line-height: 1.25;
-    margin-bottom: 1.5rem;
-  }
-
-  .author-prose {
-    font-family: var(--font-serif);
-    font-size: 1.1rem;
-    line-height: 1.7;
-    opacity: 0.75;
+  .page-desc {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    line-height: 1.45;
+    opacity: 0.7;
     margin: 0;
-  }
-
-  /* Final CTA Block */
-  .final-cta {
-    padding: 7rem 1.5rem;
-    text-align: center;
-  }
-
-  .cta-container {
-    max-width: 700px;
-    margin: 0 auto;
-  }
-
-  .cta-title {
-    font-size: 2.75rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .cta-desc {
-    font-family: var(--font-editorial);
-    font-style: italic;
-    font-size: 1.35rem;
-    opacity: 0.75;
-    margin-bottom: 3.5rem;
-  }
-
-  .btn-large {
-    padding: 1.25rem 3.5rem;
-    font-size: 0.9rem;
   }
 </style>
