@@ -28,7 +28,7 @@ For travelers seeking to counteract the Vata-inducing stress of transit, this ta
 | **Dry Skin & Dehydration** | Lightness & Wind | Internal and external lubrication (Snehana). | Sip warm water; apply organic coconut or sesame oil to dry skin areas. |
 | **Nervous Restlessness** | High Movement | Alternate-nostril breathing (Nadi Shodhana). | Practice 5 minutes of slow breathing before takeoff and after landing. |
 
-If you are traveling through southern India, consider scheduling an Ayurvedic consultation at a wellness sanctuary along the canals of [Kerala](/essays/travel/kerala-backwaters) to receive personalized treatments.
+If you are traveling through southern India, consider scheduling an Ayurvedic consultation at a wellness sanctuary along the canals of [Kerala](/blog/travel/kerala-backwaters) to receive personalized treatments.
 
 ---
 
@@ -68,7 +68,7 @@ Digestion (*Agni*) is the cornerstone of health in Ayurveda. When travel disrupt
 Avoid dry crackers, protein bars, and raw salads while in transit. Instead, choose warm, cooked meals:
 *   Oatmeal, warm porridge, or rice bowls for breakfast.
 *   Steamed vegetables, dhal (lentil soup), and cooked grains for lunch and dinner.
-*   If you are traveling through regions where finding hot vegetarian food is difficult, read our guide on [Vegan Travel Hacks](/essays/wellness/vegan-travel-hacks) to help you locate plant-based dining centers.
+*   If you are traveling through regions where finding hot vegetarian food is difficult, read our guide on [Vegan Travel Hacks](/blog/wellness/vegan-travel-hacks) to help you locate plant-based dining centers.
 
 ### 2. The Ritucharya Pace
 Eat in silence and with complete focus. Avoid working, scrolling on your phone, or reading while eating. Take a moment before starting to look at your food, feel the warmth of the plate, and express gratitude. This simple act of presence primes the stomach to release digestive enzymes, preventing bloating.

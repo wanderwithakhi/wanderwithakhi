@@ -1,4 +1,7 @@
----
+import os
+
+mindfulness_updates = {
+    "breathwork-for-jetlag.md": """---
 title: "Breathe to Reset: Yogic Breathwork (Pranayama) to Cure Jetlag"
 description: "A somatic guide to using specific breathing patterns to balance your circadian rhythm, vagus nerve, and nervous system after long-haul flights."
 publishDate: 2026-06-28
@@ -63,3 +66,13 @@ Track your daily jetlag recovery, heart rate variability, and sleep quality with
 
 ### How long does it take for pranayama to relieve jetlag symptoms?
 Practicing 10 to 15 minutes of Nadi Shodhana upon landing and before sleep provides immediate autonomic relaxation, shortening circadian acclimatization time by 50%.
+"""
+}
+
+# Apply updates
+content_base = r"C:\Users\SPURGE\.gemini\antigravity\scratch\wanderwithakhi\src\content\mindfulness"
+for fname, new_content in mindfulness_updates.items():
+    fpath = os.path.join(content_base, fname)
+    with open(fpath, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    print(f"Upgraded {fname} with full AEO/GEO standards.")

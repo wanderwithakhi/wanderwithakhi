@@ -16,7 +16,7 @@ faqs:
 
 Air travel presents a major challenge to our internal rhythms. In Ayurvedic medicine, travel corresponds to a severe disturbance of the **Vata dosha**—the biological energy governed by the elements of air and ether. The movement, cold drafts, high altitudes, and rapid geographic shifts of long-haul flights amplify the qualities of dryness, coldness, and mobility. This Vata imbalance often manifests somatic symptoms: flight lag, digestive lockups, cognitive fatigue, and dry skin.
 
-By integrating specific pranayama (breathwork) routines, travelers can decelerate their nervous systems and restore grounding. To physically decompress your hips and lumbar spine along with breathwork, you can also practice the [Constructive Rest Pose (CRP)](/essays/mindfulness/constructive-rest-pose-somatic).
+By integrating specific pranayama (breathwork) routines, travelers can decelerate their nervous systems and restore grounding. To physically decompress your hips and lumbar spine along with breathwork, you can also practice the [Constructive Rest Pose (CRP)](/blog/mindfulness/constructive-rest-pose-somatic).
 
 ![A traveler practicing Nadi Shodhana breathwork in a quiet airport terminal](/images/vata_breath.jpg)
 
@@ -53,7 +53,7 @@ Beyond breathwork, you can pacify Vata dosha during travel with these simple phy
 
 -   **Hydration with Warm Water**: Avoid iced water, which aggregates cold Vata. Sip warm water or ginger tea throughout your travel day to keep your digestive tract hydrated.
 -   **Anoint the Senses (Nasya)**: Apply a drop of sesame oil or ghee to the inside of your nostrils before boarding to protect your sinuses from dry cabin air.
--   **Warm Self-Massage (Abhyanga)**: After arrival, rub warm sesame oil onto your scalp and the soles of your feet. This simple touch practice grounds excess Vata movement. These tools are the foundation of your [Ayurvedic Travel Toolkit](/essays/wellness/ayurvedic-travel-toolkit). To study these healing methods further, refer to resources provided by [The Ayurvedic Institute](https://www.ayurveda.com/).
+-   **Warm Self-Massage (Abhyanga)**: After arrival, rub warm sesame oil onto your scalp and the soles of your feet. This simple touch practice grounds excess Vata movement. These tools are the foundation of your [Ayurvedic Travel Toolkit](/blog/wellness/ayurvedic-travel-toolkit). To study these healing methods further, refer to resources provided by [The Ayurvedic Institute](https://www.ayurveda.com/).
 
 ---
 

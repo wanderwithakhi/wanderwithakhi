@@ -16,7 +16,7 @@ faqs:
 
 While South Goa is known for its quiet beaches and solitude, North Goa has long been a hub for creative thinkers, musicians, and bohemian travelers. The northern coastline—especially the stretch from Morjim up to Arambol—has a vibrant energy that encourages self-expression, community connection, and holistic exploration. A **yoga retreat in North Goa** offers a unique blend of traditional practice and creative community, making it perfect for seekers who want to connect with like-minded travelers.
 
-If you are planning your journey and want to ensure a peaceful trip, read our [Goa solo female travel safety guide](/essays/travel/goa-solo-female-travel-safety) for practical tips on navigating the local transport and accommodation.
+If you are planning your journey and want to ensure a peaceful trip, read our [Goa solo female travel safety guide](/blog/travel/goa-solo-female-travel-safety) for practical tips on navigating the local transport and accommodation.
 
 > **Quick Tip:** If you want a quiet, reflective retreat, book your stay in Mandrem or Ashwem. These villages offer peaceful beaches and high-quality shalas while keeping you close to the creative community of Arambol.
 
@@ -55,7 +55,7 @@ North Goa is home to an exceptional organic food scene. Cafes in Mandrem and Ash
 
 The creative energy of North Goa can be a powerful catalyst for personal growth. By combining structured morning yoga with afternoon writing, music, or art, you can tap into new levels of self-expression and mental clarity.
 
-To read more about integrating mindfulness into your daily travels, check out our essay on [writing and journaling on the road](/essays/mindfulness/journaling-on-the-road). You can also learn about the positive effects of community support on mental well-being by reading research papers on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
+To read more about integrating mindfulness into your daily travels, check out our essay on [writing and journaling on the road](/blog/mindfulness/journaling-on-the-road). You can also learn about the positive effects of community support on mental well-being by reading research papers on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
 
 ---
 

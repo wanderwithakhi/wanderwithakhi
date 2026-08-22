@@ -16,7 +16,7 @@ faqs:
 
 In our modern culture, stress is often treated as a badge of honor. We run on adrenaline, push past our physical boundaries, and ignore the subtle signals of burnout until our bodies force us to stop. When the nervous system remains in a chronic state of fight-or-flight, it affects our digestion, our sleep, and our emotional health. A **healing retreat in Goa** offers a dedicated space to slow down, turn inward, and practice somatic decompression. 
 
-Goa's unique coastal environment—rich in warm ocean waters, fresh air, and abundant nature—acts as a natural therapeutic setting. If you are experiencing symptoms of exhaustion, you can read our guide on [recovering from digital nomad burnout](/essays/mindfulness/digital-nomad-burnout) to start your recovery journey.
+Goa's unique coastal environment—rich in warm ocean waters, fresh air, and abundant nature—acts as a natural therapeutic setting. If you are experiencing symptoms of exhaustion, you can read our guide on [recovering from digital nomad burnout](/blog/mindfulness/digital-nomad-burnout) to start your recovery journey.
 
 > **Quick Tip:** Healing is not a linear process. When choosing a retreat, avoid programs that promise instant cures. Look for spaces that give you ample quiet time to rest, integrate, and simply be.
 
@@ -53,7 +53,7 @@ Releasing long-held stress can sometimes bring up suppressed emotions. Authentic
 
 True recovery requires letting go of the need to do. A healing retreat is not about filling your day with activities; it is about learning how to rest without guilt. By spending quiet hours listening to the ocean, walking barefoot on the sand, and eating clean, nourishing food, you allow your body to return to its natural state of balance.
 
-For more grounding tools, read our guide on [vata-pacifying breathwork for travel anxiety](/essays/mindfulness/vata-pacifying-breathwork). You can also research clinical data on the benefits of sound therapy and meditation on the [National Institutes of Health PubMed library](https://www.ncbi.nlm.nih.gov/pmc/).
+For more grounding tools, read our guide on [vata-pacifying breathwork for travel anxiety](/blog/mindfulness/vata-pacifying-breathwork). You can also research clinical data on the benefits of sound therapy and meditation on the [National Institutes of Health PubMed library](https://www.ncbi.nlm.nih.gov/pmc/).
 
 ---
 

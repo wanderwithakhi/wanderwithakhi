@@ -26,3 +26,5 @@ pnpm-debug.log*
 # Sanity local cache
 .sanity/
 dist-studio/
+
+.vercel

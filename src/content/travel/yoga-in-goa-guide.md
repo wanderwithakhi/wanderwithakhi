@@ -16,7 +16,7 @@ faqs:
 
 Goa has become one of the premier destinations for yoga travelers worldwide. The state's unique mix of Portuguese heritage, Indian culture, and tropical beaches creates a relaxed atmosphere that is ideal for self-care and spiritual practice. However, arriving in Goa without a clear understanding of the local logistics can lead to unnecessary stress. This practical guide provides all the essential information you need to plan your trip, covering seasons, transport, costs, and local etiquette for practicing **yoga in Goa**.
 
-If you are planning a trip to South Goa, you can read our [travel guide for Agonda Beach stays and shalas](/essays/travel/agonda-beach-yoga) to help find a quiet base.
+If you are planning a trip to South Goa, you can read our [travel guide for Agonda Beach stays and shalas](/blog/travel/agonda-beach-yoga) to help find a quiet base.
 
 > **Quick Tip:** Respect local Goan culture by dressing modestly when walking through local villages or visiting temples. Keep beachwear for the sandy shores and cover your shoulders and knees in residential areas.
 
@@ -57,7 +57,7 @@ Goan villages are home to traditional families who value quietude and respect. M
 
 True slow travel is about staying in one place long enough to understand its rhythm. By choosing a quiet village, establishing a daily practice routine, and supporting local businesses, you can experience a deeper connection to the Goan landscape.
 
-For advice on keeping your wellness routine balanced while on the road, read our [Ayurvedic rules for travel](/essays/wellness/ayurveda-travel-tips). You can also research the physiological benefits of coastal living and outdoor environments on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
+For advice on keeping your wellness routine balanced while on the road, read our [Ayurvedic rules for travel](/blog/wellness/ayurveda-travel-tips). You can also research the physiological benefits of coastal living and outdoor environments on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
 
 ---
 

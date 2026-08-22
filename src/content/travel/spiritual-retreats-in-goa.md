@@ -16,7 +16,7 @@ faqs:
 
 In the West, yoga is often presented as a physical fitness routine—a sequence of postures designed to build strength and flexibility. But in the traditional Indian view, the physical practice is merely a preparatory step. The real work of yoga is the inward journey toward self-realization and mental quietude. A **spiritual retreat in Goa** offers an opportunity to look beyond physical exercise and explore the deeper, philosophical roots of the practice, including Vedanta study, silent meditation, and self-inquiry.
 
-To set the stage for this deeper inner exploration, you can review our [guide on quiet yoga retreats in India](/essays/travel/quiet-yoga-retreats-india) to learn about traditional ashram spaces.
+To set the stage for this deeper inner exploration, you can review our [guide on quiet yoga retreats in India](/blog/travel/quiet-yoga-retreats-india) to learn about traditional ashram spaces.
 
 > **Quick Tip:** A spiritual retreat is not a holiday. Enter the space with a sense of humility and a willingness to observe the rules of the container, including early wake-up times and silent hours.
 
@@ -53,7 +53,7 @@ To encourage introspection, spiritual retreats usually offer simple, clean, and 
 
 The goal of a spiritual retreat is not to perform a perfect posture, but to develop a quiet, steady mind. By taking a break from constant action and focusing on study and meditation, you can connect with a deeper sense of peace that remains steady regardless of external circumstances.
 
-To read more about the philosophy of modern spiritual seeking, review my essay on [moving from a corporate job to a yoga ashram](/essays/mindfulness/engineer-to-seeker-yoga-journey). You can also research scientific studies on the neurological benefits of long-term meditation on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
+To read more about the philosophy of modern spiritual seeking, review my essay on [moving from a corporate job to a yoga ashram](/blog/mindfulness/engineer-to-seeker-yoga-journey). You can also research scientific studies on the neurological benefits of long-term meditation on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
 
 ---
 

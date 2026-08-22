@@ -27,7 +27,7 @@ This emptiness led me to search online for ways to fund a traveling lifestyle, i
 
 ## 🏛️ The Transition: From Interior Design to Mysore
 
-Eventually, family circumstances required me to return to a traditional job. I joined an interior design firm in the cultural city of **Mysore**—renowned globally as the Ashtanga yoga capital. At the time, I had no idea why people from all over the world flocked to this city. You can explore the historical background of this city in our [Mysore Slow Living & Heritage Guide](/essays/travel/mysore-heritage).
+Eventually, family circumstances required me to return to a traditional job. I joined an interior design firm in the cultural city of **Mysore**—renowned globally as the Ashtanga yoga capital. At the time, I had no idea why people from all over the world flocked to this city. You can explore the historical background of this city in our [Mysore Slow Living & Heritage Guide](/blog/travel/mysore-heritage).
 
 ![A traditional side street in Mysore featuring heritage houses and street lamps with the illuminated Mysore Palace in the background during golden hour](/images/mysore_street.jpg)
 
@@ -46,7 +46,7 @@ Living at the ashram completely changed my lifestyle:
 -   **Circadian Reset**: My sleeping patterns adjusted to natural sunrise and sunset cues, helping to settle my nervous system.
 -   **Daily Practice**: I established a regular Hatha and Ashtanga yoga practice, attended philosophy classes, and helped manage the ashram's social media and website.
 
-Surrounded by spiritual seekers from all over the world, I began observing my life with new eyes. I realized that the physical fatigue and confusion I experienced during my corporate years were signs of a nervous system out of balance. To help other travelers navigate similar transits, I later compiled these recovery practices into a comprehensive [Quiet Yoga Retreats in India Guide](/essays/travel/quiet-yoga-retreats-india) and a dedicated [Vata-Pacifying Breathwork Guide](/essays/mindfulness/vata-pacifying-breathwork).
+Surrounded by spiritual seekers from all over the world, I began observing my life with new eyes. I realized that the physical fatigue and confusion I experienced during my corporate years were signs of a nervous system out of balance. To help other travelers navigate similar transits, I later compiled these recovery practices into a comprehensive [Quiet Yoga Retreats in India Guide](/blog/travel/quiet-yoga-retreats-india) and a dedicated [Vata-Pacifying Breathwork Guide](/blog/mindfulness/vata-pacifying-breathwork).
 
 ---
 

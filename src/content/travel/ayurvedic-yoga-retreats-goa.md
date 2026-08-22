@@ -16,7 +16,7 @@ faqs:
 
 In the traditional Vedic sciences, yoga and Ayurveda are considered sister systems. Yoga is the science of mental quietude and self-realization, while Ayurveda is the science of physical health and lifestyle balance. Practiced together, they provide a complete path to well-being. An **Ayurveda and yoga retreat in Goa** combines these two systems, using warm herbal oils, healing bodywork, clean nutrition, and somatic practice to restore balance to your body and mind.
 
-To prepare for an Ayurvedic healing journey, check out our [practical Ayurvedic travel toolkit guide](/essays/wellness/ayurvedic-travel-toolkit) for simple, daily wellness routines.
+To prepare for an Ayurvedic healing journey, check out our [practical Ayurvedic travel toolkit guide](/blog/wellness/ayurvedic-travel-toolkit) for simple, daily wellness routines.
 
 > **Quick Tip:** When undertaking deep Ayurvedic treatments like Panchakarma, minimize physical exertion. The process is internally demanding, and your body needs extra rest to integrate the therapies.
 
@@ -53,7 +53,7 @@ Your meals should be prepared fresh daily using organic, easily digestible ingre
 
 Ayurveda teaches us that health is a state of harmony with our environment. By waking with the sun, eating clean, seasonal food, and receiving traditional treatments, you align your body's rhythms with nature's flow.
 
-To learn more about slow living and somatic practices, read our guide on [what is somatic travel](/essays/mindfulness/what-is-somatic-travel). You can also research clinical data on the efficacy of Ayurvedic therapies on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
+To learn more about slow living and somatic practices, read our guide on [what is somatic travel](/blog/mindfulness/what-is-somatic-travel). You can also research clinical data on the efficacy of Ayurvedic therapies on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
 
 ---
 

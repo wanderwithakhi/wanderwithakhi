@@ -14,7 +14,7 @@ faqs:
     answer: "Yes, Agonda Beach is widely considered one of the safest and most respectful beaches in India for solo female travelers. The local community is welcoming, and the beach-shack owners maintain a safe, hassle-free environment."
 ---
 
-Goa is often celebrated for its vibrant night markets, crowded beach shacks, and techno-centric party strips. However, south of the Zuari River, the geographic pace of the state decelerates. Tucked inside the Canacona taluka, **Agonda Beach** (located at coordinates: 15.0443° N, 73.9842° E) has preserved its natural borders. With a three-kilometer crescent of golden sand flanked by pine groves and coconut plantations, Agonda is a peaceful sanctuary for travelers seeking traditional yoga, holistic healing, and somatic decompression. To ensure a peaceful and secure journey, you can review our dedicated [Goa Solo Female Safety Guide](/essays/travel/goa-solo-female-travel-safety) before heading out.
+Goa is often celebrated for its vibrant night markets, crowded beach shacks, and techno-centric party strips. However, south of the Zuari River, the geographic pace of the state decelerates. Tucked inside the Canacona taluka, **Agonda Beach** (located at coordinates: 15.0443° N, 73.9842° E) has preserved its natural borders. With a three-kilometer crescent of golden sand flanked by pine groves and coconut plantations, Agonda is a peaceful sanctuary for travelers seeking traditional yoga, holistic healing, and somatic decompression. To ensure a peaceful and secure journey, you can review our dedicated [Goa Solo Female Safety Guide](/blog/travel/goa-solo-female-travel-safety) before heading out.
 
 If you are looking to escape fast-paced Western city life, Agonda offers a quiet coastal ecosystem where your nervous system can relax and slow down.
 
@@ -57,7 +57,7 @@ Slow living requires mindful eating. Agonda’s food scene focuses on clean, who
 
 -   **Mandala Café**: Situated on the middle road, this cafe is a hub for slow travel. They serve cold-pressed green juices, raw vegan cakes, and sourdough toast. They source their organic vegetables from local Goan family farms.
 -   **Zest Agonda**: Located near the southern beach access, Zest features quiet garden seating and serves coconut smoothie bowls, avocado toast, and macrobiotic salad bowls.
--   **Khaama Kethna**: An eco-village and organic farm nestled in the forest hills just behind Agonda. They serve slow-cooked Ayurvedic meals prepared in traditional clay pots. Utilizing these local resources is a core element of your [Ayurvedic Travel Toolkit](/essays/wellness/ayurvedic-travel-toolkit).
+-   **Khaama Kethna**: An eco-village and organic farm nestled in the forest hills just behind Agonda. They serve slow-cooked Ayurvedic meals prepared in traditional clay pots. Utilizing these local resources is a core element of your [Ayurvedic Travel Toolkit](/blog/wellness/ayurvedic-travel-toolkit).
 
 ---
 

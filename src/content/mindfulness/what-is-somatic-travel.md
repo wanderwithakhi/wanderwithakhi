@@ -26,7 +26,7 @@ For travelers seeking to understand somatic body-awareness and plan a nervous sy
 | **What is somatic travel?** | A travel style that uses body awareness and somatic techniques to regulate the nervous system on the move. | Scan your body for tension during transit points (airports, trains). |
 | **How do I plan a nervous system reset trip?** | Choose a destination close to nature, slow down your pace, and minimize scheduled events. | Dedicate your first two days to pure rest and hydration. |
 | **What is somatic grounding?** | The act of connecting your awareness to physical sensations (touch, breath) to reduce mental anxiety. | Plant your feet flat on the ground; feel the support. |
-| **How does travel affect digestion?** | Travel stress constricts blood flow to the digestive tract, slowing down the system. | Sip warm water throughout the day; read our [Ayurveda Travel Tips](/essays/wellness/ayurveda-travel-tips). |
+| **How does travel affect digestion?** | Travel stress constricts blood flow to the digestive tract, slowing down the system. | Sip warm water throughout the day; read our [Ayurveda Travel Tips](/blog/wellness/ayurveda-travel-tips). |
 
 ---
 
@@ -38,7 +38,7 @@ To understand somatic travel, we must understand the autonomic nervous system. T
 
 Many travelers spend their entire trip in a state of sympathetic activation, mistaking the rush of adrenaline for "excitement." Somatic travel teaches you to monitor these physiological shifts. By tracking your bodily cues—such as a tight jaw, shallow breathing, or cold hands—you can take immediate steps to engage your parasympathetic nervous system, returning to a state of calm.
 
-To learn how to establish a stable sitting posture and quiet your mind during busy travel moments, refer to our guide on [Meditation on the Road](/essays/mindfulness/meditation-on-the-road).
+To learn how to establish a stable sitting posture and quiet your mind during busy travel moments, refer to our guide on [Meditation on the Road](/blog/mindfulness/meditation-on-the-road).
 
 ---
 
@@ -75,7 +75,7 @@ A reset trip is not about doing nothing; it is about doing things with complete 
 | **Day 2** | Sensory Awakening | Silent forest walk; touch bark and soil. | Restorative yoga or stretching on the floor. | Journaling: write down physical sensations. |
 | **Day 3** | Integration | Alternate-nostril breathing (5 minutes). | Slow local dining; eat mindfully with your hands. | Silent meditation; track your breathing anchor. |
 
-During your reset trip, digestion can be supported using traditional warming spices. Read our guide on [Ayurveda Travel Tips](/essays/wellness/ayurveda-travel-tips) to understand how to select meals that support your gut health during transitions.
+During your reset trip, digestion can be supported using traditional warming spices. Read our guide on [Ayurveda Travel Tips](/blog/wellness/ayurveda-travel-tips) to understand how to select meals that support your gut health during transitions.
 
 ---
 

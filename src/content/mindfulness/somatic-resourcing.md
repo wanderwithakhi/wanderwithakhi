@@ -38,7 +38,7 @@ Our autonomic nervous system is divided into two primary branches:
 
 When traveling, the constant flow of new visual and auditory stimuli keeps the sympathetic nervous system active. Somatic resourcing works by consciously directing the mind's focus to bodily sensations that signal safety. When the brain registers these safe, physical sensations, it immediately begins to engage the parasympathetic nervous system, lowering your heart rate and releasing physical tension.
 
-In historic yoga centers like Gokulam in [Mysore](/essays/travel/mysore-heritage), practitioners coordinate dynamic body movement with breathing patterns to achieve this state of nervous system balance.
+In historic yoga centers like Gokulam in [Mysore](/blog/travel/mysore-heritage), practitioners coordinate dynamic body movement with breathing patterns to achieve this state of nervous system balance.
 
 ---
 
@@ -68,7 +68,7 @@ When you feel overwhelmed by crowd noise in a transit hub like a railway station
 3.  **Acknowledge support**: Realize that the earth is physically supporting your weight. You do not need to hold yourself up; you can let your weight drop into the floor.
 4.  **Breathe**: Take five slow exhalals, feeling your connection to the floor strengthen with each breath.
 
-This simple exercise shifts your focus from your external surroundings to your physical boundary, creating an immediate shield against sensory overload. Travelers visiting the sacred riverbanks of [Rishikesh](/essays/travel/rishikesh-ganges) use this practice of sand-grounding to connect with the raw earth and quiet their minds.
+This simple exercise shifts your focus from your external surroundings to your physical boundary, creating an immediate shield against sensory overload. Travelers visiting the sacred riverbanks of [Rishikesh](/blog/travel/rishikesh-ganges) use this practice of sand-grounding to connect with the raw earth and quiet their minds.
 
 ---
 

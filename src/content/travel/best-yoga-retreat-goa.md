@@ -16,7 +16,7 @@ faqs:
 
 Goa's wellness industry is vast. A simple online search for "yoga retreat in Goa" returns hundreds of results, ranging from budget beach camps to high-end luxury resorts. With so many options, finding a space that aligns with your practice goals can feel overwhelming. Many spots use marketing terms like "spiritual" and "authentic" without providing the corresponding structure or quality of teaching. To help you navigate the options, this guide provides an unbiased checklist to find the **best yoga retreat in Goa** for your personal journey.
 
-If you are planning to stay in South Goa, you can read our [in-depth guide on slow living in Goa on a budget](/essays/wellness/slow-living-goa-cheaper) to help organize your trip logistics.
+If you are planning to stay in South Goa, you can read our [in-depth guide on slow living in Goa on a budget](/blog/wellness/slow-living-goa-cheaper) to help organize your trip logistics.
 
 > **Quick Tip:** Before booking, send an email to the retreat organizers asking about their policy on phone use and quiet hours. Their response will give you a clear indication of how serious they are about maintaining a quiet container.
 
@@ -49,7 +49,7 @@ The physical setting should support nervous system regulation. Ensure the shala 
 
 The food should be freshly prepared, vegetarian, and cooked using Ayurvedic principles. A satvic diet supports digestion and keeps your energy levels stable throughout the day.
 
-For further travel guidance, check out our [minimalist gear packing list](/essays/travel/travel-gear-minimalist) to make sure you bring only what supports your practice. You can also review guidelines on wellness tourism standards from the [World Health Organization](https://www.who.int/) or search clinical studies on the benefits of structured retreats on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
+For further travel guidance, check out our [minimalist gear packing list](/blog/travel/travel-gear-minimalist) to make sure you bring only what supports your practice. You can also review guidelines on wellness tourism standards from the [World Health Organization](https://www.who.int/) or search clinical studies on the benefits of structured retreats on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
 
 ---
 

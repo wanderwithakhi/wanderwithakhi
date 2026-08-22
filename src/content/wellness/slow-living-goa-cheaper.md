@@ -28,9 +28,9 @@ For travelers seeking to understand the susegad lifestyle and the budgeting adva
 | **What does slow living in Goa look like?** | Renting a local cottage, cooking Goan produce, and navigating by bicycle or scooter. | Live in quiet southern villages like Agonda, Patnem, or Loutolim. |
 | **Why is slow travel cheaper than short trips?** | It eliminates frequent flight costs, lowers housing rates via monthly leases, and encourages home cooking. | Look for month-long rental cottages instead of paying nightly hotel rates. |
 | **How does slow travel support sustainability?** | It reduces transport carbon emissions and directs funds straight into local village families and markets. | Shop at local weekly markets (*Wochenmärkte*) rather than corporate supermarkets. |
-| **What is the best way to disconnect and recharge?** | Schedule offline periods and practice a tech-free [Digital Detox](/essays/wellness/digital-detox-guide). | Keep your phone turned off for at least 3 hours during afternoon rest times. |
+| **What is the best way to disconnect and recharge?** | Schedule offline periods and practice a tech-free [Digital Detox](/blog/wellness/digital-detox-guide). | Keep your phone turned off for at least 3 hours during afternoon rest times. |
 
-If you are planning to explore the quiet coastlines and historical homes of South Goa, read our detailed travelogue on [Finding Quiet and Solitude in South Goa](/essays/travel/goa-slow-beaches).
+If you are planning to explore the quiet coastlines and historical homes of South Goa, read our detailed travelogue on [Finding Quiet and Solitude in South Goa](/blog/travel/goa-slow-beaches).
 
 ---
 
@@ -67,7 +67,7 @@ To practice slow living in Goa is to adjust your internal clock to *Susegad*—t
 
 A typical susegad-aligned day in a Goan village looks like this:
 1.  **Morning**: Wake up to the sound of birds and wind. Walk to the local bakery (*pader*) to buy fresh, warm *poee* (traditional Goan bread). Enjoy it with local black tea.
-2.  **Afternoon Rest**: Between 1:00 PM and 4:00 PM, the village goes quiet. The sun is hot, shops close, and locals rest. Embrace this quiet period: turn off your devices, close your blinds, and practice a restorative [Digital Detox](/essays/wellness/digital-detox-guide). Let your nervous system settle during this warm afternoon lull.
+2.  **Afternoon Rest**: Between 1:00 PM and 4:00 PM, the village goes quiet. The sun is hot, shops close, and locals rest. Embrace this quiet period: turn off your devices, close your blinds, and practice a restorative [Digital Detox](/blog/wellness/digital-detox-guide). Let your nervous system settle during this warm afternoon lull.
 3.  **Evening**: Walk along the dirt paths lined with red-oxide Portuguese houses. Sit on the beach or by a field, watch the sunset, and chat with neighbors.
 
 > "Susegad is not a lack of activity; it is a presence of peace. It is the realization that this afternoon rest is just as valuable as morning work." — Akhi

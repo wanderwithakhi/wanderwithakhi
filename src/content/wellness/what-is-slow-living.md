@@ -26,7 +26,7 @@ For those seeking to understand the core shifts of the slow movement, this table
 | **Pace** | Constant acceleration and multi-tasking. | Decelerating to single-task with complete presence. | Perform one activity (eating, walking) without screens. |
 | **Mindset** | Reactive; driven by notifications and demands. | Proactive; guided by internal values and calm checks. | Dedicate the first 15 minutes of the morning to silence. |
 | **Consumption** | Mass-produced, fast, and temporary items. | High-quality, sustainable, and long-lasting goods. | Audit purchases using the 30-wears or longevity rules. |
-| **Space** | Cluttered rooms and over-scheduled calendars. | Minimalist, open spaces that allow room to breathe. | Practice decluttering; read [Minimalism Home & Mind](/essays/wellness/minimalism-home-mind). |
+| **Space** | Cluttered rooms and over-scheduled calendars. | Minimalist, open spaces that allow room to breathe. | Practice decluttering; read [Minimalism Home & Mind](/blog/wellness/minimalism-home-mind). |
 
 ---
 
@@ -52,7 +52,7 @@ Modern technology has turned us into chronic multi-taskers. We answer emails whi
 ### 2. Morning Stillness
 How you begin your day sets the tone for your nervous system. Reaching for your phone first thing triggers immediate stress reactions, dumping cortisol and dopamine into your bloodstream.
 *   **The Practice**: Keep your phone in another room overnight. Spend the first 15 minutes after waking in total silence. Sit comfortably, look out the window, or perform simple breathing exercises. This establishes a calm baseline that makes it easier to remain centered throughout the day.
-*   For those looking to establish a portable daily anchor, read our guide on [Meditation on the Road](/essays/mindfulness/meditation-on-the-road).
+*   For those looking to establish a portable daily anchor, read our guide on [Meditation on the Road](/blog/mindfulness/meditation-on-the-road).
 
 ---
 
@@ -64,7 +64,7 @@ Your physical environment has a direct influence on your mental state. A clutter
 Minimalism is not about living in an empty white box; it is about removing the items that do not serve your life so you can make room for what does.
 *   **Clear Surfaces**: Keep kitchen counters, tables, and desks clear of items unless actively in use. An empty desk is a visual invitation for focused thought.
 *   **Natural Textures**: Decorate your home with natural materials (wood, linen, stone, ceramic). These materials have tactile, organic qualities that are grounding to the touch.
-*   If you want to explore the psychology of physical decluttering, read our article on [Decluttering the Home to Quiet the Mind](/essays/wellness/minimalism-home-mind).
+*   If you want to explore the psychology of physical decluttering, read our article on [Decluttering the Home to Quiet the Mind](/blog/wellness/minimalism-home-mind).
 
 > "Decelerating your life is not a loss of time; it is a gain of depth. You stop skim-reading your days and begin reading them line by line." — Akhi
 

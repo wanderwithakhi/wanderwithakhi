@@ -16,7 +16,7 @@ faqs:
 
 We live in an age of constant noise. From the notifications on our screens to the conversations around us, our minds are continually processing external information. This mental activity can leave us feeling overstimulated, anxious, and disconnected from our inner self. A **silent meditation retreat in Goa** offers a rare opportunity to practice absolute silence (Mauna), turn your attention inward, and allow your nervous system to rest and decompress.
 
-By choosing a quiet coastal setting, you can support your practice with the grounding sound of the ocean. To help prepare for this quiet journey, check out our [guide on quietcations and silent retreats in India](/essays/travel/quietcations-india).
+By choosing a quiet coastal setting, you can support your practice with the grounding sound of the ocean. To help prepare for this quiet journey, check out our [guide on quietcations and silent retreats in India](/blog/travel/quietcations-india).
 
 > **Quick Tip:** During silent hours, avoid making eye contact with other participants. Respecting each other's quiet space is essential to help everyone turn their focus completely inward.
 
@@ -53,7 +53,7 @@ A clear schedule of sitting meditation, walking practice, light yoga, and silent
 
 Silent practice helps you observe the nature of your thoughts without reacting to them. By stepping back from constant communication and simply sitting with yourself, you can experience a deep sense of stillness and presence.
 
-To read more about developing a daily meditation practice, check out our [guide on meditation on the road](/essays/mindfulness/meditation-on-the-road). You can also research scientific studies on the benefits of silent retreats and mindfulness on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
+To read more about developing a daily meditation practice, check out our [guide on meditation on the road](/blog/mindfulness/meditation-on-the-road). You can also research scientific studies on the benefits of silent retreats and mindfulness on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
 
 ---
 

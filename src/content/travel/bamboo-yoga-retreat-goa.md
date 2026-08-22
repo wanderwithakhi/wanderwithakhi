@@ -16,7 +16,7 @@ faqs:
 
 In the search for sustainable travel, the materials we use to construct our living spaces matter. For decades, coastal tourism in India relied on concrete developments that altered local ecosystems. However, a growing movement of conscious creators is championing natural, low-impact architecture. The **bamboo yoga retreat model in Goa** represents a shift toward sustainable tourism, where shalas and guest cottages are built using local bamboo and thatch. These organic structures offer a unique connection to the natural environment, allowing you to sleep and practice in spaces that breathe.
 
-To understand how sustainable living fits into a broader spiritual practice, you can read our essay on [what slow living really means](/essays/wellness/what-is-slow-living).
+To understand how sustainable living fits into a broader spiritual practice, you can read our essay on [what slow living really means](/blog/wellness/what-is-slow-living).
 
 > **Quick Tip:** Sleeping in a natural bamboo structure allows you to stay connected to the outdoor sounds. Use this as an opportunity to align your sleep cycle with the natural rhythms of the sunrise and sunset.
 
@@ -53,7 +53,7 @@ A sustainable retreat should employ local staff, source food from nearby organic
 
 Staying in a bamboo cottage helps you practice simplicity (Aparigraha). By living with fewer material possessions, sleeping close to nature, and practicing in an open-air shala, you can quiet the mind and focus on your inner landscape.
 
-For practical travel advice, check out our [Ayurvedic travel toolkit guide](/essays/wellness/ayurvedic-travel-toolkit) to help maintain your health naturally. You can also research scientific studies on how natural environments reduce stress and improve mental focus on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
+For practical travel advice, check out our [Ayurvedic travel toolkit guide](/blog/wellness/ayurvedic-travel-toolkit) to help maintain your health naturally. You can also research scientific studies on how natural environments reduce stress and improve mental focus on [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/).
 
 ---
 

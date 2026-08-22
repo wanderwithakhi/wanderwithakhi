@@ -22,8 +22,8 @@ For travelers seeking to relax and experience the floating rhythms of Kerala, th
 | Question | Direct Answer | Recommended Practice |
 | :--- | :--- | :--- |
 | **What are the Kerala Backwaters?** | A 900 km network of palm-lined waterways, canals, and lakes in southwestern India. | Choose Kumarakom or Monroe Island for a quieter, less commercial experience. |
-| **Why is Kerala a center for Ayurveda?** | The humid, tropical climate is ideal for herbal growth and body purification therapies. | Schedule a traditional consultation to balance your system; read our [Ayurveda Travel Tips](/essays/wellness/ayurveda-travel-tips). |
-| **How do I find local plant-based meals?** | Kerala cuisine is naturally rich in coconut, vegetables, and rice. | Eat a traditional sadhya served on a banana leaf; learn [Vegan Travel Hacks](/essays/wellness/vegan-travel-hacks) for menu checking. |
+| **Why is Kerala a center for Ayurveda?** | The humid, tropical climate is ideal for herbal growth and body purification therapies. | Schedule a traditional consultation to balance your system; read our [Ayurveda Travel Tips](/blog/wellness/ayurveda-travel-tips). |
+| **How do I find local plant-based meals?** | Kerala cuisine is naturally rich in coconut, vegetables, and rice. | Eat a traditional sadhya served on a banana leaf; learn [Vegan Travel Hacks](/blog/wellness/vegan-travel-hacks) for menu checking. |
 | **What is a Kettuvallam?** | A traditional wood-and-thatch houseboat historically used to transport rice. | Choose a manually poled wooden canoe to explore narrow canals quietly. |
 
 ---
@@ -64,7 +64,7 @@ Kerala is the historical home of Ayurveda, the ancient Indian system of medicine
 One of the core Ayurvedic practices is *Abhyanga*—a full-body massage using warm, herb-infused sesame oil.
 *   **Somatic Regulation**: The massage is performed with rhythmic, long strokes that stimulate lymphatic drainage and calm the nervous system. The warm oil penetrates deep into the tissues, countering the dry, airy *Vata* qualities triggered by traveling.
 *   **Post-Treatment Integration**: After a massage, sit quietly in a warm room. Feel the weight of the oil on your skin and the deep relaxation in your muscles. This is an ideal state to practice deep breathing and body scanning, checking in on areas where you historically store emotional stress.
-*   If you want to practice daily self-massage or manage your diet on the road, read our detailed guide on [Ayurveda Travel Tips](/essays/wellness/ayurveda-travel-tips) or find a dedicated [yoga retreat in India](/essays/travel/quiet-yoga-retreats-india) to deepen your Ayurvedic journey.
+*   If you want to practice daily self-massage or manage your diet on the road, read our detailed guide on [Ayurveda Travel Tips](/blog/wellness/ayurveda-travel-tips) or find a dedicated [yoga retreat in India](/blog/travel/quiet-yoga-retreats-india) to deepen your Ayurvedic journey.
 
 ---
 
@@ -76,7 +76,7 @@ Kerala's cuisine is naturally aligned with wellness and plant-based living. It r
 A traditional *Sadhya* is a banquet of up to 24 vegetarian dishes served on a single, fresh banana leaf.
 *   **Tactile Eating**: Eat with your right hand. Engaging your fingers directly with the textures and temperatures of the rice, curries, and pickles creates a powerful somatic connection to your food. It slows down the eating process, allowing you to taste the subtle spices.
 *   **The Flavor Scale**: The dishes cover all six Ayurvedic tastes (*Shad Rasa*): sweet, sour, salty, bitter, pungent, and astringent. This variety ensures nutritional balance and leaves you feeling completely satisfied.
-*   To learn more about how to navigate menus and source healthy plant-based proteins on the go, read our guide on [Vegan Travel Hacks](/essays/wellness/vegan-travel-hacks).
+*   To learn more about how to navigate menus and source healthy plant-based proteins on the go, read our guide on [Vegan Travel Hacks](/blog/wellness/vegan-travel-hacks).
 
 ---
 

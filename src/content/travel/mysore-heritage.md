@@ -24,7 +24,7 @@ For travelers arriving in Mysore seeking to balance sight-seeing with mindfulnes
 | **Why is Mysore a global hub for yoga?** | It is the birthplace of Ashtanga Vinyasa Yoga, popularized globally by K. Pattabhi Jois. | Practice at a registered shala in Gokulam; observe local chanting rules. |
 | **What is the best way to tour the heritage zones?** | Bicycling or walking through the residential streets of Lakshmipuram and Gokulam. | Take a guided heritage walk focusing on Indo-Saracenic design. |
 | **What is the significance of Chamundi Hill?** | It is a sacred hill offering panoramic views of the city and hosting the Chamundeshwari Temple. | Climb the 1,008 stone steps silently at dawn to ground your senses. |
-| **How do I manage travel fatigue in Mysore?** | Establish physical anchors and practice [Somatic Resourcing](/essays/mindfulness/somatic-resourcing) to regulate your system. | Rest in green spaces like Karanji Lake or the quiet lanes of Gokulam. |
+| **How do I manage travel fatigue in Mysore?** | Establish physical anchors and practice [Somatic Resourcing](/blog/mindfulness/somatic-resourcing) to regulate your system. | Rest in green spaces like Karanji Lake or the quiet lanes of Gokulam. |
 
 ---
 
@@ -35,7 +35,7 @@ Gokulam is a quiet, tree-lined residential neighborhood located in the northern 
 ### The Ashtanga Tradition
 Ashtanga Vinyasa Yoga is a highly structured, dynamic form of yoga that synchronizes breath with a progressive series of postures. In Mysore, this is traditionally taught in the "Mysore style" format, where students practice the sequence independently at their own pace while the teacher provides hands-on adjustments.
 
-Practicing yoga in this format demands a high degree of internal focus. Because you are not following a teacher's spoken instructions in a group, you must turn your attention entirely inward, tracking your breath and heart rate. This physical intensity can trigger tight muscles, particularly in the lower back and hips, making restorative routines like the [Yin Yoga Hips Sequence](/essays/mindfulness/yin-yoga-hips) an essential evening practice to release travel stiffness and post-practice tension.
+Practicing yoga in this format demands a high degree of internal focus. Because you are not following a teacher's spoken instructions in a group, you must turn your attention entirely inward, tracking your breath and heart rate. This physical intensity can trigger tight muscles, particularly in the lower back and hips, making restorative routines like the [Yin Yoga Hips Sequence](/blog/mindfulness/yin-yoga-hips) an essential evening practice to release travel stiffness and post-practice tension.
 
 ---
 

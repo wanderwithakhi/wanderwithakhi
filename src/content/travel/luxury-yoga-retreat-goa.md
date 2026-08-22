@@ -16,7 +16,7 @@ faqs:
 
 The word "luxury" in the modern travel industry has become synonymous with consumption—infinity pools, private butlers, and high-end import food. But for the spiritual seeker, true luxury is something else entirely. It is the luxury of silence, of unobstructed space, of clean air, and of having your daily needs met so you can turn your attention completely inward. A **luxury yoga retreat in Goa** should not be an escape into self-indulgence; rather, it should be an investment in a highly supportive container that allows you to deepen your practice without the friction of basic travel logistics.
 
-Finding a space that balances premium comfort with traditional, rigorous sadhana is a delicate task. If you are preparing for your journey, review our [Goa solo traveler safety checklist](/essays/travel/goa-solo-female-travel-safety) to ensure a smooth transition.
+Finding a space that balances premium comfort with traditional, rigorous sadhana is a delicate task. If you are preparing for your journey, review our [Goa solo traveler safety checklist](/blog/travel/goa-solo-female-travel-safety) to ensure a smooth transition.
 
 > **Quick Tip:** When vetting a luxury retreat, look past the room photos. Check the teacher’s biography and the daily schedule first. If there is no philosophy, meditation, or lineage-based practice, it is a hotel, not a retreat.
 
@@ -55,7 +55,7 @@ Premium retreats maintain clear rules regarding technology and noise. Shalas are
 
 It is easy to get comfortable in a beautiful boutique villa, but the physical practice of yoga requires effort (Tapas). The best luxury retreats do not shy away from early morning wake-up calls or silent practice hours. The luxury lies in the fact that after a demanding two-hour Ashtanga or Hatha practice, you are nourished with fresh, organic, farm-to-table food and can rest in a silent, beautiful environment.
 
-To read more about the philosophy of slow travel and mindful rest, review our [introductory guide to slow living](/essays/wellness/what-is-slow-living) or see clinical findings on [the impact of meditation on mental health via PubMed](https://www.ncbi.nlm.nih.gov/pmc/).
+To read more about the philosophy of slow travel and mindful rest, review our [introductory guide to slow living](/blog/wellness/what-is-slow-living) or see clinical findings on [the impact of meditation on mental health via PubMed](https://www.ncbi.nlm.nih.gov/pmc/).
 
 ---
 

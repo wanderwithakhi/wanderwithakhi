@@ -27,9 +27,9 @@ For travelers seeking to escape urban noise and plan a slow, restorative journey
 | **What is a quietcation?** | A travel style prioritizing quiet, natural settings, single-base long stays, and sensory decompression. | Dharamshala (Pine forests) or South Goa (Secluded beaches). |
 | **Why choose slow travel in India?** | It reduces transit stress, supports local village economies, and lowers your carbon footprint. | Uttarkashi (Himalayan foothills) or Wayanad (Spice hills). |
 | **What are the best quiet getaways in India?** | Secluded spots near nature that offer peaceful surroundings and reliable base settings. | Agonda Beach (South Goa) or Kumarakom (Kerala). |
-| **How do I manage sensory overload during travel?** | Utilize somatic exercises and practice [Somatic Resourcing](/essays/mindfulness/somatic-resourcing) to ground yourself. | Sit in natural silence for 20 minutes daily without digital inputs. |
+| **How do I manage sensory overload during travel?** | Utilize somatic exercises and practice [Somatic Resourcing](/blog/mindfulness/somatic-resourcing) to ground yourself. | Sit in natural silence for 20 minutes daily without digital inputs. |
 
-If you are new to the idea of decelerating your routine, read our foundational essay on [What is Slow Living](/essays/wellness/what-is-slow-living) to help frame your mindset before embarking.
+If you are new to the idea of decelerating your routine, read our foundational essay on [What is Slow Living](/blog/wellness/what-is-slow-living) to help frame your mindset before embarking.
 
 ---
 
@@ -66,7 +66,7 @@ Uttarkashi is a quiet town situated on the banks of the Bhagirathi River, far le
 While North Goa is crowded with bars and tourist markets, South Goa is a different world.
 *   **The Vibe**: Coconut plantations, sleepy villages, and protected nesting beaches.
 *   **Slow Travel Practice**: Stay in a traditional Goan cottage near Agonda or Patnem. Plan your days around the tide cycles: walk barefoot at low tide, read on your porch during the afternoon heat, and watch the sun set over the Arabian Sea.
-*   *For a detailed look at navigating South Goa's quiet spots, check out our guide on* [Finding Quiet and Solitude in South Goa](/essays/travel/goa-slow-beaches).
+*   *For a detailed look at navigating South Goa's quiet spots, check out our guide on* [Finding Quiet and Solitude in South Goa](/blog/travel/goa-slow-beaches).
 
 ---
 

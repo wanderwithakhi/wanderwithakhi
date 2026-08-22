@@ -16,7 +16,7 @@ faqs:
 
 Most people believe that true spiritual transformation requires months inside a secluded ashram or years of monastic practice. But in our hyper-connected, high-speed modern world, setting aside weeks at a time is a luxury few can afford. After spending seven years traveling across India and staying in various shalas, I have realized that a short, intentional pause can be just as potent as a long journey. A **3-day yoga retreat in Goa** serves as an ideal container to decompress, reset your nervous system, and return to your daily life with a renewed sense of clarity and presence.
 
-By stepping away from the screen and placing yourself on the quiet sands of South India, you give your mind the space it needs to settle. If you want to explore the surrounding community during your stay, you can consult our [complete guide to Agonda Beach yoga and stays](/essays/travel/agonda-beach-yoga) for recommendations on peaceful places to rest.
+By stepping away from the screen and placing yourself on the quiet sands of South India, you give your mind the space it needs to settle. If you want to explore the surrounding community during your stay, you can consult our [complete guide to Agonda Beach yoga and stays](/blog/travel/agonda-beach-yoga) for recommendations on peaceful places to rest.
 
 > **Quick Tip:** To maximize a 3-day retreat, commit to a complete digital detox. Turn off your phone upon arrival and let the natural rhythms of the ocean dictate your sleep and waking hours.
 
@@ -67,7 +67,7 @@ Wake up at 5:30 AM (Brahma Muhurta) for a guided meditation and pranayama sessio
 
 Begin with morning meditation and a gentle closing flow. During the final sharing circle, you will discuss practical integration strategies. The goal is to carry the stillness you cultivated back into your daily routine.
 
-For more wellness-oriented travel advice, check out our [5 Ayurvedic rules for travel](/essays/wellness/ayurveda-travel-tips) to keep your energy balanced during transit. You can also monitor your stress levels using clinical studies from [PubMed Central on yoga and stress management](https://www.ncbi.nlm.nih.gov/pmc/) to understand the long-term benefits of consistent practice.
+For more wellness-oriented travel advice, check out our [5 Ayurvedic rules for travel](/blog/wellness/ayurveda-travel-tips) to keep your energy balanced during transit. You can also monitor your stress levels using clinical studies from [PubMed Central on yoga and stress management](https://www.ncbi.nlm.nih.gov/pmc/) to understand the long-term benefits of consistent practice.
 
 ---
 

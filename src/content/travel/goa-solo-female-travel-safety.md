@@ -14,7 +14,7 @@ faqs:
     answer: "To hire a reliable taxi, use the official pre-paid taxi stands inside the airport terminal or ask your resort/hotel front desk to arrange a local driver. Avoid hiring unregulated private vehicles outside tourist hubs."
 ---
 
-Goa remains one of the most welcoming and safe destinations in India for solo female travelers. However, the experience of navigating Goa varies dramatically between the high-density party zones of the North and the quiet coastal sanctuaries of the South. For women seeking a peaceful, restorative journey, South Goa villages like **Agonda and Patnem** offer a safe, respectful environment where you can establish a grounding routine without tourist hassle. You can read more about selecting shalas and stays in our [Agonda Beach Yoga and Stays Guide](/essays/travel/agonda-beach-yoga).
+Goa remains one of the most welcoming and safe destinations in India for solo female travelers. However, the experience of navigating Goa varies dramatically between the high-density party zones of the North and the quiet coastal sanctuaries of the South. For women seeking a peaceful, restorative journey, South Goa villages like **Agonda and Patnem** offer a safe, respectful environment where you can establish a grounding routine without tourist hassle. You can read more about selecting shalas and stays in our [Agonda Beach Yoga and Stays Guide](/blog/travel/agonda-beach-yoga).
 
 Using somatic boundary awareness is a powerful way to navigate any travel destination, allowing you to move through new surroundings with presence, grounding, and confidence.
 
@@ -38,7 +38,7 @@ Somatic boundary-setting is the practice of listening to your visceral nervous s
 
 1. **The Anchored Walk**: When walking through crowded markets (like the Margao Market), keep your weight dropping down into your heels. Maintain a steady, relaxed stride. A grounded physical presence signals confidence.
 2. **Soft but Clear Eye Contact**: If you encounter unsolicited conversation, offer a brief, polite nod with soft, neutral eye contact, then continue moving.
-3. **Psoas Alignment**: Keep your chest open and your core lightly engaged. This upright posture prevents defensive slumping, keeping your nervous system out of passive freeze responses. To release chronic contraction in these muscles after a day of travel, practice our [Constructive Rest Pose somatic release protocol](/essays/mindfulness/constructive-rest-pose-somatic).
+3. **Psoas Alignment**: Keep your chest open and your core lightly engaged. This upright posture prevents defensive slumping, keeping your nervous system out of passive freeze responses. To release chronic contraction in these muscles after a day of travel, practice our [Constructive Rest Pose somatic release protocol](/blog/mindfulness/constructive-rest-pose-somatic).
 
 ---
 

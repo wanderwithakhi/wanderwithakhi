@@ -22,8 +22,8 @@ For travelers seeking to quiet their minds and explore the spiritual landscape o
 | Question | Direct Answer | Recommended Practice |
 | :--- | :--- | :--- |
 | **What makes the Ganges in Rishikesh unique?** | It is clean, cold, and fast-flowing, direct from the Himalayan glaciers. | Sit quietly on the white sand beaches near Tapovan at sunrise. |
-| **Where can I find silent meditation spaces?** | In Swarg Ashram’s quiet gardens or the historic Beatles Ashram ruins. | Practice [Meditation on the Road](/essays/mindfulness/meditation-on-the-road) inside the stone domes. |
-| **How do I handle the intense city noise?** | Use the white noise of the river and practice [Somatic Resourcing](/essays/mindfulness/somatic-resourcing). | Walk along the eastern bank of the river early in the morning. |
+| **Where can I find silent meditation spaces?** | In Swarg Ashram’s quiet gardens or the historic Beatles Ashram ruins. | Practice [Meditation on the Road](/blog/mindfulness/meditation-on-the-road) inside the stone domes. |
+| **How do I handle the intense city noise?** | Use the white noise of the river and practice [Somatic Resourcing](/blog/mindfulness/somatic-resourcing). | Walk along the eastern bank of the river early in the morning. |
 | **What is the Ganga Aarti?** | A daily devotional fire ceremony performed on the riverbanks. | Stand at the edge of the crowd; focus on the flame transitions. |
 
 ---
@@ -48,7 +48,7 @@ In 1968, the Beatles visited the ashram of Maharishi Mahesh Yogi in Rishikesh to
 
 The most striking feature of the ashram is the rows of stone meditation caves built from river stones.
 *   **The Stone Domes**: Step inside one of the double-story stone domes. Notice the temperature drop immediately. The thick stone walls block out the sounds of the jungle, creating a silent chamber.
-*   **Mindfulness Practice**: Sit comfortably on the stone floor. Notice the darkness and the absolute stillness. This is an ideal space to practice [Meditation on the Road](/essays/mindfulness/meditation-on-the-road). Focus on the rise and fall of your chest. The dome architecture amplifies the sound of your own breathing, acting as a natural auditory anchor.
+*   **Mindfulness Practice**: Sit comfortably on the stone floor. Notice the darkness and the absolute stillness. This is an ideal space to practice [Meditation on the Road](/blog/mindfulness/meditation-on-the-road). Focus on the rise and fall of your chest. The dome architecture amplifies the sound of your own breathing, acting as a natural auditory anchor.
 
 > "In the ruins of the Beatles Ashram, the jungle is slowly reclaiming the stone. It is a physical lesson in impermanence—what we build eventually returns to the earth." — Akhi
 

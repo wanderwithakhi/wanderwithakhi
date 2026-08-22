@@ -41,12 +41,12 @@ To help your nervous system integrate these energetic shifts, try adding these s
 ### A. Somatic Yielding (Spinal Decompression)
 High energy can cause us to hold tension in our jaw, neck, and lower back. 
 -   **Practice**: Lay flat on your back on a yoga mat or blanket. Bend your knees, place your feet flat on the floor about hip-width apart, and let your knees rest together.
--   This posture is known as the **Constructive Rest Pose**. Spend 15 minutes letting gravity settle your pelvis and spine, allowing your psoas muscle to release naturally. You can read our full [Constructive Rest Pose Guide](/essays/mindfulness/constructive-rest-pose-somatic) for detailed step-by-step instructions.
+-   This posture is known as the **Constructive Rest Pose**. Spend 15 minutes letting gravity settle your pelvis and spine, allowing your psoas muscle to release naturally. You can read our full [Constructive Rest Pose Guide](/blog/mindfulness/constructive-rest-pose-somatic) for detailed step-by-step instructions.
 
 ### B. Alternate-Nostril Breathing (Nadi Shodhana)
 If you feel restless or find your mind racing, alternate-nostril breathing can help calm your thoughts.
 -   **Practice**: Sit comfortably. Use your right thumb to close your right nostril, inhale through the left for 4 seconds, close both nostrils to hold for 4 seconds, and exhale through the right for 8 seconds. Reverse the process.
--   Repeat this cycle for 10 rounds to stimulate the vagus nerve and slow your heart rate. Learn more about the biology of this practice in our [Vata-Pacifying Breathwork Guide](/essays/mindfulness/vata-pacifying-breathwork).
+-   Repeat this cycle for 10 rounds to stimulate the vagus nerve and slow your heart rate. Learn more about the biology of this practice in our [Vata-Pacifying Breathwork Guide](/blog/mindfulness/vata-pacifying-breathwork).
 
 ### C. Barefoot Earth Connection (Earthing)
 One of the simplest ways to discharge physical tension is to connect directly with the Earth.

@@ -26,7 +26,7 @@ For travelers seeking to escape the noise and cultivate presence in South Goa, t
 | **Ponda Spice Farms** | Green forest canopy; spice gardens filled with cardamom, vanilla, and pepper. | Engage in a sensory smelling tour; note the warm woodiness of fresh nutmeg. |
 | **Latin Quarter (Margao)** | Historic streets lined with old Portuguese-Goan houses. | Walk slowly; observe the fading colors and red-oxide verandas. |
 
-If you are looking to fully understand this decelerated approach to life, read our foundational guide on [What is Slow Living](/essays/wellness/what-is-slow-living) to help shift your mindset before arriving.
+If you are looking to fully understand this decelerated approach to life, read our foundational guide on [What is Slow Living](/blog/wellness/what-is-slow-living) to help shift your mindset before arriving.
 
 ---
 
@@ -39,7 +39,7 @@ In South Goa, *Susegad* is visible in daily rhythms:
 *   Locals sit on their verandas (*balcões*) in the evenings, chatting with neighbors or watching the rain.
 *   Decisions are made slowly, with respect for the present moment.
 
-For the modern traveler, adjusting to *Susegad* requires letting go of packed schedules. Try blocking out your afternoons for absolute rest, turning off your mobile data, and practicing a mini [Digital Detox](/essays/wellness/digital-detox-guide) to let your brain settle into the slow village tempo.
+For the modern traveler, adjusting to *Susegad* requires letting go of packed schedules. Try blocking out your afternoons for absolute rest, turning off your mobile data, and practicing a mini [Digital Detox](/blog/wellness/digital-detox-guide) to let your brain settle into the slow village tempo.
 
 ---
 
@@ -58,7 +58,7 @@ When you stand on Galgibaga, you are standing in a raw natural environment. The 
 Agonda is a wide, 3-kilometer crescent of sand that is popular with slow travelers and surfers. It is an ideal space for long walking meditations.
 *   **The Stride**: Walk at low tide when the sand is firm. Step with intention: feel the heel, the arch, and the toes contact the earth. Coordinate your steps with the incoming waves.
 *   **Ocean presence**: Sit on the rocky outcrops at the northern end of the beach. Watch the local fishermen push their wooden boats into the surf, noting the balance and strength required to work with the sea.
-*   **Planning & Safety**: If you want to experience the local shalas and slow beachfront stays, check out our [Agonda Beach Yoga and Stays Guide](/essays/travel/agonda-beach-yoga). For female travelers planning a solo trip to these quiet coastlines, review our safety transit guide: [Is Goa Safe for Solo Female Travelers?](/essays/travel/goa-solo-female-travel-safety).
+*   **Planning & Safety**: If you want to experience the local shalas and slow beachfront stays, check out our [Agonda Beach Yoga and Stays Guide](/blog/travel/agonda-beach-yoga). For female travelers planning a solo trip to these quiet coastlines, review our safety transit guide: [Is Goa Safe for Solo Female Travelers?](/blog/travel/goa-solo-female-travel-safety).
 
 ---
 
