@@ -163,6 +163,19 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
       <div class="section-header">
         <h3 class="section-title">Inner Journey</h3>
         <p class="section-subtitle">Mindful Reflections, Breathwork, and Somatic Grounding</p>
+
+        <!-- Inner Journey Sub-Category Filters -->
+        <div class="inner-filter-bar">
+          <a href="#inside" class="inner-pill active" data-inner-cat="all">All</a>
+          <a href="#inside?category=vedanta" class="inner-pill" data-inner-cat="vedanta">Vedanta & Wisdom</a>
+          <a href="#inside?category=yoga-philosophy" class="inner-pill" data-inner-cat="yoga-philosophy">Yoga Philosophy</a>
+          <a href="#inside?category=somatic" class="inner-pill" data-inner-cat="somatic">Somatic Healing</a>
+          <a href="#inside?category=burnout" class="inner-pill" data-inner-cat="burnout">Nervous System</a>
+          <a href="#inside?category=mindfulness" class="inner-pill" data-inner-cat="mindfulness">Mindfulness</a>
+          <a href="#inside?category=yoga" class="inner-pill" data-inner-cat="yoga">Yoga Practice</a>
+          <a href="#inside?category=breathwork" class="inner-pill" data-inner-cat="breathwork">Breathwork</a>
+          <a href="#inside?category=essays" class="inner-pill" data-inner-cat="essays">Seeker's Essays</a>
+        </div>
       </div>
 
       <div class="grid-editorial">
@@ -187,6 +200,13 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
       <div class="section-header">
         <h3 class="section-title">Wellness</h3>
         <p class="section-subtitle">Slow Living, Conscious Habits, and Plant-Based Nutrition</p>
+
+        <!-- Wellness Sub-Category Filters -->
+        <div class="wellness-filter-bar">
+          <a href="#wellness" class="wellness-pill active" data-wellness-cat="all">All</a>
+          <a href="#wellness?category=slow" class="wellness-pill" data-wellness-cat="slow">Slow Living</a>
+          <a href="#wellness?category=vegan" class="wellness-pill" data-wellness-cat="vegan">Plant-Based Living</a>
+        </div>
       </div>
 
       <div class="grid-editorial">
@@ -344,6 +364,45 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
     background-color: rgba(200, 122, 83, 0.03);
   }
 
+  /* Inner Journey & Wellness Filter Bars */
+  .inner-filter-bar, .wellness-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-top: 1.75rem;
+  }
+
+  .inner-pill, .wellness-pill {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 0.45rem 1.15rem;
+    border: var(--border-thin);
+    border-radius: 50px;
+    color: var(--color-text);
+    opacity: 0.6;
+    transition: var(--transition-smooth);
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .inner-pill:hover, .inner-pill.active {
+    opacity: 1;
+    border-color: var(--palette-sage);
+    color: var(--palette-sage);
+    background-color: rgba(85, 107, 47, 0.05);
+  }
+
+  .wellness-pill:hover, .wellness-pill.active {
+    opacity: 1;
+    border-color: var(--palette-ochre);
+    color: var(--palette-ochre);
+    background-color: rgba(204, 119, 34, 0.05);
+  }
+
 
 
   /* Country Sub-Filters Bar */
@@ -452,6 +511,28 @@ const sortedWellness = wellnessPosts.sort((a, b) => b.data.publishDate.getTime()
     regionPills.forEach(pill => {
       const pillRegion = pill.getAttribute('data-region');
       if (pillRegion === activeRegion) {
+        pill.classList.add('active');
+      } else {
+        pill.classList.remove('active');
+      }
+    });
+
+    // Update Inner Journey Category Pills Active Class
+    const innerPills = document.querySelectorAll('.inner-pill');
+    innerPills.forEach(pill => {
+      const pillCat = pill.getAttribute('data-inner-cat');
+      if ((pillCat === 'all' && !activeCategory) || (activeCategory && activeCategory.toLowerCase().includes(pillCat || ''))) {
+        pill.classList.add('active');
+      } else {
+        pill.classList.remove('active');
+      }
+    });
+
+    // Update Wellness Category Pills Active Class
+    const wellnessPills = document.querySelectorAll('.wellness-pill');
+    wellnessPills.forEach(pill => {
+      const pillCat = pill.getAttribute('data-wellness-cat');
+      if ((pillCat === 'all' && !activeCategory) || (activeCategory && activeCategory.toLowerCase().includes(pillCat || ''))) {
         pill.classList.add('active');
       } else {
         pill.classList.remove('active');
