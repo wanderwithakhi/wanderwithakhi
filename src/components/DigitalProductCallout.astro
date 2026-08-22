@@ -1,0 +1,200 @@
+---
+interface Props {
+  category?: string;
+  type?: string;
+}
+
+const { category = '', type = '' } = Astro.props;
+
+const catLower = category.toLowerCase();
+
+let selectedProduct = {
+  id: "product_1_sadhana_journal",
+  title: "The Daily Sadhana & Asana Journal",
+  subtitle: "A 30-Page Printable Practice Companion & Mindful Tracker",
+  desc: "Log daily asana practice, pranayama retention times, meditation notes, and Patanjali self-study (Svadhyaya).",
+  badge: "Recommended Digital Guide",
+  color: "var(--palette-rust)",
+  fullUrl: "/digital_products/product_1_sadhana_journal/full_30_pages.html",
+  guideUrl: "/guide#product_1_sadhana_journal"
+};
+
+if (catLower.includes('somatic') || catLower.includes('burnout') || catLower.includes('nervous') || catLower.includes('anatomy') || catLower.includes('joint')) {
+  selectedProduct = {
+    id: "product_2_somatic_planner",
+    title: "Somatic Stress Release & Recovery Planner",
+    subtitle: "A 30-Page Workbook for Nervous System Regulation & Vagal Tone",
+    desc: "Down-regulate sympathetic fight-or-flight states, track Heart Rate Variability (HRV), and map body tension.",
+    badge: "Somatic Therapy Guide",
+    color: "var(--palette-sage)",
+    fullUrl: "/digital_products/product_2_somatic_planner/full_30_pages.html",
+    guideUrl: "/guide#product_2_somatic_planner"
+  };
+} else if (catLower.includes('ayurveda') || catLower.includes('slow living') || catLower.includes('wellness') || catLower.includes('routine')) {
+  selectedProduct = {
+    id: "product_3_dinacharya_guide",
+    title: "Dinacharya Ayurvedic Daily Routine Guide",
+    subtitle: "A 30-Page Circadian Health & Self-Care Workbook",
+    desc: "Align your daily habits with classical Ayurvedic circadian wisdom, oil massage, and doshic meal planning.",
+    badge: "Ayurvedic Health Guide",
+    color: "var(--palette-ochre)",
+    fullUrl: "/digital_products/product_3_dinacharya_guide/full_30_pages.html",
+    guideUrl: "/guide#product_3_dinacharya_guide"
+  };
+} else if (catLower.includes('travel') || catLower.includes('quietcation') || type === 'travel' || catLower.includes('gear')) {
+  selectedProduct = {
+    id: "product_4_slow_travel_journal",
+    title: "Slow Travel Journal & Intentional Planner",
+    subtitle: "A 30-Page Mindful Companion for Conscious Explorers",
+    desc: "Transform your journeys with minimalist packing checklists, travel anxiety grounding tools, and location prompts.",
+    badge: "Slow Travel Companion",
+    color: "var(--palette-rust)",
+    fullUrl: "/digital_products/product_4_slow_travel_journal/full_30_pages.html",
+    guideUrl: "/guide#product_4_slow_travel_journal"
+  };
+} else if (catLower.includes('yin') || catLower.includes('fascia')) {
+  selectedProduct = {
+    id: "product_7_yin_somatic_guide",
+    title: "Yin & Somatic Self-Care Guide",
+    subtitle: "A 30-Page Deep Fascia Release & Long-Hold Companion",
+    desc: "Printable companion for deep connective tissue hydration, 3-5 minute Yin pose timers, and meridian lines.",
+    badge: "Yin & Fascia Companion",
+    color: "var(--palette-rust)",
+    fullUrl: "/digital_products/product_7_yin_somatic_guide/full_30_pages.html",
+    guideUrl: "/guide#product_7_yin_somatic_guide"
+  };
+}
+---
+
+<aside class="digital-product-callout-box" style={`border-left: 4px solid ${selectedProduct.color}`}>
+  <div class="callout-content-left">
+    <span class="callout-badge" style={`color: ${selectedProduct.color}`}>{selectedProduct.badge}</span>
+    <h3 class="callout-title">{selectedProduct.title}</h3>
+    <p class="callout-subtitle">{selectedProduct.subtitle}</p>
+    <p class="callout-desc">{selectedProduct.desc}</p>
+  </div>
+  <div class="callout-actions-right">
+    <a href={selectedProduct.fullUrl} target="_blank" class="callout-primary-btn" style={`background-color: ${selectedProduct.color}`}>
+      Read 30-Page Workbook
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke-linecap="round" stroke-linejoin="round"></path>
+        <polyline points="15 3 21 3 21 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+        <line x1="10" y1="14" x2="21" y2="3" stroke-linecap="round" stroke-linejoin="round"></line>
+      </svg>
+    </a>
+    <a href={selectedProduct.guideUrl} class="callout-secondary-btn">
+      View All 7 Guides
+    </a>
+  </div>
+</aside>
+
+<style>
+  .digital-product-callout-box {
+    margin: 3.5rem 0;
+    padding: 2rem 2.25rem;
+    background-color: var(--palette-chalk);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.03);
+    transition: var(--transition-smooth);
+  }
+
+  @media (min-width: 768px) {
+    .digital-product-callout-box {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .callout-content-left {
+    max-width: 600px;
+  }
+
+  .callout-badge {
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background-color: rgba(0,0,0,0.04);
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+  }
+
+  .callout-title {
+    font-size: 1.45rem;
+    margin-bottom: 0.25rem;
+    color: var(--color-text);
+  }
+
+  .callout-subtitle {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 1rem;
+    opacity: 0.8;
+    margin-bottom: 0.75rem;
+  }
+
+  .callout-desc {
+    font-family: var(--font-serif);
+    font-size: 0.95rem;
+    line-height: 1.55;
+    opacity: 0.75;
+    margin: 0;
+  }
+
+  .callout-actions-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    flex-shrink: 0;
+  }
+
+  .callout-primary-btn {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.75rem 1.35rem;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: var(--transition-smooth);
+    white-space: nowrap;
+  }
+
+  .callout-primary-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+
+  .callout-secondary-btn {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.65rem 1.25rem;
+    color: var(--color-text);
+    border: var(--border-thin);
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    transition: var(--transition-smooth);
+  }
+
+  .callout-secondary-btn:hover {
+    background-color: var(--color-bg);
+  }
+</style>

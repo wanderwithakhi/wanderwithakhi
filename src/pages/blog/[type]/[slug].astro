@@ -4,6 +4,7 @@ import { getAllPosts, getPostBySlug, urlFor } from '../../../utils/sanity';
 import { toHTML } from '@portabletext/to-html';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Header from '../../../components/Header.astro';
+import DigitalProductCallout from '../../../components/DigitalProductCallout.astro';
 
 // Generate static paths for all articles in all collections
 export async function getStaticPaths() {
@@ -190,6 +191,9 @@ if (isSanity) {
           <Content />
         )}
       </article>
+
+      <!-- Smart Digital Product Integration Callout -->
+      <DigitalProductCallout category={category} type={type} />
 
       <!-- Dynamic FAQ Section -->
       {faqs && faqs.length > 0 && (
