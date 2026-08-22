@@ -46,7 +46,7 @@ On your first day as a beginner, you will not be asked to complete a complex 90-
 ### #2- Gradual Progression (*Vinyasa Krama*)
 As your body gains strength, flexibility, and stamina over consecutive days, your teacher will introduce one new posture at a time. This progressive building block approach ensures that your muscles, joints, and nervous system adapt safely without risk of strain or burnout.
 
-To track your physical progress, posture additions, and daily energetic changes as a beginner, review our [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/readme.md).
+To track your physical progress, posture additions, and daily energetic changes as a beginner, review our [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/full_30_pages.html).
 
 ![Beginner Yoga Practice Shala](/images/mysore_yoga_shala.jpg)
 *Alt Text: Beginner yoga student receiving gentle, supportive posture alignment from an experienced teacher inside a sunlit Mysore yoga shala.*
@@ -80,7 +80,7 @@ Situated near Gokulam, Ayona Yoga Shala offers flexible weekly passes and beginn
 ### #1- Honor Rest & Recovery Days
 Practicing six days a week is demanding for beginner muscles. Take your weekly day off (usually Sundays) and Moon Days seriously. Rest deeply, hydrate with fresh tender coconut water, and take gentle evening walks around Kukkarahalli Lake.
 
-To support your body's nervous system and soothe sore muscles between practice days, discover our [Yin & Somatic Movement Recovery Guide](/Digital_Products/product_7_yin_somatic_guide/readme.md).
+To support your body's nervous system and soothe sore muscles between practice days, discover our [Yin & Somatic Movement Recovery Guide](/Digital_Products/product_7_yin_somatic_guide/full_30_pages.html).
 
 ### #2- Avoid Comparing Yourself to Others
 In a Mysore practice room, you will be on a mat next to practitioners who have been studying for 10 or 20 years. Remember that yoga is an internal discipline, not a competitive sport. Keep your gaze (*Drishti*) focused on your own mat and honor your body's natural boundaries.

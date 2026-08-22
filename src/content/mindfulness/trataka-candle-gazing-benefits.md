@@ -51,7 +51,7 @@ Practicing Trataka in a darkened room before bedtime has a powerful impact on sl
 - **Amber Wave Resonance**: The warm amber spectrum of a beeswax candle flame does not suppress melatonin production (unlike 450nm blue light from smartphones).
 - **Pineal Gland Activation**: The steady light perception via the *retinohypothalamic tract* signals the pineal gland to synthesize and release **melatonin**, promoting deep, restorative slow-wave sleep.
 
-To track your daily meditation progress, visual focus duration, and sleep improvements, explore our [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/readme.md).
+To track your daily meditation progress, visual focus duration, and sleep improvements, explore our [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/full_30_pages.html).
 
 ---
 
@@ -66,7 +66,7 @@ To track your daily meditation progress, visual focus duration, and sleep improv
 3. **External Gazing (Bahiranga)**: Open your eyes and gaze steadily at the brightest part of the flame (just above the wick). Avoid blinking or letting your eyes wander.
 4. **Internal Visualization (Antaranga)**: When your eyes begin to water, gently close your eyelids. Concentrate on the glowing residual flame image (*after-image*) at the space between your eyebrows (*Ajna Chakra*). Keep it stable until it fades completely.
 
-To structure your evening wind-down habits with Ayurvedic circadian wisdom, review our [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/readme.md).
+To structure your evening wind-down habits with Ayurvedic circadian wisdom, review our [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/full_30_pages.html).
 
 ---
 

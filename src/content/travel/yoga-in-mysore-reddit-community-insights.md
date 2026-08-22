@@ -43,7 +43,7 @@ A recurring thread topic on `r/ashtanga` is packing advice. Experienced practiti
 ### #2- The "First-Week Fatigue" Reality Check
 Reddit users frequently warn newcomers about the physical and emotional dip during Week 1. Shifting from casual Western studio practice to 6-day-a-week early morning discipline often causes muscle soreness, emotional release, and jet lag.
 
-To help manage your nervous system recovery and maintain emotional balance during your first week, review our [Somatic Anxiety & Stress Release Planner](/Digital_Products/product_2_somatic_planner/readme.md).
+To help manage your nervous system recovery and maintain emotional balance during your first week, review our [Somatic Anxiety & Stress Release Planner](/Digital_Products/product_2_somatic_planner/full_30_pages.html).
 
 ### #3- Finding Genuine Gokulam Housing Deals
 On `r/solotravel`, travelers frequently caution against paying inflated prices for long-term apartments online prior to arrival. 
@@ -74,7 +74,7 @@ Subreddit community members frequently compile lists of favorite local spots. He
 - **Chakra Cafe**: Excellent South Indian vegetarian thalis, fresh juices, and satvic meals.
 - **Mylari Dosa (City Center)**: Located near the city center, famous for soft, melt-in-your-mouth traditional butter dosas (a must-try weekend treat for yogis).
 
-To organize your daily culinary routines and maintain satvic Ayurvedic principles while exploring Mysore's cafes, check out our [Dinacharya Ayurvedic Daily Routine Guide](/Digital_Products/product_3_dinacharya_guide/readme.md).
+To organize your daily culinary routines and maintain satvic Ayurvedic principles while exploring Mysore's cafes, check out our [Dinacharya Ayurvedic Daily Routine Guide](/Digital_Products/product_3_dinacharya_guide/full_30_pages.html).
 
 ![Mysore Yoga Shala Interior](/images/mysore_yoga_shala.jpg)
 *Alt Text: Quiet traditional wooden yoga shala in Mysore with cotton yoga rugs neatly arranged for early morning practice.*

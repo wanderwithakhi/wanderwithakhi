@@ -66,7 +66,7 @@ The Upanishad reveals that the sound **OM** is not a arbitrary chant, but the ac
 - **'M' (Makara)**: Represents dissolution, ending, and the causal deep sleep realm.
 - **The Silence (Amatra)**: The quiet interval following the 'M' vibration is *Turiya*—the unmanifest Brahman.
 
-To deepen your daily meditation and track scriptural self-study (*Svadhyaya*), discover our structured [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/readme.md).
+To deepen your daily meditation and track scriptural self-study (*Svadhyaya*), discover our structured [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/full_30_pages.html).
 
 ---
 
@@ -77,7 +77,7 @@ Modern neuroimaging and electroencephalography (EEG) validate the insights of th
 - **Default Mode Network (DMN) Deactivation**: Functional MRI studies on long-term meditators demonstrate that abiding in *Turiya-like* states deactivates the brain's Default Mode Network—the neural hub responsible for egoic rumination, temporal anxiety, and self-referential narratives.
 - **High-Frequency Gamma Synchrony**: Practitioners experiencing pure awareness display powerful, coherent **Gamma wave oscillations (>40 Hz)** across distant cortical regions, indicating heightened cognitive clarity, neuroplasticity, and emotional stability.
 
-To align your daily home schedule with classical Vedantic principles, explore our [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/readme.md).
+To align your daily home schedule with classical Vedantic principles, explore our [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/full_30_pages.html).
 
 ---
 

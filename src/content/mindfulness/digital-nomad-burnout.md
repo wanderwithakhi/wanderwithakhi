@@ -36,7 +36,7 @@ To reverse adrenal fatigue and sensory overload, incorporate three core daily an
 2. **Constructive Rest Pose (15 Mins)**: Lie on your back with knees bent and lower legs resting on a chair to release chronic psoas tension.
 3. **Strict Digital Sunset**: Power down all work screens 2 hours before sleep.
 
-Track your recovery milestones with our complete [Somatic Stress Release & Recovery Planner](/digital_products/product_2_somatic_planner/readme.md).
+Track your recovery milestones with our complete [Somatic Stress Release & Recovery Planner](/digital_products/product_2_somatic_planner/full_30_pages.html).
 
 ---
 

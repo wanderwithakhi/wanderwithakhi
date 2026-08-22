@@ -76,7 +76,7 @@ Learning to chant the *Yoga Sutras of Patanjali* or traditional Vedic mantras in
 ### #3- Yoga Sutras & Bhagavad Gita Philosophy
 Afternoon philosophy lectures transform how you view your morning physical practice. Local scholars break down Patanjali’s eightfold path (*Ashtanga Yoga*), examining how concepts like non-attachment (*Vairagya*) and self-discipline (*Tapas*) apply to everyday living.
 
-To organize your notes from afternoon philosophy and chanting workshops, utilize our structured [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/readme.md).
+To organize your notes from afternoon philosophy and chanting workshops, utilize our structured [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/full_30_pages.html).
 
 ---
 
@@ -92,7 +92,7 @@ Here is how a short-term visitor can structure a rich, balanced week of classes 
 - **Saturday**: 08:00 AM Restorative Yin Yoga | Afternoon Visit to Mysore Palace
 - **Sunday**: Complete Rest & Reflection Day
 
-To maintain optimal daily energy and digestive balance throughout a busy week of workshops, explore our [Dinacharya Ayurvedic Daily Routine Guide](/Digital_Products/product_3_dinacharya_guide/readme.md).
+To maintain optimal daily energy and digestive balance throughout a busy week of workshops, explore our [Dinacharya Ayurvedic Daily Routine Guide](/Digital_Products/product_3_dinacharya_guide/full_30_pages.html).
 
 ![Gokulam Cafe Terrace](/images/gokulam_lifestyle.jpg)
 *Alt Text: Travelers relaxing at an outdoor cafe terrace in Gokulam Mysore after an afternoon yoga workshop.*

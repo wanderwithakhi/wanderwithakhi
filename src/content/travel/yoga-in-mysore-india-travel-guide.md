@@ -79,7 +79,7 @@ This is the most desirable area for yoga practitioners. Staying in Gokulam 3rd S
 ### #3- How to Find Apartments
 While some students book Airbnb for their first few nights, the best long-term deals are found on the ground upon arrival. Walk through the quiet streets of Gokulam 3rd Stage looking for handwritten **"House for Rent"** signs posted on gate posts, or inquire with staff at popular local cafes like Santosha, Chakra Cafe, or Anokhi.
 
-To maintain your physical space cleanly and adopt daily Ayurvedic home rituals during your stay, refer to our [Dinacharya Ayurvedic Daily Routine Guide](/Digital_Products/product_3_dinacharya_guide/readme.md).
+To maintain your physical space cleanly and adopt daily Ayurvedic home rituals during your stay, refer to our [Dinacharya Ayurvedic Daily Routine Guide](/Digital_Products/product_3_dinacharya_guide/full_30_pages.html).
 
 ---
 

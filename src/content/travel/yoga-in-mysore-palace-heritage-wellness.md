@@ -55,7 +55,7 @@ The Palace Yogashala primarily taught young boys enrolled in the Royal Sanskrit 
 ### #2- The Birth of Individualized Yoga Therapeutics
 In addition to teaching dynamic youth groups, Krishnamacharya served as the private yoga therapist to the royal family. He adjusted practices based on age, body constitution, and medical conditions, creating the foundation for modern personalized yoga therapy (*Viniyoga*).
 
-To learn how to align your own daily schedule with classic South Indian Ayurvedic principles rooted in royal tradition, explore our [Dinacharya Ayurvedic Daily Routine Guide](/Digital_Products/product_3_dinacharya_guide/readme.md).
+To learn how to align your own daily schedule with classic South Indian Ayurvedic principles rooted in royal tradition, explore our [Dinacharya Ayurvedic Daily Routine Guide](/Digital_Products/product_3_dinacharya_guide/full_30_pages.html).
 
 ---
 
@@ -85,7 +85,7 @@ While daily shala practice takes place in Gokulam today, visiting the historic r
 - **Jaganmohan Palace & Art Gallery**: Located just west of the main palace, this historic building housed the original Yogashala demonstrations in the 1930s. Today it displays exquisite royal paintings by Raja Ravi Varma.
 - **Chamundi Hill & Chamundeshwari Temple**: Perched atop Chamundi Hill overlooking the city, climbing the 1,000 stone steps at sunrise is a favorite weekend pilgrimage for local yogis.
 
-To document your reflections and insights while exploring these sacred historical sites, use our [Slow Travel & Mindful Journal](/Digital_Products/product_4_slow_travel_journal/readme.md).
+To document your reflections and insights while exploring these sacred historical sites, use our [Slow Travel & Mindful Journal](/Digital_Products/product_4_slow_travel_journal/full_30_pages.html).
 
 > 🌿 **Experience Mysore's Royal & Yogic Heritage**: Browse curated cultural and yoga tours in Mysore — [Explore Mysore Retreats on Tripaneer](https://www.tripaneer.com/all/c/yoga/d/india/mysore?aid=11765)
 >

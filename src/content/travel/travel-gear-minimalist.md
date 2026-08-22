@@ -34,4 +34,4 @@ Carrying less on your back gives you profound freedom on the road. Minimalist pa
 2. **Solid Toiletries**: Replace liquid shampoos and cleansers with solid bars to pass airport security without plastic waste.
 3. **The Roll Method**: Roll clothing items tightly in compression packing cubes to eliminate dead space.
 
-Organize your travel gear and daily routines with our [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/readme.md).
+Organize your travel gear and daily routines with our [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/full_30_pages.html).

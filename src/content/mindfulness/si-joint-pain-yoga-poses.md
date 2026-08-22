@@ -69,7 +69,7 @@ Conversely, **counternutation** causes the sacrum to tilt backward. When practit
 - **The Risk**: Forcing the pelvis to remain strictly locked square while twisting the torso aggressively causes severe torsional stress on the sacrum.
 - **The Modification**: Allow your back hip and pelvis to rotate naturally with the spine to prevent twisting forces from targeting the SI joint.
 
-To track your posture modifications, pain recovery milestones, and daily practice adjustments, explore our [Somatic Stress Release & Recovery Planner](/digital_products/product_2_somatic_planner/readme.md).
+To track your posture modifications, pain recovery milestones, and daily practice adjustments, explore our [Somatic Stress Release & Recovery Planner](/digital_products/product_2_somatic_planner/full_30_pages.html).
 
 ---
 
@@ -83,7 +83,7 @@ To track your posture modifications, pain recovery milestones, and daily practic
 2. **Gluteus Medius Clamshells**: Lie on your side with knees bent at 90 degrees. Keep your heels together and lift the top knee upward without letting your pelvis roll backward.
 3. **Mula Bandha & Transverse Abdominis Activation**: Exhale fully while drawing your lower belly inward toward the spine and lifting the pelvic floor gently to create a protective internal corseting effect.
 
-To structure your daily home sadhana with Ayurvedic joint-care principles, review our complete [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/readme.md).
+To structure your daily home sadhana with Ayurvedic joint-care principles, review our complete [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/full_30_pages.html).
 
 ---
 

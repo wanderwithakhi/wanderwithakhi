@@ -33,4 +33,4 @@ Modern digital environments are engineered to capture attention, triggering cont
 2. **Screen-Free Morning Sanctuary**: Avoid checking notifications during the first 60 minutes of your day.
 3. **Analog Bedtime Ritual**: Replace bedtime scrolling with reading, journaling, or herbal tea.
 
-Organize your daily habits with our [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/readme.md).
+Organize your daily habits with our [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/full_30_pages.html).

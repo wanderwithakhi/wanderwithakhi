@@ -80,7 +80,7 @@ Gently press your soft palate upward and exhale slowly while producing a smooth,
 
 Repeat for **7 to 12 rounds**.
 
-To track your daily breath retention, heart rate variability, and energetic changes after practicing Bhramari, utilize our structured [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/readme.md).
+To track your daily breath retention, heart rate variability, and energetic changes after practicing Bhramari, utilize our structured [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/full_30_pages.html).
 
 ---
 

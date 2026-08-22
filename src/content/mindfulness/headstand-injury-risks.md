@@ -67,7 +67,7 @@ Drive the outer edges of your wrists, forearms, and elbows into the mat. Think o
 ### Rule #3: Never Turn Your Head Inverted
 Keep your gaze fixed steadily at eye level. Turning your head to look around severely compresses the cervical facet joints.
 
-To track your posture modifications, core strength progression, and injury prevention milestones, explore our [Somatic Stress Release & Recovery Planner](/digital_products/product_2_somatic_planner/readme.md).
+To track your posture modifications, core strength progression, and injury prevention milestones, explore our [Somatic Stress Release & Recovery Planner](/digital_products/product_2_somatic_planner/full_30_pages.html).
 
 ---
 

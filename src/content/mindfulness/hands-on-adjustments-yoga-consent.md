@@ -38,7 +38,7 @@ Mastering hands-on adjustments requires understanding biomechanics, nervous syst
 3. **Verbal Priming First**: Always cue the posture verbally before applying tactile contact.
 4. **Teacher Stability**: Ensure your own base (*Tadasana*) is rock-solid before touching a student.
 
-To structure your teaching routines, daily practice notes, and student observations, explore our [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/readme.md).
+To structure your teaching routines, daily practice notes, and student observations, explore our [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/full_30_pages.html).
 
 ---
 

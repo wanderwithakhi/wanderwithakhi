@@ -94,7 +94,7 @@ Located in Gokulam, Badri Yoga School provides drop-in classes and specialized b
 - **Best For**: Practitioners wanting targeted workshops to improve spinal flexibility and posture depth.
 - **Highlights**: Supportive adjustments, flexible drop-in rates.
 
-To track and compare your experiences across different shalas and workshops in Mysore, use our [Slow Travel & Mindful Journal](/Digital_Products/product_4_slow_travel_journal/readme.md).
+To track and compare your experiences across different shalas and workshops in Mysore, use our [Slow Travel & Mindful Journal](/Digital_Products/product_4_slow_travel_journal/full_30_pages.html).
 
 ![Gokulam Mysore Cafe and Life](/images/gokulam_lifestyle.jpg)
 *Alt Text: Yoga practitioners enjoying healthy satvic meals and coconut water in Gokulam Mysore.*

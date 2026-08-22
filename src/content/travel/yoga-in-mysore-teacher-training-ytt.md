@@ -50,7 +50,7 @@ True yogic science extends into energy management. You will practice the six cla
 ### #4- Yoga Philosophy & Classical Scriptures
 Study foundational classical texts including the *Yoga Sutras of Patanjali*, *Hatha Yoga Pradipika*, and excerpts from the *Bhagavad Gita*. Discussions center around integrating non-violence (*Ahimsa*), truthfulness (*Satya*), and mental discipline into modern daily life.
 
-To record your daily notes on scriptural studies, philosophy lectures, and personal posture breakdowns, use our structured [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/readme.md).
+To record your daily notes on scriptural studies, philosophy lectures, and personal posture breakdowns, use our structured [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/full_30_pages.html).
 
 ### #5- Practicum & Teaching Methodology
 From Week 2 onward, you will step into the teacher's role. Under senior mentorship, you will practice cueing, conducting vocal adjustments, demonstrating posture variations, and managing class energy safely.
@@ -104,7 +104,7 @@ A Yoga Teacher Training course in Mysore demands dedication, endurance, and focu
 - **06:30 PM – 07:30 PM**: Evening Meditation or Satsang
 - **08:00 PM**: Dinner and early sleep
 
-To support your body's nervous system recovery during intensive 10-hour training days, explore our [Yin & Somatic Movement Recovery Guide](/Digital_Products/product_7_yin_somatic_guide/readme.md).
+To support your body's nervous system recovery during intensive 10-hour training days, explore our [Yin & Somatic Movement Recovery Guide](/Digital_Products/product_7_yin_somatic_guide/full_30_pages.html).
 
 ![Gokulam Street and Community](/images/gokulam_lifestyle.jpg)
 *Alt Text: Yoga students gathering outside an organic cafe in Gokulam Mysore discussing coursework and notes.*

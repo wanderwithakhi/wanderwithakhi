@@ -39,7 +39,7 @@ Classical yogic texts divide the practice of silence into three progressive stag
 2. **Kashtha Mouna (Physical Silence)**: Abstaining from non-verbal communication, gestures, eye contact, writing, and digital messaging.
 3. **Maha Mouna (Great Mental Silence)**: The spontaneous cessation of internal mental chatter, where the mind rests quietly in pure Awareness (*Atman*).
 
-To record your insights during silent retreats and self-reflection, utilize our structured [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/readme.md).
+To record your insights during silent retreats and self-reflection, utilize our structured [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/full_30_pages.html).
 
 ---
 

@@ -47,7 +47,7 @@ In large shalas like SYC, you will practice alongside dozens of advanced yogis i
 ### #3- Breathwork & Philosophy Integration
 A complete yogic sadhana extends far beyond physical postures (*asanas*). If your goal is holistic transformation, select a shala or complement your main practice with afternoon classes in **Pranayama** (yogic breath expansion), **Sanskrit Chanting**, and **Yoga Sutra Study**. Many independent teachers in Gokulam specialize exclusively in these subtle sciences.
 
-To track your daily progress across breathwork, meditation, and physical postures, explore our [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/readme.md).
+To track your daily progress across breathwork, meditation, and physical postures, explore our [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/full_30_pages.html).
 
 ### #4- Location & Neighborhood Ecosystem
 Most major shalas are located in **Gokulam** (Stages 1 through 3) or neighboring **Jayalakshmipuram**. Staying near your shala is essential because early morning classes often start as early as 4:30 AM or 5:00 AM. Walking 5 to 10 minutes in the quiet morning cool is far more pleasant than commuting across town in an auto-rickshaw.
@@ -93,7 +93,7 @@ Practicing in Mysore carries traditional cultural expectations. Adhering to thes
 4. **Moon Days**: Traditional Ashtanga shalas do not hold practice on Moon Days (Full Moon and New Moon days). Take these days for deep rest, self-massage with warm sesame oil, and gentle reading.
 5. **Ladies' Rest**: Traditional practice recommends taking 3 days of complete physical rest during the heavy days of menstruation to support internal hormonal regulation.
 
-To help align your lifestyle with lunar cycles and monthly energy shifts while practicing in India, review our specialized [Lunar Wellness & Cycle Planner](/Digital_Products/product_5_lunar_planner/readme.md).
+To help align your lifestyle with lunar cycles and monthly energy shifts while practicing in India, review our specialized [Lunar Wellness & Cycle Planner](/Digital_Products/product_5_lunar_planner/full_30_pages.html).
 
 ![Gokulam Cafe & Street Life](/images/gokulam_lifestyle.jpg)
 *Alt Text: International yoga practitioners dining at an outdoor organic cafe terrace in Gokulam Mysore under palm trees.*

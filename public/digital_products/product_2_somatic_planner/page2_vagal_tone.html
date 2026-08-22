@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Somatic Reset - Vagal Tone Map</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+    @page { size: 8.5in 11in; margin: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { width: 8.5in; height: 11in; background-color: #FBF9F5; color: #2D3748; font-family: 'Plus Jakarta Sans', sans-serif; padding: 0.7in 0.8in; }
+    .header-bar { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(118, 136, 117, 0.4); padding-bottom: 0.3rem; margin-bottom: 1.5rem; }
+    .header-title { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: #768875; font-weight: 600; }
+    .page-number { font-family: 'Cormorant Garamond', serif; font-size: 0.95rem; color: #C87D55; font-weight: 600; }
+    .section-title { font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; color: #2D3748; font-weight: 700; margin-bottom: 0.3rem; }
+    .section-subtitle { font-size: 0.88rem; color: #768875; margin-bottom: 1.5rem; line-height: 1.4; }
+    .state-card { border: 1px solid rgba(118, 136, 117, 0.35); background: #FFFFFF; padding: 1rem; border-radius: 4px; margin-bottom: 1rem; }
+    .state-name { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 700; color: #C87D55; margin-bottom: 0.3rem; }
+    .state-desc { font-size: 0.85rem; color: #4A5568; line-height: 1.5; }
+    .trigger-box { border: 1px solid rgba(118, 136, 117, 0.35); background: #FFFFFF; padding: 0.8rem; border-radius: 4px; min-height: 1.2in; }
+    .writing-lines { background-image: repeating-linear-gradient(transparent, transparent 27px, rgba(118, 136, 117, 0.2) 28px); line-height: 28px; }
+  </style>
+</head>
+<body>
+  <div class="header-bar">
+    <span class="header-title">The Somatic Reset</span>
+    <span class="page-number">Page 02</span>
+  </div>
+  <h2 class="section-title">Nervous System State Mapping</h2>
+  <p class="section-subtitle">Identify which state your nervous system spent the most time in today.</p>
+  
+  <div class="state-card" style="border-left: 4px solid #768875;">
+    <div class="state-name">01. Ventral Vagal (Safe & Connected)</div>
+    <div class="state-desc">Body feels calm, grounded, open to social connection. Breath is smooth and deep into the diaphragm.</div>
+  </div>
+
+  <div class="state-card" style="border-left: 4px solid #C87D55;">
+    <div class="state-name">02. Sympathetic (Fight or Flight)</div>
+    <div class="state-desc">Anxious, racing thoughts, shallow chest breathing, tight shoulders, urge to rush or control.</div>
+  </div>
+
+  <div class="state-card" style="border-left: 4px solid #4A5568;">
+    <div class="state-name">03. Dorsal Vagal (Freeze or Shutdown)</div>
+    <div class="state-desc">Exhausted, brain fog, numb, heavy body, feeling disconnected or overwhelmed by small tasks.</div>
+  </div>
+
+  <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: #768875; margin: 1.2rem 0 0.4rem 0;">My Primary Triggers Today:</h3>
+  <div class="trigger-box writing-lines"></div>
+
+  <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: #768875; margin: 1.2rem 0 0.4rem 0;">My Somatic Resourcing Anchors (What Brought Me Back):</h3>
+  <div class="trigger-box writing-lines"></div>
+</body>
+</html>

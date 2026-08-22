@@ -49,7 +49,7 @@ The Intermediate Series focuses on purifying the nervous system and subtle energ
 ### #3- Advanced Series A, B, C, D (*Sthira Bhaga* / Divine Stability)
 The Advanced Series demands extraordinary strength, flexibility, and mental stability. It is practiced by senior, long-term practitioners under direct master supervision.
 
-To record your daily posture progress, sequence milestones, and personal insights through the Primary and Intermediate series, use our structured [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/readme.md).
+To record your daily posture progress, sequence milestones, and personal insights through the Primary and Intermediate series, use our structured [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/full_30_pages.html).
 
 ![Ashtanga Yoga Shala in Mysore](/images/mysore_yoga_shala.jpg)
 *Alt Text: Practitioners seated in silent concentration on cotton mat rugs inside a traditional Ashtanga yoga shala in Mysore.*
@@ -97,7 +97,7 @@ Chidananda offers intensive Ashtanga Vinyasa practice combined with focused work
 3. **No Water Drinking During Practice**: Internal heat (*Agni*) is built through continuous breath and posture. Drinking water during practice extinguishes this internal fire. Hydrate thoroughly after your practice is complete.
 4. **Observe Moon Days & Ladies' Rest**: Do not practice on Full Moon or New Moon days. Women take 3 days of rest during heavy menstrual days to respect internal energy flows.
 
-To help align your practice and recovery days with lunar cycles and monthly hormonal shifts, explore our [Lunar Wellness & Cycle Planner](/Digital_Products/product_5_lunar_planner/readme.md).
+To help align your practice and recovery days with lunar cycles and monthly hormonal shifts, explore our [Lunar Wellness & Cycle Planner](/Digital_Products/product_5_lunar_planner/full_30_pages.html).
 
 ![Gokulam Street Lifestyle](/images/gokulam_lifestyle.jpg)
 *Alt Text: International Ashtanga practitioners walking with mat bags along the leafy streets of Gokulam Mysore.*

@@ -48,7 +48,7 @@ When struggling with afternoon brain fog:
 3. Exhale through your left nostril for 4 counts.
 4. Repeat for 5 to 7 minutes to boost cognitive focus.
 
-Track your daily jetlag recovery, heart rate variability, and sleep quality with our structured [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/readme.md).
+Track your daily jetlag recovery, heart rate variability, and sleep quality with our structured [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/full_30_pages.html).
 
 ---
 

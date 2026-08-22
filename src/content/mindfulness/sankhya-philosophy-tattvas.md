@@ -83,7 +83,7 @@ Prakriti operates through three fundamental qualities known as the **Trigunas**:
 
 When the Gunas are in perfect equilibrium, Prakriti remains unmanifest. When Purusha's presence distorts this balance, creation begins.
 
-To deepen your self-study (*Svadhyaya*) and track your mental gunic balance daily, utilize our structured [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/readme.md).
+To deepen your self-study (*Svadhyaya*) and track your mental gunic balance daily, utilize our structured [Sadhana Daily Yoga & Meditation Journal](/digital_products/product_1_sadhana_journal/full_30_pages.html).
 
 ---
 
@@ -93,7 +93,7 @@ Understanding Samkhya liberates the yoga practitioner from identifying with temp
 - **Dis-identification**: When experiencing physical pain or anxiety, the yogi recognizes, *"This is a movement of Prakriti (the mind/body), not my true Purusha."*
 - **Cultivating Sattva**: Asana, pranayama, and a clean sattvic diet reduce Tamas (lethargy) and Rajas (agitation), allowing Buddhi (higher intellect) to reflect Purusha clearly.
 
-To structure your daily home schedule with classical Vedantic and Samkhya principles, explore our [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/readme.md).
+To structure your daily home schedule with classical Vedantic and Samkhya principles, explore our [Dinacharya Ayurvedic Daily Routine Guide](/digital_products/product_3_dinacharya_guide/full_30_pages.html).
 
 ---
 

@@ -54,7 +54,7 @@ Gokulam 3rd Stage is the epicenter of the global Ashtanga community. Here you wi
 ### #2- Food & Community Culture in Gokulam
 Living in Gokulam makes maintaining a clean, *satvic* diet effortless. The neighborhood features numerous organic cafes catering specifically to practitioners' dietary requirements, offering fresh tender coconut water, Ayurvedic kitchari, sugar-free vegan bowls, and caffeine-free herbal teas. 
 
-To help align your daily routine with traditional South Indian Ayurvedic principles while living in Mysuru, explore our comprehensive [Dinacharya Ayurvedic Daily Routine Guide](/Digital_Products/product_3_dinacharya_guide/readme.md).
+To help align your daily routine with traditional South Indian Ayurvedic principles while living in Mysuru, explore our comprehensive [Dinacharya Ayurvedic Daily Routine Guide](/Digital_Products/product_3_dinacharya_guide/full_30_pages.html).
 
 ---
 
@@ -95,7 +95,7 @@ Life in Mysuru revolves around early rising and disciplined study. A standard da
 - **05:30 PM – 06:30 PM**: Gentle sunset walk around Kukkarahalli Lake.
 - **08:30 PM**: Sleep early to prepare for next morning's practice.
 
-To maintain mental clarity and track your physical evolution throughout your stay, consider keeping a dedicated spiritual journal. Review our [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/readme.md) to structure your daily reflections.
+To maintain mental clarity and track your physical evolution throughout your stay, consider keeping a dedicated spiritual journal. Review our [Sadhana Daily Yoga & Meditation Journal](/Digital_Products/product_1_sadhana_journal/full_30_pages.html) to structure your daily reflections.
 
 ![Yoga Practitioners Walking in Gokulam Mysuru](/images/gokulam_lifestyle.jpg)
 *Alt Text: International yoga practitioners carrying yoga mats walking along a quiet tree-lined street in Gokulam Mysuru past organic cafes.*
