@@ -5,6 +5,7 @@ import { toHTML } from '@portabletext/to-html';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Header from '../../../components/Header.astro';
 import DigitalProductCallout from '../../../components/DigitalProductCallout.astro';
+import BookYogaRetreatsBanner from '../../../components/BookYogaRetreatsBanner.astro';
 
 // Generate static paths for all articles in all collections
 export async function getStaticPaths() {
@@ -194,6 +195,9 @@ if (isSanity) {
 
       <!-- Smart Digital Product Integration Callout -->
       <DigitalProductCallout category={category} type={type} />
+
+      <!-- BookYogaRetreats Affiliate Partner Banner -->
+      <BookYogaRetreatsBanner location={location || "Goa, India"} />
 
       <!-- Dynamic FAQ Section -->
       {faqs && faqs.length > 0 && (

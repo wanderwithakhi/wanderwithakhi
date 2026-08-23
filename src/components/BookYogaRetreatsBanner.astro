@@ -1,0 +1,114 @@
+---
+interface Props {
+  location?: string;
+  customText?: string;
+}
+
+const { location = "Goa, India", customText = "Browse top-rated quiet yoga retreats, Ayurvedic Panchakarma stays, and silent meditation packages in Goa on BookYogaRetreats." } = Astro.props;
+
+const affiliateUrl = "https://www.bookyogaretreats.com/all/c/yoga-retreats/d/asia-and-the-pacific/india/goa?aid=wanderwithakhi";
+---
+
+<aside class="bookyoga-affiliate-banner">
+  <div class="banner-left">
+    <span class="affiliate-badge">🧘 Verified Retreat Partner</span>
+    <h4 class="banner-title">Find & Book Yoga Retreats in {location}</h4>
+    <p class="banner-text">{customText}</p>
+    <span class="disclosure-note">Disclosure: We may earn a small affiliate commission when you book through BookYogaRetreats at no extra cost to you.</span>
+  </div>
+  <div class="banner-right">
+    <a href={affiliateUrl} target="_blank" rel="nofollow sponsored noopener" class="bookyoga-btn">
+      Explore Retreats on BookYogaRetreats
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke-linecap="round" stroke-linejoin="round"></path>
+        <polyline points="15 3 21 3 21 9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+        <line x1="10" y1="14" x2="21" y2="3" stroke-linecap="round" stroke-linejoin="round"></line>
+      </svg>
+    </a>
+  </div>
+</aside>
+
+<style>
+  .bookyoga-affiliate-banner {
+    margin: 3rem 0;
+    padding: 1.75rem 2rem;
+    background-color: var(--palette-chalk);
+    border: 1px solid rgba(85, 107, 47, 0.2);
+    border-left: 4px solid var(--palette-sage);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .bookyoga-affiliate-banner {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .banner-left {
+    max-width: 600px;
+  }
+
+  .affiliate-badge {
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--palette-sage);
+    background-color: rgba(85, 107, 47, 0.08);
+    padding: 0.25rem 0.65rem;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+
+  .banner-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.25rem;
+    color: var(--color-text);
+  }
+
+  .banner-text {
+    font-family: var(--font-serif);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    opacity: 0.8;
+    margin-bottom: 0.5rem;
+  }
+
+  .disclosure-note {
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-style: italic;
+    opacity: 0.5;
+    display: block;
+  }
+
+  .bookyoga-btn {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.8rem 1.4rem;
+    background-color: var(--palette-sage);
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+    transition: var(--transition-smooth);
+  }
+
+  .bookyoga-btn:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+  }
+</style>
