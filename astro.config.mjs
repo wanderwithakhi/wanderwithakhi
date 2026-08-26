@@ -1,10 +1,12 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-
 import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://wanderwithakhi.com',
-  integrations: [sitemap()]
+  integrations: [sitemap()],
+  redirects: {
+    '/essays/[type]/[slug]': '/blog/[type]/[slug]'
+  }
 });

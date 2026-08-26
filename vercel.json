@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/essays/:path*",
+      "destination": "/blog/:path*",
+      "permanent": true
+    }
+  ]
+}
