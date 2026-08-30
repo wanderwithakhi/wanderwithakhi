@@ -1,0 +1,203 @@
+---
+const featuredProducts = [
+  {
+    number: "01",
+    title: "Sadhana & Asana Journal",
+    desc: "30-Page practice companion for asana alignment, pranayama retention, and Patanjali self-study.",
+    color: "var(--palette-rust)",
+    url: "/digital_products/product_1_sadhana_journal/full_30_pages.html"
+  },
+  {
+    number: "02",
+    title: "Somatic Recovery Planner",
+    desc: "30-Page workbook for vagal tone regulation, psoas stress release, and HRV mapping.",
+    color: "var(--palette-sage)",
+    url: "/digital_products/product_2_somatic_planner/full_30_pages.html"
+  },
+  {
+    number: "03",
+    title: "Dinacharya Ayurvedic Guide",
+    desc: "30-Page circadian routine guide for oil massage, doshic meal planning, and seasonal living.",
+    color: "var(--palette-ochre)",
+    url: "/digital_products/product_3_dinacharya_guide/full_30_pages.html"
+  },
+  {
+    number: "04",
+    title: "Slow Travel Journal",
+    desc: "30-Page mindful travel companion for packing capsules, travel anxiety, and quietcation logs.",
+    color: "var(--palette-rust)",
+    url: "/digital_products/product_4_slow_travel_journal/full_30_pages.html"
+  }
+];
+---
+
+<section class="home-digital-products-section">
+  <div class="container">
+    <div class="section-top">
+      <div class="top-text">
+        <span class="section-badge">Printable Workbooks</span>
+        <h2 class="section-title">30-Page Practice Guides & Tools</h2>
+        <p class="section-subtitle">Vector-rendered 8.5x11 inch workbooks for daily sadhana, somatic recovery, and intentional travel.</p>
+      </div>
+      <a href="/guide" class="view-all-link">
+        Explore All 7 Guides
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="5" y1="12" x2="19" y2="12" stroke-linecap="round"></line>
+          <polyline points="12 5 19 12 12 19" stroke-linecap="round" stroke-linejoin="round"></polyline>
+        </svg>
+      </a>
+    </div>
+
+    <div class="products-home-grid">
+      {featuredProducts.map(item => (
+        <div class="home-prod-card" style={`border-top: 3px solid ${item.color}`}>
+          <div class="card-num" style={`color: ${item.color}`}>{item.number}</div>
+          <h3 class="card-title">{item.title}</h3>
+          <p class="card-desc">{item.desc}</p>
+          <a href={item.url} target="_blank" class="card-btn" style={`color: ${item.color}; border-color: ${item.color}`}>
+            Read 30-Page Guide
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .home-digital-products-section {
+    padding: 6rem 1.5rem;
+    background-color: var(--palette-chalk);
+    border-top: var(--border-thin);
+    border-bottom: var(--border-thin);
+  }
+
+  .section-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 3.5rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .section-badge {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--palette-rust);
+    background-color: rgba(200, 122, 83, 0.08);
+    padding: 0.35rem 0.85rem;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+  }
+
+  .section-title {
+    font-size: 2.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .section-subtitle {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 1.15rem;
+    opacity: 0.75;
+    margin: 0;
+  }
+
+  .view-all-link {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: var(--transition-smooth);
+  }
+
+  .view-all-link:hover {
+    color: var(--palette-rust);
+    transform: translateX(3px);
+  }
+
+  .products-home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  @media (min-width: 640px) {
+    .products-home-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .products-home-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .home-prod-card {
+    background-color: var(--color-bg);
+    border: var(--border-thin);
+    border-radius: 6px;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+    transition: var(--transition-smooth);
+  }
+
+  .home-prod-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  }
+
+  .card-num {
+    font-family: var(--font-sans);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.25;
+  }
+
+  .card-desc {
+    font-family: var(--font-serif);
+    font-size: 0.92rem;
+    line-height: 1.5;
+    opacity: 0.75;
+    margin-bottom: 1.75rem;
+  }
+
+  .card-btn {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.6rem 1rem;
+    border: 1px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    transition: var(--transition-smooth);
+    margin-top: auto;
+  }
+
+  .card-btn:hover {
+    background-color: rgba(0,0,0,0.03);
+  }
+</style>

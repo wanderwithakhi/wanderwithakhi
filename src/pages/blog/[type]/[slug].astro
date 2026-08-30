@@ -81,7 +81,13 @@ const jsonLd = {
   "author": {
     "@type": "Person",
     "name": "Akhilesh Gowda",
-    "url": "https://wanderwithakhi.com"
+    "jobTitle": "Yogic Seeker & Slow Travel Writer",
+    "url": "https://wanderwithakhi.com",
+    "sameAs": [
+      "https://ayush.gov.in/",
+      "https://karnatakatourism.org/",
+      "https://www.ncbi.nlm.nih.gov/pmc/"
+    ]
   },
   "publisher": {
     "@type": "Organization",
@@ -98,6 +104,32 @@ const jsonLd = {
   "image": coverImage 
     ? (coverImage.startsWith('http') ? coverImage : `https://wanderwithakhi.com${coverImage}`)
     : "https://wanderwithakhi.com/images/slow-living.jpg"
+};
+
+// BreadcrumbList Schema block
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://wanderwithakhi.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Journal",
+      "item": "https://wanderwithakhi.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": title,
+      "item": `https://wanderwithakhi.com/blog/${type}/${isSanity ? sanityPost.slug : post.id}`
+    }
+  ]
 };
 
 // FAQ Schema block
@@ -143,6 +175,7 @@ if (isSanity) {
 >
   <!-- Inject Structured Schema JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   {faqJsonLd && (
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   )}

@@ -123,9 +123,38 @@ const products = [
     ]
   }
 ];
+
+const productsSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Digital Practice Guides & Workbooks",
+  "description": "30-page printable workbooks for daily sadhana, somatic recovery, Ayurvedic routines, slow travel, and subtle energy by Akhilesh Gowda.",
+  "itemListElement": products.map((prod, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "item": {
+      "@type": "Product",
+      "name": prod.title,
+      "description": prod.description,
+      "category": prod.badge,
+      "brand": {
+        "@type": "Brand",
+        "name": "wanderwithakhi"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": `https://wanderwithakhi.com${prod.fullUrl}`
+      }
+    }
+  }))
+};
 ---
 
 <BaseLayout title="Digital Product Guides & Printable Workbooks | wanderwithakhi" description="Explore 30-page printable workbooks for daily sadhana, somatic recovery, Ayurvedic routines, slow travel, and subtler yoga practices by Akhilesh Gowda.">
+  <script type="application/ld+json" set:html={JSON.stringify(productsSchema)} />
   <Header />
 
   <main class="products-hub">
