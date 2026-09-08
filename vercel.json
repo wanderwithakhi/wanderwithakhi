@@ -1,6 +1,16 @@
 {
   "redirects": [
     {
+      "source": "/Digital_Products/:path*",
+      "destination": "/digital_products/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/digital-products/:path*",
+      "destination": "/digital_products/:path*",
+      "permanent": true
+    },
+    {
       "source": "/essays/:type/:slug",
       "destination": "/blog/:type/:slug",
       "permanent": true
