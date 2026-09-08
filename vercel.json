@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/essays/:type/:slug",
+      "destination": "/blog/:type/:slug",
+      "permanent": true
+    },
+    {
       "source": "/essays/:path*",
       "destination": "/blog/:path*",
       "permanent": true

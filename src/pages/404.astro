@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+---
+
+<BaseLayout title="Page Not Found (404) | wanderwithakhi" description="The page you are looking for has moved or no longer exists on wanderwithakhi.">
+  <Header />
+
+  <main class="not-found-main">
+    <div class="container not-found-container">
+      <span class="badge-404">404 Error</span>
+      <h1 class="title-404">Path Unseen</h1>
+      <p class="desc-404">The trail you are following seems to have shifted. Explore our latest guides, journals, and digital workbooks below.</p>
+      
+      <div class="actions-404">
+        <a href="/blog" class="btn-primary">Browse Journal Articles</a>
+        <a href="/guide" class="btn-secondary">Explore 30-Page Workbooks</a>
+        <a href="/" class="btn-text">Return Home &rarr;</a>
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .not-found-main {
+    padding: 8rem 1.5rem;
+    text-align: center;
+    background-color: var(--palette-chalk);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .not-found-container {
+    max-width: 600px;
+  }
+
+  .badge-404 {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--palette-rust);
+    background-color: rgba(200, 122, 83, 0.1);
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+  }
+
+  .title-404 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+  }
+
+  .desc-404 {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    line-height: 1.6;
+    opacity: 0.8;
+    margin-bottom: 2.5rem;
+  }
+
+  .actions-404 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-primary {
+    background-color: var(--palette-rust);
+    color: white;
+    padding: 0.85rem 1.75rem;
+    border-radius: 4px;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--palette-terracotta);
+  }
+
+  .btn-secondary {
+    background-color: var(--palette-sage);
+    color: white;
+    padding: 0.85rem 1.75rem;
+    border-radius: 4px;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+  }
+
+  .btn-secondary:hover {
+    opacity: 0.9;
+  }
+
+  .btn-text {
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    margin-left: 0.5rem;
+  }
+</style>

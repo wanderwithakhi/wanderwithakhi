@@ -5,8 +5,5 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://wanderwithakhi.com',
-  integrations: [sitemap()],
-  redirects: {
-    '/essays/[type]/[slug]': '/blog/[type]/[slug]'
-  }
+  integrations: [sitemap()]
 });
