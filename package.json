@@ -10,6 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "deploy": "npx vercel --prod",
     "generate": "node --env-file=.env scripts/auto_generator.cjs"
   },
   "dependencies": {
