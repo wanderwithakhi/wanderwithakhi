@@ -11,18 +11,1333 @@
       "permanent": true
     },
     {
-      "source": "/essays/:type/:slug",
-      "destination": "/blog/:type/:slug",
+      "source": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/888-portal-somatic-manifesting",
+      "destination": "/blog/mindfulness/888-portal-somatic-manifesting",
+      "permanent": true
+    },
+    {
+      "source": "/essays/888-portal-somatic-manifesting",
+      "destination": "/blog/mindfulness/888-portal-somatic-manifesting",
+      "permanent": true
+    },
+    {
+      "source": "/blog/888-portal-somatic-manifesting",
+      "destination": "/blog/mindfulness/888-portal-somatic-manifesting",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/bhramari-pranayama-nitric-oxide",
+      "destination": "/blog/mindfulness/bhramari-pranayama-nitric-oxide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/bhramari-pranayama-nitric-oxide",
+      "destination": "/blog/mindfulness/bhramari-pranayama-nitric-oxide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bhramari-pranayama-nitric-oxide",
+      "destination": "/blog/mindfulness/bhramari-pranayama-nitric-oxide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/breathwork-for-jetlag",
+      "destination": "/blog/mindfulness/breathwork-for-jetlag",
+      "permanent": true
+    },
+    {
+      "source": "/essays/breathwork-for-jetlag",
+      "destination": "/blog/mindfulness/breathwork-for-jetlag",
+      "permanent": true
+    },
+    {
+      "source": "/blog/breathwork-for-jetlag",
+      "destination": "/blog/mindfulness/breathwork-for-jetlag",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/constructive-rest-pose-somatic",
+      "destination": "/blog/mindfulness/constructive-rest-pose-somatic",
+      "permanent": true
+    },
+    {
+      "source": "/essays/constructive-rest-pose-somatic",
+      "destination": "/blog/mindfulness/constructive-rest-pose-somatic",
+      "permanent": true
+    },
+    {
+      "source": "/blog/constructive-rest-pose-somatic",
+      "destination": "/blog/mindfulness/constructive-rest-pose-somatic",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/digital-nomad-burnout",
+      "destination": "/blog/mindfulness/digital-nomad-burnout",
+      "permanent": true
+    },
+    {
+      "source": "/essays/digital-nomad-burnout",
+      "destination": "/blog/mindfulness/digital-nomad-burnout",
+      "permanent": true
+    },
+    {
+      "source": "/blog/digital-nomad-burnout",
+      "destination": "/blog/mindfulness/digital-nomad-burnout",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/engineer-to-seeker-yoga-journey",
+      "destination": "/blog/mindfulness/engineer-to-seeker-yoga-journey",
+      "permanent": true
+    },
+    {
+      "source": "/essays/engineer-to-seeker-yoga-journey",
+      "destination": "/blog/mindfulness/engineer-to-seeker-yoga-journey",
+      "permanent": true
+    },
+    {
+      "source": "/blog/engineer-to-seeker-yoga-journey",
+      "destination": "/blog/mindfulness/engineer-to-seeker-yoga-journey",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/forest-bathing-science",
+      "destination": "/blog/mindfulness/forest-bathing-science",
+      "permanent": true
+    },
+    {
+      "source": "/essays/forest-bathing-science",
+      "destination": "/blog/mindfulness/forest-bathing-science",
+      "permanent": true
+    },
+    {
+      "source": "/blog/forest-bathing-science",
+      "destination": "/blog/mindfulness/forest-bathing-science",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/hands-on-adjustments-yoga-consent",
+      "destination": "/blog/mindfulness/hands-on-adjustments-yoga-consent",
+      "permanent": true
+    },
+    {
+      "source": "/essays/hands-on-adjustments-yoga-consent",
+      "destination": "/blog/mindfulness/hands-on-adjustments-yoga-consent",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hands-on-adjustments-yoga-consent",
+      "destination": "/blog/mindfulness/hands-on-adjustments-yoga-consent",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/headstand-injury-risks",
+      "destination": "/blog/mindfulness/headstand-injury-risks",
+      "permanent": true
+    },
+    {
+      "source": "/essays/headstand-injury-risks",
+      "destination": "/blog/mindfulness/headstand-injury-risks",
+      "permanent": true
+    },
+    {
+      "source": "/blog/headstand-injury-risks",
+      "destination": "/blog/mindfulness/headstand-injury-risks",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/journaling-on-the-road",
+      "destination": "/blog/mindfulness/journaling-on-the-road",
+      "permanent": true
+    },
+    {
+      "source": "/essays/journaling-on-the-road",
+      "destination": "/blog/mindfulness/journaling-on-the-road",
+      "permanent": true
+    },
+    {
+      "source": "/blog/journaling-on-the-road",
+      "destination": "/blog/mindfulness/journaling-on-the-road",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/loving-kindness-metta",
+      "destination": "/blog/mindfulness/loving-kindness-metta",
+      "permanent": true
+    },
+    {
+      "source": "/essays/loving-kindness-metta",
+      "destination": "/blog/mindfulness/loving-kindness-metta",
+      "permanent": true
+    },
+    {
+      "source": "/blog/loving-kindness-metta",
+      "destination": "/blog/mindfulness/loving-kindness-metta",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/mandukya-upanishad-summary",
+      "destination": "/blog/mindfulness/mandukya-upanishad-summary",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mandukya-upanishad-summary",
+      "destination": "/blog/mindfulness/mandukya-upanishad-summary",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mandukya-upanishad-summary",
+      "destination": "/blog/mindfulness/mandukya-upanishad-summary",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/meditation-on-the-road",
+      "destination": "/blog/mindfulness/meditation-on-the-road",
+      "permanent": true
+    },
+    {
+      "source": "/essays/meditation-on-the-road",
+      "destination": "/blog/mindfulness/meditation-on-the-road",
+      "permanent": true
+    },
+    {
+      "source": "/blog/meditation-on-the-road",
+      "destination": "/blog/mindfulness/meditation-on-the-road",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/mindful-photography",
+      "destination": "/blog/mindfulness/mindful-photography",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindful-photography",
+      "destination": "/blog/mindfulness/mindful-photography",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mindful-photography",
+      "destination": "/blog/mindfulness/mindful-photography",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/nauli-kriya-step-by-step",
+      "destination": "/blog/mindfulness/nauli-kriya-step-by-step",
+      "permanent": true
+    },
+    {
+      "source": "/essays/nauli-kriya-step-by-step",
+      "destination": "/blog/mindfulness/nauli-kriya-step-by-step",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nauli-kriya-step-by-step",
+      "destination": "/blog/mindfulness/nauli-kriya-step-by-step",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/noble-silence-retreat-benefits",
+      "destination": "/blog/mindfulness/noble-silence-retreat-benefits",
+      "permanent": true
+    },
+    {
+      "source": "/essays/noble-silence-retreat-benefits",
+      "destination": "/blog/mindfulness/noble-silence-retreat-benefits",
+      "permanent": true
+    },
+    {
+      "source": "/blog/noble-silence-retreat-benefits",
+      "destination": "/blog/mindfulness/noble-silence-retreat-benefits",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/pratipaksha-bhavana-examples",
+      "destination": "/blog/mindfulness/pratipaksha-bhavana-examples",
+      "permanent": true
+    },
+    {
+      "source": "/essays/pratipaksha-bhavana-examples",
+      "destination": "/blog/mindfulness/pratipaksha-bhavana-examples",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pratipaksha-bhavana-examples",
+      "destination": "/blog/mindfulness/pratipaksha-bhavana-examples",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/quadratus-lumborum-yoga-twists",
+      "destination": "/blog/mindfulness/quadratus-lumborum-yoga-twists",
+      "permanent": true
+    },
+    {
+      "source": "/essays/quadratus-lumborum-yoga-twists",
+      "destination": "/blog/mindfulness/quadratus-lumborum-yoga-twists",
+      "permanent": true
+    },
+    {
+      "source": "/blog/quadratus-lumborum-yoga-twists",
+      "destination": "/blog/mindfulness/quadratus-lumborum-yoga-twists",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/sankhya-philosophy-tattvas",
+      "destination": "/blog/mindfulness/sankhya-philosophy-tattvas",
+      "permanent": true
+    },
+    {
+      "source": "/essays/sankhya-philosophy-tattvas",
+      "destination": "/blog/mindfulness/sankhya-philosophy-tattvas",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sankhya-philosophy-tattvas",
+      "destination": "/blog/mindfulness/sankhya-philosophy-tattvas",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/scapular-stability-in-yoga",
+      "destination": "/blog/mindfulness/scapular-stability-in-yoga",
+      "permanent": true
+    },
+    {
+      "source": "/essays/scapular-stability-in-yoga",
+      "destination": "/blog/mindfulness/scapular-stability-in-yoga",
+      "permanent": true
+    },
+    {
+      "source": "/blog/scapular-stability-in-yoga",
+      "destination": "/blog/mindfulness/scapular-stability-in-yoga",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/shiva-sutras-explained",
+      "destination": "/blog/mindfulness/shiva-sutras-explained",
+      "permanent": true
+    },
+    {
+      "source": "/essays/shiva-sutras-explained",
+      "destination": "/blog/mindfulness/shiva-sutras-explained",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shiva-sutras-explained",
+      "destination": "/blog/mindfulness/shiva-sutras-explained",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/si-joint-pain-yoga-poses",
+      "destination": "/blog/mindfulness/si-joint-pain-yoga-poses",
+      "permanent": true
+    },
+    {
+      "source": "/essays/si-joint-pain-yoga-poses",
+      "destination": "/blog/mindfulness/si-joint-pain-yoga-poses",
+      "permanent": true
+    },
+    {
+      "source": "/blog/si-joint-pain-yoga-poses",
+      "destination": "/blog/mindfulness/si-joint-pain-yoga-poses",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/silent-retreats-guide",
+      "destination": "/blog/mindfulness/silent-retreats-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/silent-retreats-guide",
+      "destination": "/blog/mindfulness/silent-retreats-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/silent-retreats-guide",
+      "destination": "/blog/mindfulness/silent-retreats-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/somatic-resourcing",
+      "destination": "/blog/mindfulness/somatic-resourcing",
+      "permanent": true
+    },
+    {
+      "source": "/essays/somatic-resourcing",
+      "destination": "/blog/mindfulness/somatic-resourcing",
+      "permanent": true
+    },
+    {
+      "source": "/blog/somatic-resourcing",
+      "destination": "/blog/mindfulness/somatic-resourcing",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/swara-yoga-science-of-breath",
+      "destination": "/blog/mindfulness/swara-yoga-science-of-breath",
+      "permanent": true
+    },
+    {
+      "source": "/essays/swara-yoga-science-of-breath",
+      "destination": "/blog/mindfulness/swara-yoga-science-of-breath",
+      "permanent": true
+    },
+    {
+      "source": "/blog/swara-yoga-science-of-breath",
+      "destination": "/blog/mindfulness/swara-yoga-science-of-breath",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/tapas-in-yoga-sutras",
+      "destination": "/blog/mindfulness/tapas-in-yoga-sutras",
+      "permanent": true
+    },
+    {
+      "source": "/essays/tapas-in-yoga-sutras",
+      "destination": "/blog/mindfulness/tapas-in-yoga-sutras",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tapas-in-yoga-sutras",
+      "destination": "/blog/mindfulness/tapas-in-yoga-sutras",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/trataka-candle-gazing-benefits",
+      "destination": "/blog/mindfulness/trataka-candle-gazing-benefits",
+      "permanent": true
+    },
+    {
+      "source": "/essays/trataka-candle-gazing-benefits",
+      "destination": "/blog/mindfulness/trataka-candle-gazing-benefits",
+      "permanent": true
+    },
+    {
+      "source": "/blog/trataka-candle-gazing-benefits",
+      "destination": "/blog/mindfulness/trataka-candle-gazing-benefits",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/vata-pacifying-breathwork",
+      "destination": "/blog/mindfulness/vata-pacifying-breathwork",
+      "permanent": true
+    },
+    {
+      "source": "/essays/vata-pacifying-breathwork",
+      "destination": "/blog/mindfulness/vata-pacifying-breathwork",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vata-pacifying-breathwork",
+      "destination": "/blog/mindfulness/vata-pacifying-breathwork",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/what-is-somatic-travel",
+      "destination": "/blog/mindfulness/what-is-somatic-travel",
+      "permanent": true
+    },
+    {
+      "source": "/essays/what-is-somatic-travel",
+      "destination": "/blog/mindfulness/what-is-somatic-travel",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-somatic-travel",
+      "destination": "/blog/mindfulness/what-is-somatic-travel",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/yin-yoga-hips",
+      "destination": "/blog/mindfulness/yin-yoga-hips",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yin-yoga-hips",
+      "destination": "/blog/mindfulness/yin-yoga-hips",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yin-yoga-hips",
+      "destination": "/blog/mindfulness/yin-yoga-hips",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mindfulness/yoga-vasistha-summary",
+      "destination": "/blog/mindfulness/yoga-vasistha-summary",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yoga-vasistha-summary",
+      "destination": "/blog/mindfulness/yoga-vasistha-summary",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yoga-vasistha-summary",
+      "destination": "/blog/mindfulness/yoga-vasistha-summary",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/3-day-yoga-retreat-goa",
+      "destination": "/blog/travel/3-day-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/3-day-yoga-retreat-goa",
+      "destination": "/blog/travel/3-day-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/3-day-yoga-retreat-goa",
+      "destination": "/blog/travel/3-day-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/agonda-beach-yoga",
+      "destination": "/blog/travel/agonda-beach-yoga",
+      "permanent": true
+    },
+    {
+      "source": "/essays/agonda-beach-yoga",
+      "destination": "/blog/travel/agonda-beach-yoga",
+      "permanent": true
+    },
+    {
+      "source": "/blog/agonda-beach-yoga",
+      "destination": "/blog/travel/agonda-beach-yoga",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/ashtanga-yoga-in-mysore-mysore-style-practice",
+      "destination": "/blog/travel/ashtanga-yoga-in-mysore-mysore-style-practice",
+      "permanent": true
+    },
+    {
+      "source": "/essays/ashtanga-yoga-in-mysore-mysore-style-practice",
+      "destination": "/blog/travel/ashtanga-yoga-in-mysore-mysore-style-practice",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ashtanga-yoga-in-mysore-mysore-style-practice",
+      "destination": "/blog/travel/ashtanga-yoga-in-mysore-mysore-style-practice",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/ayurvedic-yoga-retreats-goa",
+      "destination": "/blog/travel/ayurvedic-yoga-retreats-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/ayurvedic-yoga-retreats-goa",
+      "destination": "/blog/travel/ayurvedic-yoga-retreats-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ayurvedic-yoga-retreats-goa",
+      "destination": "/blog/travel/ayurvedic-yoga-retreats-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/bamboo-yoga-retreat-goa",
+      "destination": "/blog/travel/bamboo-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/bamboo-yoga-retreat-goa",
+      "destination": "/blog/travel/bamboo-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bamboo-yoga-retreat-goa",
+      "destination": "/blog/travel/bamboo-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/berlin-expat-life",
+      "destination": "/blog/travel/berlin-expat-life",
+      "permanent": true
+    },
+    {
+      "source": "/essays/berlin-expat-life",
+      "destination": "/blog/travel/berlin-expat-life",
+      "permanent": true
+    },
+    {
+      "source": "/blog/berlin-expat-life",
+      "destination": "/blog/travel/berlin-expat-life",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/best-yoga-in-mysore-top-schools-compared",
+      "destination": "/blog/travel/best-yoga-in-mysore-top-schools-compared",
+      "permanent": true
+    },
+    {
+      "source": "/essays/best-yoga-in-mysore-top-schools-compared",
+      "destination": "/blog/travel/best-yoga-in-mysore-top-schools-compared",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-yoga-in-mysore-top-schools-compared",
+      "destination": "/blog/travel/best-yoga-in-mysore-top-schools-compared",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/best-yoga-retreat-goa",
+      "destination": "/blog/travel/best-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/best-yoga-retreat-goa",
+      "destination": "/blog/travel/best-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-yoga-retreat-goa",
+      "destination": "/blog/travel/best-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/costa-rica-retreats",
+      "destination": "/blog/travel/costa-rica-retreats",
+      "permanent": true
+    },
+    {
+      "source": "/essays/costa-rica-retreats",
+      "destination": "/blog/travel/costa-rica-retreats",
+      "permanent": true
+    },
+    {
+      "source": "/blog/costa-rica-retreats",
+      "destination": "/blog/travel/costa-rica-retreats",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/dolomites-hiking",
+      "destination": "/blog/travel/dolomites-hiking",
+      "permanent": true
+    },
+    {
+      "source": "/essays/dolomites-hiking",
+      "destination": "/blog/travel/dolomites-hiking",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dolomites-hiking",
+      "destination": "/blog/travel/dolomites-hiking",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/goa-monsoon-wellness-retreats",
+      "destination": "/blog/travel/goa-monsoon-wellness-retreats",
+      "permanent": true
+    },
+    {
+      "source": "/essays/goa-monsoon-wellness-retreats",
+      "destination": "/blog/travel/goa-monsoon-wellness-retreats",
+      "permanent": true
+    },
+    {
+      "source": "/blog/goa-monsoon-wellness-retreats",
+      "destination": "/blog/travel/goa-monsoon-wellness-retreats",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/goa-slow-beaches",
+      "destination": "/blog/travel/goa-slow-beaches",
+      "permanent": true
+    },
+    {
+      "source": "/essays/goa-slow-beaches",
+      "destination": "/blog/travel/goa-slow-beaches",
+      "permanent": true
+    },
+    {
+      "source": "/blog/goa-slow-beaches",
+      "destination": "/blog/travel/goa-slow-beaches",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/goa-solo-female-travel-safety",
+      "destination": "/blog/travel/goa-solo-female-travel-safety",
+      "permanent": true
+    },
+    {
+      "source": "/essays/goa-solo-female-travel-safety",
+      "destination": "/blog/travel/goa-solo-female-travel-safety",
+      "permanent": true
+    },
+    {
+      "source": "/blog/goa-solo-female-travel-safety",
+      "destination": "/blog/travel/goa-solo-female-travel-safety",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/healing-retreats-in-goa",
+      "destination": "/blog/travel/healing-retreats-in-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/healing-retreats-in-goa",
+      "destination": "/blog/travel/healing-retreats-in-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/healing-retreats-in-goa",
+      "destination": "/blog/travel/healing-retreats-in-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/iceland-roadtrip",
+      "destination": "/blog/travel/iceland-roadtrip",
+      "permanent": true
+    },
+    {
+      "source": "/essays/iceland-roadtrip",
+      "destination": "/blog/travel/iceland-roadtrip",
+      "permanent": true
+    },
+    {
+      "source": "/blog/iceland-roadtrip",
+      "destination": "/blog/travel/iceland-roadtrip",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/kerala-backwaters",
+      "destination": "/blog/travel/kerala-backwaters",
+      "permanent": true
+    },
+    {
+      "source": "/essays/kerala-backwaters",
+      "destination": "/blog/travel/kerala-backwaters",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kerala-backwaters",
+      "destination": "/blog/travel/kerala-backwaters",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/kyoto-slow-travel",
+      "destination": "/blog/travel/kyoto-slow-travel",
+      "permanent": true
+    },
+    {
+      "source": "/essays/kyoto-slow-travel",
+      "destination": "/blog/travel/kyoto-slow-travel",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kyoto-slow-travel",
+      "destination": "/blog/travel/kyoto-slow-travel",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/luxury-yoga-retreat-goa",
+      "destination": "/blog/travel/luxury-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/luxury-yoga-retreat-goa",
+      "destination": "/blog/travel/luxury-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/luxury-yoga-retreat-goa",
+      "destination": "/blog/travel/luxury-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/mysore-heritage",
+      "destination": "/blog/travel/mysore-heritage",
+      "permanent": true
+    },
+    {
+      "source": "/essays/mysore-heritage",
+      "destination": "/blog/travel/mysore-heritage",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mysore-heritage",
+      "destination": "/blog/travel/mysore-heritage",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/patagonia-solitude",
+      "destination": "/blog/travel/patagonia-solitude",
+      "permanent": true
+    },
+    {
+      "source": "/essays/patagonia-solitude",
+      "destination": "/blog/travel/patagonia-solitude",
+      "permanent": true
+    },
+    {
+      "source": "/blog/patagonia-solitude",
+      "destination": "/blog/travel/patagonia-solitude",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/quiet-yoga-retreats-in-goa",
+      "destination": "/blog/travel/quiet-yoga-retreats-in-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/quiet-yoga-retreats-in-goa",
+      "destination": "/blog/travel/quiet-yoga-retreats-in-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/quiet-yoga-retreats-in-goa",
+      "destination": "/blog/travel/quiet-yoga-retreats-in-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/quiet-yoga-retreats-india",
+      "destination": "/blog/travel/quiet-yoga-retreats-india",
+      "permanent": true
+    },
+    {
+      "source": "/essays/quiet-yoga-retreats-india",
+      "destination": "/blog/travel/quiet-yoga-retreats-india",
+      "permanent": true
+    },
+    {
+      "source": "/blog/quiet-yoga-retreats-india",
+      "destination": "/blog/travel/quiet-yoga-retreats-india",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/quietcations-india",
+      "destination": "/blog/travel/quietcations-india",
+      "permanent": true
+    },
+    {
+      "source": "/essays/quietcations-india",
+      "destination": "/blog/travel/quietcations-india",
+      "permanent": true
+    },
+    {
+      "source": "/blog/quietcations-india",
+      "destination": "/blog/travel/quietcations-india",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/rishikesh-ganges",
+      "destination": "/blog/travel/rishikesh-ganges",
+      "permanent": true
+    },
+    {
+      "source": "/essays/rishikesh-ganges",
+      "destination": "/blog/travel/rishikesh-ganges",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rishikesh-ganges",
+      "destination": "/blog/travel/rishikesh-ganges",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/sahara-silence",
+      "destination": "/blog/travel/sahara-silence",
+      "permanent": true
+    },
+    {
+      "source": "/essays/sahara-silence",
+      "destination": "/blog/travel/sahara-silence",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sahara-silence",
+      "destination": "/blog/travel/sahara-silence",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/scotland-highlands",
+      "destination": "/blog/travel/scotland-highlands",
+      "permanent": true
+    },
+    {
+      "source": "/essays/scotland-highlands",
+      "destination": "/blog/travel/scotland-highlands",
+      "permanent": true
+    },
+    {
+      "source": "/blog/scotland-highlands",
+      "destination": "/blog/travel/scotland-highlands",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/silent-meditation-retreats-goa",
+      "destination": "/blog/travel/silent-meditation-retreats-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/silent-meditation-retreats-goa",
+      "destination": "/blog/travel/silent-meditation-retreats-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/silent-meditation-retreats-goa",
+      "destination": "/blog/travel/silent-meditation-retreats-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/silent-travel-quietcations-india",
+      "destination": "/blog/travel/silent-travel-quietcations-india",
+      "permanent": true
+    },
+    {
+      "source": "/essays/silent-travel-quietcations-india",
+      "destination": "/blog/travel/silent-travel-quietcations-india",
+      "permanent": true
+    },
+    {
+      "source": "/blog/silent-travel-quietcations-india",
+      "destination": "/blog/travel/silent-travel-quietcations-india",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/south-goa-vs-north-goa-slow-travel",
+      "destination": "/blog/travel/south-goa-vs-north-goa-slow-travel",
+      "permanent": true
+    },
+    {
+      "source": "/essays/south-goa-vs-north-goa-slow-travel",
+      "destination": "/blog/travel/south-goa-vs-north-goa-slow-travel",
+      "permanent": true
+    },
+    {
+      "source": "/blog/south-goa-vs-north-goa-slow-travel",
+      "destination": "/blog/travel/south-goa-vs-north-goa-slow-travel",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/spiritual-retreats-in-goa",
+      "destination": "/blog/travel/spiritual-retreats-in-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/spiritual-retreats-in-goa",
+      "destination": "/blog/travel/spiritual-retreats-in-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/spiritual-retreats-in-goa",
+      "destination": "/blog/travel/spiritual-retreats-in-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/travel-gear-minimalist",
+      "destination": "/blog/travel/travel-gear-minimalist",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel-gear-minimalist",
+      "destination": "/blog/travel/travel-gear-minimalist",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel-gear-minimalist",
+      "destination": "/blog/travel/travel-gear-minimalist",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/vietnam-railway",
+      "destination": "/blog/travel/vietnam-railway",
+      "permanent": true
+    },
+    {
+      "source": "/essays/vietnam-railway",
+      "destination": "/blog/travel/vietnam-railway",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vietnam-railway",
+      "destination": "/blog/travel/vietnam-railway",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/yoga-classes-in-mysore-drop-in-workshops",
+      "destination": "/blog/travel/yoga-classes-in-mysore-drop-in-workshops",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yoga-classes-in-mysore-drop-in-workshops",
+      "destination": "/blog/travel/yoga-classes-in-mysore-drop-in-workshops",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yoga-classes-in-mysore-drop-in-workshops",
+      "destination": "/blog/travel/yoga-classes-in-mysore-drop-in-workshops",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/yoga-in-goa-guide",
+      "destination": "/blog/travel/yoga-in-goa-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yoga-in-goa-guide",
+      "destination": "/blog/travel/yoga-in-goa-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yoga-in-goa-guide",
+      "destination": "/blog/travel/yoga-in-goa-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/yoga-in-mysore-for-beginners-guide",
+      "destination": "/blog/travel/yoga-in-mysore-for-beginners-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yoga-in-mysore-for-beginners-guide",
+      "destination": "/blog/travel/yoga-in-mysore-for-beginners-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yoga-in-mysore-for-beginners-guide",
+      "destination": "/blog/travel/yoga-in-mysore-for-beginners-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/yoga-in-mysore-india-travel-guide",
+      "destination": "/blog/travel/yoga-in-mysore-india-travel-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yoga-in-mysore-india-travel-guide",
+      "destination": "/blog/travel/yoga-in-mysore-india-travel-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yoga-in-mysore-india-travel-guide",
+      "destination": "/blog/travel/yoga-in-mysore-india-travel-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/yoga-in-mysore-palace-heritage-wellness",
+      "destination": "/blog/travel/yoga-in-mysore-palace-heritage-wellness",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yoga-in-mysore-palace-heritage-wellness",
+      "destination": "/blog/travel/yoga-in-mysore-palace-heritage-wellness",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yoga-in-mysore-palace-heritage-wellness",
+      "destination": "/blog/travel/yoga-in-mysore-palace-heritage-wellness",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/yoga-in-mysore-reddit-community-insights",
+      "destination": "/blog/travel/yoga-in-mysore-reddit-community-insights",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yoga-in-mysore-reddit-community-insights",
+      "destination": "/blog/travel/yoga-in-mysore-reddit-community-insights",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yoga-in-mysore-reddit-community-insights",
+      "destination": "/blog/travel/yoga-in-mysore-reddit-community-insights",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/yoga-in-mysore-shala-guide",
+      "destination": "/blog/travel/yoga-in-mysore-shala-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yoga-in-mysore-shala-guide",
+      "destination": "/blog/travel/yoga-in-mysore-shala-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yoga-in-mysore-shala-guide",
+      "destination": "/blog/travel/yoga-in-mysore-shala-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/yoga-in-mysore-teacher-training-ytt",
+      "destination": "/blog/travel/yoga-in-mysore-teacher-training-ytt",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yoga-in-mysore-teacher-training-ytt",
+      "destination": "/blog/travel/yoga-in-mysore-teacher-training-ytt",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yoga-in-mysore-teacher-training-ytt",
+      "destination": "/blog/travel/yoga-in-mysore-teacher-training-ytt",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/yoga-in-mysuru-ultimate-guide",
+      "destination": "/blog/travel/yoga-in-mysuru-ultimate-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yoga-in-mysuru-ultimate-guide",
+      "destination": "/blog/travel/yoga-in-mysuru-ultimate-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yoga-in-mysuru-ultimate-guide",
+      "destination": "/blog/travel/yoga-in-mysuru-ultimate-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/travel/yoga-retreat-north-goa",
+      "destination": "/blog/travel/yoga-retreat-north-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/yoga-retreat-north-goa",
+      "destination": "/blog/travel/yoga-retreat-north-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yoga-retreat-north-goa",
+      "destination": "/blog/travel/yoga-retreat-north-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/ayurveda-travel-tips",
+      "destination": "/blog/wellness/ayurveda-travel-tips",
+      "permanent": true
+    },
+    {
+      "source": "/essays/ayurveda-travel-tips",
+      "destination": "/blog/wellness/ayurveda-travel-tips",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ayurveda-travel-tips",
+      "destination": "/blog/wellness/ayurveda-travel-tips",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/ayurvedic-travel-toolkit",
+      "destination": "/blog/wellness/ayurvedic-travel-toolkit",
+      "permanent": true
+    },
+    {
+      "source": "/essays/ayurvedic-travel-toolkit",
+      "destination": "/blog/wellness/ayurvedic-travel-toolkit",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ayurvedic-travel-toolkit",
+      "destination": "/blog/wellness/ayurvedic-travel-toolkit",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/digital-detox-guide",
+      "destination": "/blog/wellness/digital-detox-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/digital-detox-guide",
+      "destination": "/blog/wellness/digital-detox-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/digital-detox-guide",
+      "destination": "/blog/wellness/digital-detox-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/digital-detox-retreat-goa",
+      "destination": "/blog/wellness/digital-detox-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/digital-detox-retreat-goa",
+      "destination": "/blog/wellness/digital-detox-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/digital-detox-retreat-goa",
+      "destination": "/blog/wellness/digital-detox-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/herbal-tea-rituals",
+      "destination": "/blog/wellness/herbal-tea-rituals",
+      "permanent": true
+    },
+    {
+      "source": "/essays/herbal-tea-rituals",
+      "destination": "/blog/wellness/herbal-tea-rituals",
+      "permanent": true
+    },
+    {
+      "source": "/blog/herbal-tea-rituals",
+      "destination": "/blog/wellness/herbal-tea-rituals",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/minimalism-home-mind",
+      "destination": "/blog/wellness/minimalism-home-mind",
+      "permanent": true
+    },
+    {
+      "source": "/essays/minimalism-home-mind",
+      "destination": "/blog/wellness/minimalism-home-mind",
+      "permanent": true
+    },
+    {
+      "source": "/blog/minimalism-home-mind",
+      "destination": "/blog/wellness/minimalism-home-mind",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/morning-mindful-routine",
+      "destination": "/blog/wellness/morning-mindful-routine",
+      "permanent": true
+    },
+    {
+      "source": "/essays/morning-mindful-routine",
+      "destination": "/blog/wellness/morning-mindful-routine",
+      "permanent": true
+    },
+    {
+      "source": "/blog/morning-mindful-routine",
+      "destination": "/blog/wellness/morning-mindful-routine",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/plant-based-nutrition-road",
+      "destination": "/blog/wellness/plant-based-nutrition-road",
+      "permanent": true
+    },
+    {
+      "source": "/essays/plant-based-nutrition-road",
+      "destination": "/blog/wellness/plant-based-nutrition-road",
+      "permanent": true
+    },
+    {
+      "source": "/blog/plant-based-nutrition-road",
+      "destination": "/blog/wellness/plant-based-nutrition-road",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/plant-based-vegan-cafes-goa",
+      "destination": "/blog/wellness/plant-based-vegan-cafes-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/plant-based-vegan-cafes-goa",
+      "destination": "/blog/wellness/plant-based-vegan-cafes-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/plant-based-vegan-cafes-goa",
+      "destination": "/blog/wellness/plant-based-vegan-cafes-goa",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/ritu-charya-ayurveda-seasonal-routine",
+      "destination": "/blog/wellness/ritu-charya-ayurveda-seasonal-routine",
+      "permanent": true
+    },
+    {
+      "source": "/essays/ritu-charya-ayurveda-seasonal-routine",
+      "destination": "/blog/wellness/ritu-charya-ayurveda-seasonal-routine",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ritu-charya-ayurveda-seasonal-routine",
+      "destination": "/blog/wellness/ritu-charya-ayurveda-seasonal-routine",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/slow-living-goa-cheaper",
+      "destination": "/blog/wellness/slow-living-goa-cheaper",
+      "permanent": true
+    },
+    {
+      "source": "/essays/slow-living-goa-cheaper",
+      "destination": "/blog/wellness/slow-living-goa-cheaper",
+      "permanent": true
+    },
+    {
+      "source": "/blog/slow-living-goa-cheaper",
+      "destination": "/blog/wellness/slow-living-goa-cheaper",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/sustainable-closet-guide",
+      "destination": "/blog/wellness/sustainable-closet-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/sustainable-closet-guide",
+      "destination": "/blog/wellness/sustainable-closet-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sustainable-closet-guide",
+      "destination": "/blog/wellness/sustainable-closet-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/vegan-tokyo-guide",
+      "destination": "/blog/wellness/vegan-tokyo-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/vegan-tokyo-guide",
+      "destination": "/blog/wellness/vegan-tokyo-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vegan-tokyo-guide",
+      "destination": "/blog/wellness/vegan-tokyo-guide",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/vegan-travel-hacks",
+      "destination": "/blog/wellness/vegan-travel-hacks",
+      "permanent": true
+    },
+    {
+      "source": "/essays/vegan-travel-hacks",
+      "destination": "/blog/wellness/vegan-travel-hacks",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vegan-travel-hacks",
+      "destination": "/blog/wellness/vegan-travel-hacks",
+      "permanent": true
+    },
+    {
+      "source": "/essays/wellness/what-is-slow-living",
+      "destination": "/blog/wellness/what-is-slow-living",
+      "permanent": true
+    },
+    {
+      "source": "/essays/what-is-slow-living",
+      "destination": "/blog/wellness/what-is-slow-living",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-slow-living",
+      "destination": "/blog/wellness/what-is-slow-living",
       "permanent": true
     },
     {
       "source": "/essays/:path*",
-      "destination": "/blog/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap-index.xml",
+      "destination": "/blog",
       "permanent": true
     }
   ]
