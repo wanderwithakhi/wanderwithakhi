@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wanderwithakhi.com/sitemap-index.xml
+Sitemap: https://www.wanderwithakhi.com/sitemap-index.xml

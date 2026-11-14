@@ -33,8 +33,8 @@ export async function GET(context: any) {
     <item>
       <title><![CDATA[${post.title}]]></title>
       <description><![CDATA[${post.description}]]></description>
-      <link>${context.site || 'https://wanderwithakhi.com'}${post.link}</link>
-      <guid>${context.site || 'https://wanderwithakhi.com'}${post.link}</guid>
+      <link>${context.site || 'https://www.wanderwithakhi.com'}${post.link}</link>
+      <guid>${context.site || 'https://www.wanderwithakhi.com'}${post.link}</guid>
       <pubDate>${new Date(post.pubDate).toUTCString()}</pubDate>
     </item>
   `).join('');
@@ -44,8 +44,8 @@ export async function GET(context: any) {
 <channel>
   <title>wanderwithakhi</title>
   <description>Wander Outside &amp; Inside | Slow Travel and Spiritual Reflections by Akhilesh Gowda</description>
-  <link>${context.site || 'https://wanderwithakhi.com'}</link>
-  <atom:link href="${context.site || 'https://wanderwithakhi.com'}/rss.xml" rel="self" type="application/rss+xml" />
+  <link>${context.site || 'https://www.wanderwithakhi.com'}</link>
+  <atom:link href="${context.site || 'https://www.wanderwithakhi.com'}/rss.xml" rel="self" type="application/rss+xml" />
   <language>en-us</language>
   ${items}
 </channel>

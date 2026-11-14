@@ -6,13 +6,44 @@ import Philosophy from '../components/Philosophy.astro';
 import ArticleGrid from '../components/ArticleGrid.astro';
 import DigitalProductsBanner from '../components/DigitalProductsBanner.astro';
 import Newsletter from '../components/Newsletter.astro';
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.wanderwithakhi.com/#website",
+      "url": "https://www.wanderwithakhi.com/",
+      "name": "Wander with Akhi",
+      "description": "Slow travel guides, authentic yoga retreats in Goa and Mysore, and somatic mindfulness by Akhilesh Gowda.",
+      "publisher": {
+        "@id": "https://www.wanderwithakhi.com/#author"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.wanderwithakhi.com/#author",
+      "name": "Akhilesh Gowda",
+      "url": "https://www.wanderwithakhi.com/",
+      "jobTitle": "Slow Travel Writer & Yogic Seeker",
+      "description": "Author documenting authentic ashrams, quiet travel coordinates, and Vedic philosophy across India and beyond."
+    }
+  ]
+};
 ---
 
-<BaseLayout>
+<BaseLayout 
+  title="Wander with Akhi | Mindful Travel, Authentic Yoga Retreats & Somatic Living"
+  description="Discover authentic yoga retreats in Goa & Mysore, quiet slow travel itineraries, Ayurvedic daily routines, and somatic mindfulness guides with Akhilesh Gowda."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+
   <!-- Global Header Navigation -->
   <Header />
 
   <main>
+    <h1 class="sr-only">Wander with Akhi — Mindful Slow Travel Guides, Yoga Retreats in Goa & Somatic Living</h1>
+
     <!-- Dynamic Split-Screen Landing Page Hero -->
     <SplitHero />
 
@@ -29,3 +60,17 @@ import Newsletter from '../components/Newsletter.astro';
     <Newsletter />
   </main>
 </BaseLayout>
+
+<style>
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>
