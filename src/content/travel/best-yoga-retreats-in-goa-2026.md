@@ -57,65 +57,65 @@ Whether you are recovering from corporate burnout, seeking deep nervous system r
 
 ## 🌟 Comprehensive Reviews of the Top 10 Yoga Retreats in Goa
 
-Ashvem Beachfront Eco-Luxe Sanctuary (North Goa)
-- Style: Vinyasa Flow, Yin Yoga & Sound Healing
-- Vibe: Chic, sustainable bamboo cabanas overlooking pristine sand dunes.
-- Highlights: Daily organic farm-to-table meals, sunset pranayama, and private massage treatments.
-- Pricing: $1,900 – $2,700 / week (All-inclusive).
+#### 1. Ashiyana Yoga Retreat (Mandrem Beach, North Goa)
+- **Style:** Vinyasa Flow, Restorative Yin & Sound Healing
+- **Vibe:** World-famous luxury eco-sanctuary with natural swimming lagoons set amidst palm trees behind Mandrem beach.
+- **Highlights:** Daily buffet of organic farm-to-table cuisine, evening Tibetan singing bowl baths, and exceptional spa therapies.
+- **Pricing:** $1,400 – $2,200 / week (All-inclusive).
 
-Agonda Silence & Meditation Retreat (South Goa)
-- Style: Traditional Hatha Yoga & Mouna (Noble Silence)
-- Vibe: located in coconut groves 100 meters from quiet Agonda Beach.
-- Highlights: Guided chakra meditation, daily Ayurvedic consultations, and zero evening noise.
-- Pricing: $850 – $1,300 / week.
+#### 2. Sampoorna Yoga Retreat (Agonda Beach, South Goa)
+- **Style:** Ashtanga Vinyasa, Hatha & Pranayama
+- **Vibe:** Peaceful beachfront shalas directly overlooking the calm, white sands of Agonda.
+- **Highlights:** Rigorous alignment coaching, daily Ayurvedic consultations, and zero commercial party noise.
+- **Pricing:** $950 – $1,500 / week.
 
-Mandrem Organic Wellness Shala (North Goa)
-- Style: Ashtanga Vinyasa & Breathwork Science
-- Vibe: High-vibing international yoga hub with oceanview wooden shalas.
-- Highlights: Evening kirtan circles, ice baths, and somatic release workshops.
-- Pricing: $1,200 – $1,800 / week.
+#### 3. Bamboo Yoga Retreat (Patnem Beach, South Goa)
+- **Style:** Dynamic Flow, Vinyasa & Yin
+- **Vibe:** Relaxed barefoot luxury in open-front wooden and bamboo beach bungalows.
+- **Highlights:** Two open-air oceanfront yoga shalas, fresh tropical juices, and sunset kirtan circles.
+- **Pricing:** $850 – $1,400 / week.
 
-Palolem Palm Eco-Lodge (South Goa)
-- Style: Gentle Hatha & Restorative Yin
-- Vibe: Cozy wooden eco-cottages surrounded by banana palms.
-- Highlights: Daily beach yoga, dolphin watching excursions, and Ayurvedic oil massage.
-- Pricing: $750 – $1,100 / week.
+#### 4. SWAN Yoga Retreat (Assagao, North Goa)
+- **Style:** Classical Sivananda & Hatha Yoga
+- **Vibe:** Authentic jungle ashram in the lush forest hills of Assagao.
+- **Highlights:** Daily morning Agnihotra fire ceremonies, traditional Panchakarma treatments, and deeply spiritual satsang.
+- **Pricing:** $550 – $900 / week.
 
-Arambol Boho Wellness Hub (North Goa)
-- Style: Kundalini Yoga & Ecstatic Dance
-- Vibe: Creative, social, and spiritual backpacker haven.
-- Highlights: Drop-in sound baths, contact improvisation, and sunset drumming.
-- Pricing: $450 – $700 / week.
+#### 5. Kranti Yoga Village Beach Resort (Patnem Beach, South Goa)
+- **Style:** Ashtanga Yoga & Vinyasa Flow
+- **Vibe:** Vibrant, community-driven beachfront yoga village.
+- **Highlights:** Multiple open-air shalas, direct ocean dips between classes, and comprehensive teacher-guided workshops.
+- **Pricing:** $1,100 – $1,700 / week.
 
-Patnem Bio-Dynamic Sanctuary (South Goa)
-- Style: Iyengar Alignment & Somatics
-- Vibe: Eco-conscious sanctuary built with reclaimed teak and bamboo.
-- Highlights: Certified Iyengar teachers, prop-supported alignment, bio-dynamic food.
-- Pricing: $1,100 – $1,600 / week.
+#### 6. Devarya Wellness (Morjim Beach, North Goa)
+- **Style:** Hatha, Vinyasa & Chakra Balancing
+- **Vibe:** Spacious bohemian resort set near the protected Olive Ridley turtle nesting grounds.
+- **Highlights:** Two large wooden rooftop yoga halls, Ayurvedic doctor on-site, and wholesome vegetarian dining.
+- **Pricing:** $1,050 – $1,650 / week.
 
-Morjim Riverfront Retreat (North Goa)
-- Style: Vinyasa & Detox Juicing
-- Vibe: Peaceful riverside location near Olive Ridley turtle nesting sites.
-- Highlights: Daily green juices, detox pranayama, and paddleboard yoga.
-- Pricing: $1,400 – $2,000 / week.
+#### 7. Kashish Yoga (Palolem / Agonda, South Goa)
+- **Style:** Multi-Style Vinyasa, Yin & Aerial Yoga
+- **Vibe:** Tropical sanctuary nestled in lush green coconut groves.
+- **Highlights:** Aerial yoga silks, sound therapy certification workshops, and mindful beach excursions.
+- **Pricing:** $750 – $1,200 / week.
 
-Anjuna Ashram Heritage Center (North Goa)
-- Style: Classical Sivananda Hatha
-- Vibe: Authentic traditional ashram structure with early morning chants.
-- Highlights: Strictly vegetarian/vegan diet, karma yoga, deep scriptural study.
-- Pricing: $400 – $650 / week.
+#### 8. Jiva - The Mandala (Mandrem Creek, North Goa)
+- **Style:** Somatic Movement, Restorative & Tantric Philosophy
+- **Vibe:** Riverfront eco-chic retreat sanctuary known for tranquility and artistic design.
+- **Highlights:** Overlooking serene Mandrem Creek, artisan vegetarian cuisine, and deep meditative evening journeys.
+- **Pricing:** $900 – $1,450 / week.
 
-Benaulim Serenity Wellness Resort (South Goa)
-- Style: Hatha & Panchakarma Detox
-- Vibe: Spacious heritage estate surrounded by paddy fields.
-- Highlights: In-house Ayurvedic hospital, doctor-guided detox, herbal steam baths.
-- Pricing: $1,600 – $2,400 / week.
+#### 9. Little Cove Yoga Retreat (Cola Beach, South Goa)
+- **Style:** Classical Hatha & Pranayama
+- **Vibe:** Intimate, secluded private cove under coconut palms with waves crashing feet away.
+- **Highlights:** Strictly single or couple bookings, authentic Indian home cooking, and untouched nature.
+- **Pricing:** $800 – $1,300 / week.
 
-Canacona Sacred Forest Retreat (South Goa)
-- Style: Forest Bathing & Shamanic Breathwork
-- Vibe: Tucked inside Western Ghats jungle near South Goa beaches.
-- Highlights: Natural rock pool bathing, fire ceremonies, silent forest walks.
-- Pricing: $900 – $1,400 / week.
+#### 10. Bhakti Kutir (Palolem, South Goa)
+- **Style:** Gentle Hatha & Ayurvedic Rejuvenation
+- **Vibe:** Eco-friendly tribal-style cabanas built with local laterite stone, bamboo, and thatch.
+- **Highlights:** In-house Ayurvedic wellness clinic, organic courtyard cafe, and tranquil jungle pathways.
+- **Pricing:** $600 – $1,050 / week.
 
 ---
 

@@ -86,19 +86,25 @@ If you prefer quiet isolation, pristine white sand beaches, and zero commercial 
 
 ---
 
-🏫 Detailed Reviews of Top Accredited Yoga Schools in Goa
+### 🏫 Detailed Reviews of Top Accredited Yoga Schools in Goa
 
-Mandrem Oceanfront Yoga Shala (North Goa)
-- Accreditation: Yoga Alliance RYS 200 & RYS 300
-- Primary Styles: Vinyasa Flow, Alignment-based Hatha, Yin Yoga
-- Highlights: Open-air bamboo shala overlooking Mandrem Creek, 3 daily organic vegan meals, comprehensive 300-page printed manual.
-- Accommodation: Private or shared beach eco-cottages with en-suite bathrooms.
+#### 1. Sampoorna Yoga (Agonda Beach, South Goa)
+- **Accreditation:** Yoga Alliance RYS 200, RYS 300 & RYS 500
+- **Primary Styles:** Ashtanga Vinyasa, Alignment-based Hatha & Yin Yoga
+- **Highlights:** Open-air beachside wooden shalas right behind Agonda’s quiet sand dunes. 3 daily nourishing sattvic vegan meals, rigorous anatomy modules, and an international faculty of seasoned teachers.
+- **Accommodation:** Eco-luxe cottages with en-suite open-roof tropical bathrooms and solar hot water.
 
-Agonda Silent Eco-Resort & Ashram (South Goa)
-- Accreditation: Yoga Alliance RYS 200
-- Primary Styles: Traditional Hatha, Pranayama & Meditation
-- Highlights: Located in quiet South Goa, daily Ayurvedic consultations, weekly silent beach meditation walks (Mouna).
-- Accommodation: Solar-powered eco-huts surrounded by lush tropical gardens.
+#### 2. Kranti Yoga Village Beach Resort (Patnem Beach, South Goa)
+- **Accreditation:** Yoga Alliance RYS 200, RYS 300 & RYS 500
+- **Primary Styles:** Ashtanga Yoga, Vinyasa Flow & Pranayama
+- **Highlights:** Located directly on the beachfront of Patnem Beach. Renowned for community vibe, intense daily practice, pranayama immersion, and direct oceanfront meditation shalas.
+- **Accommodation:** Beachfront bamboo cottages and garden cabanas with direct access to the sea.
+
+#### 3. SWAN Yoga Retreat (Assagao, North Goa)
+- **Accreditation:** Yoga Alliance RYS 200 & Classical Ashram Lineage
+- **Primary Styles:** Traditional Classical Hatha, Kriyas, Mantra & Vedic Philosophy
+- **Highlights:** Nestled in the serene tropical forest of Assagao away from coastal crowds. Features daily fire ceremonies (Havan), authentic Panchakarma consultations, and strict ashram discipline.
+- **Accommodation:** Simple, tranquil eco-cottages immersed in natural bird-filled gardens.
 
 ---
 
