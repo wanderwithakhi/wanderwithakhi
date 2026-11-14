@@ -43,7 +43,7 @@ for filepath in sorted(md_files):
     has_faq = "faqs:" in text or "Frequently Asked Questions" in text
     has_product_link = "digital_products" in text or "/guide" in text
     
-    canonical_url = f"https://wanderwithakhi.com/blog/{folder_type}/{slug}"
+    canonical_url = f"https://www.wanderwithakhi.com/blog/{folder_type}/{slug}"
     
     art_id = f"ART-{art_count:03d}"
     art_count += 1
