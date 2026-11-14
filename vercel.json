@@ -1339,6 +1339,156 @@
       "source": "/essays/:path*",
       "destination": "/blog",
       "permanent": true
+    },
+    {
+      "source": "/blog/travel/200_hour_yoga_teacher_training_goa_guide",
+      "destination": "/blog/travel/200-hour-yoga-teacher-training-goa-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_01_200_hour_yoga_teacher_training_goa_guide",
+      "destination": "/blog/travel/200-hour-yoga-teacher-training-goa-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/best_yoga_retreats_in_goa_2026",
+      "destination": "/blog/travel/best-yoga-retreats-in-goa-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_02_best_yoga_retreats_in_goa_2026",
+      "destination": "/blog/travel/best-yoga-retreats-in-goa-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/north_goa_vs_south_goa_yoga_guide",
+      "destination": "/blog/travel/north-goa-vs-south-goa-yoga-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_03_north_goa_vs_south_goa_yoga_guide",
+      "destination": "/blog/travel/north-goa-vs-south-goa-yoga-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/cost_of_yoga_teacher_training_goa",
+      "destination": "/blog/travel/cost-of-yoga-teacher-training-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_04_cost_of_yoga_teacher_training_goa",
+      "destination": "/blog/travel/cost-of-yoga-teacher-training-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/ayurveda_and_yoga_retreat_goa",
+      "destination": "/blog/travel/ayurveda-and-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_05_ayurveda_and_yoga_retreat_goa",
+      "destination": "/blog/travel/ayurveda-and-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/affordable_yoga_retreats_in_goa",
+      "destination": "/blog/travel/affordable-yoga-retreats-in-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_06_affordable_yoga_retreats_in_goa",
+      "destination": "/blog/travel/affordable-yoga-retreats-in-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/luxury_wellness_and_yoga_retreats_goa",
+      "destination": "/blog/travel/luxury-wellness-and-yoga-retreats-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_07_luxury_wellness_and_yoga_retreats_goa",
+      "destination": "/blog/travel/luxury-wellness-and-yoga-retreats-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/arambol_mandrem_yoga_shala_guide",
+      "destination": "/blog/travel/arambol-mandrem-yoga-shala-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_08_arambol_mandrem_yoga_shala_guide",
+      "destination": "/blog/travel/arambol-mandrem-yoga-shala-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/south_goa_agonda_palolem_yoga_escape",
+      "destination": "/blog/travel/south-goa-agonda-palolem-yoga-escape",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_09_south_goa_agonda_palolem_yoga_escape",
+      "destination": "/blog/travel/south-goa-agonda-palolem-yoga-escape",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/7_day_beachfront_yoga_retreat_goa",
+      "destination": "/blog/travel/7-day-beachfront-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_10_7_day_beachfront_yoga_retreat_goa",
+      "destination": "/blog/travel/7-day-beachfront-yoga-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/silent_meditation_mouna_retreat_goa",
+      "destination": "/blog/travel/silent-meditation-mouna-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_11_silent_meditation_mouna_retreat_goa",
+      "destination": "/blog/travel/silent-meditation-mouna-retreat-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/sound_healing_certification_course_goa",
+      "destination": "/blog/travel/sound-healing-certification-course-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_12_sound_healing_certification_course_goa",
+      "destination": "/blog/travel/sound-healing-certification-course-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/monsoon_yoga_retreat_goa_reset",
+      "destination": "/blog/travel/monsoon-yoga-retreat-goa-reset",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_13_monsoon_yoga_retreat_goa_reset",
+      "destination": "/blog/travel/monsoon-yoga-retreat-goa-reset",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/what_to_pack_for_yoga_ttc_goa",
+      "destination": "/blog/travel/what-to-pack-for-yoga-ttc-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_14_what_to_pack_for_yoga_ttc_goa",
+      "destination": "/blog/travel/what-to-pack-for-yoga-ttc-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/solo_female_yoga_travel_goa",
+      "destination": "/blog/travel/solo-female-yoga-travel-goa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travel/day_15_solo_female_yoga_travel_goa",
+      "destination": "/blog/travel/solo-female-yoga-travel-goa",
+      "permanent": true
     }
   ]
 }
