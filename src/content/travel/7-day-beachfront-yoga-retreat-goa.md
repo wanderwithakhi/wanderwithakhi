@@ -204,3 +204,12 @@ As yogis, practicing Ahimsa (non-harming) extends to protecting Goa’s fragile 
 ## 🔗 Related Articles
 - Explore [10 Best Yoga Retreats in Goa](https://wanderwithakhi.com/blog/travel/best-yoga-retreats-in-goa-2026).
 - Read about [Yin Somatic Practice](https://wanderwithakhi.com/blog/travel/sound-healing-certification-course-goa).
+
+---
+
+## 🔗 Reset Itineraries & Somatic Healing
+- **Weekend Reset:** [The 3-Day Short Yoga Retreat in Goa](/blog/travel/3-day-yoga-retreat-goa)
+- **Retreat Options:** [10 Best Yoga Retreats in Goa for 2026](/blog/travel/best-yoga-retreats-in-goa-2026)
+- **Nervous System Recovery:** [Constructive Rest Pose: Somatic Recovery for Burnout](/blog/mindfulness/constructive-rest-pose-somatic)
+- **Jetlag Recovery:** [Yogic Breathwork (Pranayama) to Cure Long-Haul Jetlag](/blog/mindfulness/breathwork-for-jetlag)
+- **Companion Workbook:** [Somatic Nervous System Reset Planner](/digital_products/product_2_somatic_planner)

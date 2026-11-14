@@ -204,3 +204,12 @@ When staying in Goa for an extended yoga retreat or teacher training, living min
 ## 🔗 Related Articles
 - Read about [10 Best Yoga Retreats in Goa](https://wanderwithakhi.com/blog/travel/best-yoga-retreats-in-goa-2026).
 - Explore [Ayurveda & Detox Retreats](https://wanderwithakhi.com/blog/travel/ayurveda-and-yoga-retreat-goa).
+
+---
+
+## 🔗 High-End Wellness & Sanctuary Guides
+- **Curated Retreats:** [10 Best Yoga Retreats in Goa (Beachfront & Boutique Resorts)](/blog/travel/best-yoga-retreats-in-goa-2026)
+- **Panchakarma Care:** [Ayurveda & Yoga Retreats in Goa: Panchakarma & Rejuvenation](/blog/travel/ayurveda-and-yoga-retreat-goa)
+- **7-Day Plan:** [7-Day Beachfront Yoga & Somatic Reset Itinerary](/blog/travel/7-day-beachfront-yoga-retreat-goa)
+- **North Coast Luxury:** [Arambol & Mandrem Beach Shala Guide](/blog/travel/arambol-mandrem-yoga-shala-guide)
+- **Nervous System Reset:** [7-Day Somatic Nervous System Regulation Planner](/digital_products/product_2_somatic_planner)

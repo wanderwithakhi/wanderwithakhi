@@ -206,3 +206,12 @@ The easiest way to explore local beaches and shalas is by hiring an automatic sc
 - Check the packing checklist: [What to Pack for YTT in Goa](https://wanderwithakhi.com/blog/travel/what-to-pack-for-yoga-ttc-goa).
 
 ---
+
+---
+
+## 🔗 Financial Planning & Course Logistics
+- **Syllabus & Schools:** [The Ultimate Guide to 200-Hour Yoga Teacher Training in Goa](/blog/travel/200-hour-yoga-teacher-training-goa-guide)
+- **Budget Ashrams:** [7 Best Cheap & Affordable Yoga Retreats in Goa under $500](/blog/travel/affordable-yoga-retreats-in-goa)
+- **Packing Strategy:** [What to Pack for Yoga Teacher Training in India (Checklist)](/blog/travel/what-to-pack-for-yoga-ttc-goa)
+- **Mysore Comparison:** [Best Yoga Schools in Mysore: Top Shalas Compared for Authenticity](/blog/travel/best-yoga-in-mysore-top-schools-compared)
+- **Travel Budget Planner:** [The Slow Travel Reflection & Financial Journal](/digital_products/product_4_slow_travel_journal)

@@ -188,3 +188,12 @@ When staying in Goa for an extended yoga retreat or teacher training, living min
 ## 🔗 Related Articles
 - Read our [North Goa vs South Goa Comparison](https://wanderwithakhi.com/blog/travel/north-goa-vs-south-goa-yoga-guide).
 - Explore [10 Best Yoga Retreats in Goa](https://wanderwithakhi.com/blog/travel/best-yoga-retreats-in-goa-2026).
+
+---
+
+## 🔗 Safety, Solo Travel & Ashram Living
+- **Somatic Safety:** [Is Goa Safe for Solo Female Travelers? A Somatic Guide](/blog/travel/goa-solo-female-travel-safety)
+- **Quiet Sanctuaries:** [South Goa Yoga Escape: Quiet Beaches & Eco-Huts in Agonda](/blog/travel/south-goa-agonda-palolem-yoga-escape)
+- **Packing Essentials:** [What to Pack for Yoga Teacher Training in Goa, India](/blog/travel/what-to-pack-for-yoga-ttc-goa)
+- **Complete YTT Guide:** [200-Hour Yoga Teacher Training in Goa Master Guide](/blog/travel/200-hour-yoga-teacher-training-goa-guide)
+- **Solo Reflection:** [The Slow Travel Journal for Independent Travelers](/digital_products/product_4_slow_travel_journal)

@@ -166,9 +166,12 @@ The easiest way to explore local beaches and shalas is by hiring a automatic sco
 
 ---
 
-## 🔗 Related Guides & Internal Links
-- Explore regional differences in our [North Goa vs South Goa Yoga Guide](https://wanderwithakhi.com/blog/travel/north-goa-vs-south-goa-yoga-guide).
-- Plan your finances: [Cost Breakdown of Yoga Teacher Training in Goa](https://wanderwithakhi.com/blog/travel/cost-of-yoga-teacher-training-goa).
-- Read our detailed checklist: [What to Pack for Yoga Teacher Training in India](https://wanderwithakhi.com/blog/travel/what-to-pack-for-yoga-ttc-goa).
+## 🔗 Related Guides & Reading
+- **Cost Logistics:** [How Much Does Yoga Teacher Training in Goa Cost? (Full Financial Breakdown)](/blog/travel/cost-of-yoga-teacher-training-goa)
+- **Essential Packing:** [What to Pack for Yoga Teacher Training in India (Complete Checklist)](/blog/travel/what-to-pack-for-yoga-ttc-goa)
+- **Region Guide:** [North Goa vs South Goa for Yoga: Which Coast Fits Your Vibe?](/blog/travel/north-goa-vs-south-goa-yoga-guide)
+- **Ashram Alternative:** [Ashtanga Yoga in Mysore: Shalas, Gokulam Stays & Self-Practice](/blog/travel/ashtanga-yoga-in-mysore-mysore-style-practice)
+- **Anatomy & Biomechanics:** [Scapular Stability in Arm Balances: Serratus Anterior Activation](/blog/mindfulness/scapular-stability-in-yoga)
+- **Preparation Journal:** [Sadhana 28-Day YTT Reflection Journal](/digital_products/product_1_sadhana_journal)
 
 ---

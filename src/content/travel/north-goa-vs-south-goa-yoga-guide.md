@@ -181,3 +181,12 @@ The easiest way to explore local beaches and shalas is by hiring an automatic sc
 - Explore [Arambol & Mandrem Shala Guide](https://wanderwithakhi.com/blog/travel/arambol-mandrem-yoga-shala-guide).
 
 ---
+
+---
+
+## 🔗 Regional Guides & Slow Living Reads
+- **North Goa Shalas:** [Arambol & Mandrem Yoga Guide: Drop-Ins, Kirtan & Shalas](/blog/travel/arambol-mandrem-yoga-shala-guide)
+- **South Goa Beaches:** [South Goa Yoga Escape: Quiet Beaches & Eco-Huts in Agonda & Palolem](/blog/travel/south-goa-agonda-palolem-yoga-escape)
+- **Solitude Guide:** [Beyond the Beats: Finding Quiet and Solitude in South Goa](/blog/travel/goa-slow-beaches)
+- **Sustainable Living:** [Why Slow Living in Goa is Cheaper and More Sustainable](/blog/wellness/slow-living-goa-cheaper)
+- **Retreat Directory:** [10 Best Yoga Retreats in Goa (Beachfront & Eco-Luxe)](/blog/travel/best-yoga-retreats-in-goa-2026)

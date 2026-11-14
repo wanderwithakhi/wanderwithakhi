@@ -195,3 +195,12 @@ When staying in Goa for an extended yoga retreat or teacher training, living min
 ## 🔗 Related Articles
 - Compare [North Goa vs South Goa](https://wanderwithakhi.com/blog/travel/north-goa-vs-south-goa-yoga-guide).
 - Read about [Sound Healing Courses](https://wanderwithakhi.com/blog/travel/sound-healing-certification-course-goa).
+
+---
+
+## 🔗 North Goa Coordinates & Practice Guides
+- **Coast Comparison:** [North Goa vs South Goa for Yoga: Which Fits Your Practice?](/blog/travel/north-goa-vs-south-goa-yoga-guide)
+- **Teacher Training:** [Ultimate Guide to 200-Hour Yoga Teacher Training in Goa](/blog/travel/200-hour-yoga-teacher-training-goa-guide)
+- **Sound Therapy:** [Sound Healing & Singing Bowl Certification Courses in Goa](/blog/travel/sound-healing-certification-course-goa)
+- **North Goa Shalas:** [Yoga Retreats in North Goa: Mandrem, Arambol & Ashvem](/blog/travel/yoga-retreat-north-goa)
+- **Organic Dining:** [Mindful Dining: The Ultimate Vegan & Sattvic Cafe Guide in Goa](/blog/wellness/plant-based-vegan-cafes-goa)

@@ -202,3 +202,12 @@ When staying in Goa for an extended yoga retreat or teacher training, living min
 ## 🔗 Related Articles
 - Read our [Day 1: 200-Hour YTT Guide](https://wanderwithakhi.com/blog/travel/200-hour-yoga-teacher-training-goa-guide).
 - Check [YTT Cost Breakdown](https://wanderwithakhi.com/blog/travel/cost-of-yoga-teacher-training-goa).
+
+---
+
+## 🔗 YTT Prep, Logistics & Living Mindfully
+- **Master YTT Guide:** [The Ultimate 200-Hour Yoga Teacher Training Guide in Goa](/blog/travel/200-hour-yoga-teacher-training-goa-guide)
+- **Tuition Breakdown:** [How Much Does Yoga Teacher Training in Goa Cost?](/blog/travel/cost-of-yoga-teacher-training-goa)
+- **Solo Travel Safety:** [Is Goa Safe for Solo Female Yoga Travelers?](/blog/travel/solo-female-yoga-travel-goa)
+- **Capsule Wardrobe:** [The Conscious Closet: Minimalist Packing for Mindful Travel](/blog/wellness/sustainable-closet-guide)
+- **Essential Workbook:** [Sadhana 28-Day YTT Daily Practice Journal](/digital_products/product_1_sadhana_journal)

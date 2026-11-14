@@ -192,3 +192,12 @@ When staying in Goa for an extended yoga retreat or teacher training, living min
 ## 🔗 Related Articles
 - Read our [Arambol & Mandrem Yoga Guide](https://wanderwithakhi.com/blog/travel/arambol-mandrem-yoga-shala-guide).
 - Explore [200-Hour YTT Guide](https://wanderwithakhi.com/blog/travel/200-hour-yoga-teacher-training-goa-guide).
+
+---
+
+## 🔗 Sound Healing & Vibrational Anatomy
+- **North Goa Shalas:** [Arambol & Mandrem Yoga Guide: Shalas, Drops-Ins & Sunset Kirtan](/blog/travel/arambol-mandrem-yoga-shala-guide)
+- **Vibrational Breath:** [Bhramari Pranayama & Nitric Oxide: Neuroscience of Humming Breath](/blog/mindfulness/bhramari-pranayama-nitric-oxide)
+- **Teacher Certification:** [The Ultimate 200-Hour Yoga Teacher Training Guide](/blog/travel/200-hour-yoga-teacher-training-goa-guide)
+- **Ultradian Cycles:** [Swara Yoga: Ancient Science of Nostril Dominance](/blog/mindfulness/swara-yoga-science-of-breath)
+- **Energy Journal:** [The Chakra Balancing & Frequency Journal](/digital_products/product_6_chakra_journal)

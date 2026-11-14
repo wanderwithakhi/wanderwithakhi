@@ -190,3 +190,12 @@ When staying in Goa for an extended yoga retreat or teacher training, living min
 
 ## Final Encouragement & Personal Intention
 As you prepare for your journey to Goa, remember that yoga is not about perfecting physical postures—it is about returning to your authentic nature (Svarupa). Give yourself permission to slow down, breathe deeply by the ocean, and embrace the deeply rewarding power of Indian sadhana.
+
+---
+
+## 🔗 Silent Retreats & Contemplative Science
+- **Neuroscience of Silence:** [The Art of Mouna: The Neuroscience of Noble Silence](/blog/mindfulness/noble-silence-retreat-benefits)
+- **Vipassana Guide:** [The Sound of No Voice: What 10 Days of Vipassana Teaches You](/blog/mindfulness/silent-retreats-guide)
+- **Non-Dual Wisdom:** [The Shiva Sutras Explained: Awakening Supreme Consciousness](/blog/mindfulness/shiva-sutras-explained)
+- **South Goa Solitude:** [South Goa Yoga Escape: Quiet Beaches & Eco-Sanctuaries](/blog/travel/south-goa-agonda-palolem-yoga-escape)
+- **Chakra Reflection:** [The Chakra & Energy Reflection Journal](/digital_products/product_6_chakra_journal)

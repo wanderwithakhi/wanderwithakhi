@@ -224,3 +224,12 @@ The easiest way to explore local beaches and shalas is by hiring an automatic sc
 - Read about [Monsoon Yoga Resets](https://wanderwithakhi.com/blog/travel/monsoon-yoga-retreat-goa-reset).
 
 ---
+
+---
+
+## 🔗 Holistic Healing & Ayurvedic Routines
+- **Seasonal Alignment:** [Ritu Charya: Ayurvedic Rituals for Seasonal Transitions](/blog/wellness/ritu-charya-ayurveda-seasonal-routine)
+- **Monsoon Healing:** [Monsoon Yoga Reset in Goa: Off-Season Solitude & Healing Rains](/blog/travel/monsoon-yoga-retreat-goa-reset)
+- **Travel Breathwork:** [Vata-Pacifying Breathwork: Restoring Digestion After Flights](/blog/mindfulness/vata-pacifying-breathwork)
+- **Retreat Comparisons:** [10 Best Yoga Retreats in Goa for Rejuvenation](/blog/travel/best-yoga-retreats-in-goa-2026)
+- **Daily Sadhana Guide:** [Dinacharya: The Ayurvedic Morning & Evening Ritual Guide](/digital_products/product_3_dinacharya_guide)
